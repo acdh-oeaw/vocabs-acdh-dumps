@@ -1,0 +1,417 @@
+@prefix : <https://vocabs.dariah.eu/tadirah/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:aggregating a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Aggregating"@en .
+
+:annotating a 
+        skos:Concept ;
+    skos:broader :transcribing ;
+    skos:inScheme : ;
+    skos:prefLabel "Annotating"@en .
+
+:archiving a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Archiving"@en .
+
+:audioRecording a 
+        skos:Concept ;
+    skos:broader :recording ;
+    skos:inScheme : ;
+    skos:prefLabel "Audio recording"@en .
+
+:browsing a 
+        skos:Concept ;
+    skos:broader :discovering ;
+    skos:inScheme : ;
+    skos:prefLabel "Browsing"@en .
+
+:cataloguing a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Cataloguing"@en .
+
+:categorizing a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Categorizing"@en .
+
+:collating a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Collating"@en .
+
+:collecting a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Collecting"@en .
+
+:compiling a 
+        skos:Concept ;
+    skos:broader :converting ;
+    skos:inScheme : ;
+    skos:prefLabel "Compiling"@en .
+
+:downloading a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Downloading"@en .
+
+:exploring a 
+        skos:Concept ;
+    skos:broader :discovering ;
+    skos:inScheme : ;
+    skos:prefLabel "Exploring"@en .
+
+:extracting a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Extracting"@en .
+
+:imageCapturing a 
+        skos:Concept ;
+    skos:broader :imaging ;
+    skos:inScheme : ;
+    skos:prefLabel "Image capturing"@en .
+
+:opticalCharacterRecognition a 
+        skos:Concept ;
+    skos:altLabel "OCR"@en ;
+    skos:broader :dataRecognizing ;
+    skos:inScheme : ;
+    skos:prefLabel "Optical character recognition"@en .
+
+:opticalMusicRecognition a 
+        skos:Concept ;
+    skos:altLabel "OMR"@en ;
+    skos:broader :dataRecognizing ;
+    skos:inScheme : ;
+    skos:prefLabel "Optical music recognition"@en .
+
+:photographing a 
+        skos:Concept ;
+    skos:broader :imaging ;
+    skos:inScheme : ;
+    skos:prefLabel "Photographing"@en .
+
+:querying a 
+        skos:Concept ;
+    skos:broader :discovering ;
+    skos:inScheme : ;
+    skos:prefLabel "Querying"@en .
+
+:retrieval a 
+        skos:Concept ;
+    skos:broader :discovering ;
+    skos:inScheme : ;
+    skos:prefLabel "Retrieval"@en .
+
+:scanning a 
+        skos:Concept ;
+    skos:broader :imaging ;
+    skos:inScheme : ;
+    skos:prefLabel "Scanning"@en .
+
+:scraping a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Scraping"@en .
+
+:screencasting a 
+        skos:Concept ;
+    skos:broader :recording ;
+    skos:inScheme : ;
+    skos:prefLabel "Screencasting"@en .
+
+:searching a 
+        skos:Concept ;
+    skos:broader :discovering ;
+    skos:inScheme : ;
+    skos:prefLabel "Searching"@en .
+
+:summarizing a 
+        skos:Concept ;
+    skos:broader :gathering ;
+    skos:inScheme : ;
+    skos:prefLabel "Summarizing"@en .
+
+:takingAScreenshot a 
+        skos:Concept ;
+    skos:broader :imaging ;
+    skos:inScheme : ;
+    skos:prefLabel "Taking a screenshot"@en .
+
+:transcoding a 
+        skos:Concept ;
+    skos:broader :converting ;
+    skos:inScheme : ;
+    skos:prefLabel "Transcoding"@en .
+
+:videoCapturing a 
+        skos:Concept ;
+    skos:broader :recording ;
+    skos:inScheme : ;
+    skos:prefLabel "Video capturing"@en .
+
+:analysing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Analysing"@en ;
+    skos:related :discovering ;
+    skos:topConceptOf : .
+
+:crawling a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Crawling"@en ;
+    skos:related :gathering ;
+    skos:topConceptOf : .
+
+:cross-referencing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Cross-referencing"@en ;
+    skos:related :gathering ;
+    skos:topConceptOf : .
+
+:encoding a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Encoding"@en ;
+    skos:related :dataRecognizing ;
+    skos:topConceptOf : .
+
+:importing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Importing"@en ;
+    skos:related :gathering ;
+    skos:topConceptOf : .
+
+:lemmatization a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Lemmatization"@en ;
+    skos:related :converting ;
+    skos:topConceptOf : .
+
+:linking a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Linking"@en ;
+    skos:related :gathering ;
+    skos:topConceptOf : .
+
+:manipulating a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Manipulating"@en ;
+    skos:related :imaging ;
+    skos:topConceptOf : .
+
+:naturalLanguageProcessing a 
+        skos:Concept ;
+    skos:altLabel "NLP"@en ;
+    skos:inScheme : ;
+    skos:prefLabel "Natural language processing"@en ;
+    skos:related :converting ;
+    skos:topConceptOf : .
+
+:parsing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Parsing"@en ;
+    skos:related :converting ;
+    skos:topConceptOf : .
+
+:preprocessing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Preprocessing"@en ;
+    skos:related :dataRecognizing ;
+    skos:topConceptOf : .
+
+:preserving a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Preserving"@en ;
+    skos:related :gathering ;
+    skos:topConceptOf : .
+
+:recognizing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Recognizing"@en ;
+    skos:related :transcribing ;
+    skos:topConceptOf : .
+
+:researchActivities a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:narrower :capturing ;
+    skos:note "Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags modeling and manuscript. A plain text editor would be tagged with the tags writing and code and text."@en ;
+    skos:prefLabel "Research Activities"@en ;
+    skos:topConceptOf : .
+
+:transforming a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Transforming"@en ;
+    skos:related :dataRecognizing ;
+    skos:topConceptOf : .
+
+:voiceRecognizing a 
+        skos:Concept ;
+    skos:inScheme : ;
+    skos:prefLabel "Voice recognizing"@en ;
+    skos:related :transcribing ;
+    skos:topConceptOf : .
+
+:recording a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :audioRecording,
+        :screencasting,
+        :videoCapturing ;
+    skos:note "Recording refers to capturing  audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en ;
+    skos:prefLabel "Recording"@en .
+
+:transcribing a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :annotating ;
+    skos:note "Transcribing  describes  the activity of creating a representation of a manuscript (often in combination with enrichment) or of audio or video recordings. The representation is  generally textual for the verbal aspects of recordings and structured for example by speech turns. It  can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en ;
+    skos:prefLabel "Transcribing"@en ;
+    skos:related :recognizing,
+        :voiceRecognizing .
+
+:converting a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :compiling,
+        :transcoding ;
+    skos:note "Converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file as well as converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it involves mapping one metadata schema to another. Conversions, such as converting a scanned page image to an editable text document , are better referred to using data_recognizing ."@en ;
+    skos:prefLabel "Converting"@en ;
+    skos:related :lemmatization,
+        :naturalLanguageProcessing,
+        :parsing .
+
+:dataRecognizing a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :opticalCharacterRecognition,
+        :opticalMusicRecognition ;
+    skos:note "Data recognizing, for example optical character recognition (OCR), refers to the process of treating the immediate products of digital data  capturing (recording or imaging), such as digital facsimiles of texts or of sheet music, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en ;
+    skos:prefLabel "Data Recognizing"@en ;
+    skos:related :encoding,
+        :preprocessing,
+        :transforming .
+
+:imaging a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :imageCapturing,
+        :photographing,
+        :scanning,
+        :takingAScreenshot ;
+    skos:note "Imaging refers to  capturing  texts, images, artefacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound) .  . Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes, which is something data_recognizing accomplishes. Imaging also includes techniques such as scanning and photography ."@en ;
+    skos:prefLabel "Imaging"@en ;
+    skos:related :manipulating .
+
+:discovering a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :browsing,
+        :exploring,
+        :querying,
+        :retrieval,
+        :searching ;
+    skos:note "Discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest. It is different from knowledge discovery, knowledge extraction, information mining or data mining, which is a structured way of extracting information from heterogeneous sources or discovering patterns in data sets."@en ;
+    skos:prefLabel "Discovering"@en ;
+    skos:related :analysing .
+
+:capturing a 
+        skos:Concept ;
+    skos:broader :researchActivities ;
+    skos:inScheme : ;
+    skos:narrower :converting,
+        :dataRecognizing,
+        :discovering,
+        :gathering,
+        :imaging,
+        :recording,
+        :transcribing ;
+    skos:note "Capturing generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artefacts in a digital representation (digitization). This could be a manual process (as in transcribing) or an automated procedure (as in imaging or data_recognition). Such capture precedes enrichment and analysis, at least from a systematic point of view, if not in practice."@en ;
+    skos:prefLabel "Capturing"@en .
+
+:gathering a 
+        skos:Concept ;
+    skos:broader :capturing ;
+    skos:inScheme : ;
+    skos:narrower :aggregating,
+        :archiving,
+        :cataloguing,
+        :categorizing,
+        :collating,
+        :collecting,
+        :downloading,
+        :extracting,
+        :scraping,
+        :summarizing ;
+    skos:note "Gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis). Related techniques include web crawling and scraping."@en ;
+    skos:prefLabel "Gathering"@en ;
+    skos:related :crawling,
+        :cross-referencing,
+        :importing,
+        :linking,
+        :preserving .
+
+: a         
+        skos:ConceptScheme ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> ;
+    skos:altLabel "Taxonomy of Digital Research Activities in the Humanities"@en ;
+    skos:hasTopConcept :analysing,
+        :crawling,
+        :cross-referencing,
+        :encoding,
+        :importing,
+        :lemmatization,
+        :linking,
+        :manipulating,
+        :naturalLanguageProcessing,
+        :parsing,
+        :preprocessing,
+        :preserving,
+        :recognizing,
+        :researchActivities,
+        :transforming,
+        :voiceRecognizing ;
+    skos:prefLabel "Tadirah"@en .
+
+

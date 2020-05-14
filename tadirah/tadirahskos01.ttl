@@ -1,0 +1,81 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ex: <http://tadirah.dariah.eu> .
+
+
+ex:ResearchActivities rdf:type skos:Concept ;
+        skos:prefLabel "Research Activities"@en ;
+        skos:scopeNote "Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags modeling and manuscript. A plain text editor would be tagged with the tags writing and code and text."@en ;
+        skos:narrower ex:Capturing .
+
+ex:Capturing rdf:type skos:Concept ;
+        skos:prefLabel "Capturing"@en ;
+        skos:scopeNote "Capturing generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artefacts in a digital representation (digitization). This could be a manual process (as in transcribing) or an automated procedure (as in imaging or data_recognition). Such capture precedes enrichment and analysis, at least from a systematic point of view, if not in practice."@en ;
+        skos:broader ex:ResearchActivities ;
+        skos:narrower ex:Converting , 
+                      ex:DataRecognizing , 
+                      ex:Discovering , 
+                      ex:Gathering , 
+                      ex:Imaging , 
+                      ex:Recording , 
+                      ex:Transcribing .
+ 
+ex:Converting rdf:type skos:Concept ;
+        skos:prefLabel "Converting"@en ;
+        skos:scopeNote "Converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file as well as converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it involves mapping one metadata schema to another. Conversions, such as converting a scanned page image to an editable text document , are better referred to using data_recognizing ."@en ;
+        skos:broader ex:Capturing ;
+        skos:narrower ex:Transcoding , 
+                      ex:Compiling ;
+        skos:related ex:Parsing , 
+                     ex:Tagging , 
+                     ex:Lemmatization , 
+                     ex:NaturalLanguageProcessing ;
+        skos:example "Insync is a cross-platform tool for converting Google Docs into MS Office or OpenDocument."@en ;
+        skos:example "Audacity is an audio recording and editing software, that enables conversion of tapes and records into digital recordings or CDs."@en ;
+        skos:example "TEI Analytics: converting documents into a TEI format for cross-collection text analysis."@en ;
+        skos:example "Creating interoperable TEI text resources with the DTA 'Base Format' (DTABf): Harmonization of existing digitized text for the corpus: In case digitized full-texts were already available, most frequently it will be necessary to convert texts into the designated corpus format."@en ;
+        skos:example "This tool converts input from TEIP5 – DKCLARIN – ANNOTATION to CoNLL 2007 format."@en .
+
+ex:Transcoding rdf:type skos:Concept ;
+        skos:prefLabel "Transcoding"@en ;
+        skos:broader ex:Converting ;
+        skos:example "HandBrake is an open-source, cross-platform software, that provides  video transcoding."@en .
+
+ex:Compiling rdf:type skos:Concept ;
+        skos:prefLabel "Compiling"@en ;
+        skos:broader ex:Converting ;
+        skos:example "A parser is a compiler or interpreter component that breaks data into smaller elements for easy translation into another language. A parser takes input in the form of a sequence of tokens or program instructions and usually builds a data structure in the form of a parse tree or an abstract syntax tree."@en .
+
+ex:Parsing rdf:type skos:Concept ;
+        skos:prefLabel "Parsing"@en ;
+        skos:example "Dighumlab: Bohnet’s Parser is a NLP tool, that provides dependency parsing and a graph-based parsing. Mate tools is a toolkit of statistical NLP tools comprising a lemmatizer, part-of-speech tagger, morphological tagger, dependency parser, and semantic role labeler. It includes two different dependency parsers, a graph-based parser, and a joint tagger and transition-based parser."@en .
+       
+ex:Tagging rdf:type skos:Concept ;
+        skos:prefLabel "Tagging"@en .
+
+ ex:Lemmatization rdf:type skos:Concept ;
+        skos:prefLabel "Lemmatization"@en .
+
+ex:NaturalLanguageProcessing rdf:type skos:Concept ;
+        skos:prefLabel "Natural Language Processing"@en ;
+        skos:altLabel "NLP"@en .
+
+ex:DataRecognizing rdf:type skos:Concept ;
+        skos:prefLabel "Data Recognizing"@en .
+                      
+ex:Discovering rdf:type skos:Concept ;
+        skos:prefLabel "Discovering"@en .
+
+ex:Gathering rdf:type skos:Concept ;
+        skos:prefLabel "Gathering"@en .
+
+ex:Imaging rdf:type skos:Concept ;
+        skos:prefLabel "Imaging"@en . 
+
+ex:Recording rdf:type skos:Concept ;
+        skos:prefLabel "Recording"@en .  
+
+ex:Transcribing rdf:type skos:Concept ;
+        skos:prefLabel "Transcribing"@en .  

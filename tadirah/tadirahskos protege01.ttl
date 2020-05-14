@@ -1,0 +1,146 @@
+@prefix : <http://tadirah.dariah.eu#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://tadirah.dariah.eu> .
+
+<http://tadirah.dariah.eu> rdf:type owl:Ontology ;
+                            owl:imports <http://www.w3.org/TR/skos-reference/skos-owl1-dl.rdf> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrower
+<http://www.w3.org/2004/02/skos/core#narrower> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#related
+<http://www.w3.org/2004/02/skos/core#related> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://tadirah.dariah.eu#Capturing
+:Capturing rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :ResearchActivities ;
+           <http://www.w3.org/2004/02/skos/core#narrower> :Converting ,
+                                                          :DataRecognizing ,
+                                                          :Discovering ,
+                                                          :Gathering ,
+                                                          :Imaging ,
+                                                          :Recording ,
+                                                          :Transcribing ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Capturing"@en ;
+           <http://www.w3.org/2004/02/skos/core#scopeNote> "Capturing generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artefacts in a digital representation (digitization). This could be a manual process (as in transcribing) or an automated procedure (as in imaging or data_recognition). Such capture precedes enrichment and analysis, at least from a systematic point of view, if not in practice."@en .
+
+
+###  http://tadirah.dariah.eu#Compiling
+:Compiling rdf:type owl:NamedIndividual ;
+           <http://www.w3.org/2004/02/skos/core#broader> :Converting ;
+           <http://www.w3.org/2004/02/skos/core#example> "A parser is a compiler or interpreter component that breaks data into smaller elements for easy translation into another language. A parser takes input in the form of a sequence of tokens or program instructions and usually builds a data structure in the form of a parse tree or an abstract syntax tree."@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Compiling"@en .
+
+
+###  http://tadirah.dariah.eu#Converting
+:Converting rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :Capturing ;
+            <http://www.w3.org/2004/02/skos/core#example> "Audacity is an audio recording and editing software, that enables conversion of tapes and records into digital recordings or CDs."@en ,
+                                                          "Creating interoperable TEI text resources with the DTA 'Base Format' (DTABf): Harmonization of existing digitized text for the corpus: In case digitized full-texts were already available, most frequently it will be necessary to convert texts into the designated corpus format."@en ,
+                                                          "Insync is a cross-platform tool for converting Google Docs into MS Office or OpenDocument."@en ,
+                                                          "TEI Analytics: converting documents into a TEI format for cross-collection text analysis."@en ,
+                                                          "This tool converts input from TEIP5 – DKCLARIN – ANNOTATION to CoNLL 2007 format."@en ;
+            <http://www.w3.org/2004/02/skos/core#narrower> :Compiling ,
+                                                           :Transcoding ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Converting"@en ;
+            <http://www.w3.org/2004/02/skos/core#related> :Lemmatization ,
+                                                          :NaturalLanguageProcessing ,
+                                                          :Parsing ,
+                                                          :Tagging ;
+            <http://www.w3.org/2004/02/skos/core#scopeNote> "Converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file as well as converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it involves mapping one metadata schema to another. Conversions, such as converting a scanned page image to an editable text document , are better referred to using data_recognizing."@en .
+
+
+###  http://tadirah.dariah.eu#DataRecognizing
+:DataRecognizing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Recognizing"@en .
+
+
+###  http://tadirah.dariah.eu#Discovering
+:Discovering rdf:type owl:NamedIndividual ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovering"@en .
+
+
+###  http://tadirah.dariah.eu#Gathering
+:Gathering rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Gathering"@en .
+
+
+###  http://tadirah.dariah.eu#Imaging
+:Imaging rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Imaging"@en .
+
+
+###  http://tadirah.dariah.eu#Lemmatization
+:Lemmatization rdf:type owl:NamedIndividual ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Lemmatization"@en .
+
+
+###  http://tadirah.dariah.eu#NaturalLanguageProcessing
+:NaturalLanguageProcessing rdf:type owl:NamedIndividual ;
+                           <http://www.w3.org/2004/02/skos/core#altLabel> "NLP"@en ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural Language Processing"@en .
+
+
+###  http://tadirah.dariah.eu#Parsing
+:Parsing rdf:type owl:NamedIndividual ;
+         <http://www.w3.org/2004/02/skos/core#example> "Dighumlab: Bohnet’s Parser is a NLP tool, that provides dependency parsing and a graph-based parsing. Mate tools is a toolkit of statistical NLP tools comprising a lemmatizer, part-of-speech tagger, morphological tagger, dependency parser, and semantic role labeler. It includes two different dependency parsers, a graph-based parser, and a joint tagger and transition-based parser."@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Parsing"@en .
+
+
+###  http://tadirah.dariah.eu#Recording
+:Recording rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Recording"@en .
+
+
+###  http://tadirah.dariah.eu#ResearchActivities
+:ResearchActivities rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#narrower> :Capturing ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Research Activities"@en ;
+                    <http://www.w3.org/2004/02/skos/core#scopeNote> "Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags modeling and manuscript. A plain text editor would be tagged with the tags writing and code and text."@en .
+
+
+###  http://tadirah.dariah.eu#Tagging
+:Tagging rdf:type owl:NamedIndividual ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Tagging"@en .
+
+
+###  http://tadirah.dariah.eu#Transcoding
+:Transcoding rdf:type owl:NamedIndividual ;
+             <http://www.w3.org/2004/02/skos/core#broader> :Converting ;
+             <http://www.w3.org/2004/02/skos/core#example> "HandBrake is an open-source, cross-platform software, that provides  video transcoding."@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcoding"@en .
+
+
+###  http://tadirah.dariah.eu#Transcribing
+:Transcribing rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcribing"@en .
+
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
