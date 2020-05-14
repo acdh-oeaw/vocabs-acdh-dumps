@@ -1,3 +1,4 @@
+@prefix dc:	   <http://purl.org/dc/elements/1.1/>.
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
@@ -21,8 +22,26 @@
 
 <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme>
         a                   skos:ConceptScheme ;
-        rdfs:label          "Instrumentensystematik nach Hornbostel-Sachs Scheme" ;
-        dct:title           "Instrumentensystematik nach Hornbostel-Sachs"@de ;
+        rdfs:label          "Digitale Musikinstrumentensystematik nach Hornbostel & Sachs" ;
+        dc:title            "Digitale Musikinstrumentensystematik nach Hornbostel & Sachs"@de ;
+        dc:title            "Digital Hornbostel & Sachs Classification of Musical Instruments"@en ;
+		dc:subject			"Musikinstrumente"@de;
+		dc:subject			"Musical instruments"@en;
+		dc:subject			"Taxonomie"@de;
+		dc:subject			"Taxonomy"@en;
+		dc:subject			"Erich Moritz von Hombostel, Curt Sachs"@de;
+		dc:subject			"Erich Moritz von Hombostel, Curt Sachs"@en;
+		dc:description		"Die digitale Hornbostel-Sachs-Systematik ist eine Taxonomie, die auf der   Klassifizierung von Musikinstrumenten durch Erich Moritz von Hornbostel und Curt Sachs beruht (s. Systematik der Musikinstrumente. Ein Versuch. In: Zeitschrift für Ethnologie 46/4-5, 1914, 553-590). Sie wurde am Phonogrammarchiv der Österreichischen Akademie der Wissenschaften zu Dokumentationszwecken für Datenbank und Katalog erstellt, und 2015 im Zuge einer Kooperation mit dem ACDH-ÖAW im SKOS-Format verfügbar gemacht."@de;
+		dc:description		"""The Digital Hornbostel & Sachs System is a taxonomy based on the “Classification of Musical Instruments” by Erich Moritz von Hornbostel and Curt Sachs (see Systematik der Musikinstrumente. Ein Versuch. Zeitschrift für Ethnologie 46/4-5, 1914, 553-590; English version: 
+Classification of Musical Instruments: Translated from the Original German by Anthony Baines and Klaus P. Wachsmann. The Galpin Society Journal 14, 1961, 3-29; DOI: 10.2307/842168; https://www.jstor.org/stable/842168). It was developed at the Phonogrammarchiv of the Austrian Academy of Sciences for documentation purposes in its database and catalogue, and was made available in SKOS format within the framework of a cooperation with the ACDH-OeAW in 2015. """@en;
+		dc:publisher		"Phonogrammarchiv, Österreichische Akademie der Wissenschaften"@de;
+		dc:creator			"Phonogrammarchiv, Österreichische Akademie der Wissenschaften"@de;
+		dc:publisher		"Phonogrammarchiv, Austrian Academy of Sciences"@en;
+		dc:creator			"Phonogrammarchiv, Austrian Academy of Sciences"@en;
+		dc:format			"application/rdf+xml"@en;
+		dc:format			"application/rdf+xml"@de;
+		dc:relation			<http://catalog.phonogrammarchiv.at/ausgabe_hornbostel.php>;
+		dc:relation			<http://catalog.phonogrammarchiv.at/ausgabe_hs_vergleich.php>;
         skos:hasTopConcept  <https://vocabs.acdh.oeaw.ac.at/hsinstruments/3> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/2> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/1> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/8> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/7> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/4> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/6> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/5> .
 
 <https://vocabs.acdh.oeaw.ac.at/hsinstruments/2122622>
@@ -1136,6 +1155,8 @@
         skos:altLabel      "HS-6"@en ;
         skos:inScheme      <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> ;
         skos:prefLabel     "Hydrophones"@en , "Hydrophone"@de ;
+		skos:definition		"Wasser gerät primär in Schwingung."@de;
+		skos:definition		"Wasser gerät primär in Schwingung."@en;
         skos:topConceptOf  <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> .
 
 <https://vocabs.acdh.oeaw.ac.at/hsinstruments/5>
@@ -1143,6 +1164,8 @@
         skos:altLabel      "HS-5"@en ;
         skos:inScheme      <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> ;
         skos:narrower      <https://vocabs.acdh.oeaw.ac.at/hsinstruments/52> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/53> , <https://vocabs.acdh.oeaw.ac.at/hsinstruments/51> ;
+		skos:definition  	"""siehe Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005987.html"""@de ;
+        skos:definition  	"""see Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005987.html"""@en ;
         skos:prefLabel     "Electrophones"@en , "Elektrophone"@de ;
         skos:topConceptOf  <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> .
 
@@ -1202,7 +1225,8 @@
         a                skos:Concept ;
         skos:altLabel    "HS-52"@en ;
         skos:broader     <https://vocabs.acdh.oeaw.ac.at/hsinstruments/5> ;
-        skos:definition  "siehe Ethnographic Thesaurus/Music: http://et.afsnet.org/cgi-bin/mtw.exe?s=1&n=1&y=0&l=60&k=default&w=music&t=3"@de ;
+        skos:definition  """siehe Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005961.html"""@de ;
+        skos:definition  """see Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005961.html"""@en ;
         skos:inScheme    <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> ;
         skos:prefLabel   "Elektromechanische Instrumente"@de , "electro mechanical musical instruments"@en .
 
@@ -1224,7 +1248,8 @@
         a                skos:Concept ;
         skos:altLabel    "HS-53"@en ;
         skos:broader     <https://vocabs.acdh.oeaw.ac.at/hsinstruments/5> ;
-        skos:definition  "siehe Ethnographic Thesaurus/Music: http://et.afsnet.org/cgi-bin/mtw.exe?s=1&n=1&y=0&l=60&k=default&w=music&t=3"@de ;
+        skos:definition  "siehe Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005973.html"@de ;
+        skos:definition  "see Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005973.html"@en ;
         skos:inScheme    <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> ;
         skos:narrower    <https://vocabs.acdh.oeaw.ac.at/hsinstruments/531> ;
         skos:prefLabel   "Elektronische Instrumente"@de , "electronic instruments"@en .
@@ -1233,7 +1258,8 @@
         a                skos:Concept ;
         skos:altLabel    "HS-531"@en ;
         skos:broader     <https://vocabs.acdh.oeaw.ac.at/hsinstruments/53> ;
-        skos:definition  "Use for equipment related to and necessary for the playing of electrophones. (Ethnographic Thesaurus/Music: http://et.afsnet.org/cgi-bin/mtw.exe?s=1&n=1&y=0&l=60&k=default&w=music&t=3)"@en ;
+        skos:definition  "Equipment related to and necessary for the playing of electrophones (see http://id.loc.gov/vocabulary/ethnographicTerms/afset005986.html)"@en ;
+        skos:definition  "siehe Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005986.html)"@de ;
         skos:inScheme    <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> ;
         skos:prefLabel   "peripherals"@en , "Peripheriegeräte"@de .
 
@@ -3195,7 +3221,8 @@
         a                skos:Concept ;
         skos:altLabel    "HS-51"@en ;
         skos:broader     <https://vocabs.acdh.oeaw.ac.at/hsinstruments/5> ;
-        skos:definition  "siehe Ethnographic Thesaurus/Music: http://et.afsnet.org/cgi-bin/mtw.exe?s=1&n=1&y=0&l=60&k=default&w=music&t=3<br />"@de ;
+        skos:definition  """siehe Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005960.html"""@de ;
+        skos:definition  """see Ethnographic Thesaurus/Music: http://id.loc.gov/vocabulary/ethnographicTerms/afset005960.html"""@en ;
         skos:inScheme    <https://vocabs.acdh.oeaw.ac.at/hsinstruments/ConceptScheme> ;
         skos:prefLabel   "Elektroakustische Instrumente"@de , "electro acoustic musical instruments"@en .
 
