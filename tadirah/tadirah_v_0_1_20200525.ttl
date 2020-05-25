@@ -1,0 +1,617 @@
+@prefix : <https://vocabs.dariah.eu/tadirah/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://vocabs.dariah.eu/tadirah/> .
+
+<https://vocabs.dariah.eu/tadirah/> rdf:type owl:Ontology ;
+                                     owl:imports <http://www.w3.org/2004/02/skos/core> ;
+                                     <http://www.w3.org/2004/02/skos/core#altLabel> "Taxonomy of Digital Research Activities in the Humanities"@en ;
+                                     <http://www.w3.org/2004/02/skos/core#hasTopConcept> :capturing ;
+                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Tadirah"@en ;
+                                     <http://www.w3.org/2002/07/owl#versionInfo> "0.1.20200525" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrower
+<http://www.w3.org/2004/02/skos/core#narrower> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#related
+<http://www.w3.org/2004/02/skos/core#related> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#relatedMatch
+<http://www.w3.org/2004/02/skos/core#relatedMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://vocabs.dariah.eu/tadirah/
+<https://vocabs.dariah.eu/tadirah/> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  https://vocabs.dariah.eu/tadirah/aggregating
+:aggregating rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Aggregating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/analysing
+:analysing rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :discovering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Analysing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/annotating
+:annotating rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :transcribing ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Annotating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/archiving
+:archiving rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Archiving"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/audioRecording
+:audioRecording rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> :recording ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Audio Recording"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/browsing
+:browsing rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :discovering ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Browsing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/capturing
+:capturing rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=7> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#narrower> :converting ,
+                                                          :dataRecognizing ,
+                                                          :discovering ,
+                                                          :extracting ,
+                                                          :gathering ,
+                                                          :imaging ,
+                                                          :recording ,
+                                                          :transcribing ;
+           <http://www.w3.org/2004/02/skos/core#note> "capturing generally refers to the activity of creating digital surrogates of real world objects, or expressing existing artefacts in a digital representation. This refers basically to learning and noticing something (as in discovering) and could be enhanced by a manual process (as in transcribing) or an automated procedure (as in imaging, data recognizing or recording). This also includes aggregating ressources, information and data (as in gathering)."@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Acquisition"@fr ,
+                                                           "Captura"@es ,
+                                                           "Capturing"@en ,
+                                                           "Erfassen"@de ,
+                                                           "Захватање"@sr ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/cataloguing
+:cataloguing rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Cataloguing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/categorizing
+:categorizing rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Categorizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/collating
+:collating rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Collating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/collecting
+:collecting rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Collecting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/compiling
+:compiling rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :converting ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Compiling"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/converting
+:converting rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+            <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=8&/conversion> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+            <http://www.w3.org/2004/02/skos/core#narrower> :compiling ,
+                                                           :transcoding ;
+            <http://www.w3.org/2004/02/skos/core#note> "converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it may involve mapping one metadata schema to another."@en ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Conversion"@fr ,
+                                                            "Conversión"@es ,
+                                                            "Converting"@en ,
+                                                            "Konvertieren"@de ,
+                                                            "Конвертовање"@sr ;
+            <http://www.w3.org/2004/02/skos/core#relatedMatch> :lemmatization ,
+                                                               :naturalLanguageProcessing ,
+                                                               :parsing ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :lemmatization ,
+                                                               :naturalLanguageProcessing ,
+                                                               :parsing .
+
+
+###  https://vocabs.dariah.eu/tadirah/cross-referencing
+:cross-referencing rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#hasTopConcept> :gathering ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Cross-Referencing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataMining
+:dataMining rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            rdfs:label "Data Mining"@en ;
+            <http://www.w3.org/2004/02/skos/core#broader> :extracting ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataRecognizing
+:dataRecognizing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+                 <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=9&/data-recognition> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#narrower> :opticalCharacterRecognition ,
+                                                                :opticalMusicRecognition ;
+                 <http://www.w3.org/2004/02/skos/core#note> "data recognizing, e.g. optical character recognition (OCR), refers to the process of treating the immediate products of digital data capturing (recording or imaging), such as digital facsimiles of texts or of sheet music, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Recognizing"@en ,
+                                                                 "Datenerkennung"@de ,
+                                                                 "Reconnaissance de données"@fr ,
+                                                                 "Reconocimiento de datos"@es ,
+                                                                 "Препознавање података"@sr ;
+                 <http://www.w3.org/2004/02/skos/core#relatedMatch> :encoding ,
+                                                                    :preprocessing ,
+                                                                    :transforming ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> :encoding ,
+                                                                    :preprocessing ,
+                                                                    :transforming .
+
+
+###  https://vocabs.dariah.eu/tadirah/discovering
+:discovering rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+             <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=10&/discovering> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#narrower> :browsing ,
+                                                            :exploring ,
+                                                            :querying ,
+                                                            :retrieval ,
+                                                            :searching ;
+             <http://www.w3.org/2004/02/skos/core#note> "discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest."@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovering"@en ,
+                                                             "Découverte"@fr ,
+                                                             "Entdecken"@de ,
+                                                             "Localización"@es ,
+                                                             "Проналажење"@sr ;
+             <http://www.w3.org/2004/02/skos/core#relatedMatch> :analysing ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :analysing .
+
+
+###  https://vocabs.dariah.eu/tadirah/downloading
+:downloading rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Downloading"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/encoding
+:encoding rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#hasTopConcept> :dataRecognizing ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Encoding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/exploring
+:exploring rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :discovering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploring"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/extracting
+:extracting rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            rdfs:label "Extracting"@en ;
+            <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+            <http://www.w3.org/2004/02/skos/core#narrower> :dataMining ,
+                                                           :informationMining ,
+                                                           :knowledgeDiscovery ,
+                                                           :knowledgeExtraction ;
+            <http://www.w3.org/2004/02/skos/core#note> "extracting refers to the process to distill structured information from texts, images or other machine-readable digital documents of a certain domain not necessarily in a human understandable form. Information extraction, knowledge extraction, knowledge discovery, information mining and data mining are methodologically similar. The activity of extracting also concerns processing human language texts by means of natural language processing (NLP)."@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/gathering
+:gathering rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+           <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=11&/gathering> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#narrower> :aggregating ,
+                                                          :archiving ,
+                                                          :cataloguing ,
+                                                          :categorizing ,
+                                                          :collating ,
+                                                          :collecting ,
+                                                          :downloading ,
+                                                          :scraping ,
+                                                          :summarizing ,
+                                                          :webCrawling ;
+           <http://www.w3.org/2004/02/skos/core#note> "gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis)."@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Collecte"@fr ,
+                                                           "Gathering"@en ,
+                                                           "Recolección"@es ,
+                                                           "Sammeln"@de ,
+                                                           "Прикупљање"@sr ;
+           <http://www.w3.org/2004/02/skos/core#relatedMatch> :cross-referencing ,
+                                                              :importing ,
+                                                              :linking ,
+                                                              :preserving ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :cross-referencing ,
+                                                              :importing ,
+                                                              :linking ,
+                                                              :preserving .
+
+
+###  https://vocabs.dariah.eu/tadirah/imaging
+:imaging rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+         <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=12&/imaging> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+         <http://www.w3.org/2004/02/skos/core#narrower> :photographing ,
+                                                        :scanning ;
+         <http://www.w3.org/2004/02/skos/core#note> "Imaging refers to capturing texts, images, artefacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes."@en ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilderfassung"@de ,
+                                                         "Captura en formato imagen"@es ,
+                                                         "Imagerie"@fr ,
+                                                         "Imaging"@en ,
+                                                         "Усликавање"@sr ;
+         <http://www.w3.org/2004/02/skos/core#relatedMatch> :manipulating ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :manipulating .
+
+
+###  https://vocabs.dariah.eu/tadirah/importing
+:importing rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :gathering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Importing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/informationMining
+:informationMining rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   rdfs:label "Information Mining"@en ;
+                   <http://www.w3.org/2004/02/skos/core#broader> :extracting ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/knowledgeDiscovery
+:knowledgeDiscovery rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    rdfs:label "Knowledge Discovery"@en ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :extracting ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/knowledgeExtraction
+:knowledgeExtraction rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     rdfs:label "Knowledge Extraction"@en ;
+                     <http://www.w3.org/2004/02/skos/core#broader> :extracting ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/lemmatization
+:lemmatization rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#hasTopConcept> :converting ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Lemmatization"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/linking
+:linking rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#hasTopConcept> :gathering ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Linking"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/manipulating
+:manipulating rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#hasTopConcept> :imaging ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Manipulating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing
+:naturalLanguageProcessing rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#altLabel> "NLP"@en ;
+                           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :converting ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural Language Processing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition
+:opticalCharacterRecognition rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#altLabel> "OCR"@en ;
+                             <http://www.w3.org/2004/02/skos/core#broader> :dataRecognizing ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Optical Character Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/opticalMusicRecognition
+:opticalMusicRecognition rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "OMR"@en ;
+                         <http://www.w3.org/2004/02/skos/core#broader> :dataRecognizing ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Optical Music Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/parsing
+:parsing rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#hasTopConcept> :converting ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Parsing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/photographing
+:photographing rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> :imaging ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Photographing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/preprocessing
+:preprocessing rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#hasTopConcept> :dataRecognizing ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Preprocessing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/preserving
+:preserving rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#hasTopConcept> :gathering ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Preserving"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/querying
+:querying rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :discovering ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Querying"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/recognizing
+:recognizing rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#hasTopConcept> :transcribing ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Recognizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/recording
+:recording rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+           <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=13&/recording> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#narrower> :audioRecording ,
+                                                          :screencasting ;
+           <http://www.w3.org/2004/02/skos/core#note> "recording refers to capturing audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Aufzeichnen"@de ,
+                                                           "Enregistrement"@fr ,
+                                                           "Grabación"@es ,
+                                                           "Recording"@en ,
+                                                           "Снимање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/retrieval
+:retrieval rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :discovering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Retrieval"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/scanning
+:scanning rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :imaging ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Scanning"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/scraping
+:scraping rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Scraping"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/screencasting
+:screencasting rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> :recording ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Screencasting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/searching
+:searching rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#broader> :discovering ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Searching"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/summarizing
+:summarizing rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Summarizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/transcoding
+:transcoding rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :converting ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcoding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/transcribing
+:transcribing rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> :capturing ;
+              <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=14&/transcription> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+              <http://www.w3.org/2004/02/skos/core#narrower> :annotating ;
+              <http://www.w3.org/2004/02/skos/core#note> "transcribing describes  the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcribing"@en ,
+                                                              "Transcripción"@es ,
+                                                              "Transcription"@fr ,
+                                                              "Transkription"@de ,
+                                                              "Транскрипција"@sr ;
+              <http://www.w3.org/2004/02/skos/core#relatedMatch> :recognizing ,
+                                                                 :voiceRecognizing ;
+              <http://www.w3.org/2004/02/skos/core#topConceptOf> :recognizing ,
+                                                                 :voiceRecognizing .
+
+
+###  https://vocabs.dariah.eu/tadirah/transforming
+:transforming rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#hasTopConcept> :dataRecognizing ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Transforming"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/videoCapturing
+:videoCapturing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> :recording ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Video Capturing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/voiceRecognizing
+:voiceRecognizing rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#hasTopConcept> :transcribing ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Voice Recognizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/webCrawling
+:webCrawling rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#broader> :gathering ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Web Crawling"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
