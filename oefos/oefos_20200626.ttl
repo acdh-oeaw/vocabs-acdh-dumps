@@ -51,7 +51,7 @@ disc:Schema
     acdh:hasCreatedStartDate  "2019-03-22" ;
     acdh:hasCreator           "Statistik Austria"@de, "Statistics Austria"@en ;
     acdh:hasDateAvailable     "2019-03-22" ;
-    acdh:hasExtent            "1476" ;
+    acdh:hasExtent            "1476 concepts"@en, "1476 Konzepte"@de ;
     acdh:hasFormat            "application/x-turtle" ;
     acdh:hasIdentifier        disc:Schema ;
     acdh:hasLifeCycleStatus   <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active> ;
