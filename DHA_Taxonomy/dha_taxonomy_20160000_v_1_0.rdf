@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/video_recording">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition>digital representation of visual and acoustic signals</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:prefLabel xml:lang="en">video recording</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CQP/CQL">
+    <skos:prefLabel xml:lang="en">CQP/CQL</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/query_language"/>
+    <skos:altLabel xml:lang="en">Corpus Query Language</skos:altLabel>
+    <skos:definition>query language used to search corpus</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/programming"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/e-learning"/>
+    <skos:prefLabel xml:lang="en">Topics</skos:prefLabel>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/open_source"/>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/cultural_heritage"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/teaching"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/copyright_and_licensing"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Semantic_web"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/GLAM"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/open_access"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_interoperability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_software">
+    <skos:definition>processing instructions that can be executed on a computer (scripts, command-line tools, programs)</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">type_software</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/literary_studies">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:prefLabel xml:lang="en">literary studies</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CMDI">
+    <skos:note>based on "Component Metadata." CLARIN ERIC. Accessed June 13, 2016. https://www.clarin.eu/content/component-metadata.</skos:note>
+    <skos:altLabel xml:lang="en">Component MetaData Infrastructure</skos:altLabel>
+    <skos:prefLabel xml:lang="en">CMDI</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/metadata"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>framework to describe and reuse metadata schemas, based on the idea of reusable components and concept-based semantic interoperability</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_resource">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/knowledge_base"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition>machine-readable data-set conveying structured information about concepts and their relations to each other used as a basic building block of the semantic web</skos:definition>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/taxonomy"/>
+    <skos:prefLabel xml:lang="en">semantic resource</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/vocabulary"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/metadata">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CMDI"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>based on metadata. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/metadata (accessed February 28, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">metadata</skos:prefLabel>
+    <skos:definition>data about data, structured information that describes an information resource</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_web_vocabularies">
+    <skos:note>based on "Vocabularies." W3C. Accessed June 13, 2016. https://www.w3.org/standards/semanticweb/ontology.</skos:note>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/FOAF"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition>machine-readable terminologies that define concepts and relationships used to describe and organize data on the web</skos:definition>
+    <skos:prefLabel xml:lang="en">semantic web vocabularies</skos:prefLabel>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CIDOC_CRM"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/RDF"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SKOS"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SQL">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/query_language"/>
+    <skos:note>based on Wikipedia contributors, "SQL," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=SQL&amp;oldid=724471814 (accessed June 13, 2016).</skos:note>
+    <skos:definition>query language for manipulating and retrieving data stored in relational databases</skos:definition>
+    <skos:prefLabel xml:lang="en">SQL</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:altLabel xml:lang="en">Structured Query Language</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NER"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/tagging"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/parsing"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/tokenisation"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/pos-tagging"/>
+    <skos:altLabel xml:lang="en">Natural Language Processing</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/lemmatisation"/>
+    <skos:definition>tools and methods to process (analyse, enrich, transform) language resources</skos:definition>
+    <skos:prefLabel xml:lang="en">NLP</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/social_sciences">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">social sciences</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/3D">
+    <skos:prefLabel xml:lang="en">3D</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>digital representation of objects in a three-dimensional space</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/TEI">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>"TEI: Text Encoding Initiative." TEI: Text Encoding Initiative. Accessed June 13, 2016. http://www.tei-c.org/index.xml.</skos:note>
+    <skos:definition>set of guidelines which specify encoding methods for machine-readable texts, chiefly in the humanities, social sciences and linguistics</skos:definition>
+    <skos:prefLabel xml:lang="en">TEI</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/text_encoding"/>
+    <skos:altLabel xml:lang="en">Text Encoding Initiative</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/lexicography">
+    <skos:prefLabel xml:lang="en">lexicography</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/linguistics"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/OAIS">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:altLabel xml:lang="en">Open Archival Information System</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition>system and a reference model for organisation of archival preservation and access to the digital information over the time</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+    <skos:prefLabel xml:lang="en">OAIS</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/OAIS"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/query_language"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/text_encoding"/>
+    <skos:prefLabel xml:lang="en">Formats&amp;Protocols&amp;Standards</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/OAI-PMH"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_web_vocabularies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/metadata"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/XML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SRU/CQL">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:altLabel xml:lang="en">Search/Retrieve via URL / Context Query Language</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>protocol for querying structured data stores, using Context Query Language as query language and XML-based return format; mainly used in library systems</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/query_language"/>
+    <skos:prefLabel xml:lang="en">SRU/CQL</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_resource">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Type"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>online resources (both static and dynamic or interactive) that can be explored or downloaded and used for further research; e.g. datasets, digital editions, web applications, catalogues, registries, processing services, etc.</skos:definition>
+    <skos:prefLabel xml:lang="en">type_resource</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/parsing">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+    <skos:definition>process of analysing the syntactic structures of a written (natural language) text</skos:definition>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">parsing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/editor">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">editor</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/xml-editor"/>
+    <skos:definition>tool for viewing and modifying digital objects</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Optical_Character_Recognition">
+    <skos:definition>mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text</skos:definition>
+    <skos:note>Wikipedia contributors, "Optical character recognition," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Optical_character_recognition&amp;oldid=706482815 (accessed February 28, 2016).</skos:note>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:altLabel xml:lang="en">OCR</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">Optical Character Recognition</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/musicology"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/art_studies"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/demography"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/economics"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/political_science"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/psychology"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/architecture"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">Disciplines</skos:prefLabel>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/history_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/geography"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/philosophy"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/oriental_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/media_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/theology"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/social_sciences"/>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/cultural_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/linguistics"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/methods_and_statistics"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/gender_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/communication_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/theatre_studies"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/education"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/archaeology"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/law"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/literary_studies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SKOS">
+    <skos:altLabel xml:lang="en">Simple Knowledge Organisation System</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>W3C recommendation format designed for the representation of thesauri, classification schemes, taxonomies, subject-heading systems, or any other type of structured controlled vocabulary</skos:definition>
+    <skos:note>based on Wikipedia contributors, "Simple Knowledge Organization System," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Simple_Knowledge_Organization_System&amp;oldid=703222387 (accessed February 28, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">SKOS</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_web_vocabularies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/psychology">
+    <skos:prefLabel xml:lang="en">psychology</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/machine_translation"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/repository"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/visualization"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/crowdsourcing"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/digital_edition"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/annotation"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/VRE"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Social_network_analysis"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/editor"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/sentiment_analysis"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Optical_Character_Recognition"/>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/GIS"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/search_service"/>
+    <skos:prefLabel xml:lang="en">Tools&amp;Services</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/OAI-PMH">
+    <skos:altLabel xml:lang="en">Open Archives Initiative Protocol for Metadata Harvesting</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition>protocol for exposing and collecting descriptions (metadata) of archival objects (or any digital objects)</skos:definition>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:prefLabel xml:lang="en">OAI-PMH</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/treebank">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/language_resource"/>
+    <skos:definition>collections of texts (or just sentences) annotated with complete syntactic structure</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">treebank</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/image">
+    <skos:definition>two-dimensional visual representation of something</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:note>based on image. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/image (accessed February 28, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">image</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/GLAM">
+    <skos:prefLabel xml:lang="en">GLAM</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>based on Wikipedia contributors, "GLAM (industry sector)," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=GLAM_(industry_sector)&amp;oldid=699993792 (accessed February 28, 2016).</skos:note>
+    <skos:altLabel xml:lang="en">galleries, libraries, archives, and museums</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <skos:definition>publicly funded, publicly accountable institutions collecting and presenting cultural heritage materials</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/visualization">
+    <skos:prefLabel xml:lang="en">visualization</skos:prefLabel>
+    <skos:note>based on Wikipedia contributors, "Data visualization," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Data_visualization&amp;oldid=706343042 (accessed February 28, 2016).</skos:note>
+    <skos:definition>visual representation of data/information aimed at better ways of exploring the data</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/graph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/XML">
+    <skos:definition>W3C-standardised markup system that defines a set of rules for encoding digital documents</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:altLabel xml:lang="en">Extensible Markup Language</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">XML</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+    <skos:note>based on Wikipedia contributors, "XML," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=XML&amp;oldid=724493259 (accessed June 13, 2016).</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/pos-tagging">
+    <skos:definition>process of classification of individual tokens in a text as belonging to a particular part of speech or word class</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">pos-tagging</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_interoperability">
+    <skos:definition>ability of information systems to exchange data with unambiguous, shared meaning</skos:definition>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/schema_mapping"/>
+    <skos:prefLabel xml:lang="en">semantic interoperability</skos:prefLabel>
+    <skos:note>based on Wikipedia contributors, "Semantic interoperability," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Semantic_interoperability&amp;oldid=706040693 (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/archaeology">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">archaeology</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Semantic_web">
+    <skos:prefLabel xml:lang="en">Semantic web</skos:prefLabel>
+    <skos:note>based on Wikipedia contributors, "Semantic Web," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Semantic_Web&amp;oldid=724047432 (accessed June 13, 2016); Berners-Lee, Tim; James Hendler; Ora Lassila. "The Semantic Web". Scientific American Magazine. May 2001. Accessed March 26, 2008.</skos:note>
+    <skos:definition>extension of the web, a common framework that allows data to be shared and reused across application, enterprise, and community boundaries</skos:definition>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Linked_data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/lemmatisation">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>process of grouping together the different inflected forms of a word to its canonical form so that they can be analysed as a single item</skos:definition>
+    <skos:note>based on: Wikipedia contributors, "Lemmatisation," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Lemmatisation&amp;oldid=692695396 (accessed February 28, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">lemmatisation</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Folia">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>Maarten Van Gompel, "FoLiA Format for Linguistic Annotation." FoLiA. Accessed June 13, 2016. https://proycon.github.io/folia/.</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/text_encoding"/>
+    <skos:definition>XML-based annotation format, suitable for the representation of linguistically annotated language resources</skos:definition>
+    <skos:altLabel xml:lang="en">Format for Linguistic Annotation</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Folia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/VRE">
+    <skos:definition>application integrating access to resources and a number of specialized functions, tailored to specific research methods, allowing collaborative work</skos:definition>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">VRE</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Virtual research environment</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/text_encoding">
+    <skos:definition>representation of printed texts in digital format</skos:definition>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">text encoding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Folia"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/TEI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/language_resource">
+    <skos:prefLabel xml:lang="en">language resource</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/corpus"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/treebank"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/historical_text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:note>Simons, G. F., and Bird, S. “Toward a Global Infrastructure for the Sustainability of Language Resources.” Proceedings of 22nd Pacific Asia Conference on Language, Information and Computation, 20–22 November 2008, Cebu City, Philippines. Accessed March 30, 2016. http://www-01.sil.org/~simonsg/preprint/PACLIC22.pdf.</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>language  resource  is  any  physical  or  digital  item  that  is  a  product  of  language  documentation,  description,  or  development  or  is  a  tool  that  specifically  supports  the creation and use of such products.</skos:definition>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/lexical_resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/audio_recording">
+    <skos:definition>digital representation of acoustic signals</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:prefLabel xml:lang="en">audio recording</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/e-learning">
+    <skos:note>e-learning. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/e-learning (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <skos:prefLabel xml:lang="en">e-learning</skos:prefLabel>
+    <skos:definition>learning conducted via electronic media, typically on the Internet</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/political_science">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">political science</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Linked_data">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Semantic_web"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">Linked data</skos:prefLabel>
+    <skos:definition>method of publishing structured data so that it can be interlinked and become more useful through semantic queries</skos:definition>
+    <skos:note>Wikipedia contributors, "Linked data," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Linked_data&amp;oldid=701965470 (accessed February 28, 2016).</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/FOAF">
+    <skos:definition>machine-readable ontology describing persons, their activities and their relations to other people and objects</skos:definition>
+    <skos:note>Wikipedia contributors, "FOAF (ontology)," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=FOAF_(ontology)&amp;oldid=703222322 (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_web_vocabularies"/>
+    <skos:prefLabel xml:lang="en">FOAF</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Friend Of A Friend</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/xml-editor">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>digital tool with special functionalities for viewing and authoring data in XML</skos:definition>
+    <skos:prefLabel xml:lang="en">xml-editor</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/editor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NER">
+    <skos:definition>process of identifying mentions of individuals/entities in a text</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:altLabel xml:lang="en">Named Entity Recognition</skos:altLabel>
+    <skos:prefLabel xml:lang="en">NER</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/sentiment_analysis">
+    <skos:note>based on sentiment analysis. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/sentiment-analysis (accessed February 28, 2016).</skos:note>
+    <skos:definition>procedure of computationally identifying and categorizing opinions expressed in a piece of text</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">sentiment analysis</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/media_studies">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:prefLabel xml:lang="en">media studies</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/corpus">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">corpus</skos:prefLabel>
+    <skos:definition>large and structured set of texts electronically stored and processed</skos:definition>
+    <skos:note>Wikipedia contributors, "Text corpus," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Text_corpus&amp;oldid=701487841(accessed February 28, 2016).</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/language_resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Europeana"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/PARTHENOS"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/DARIAH"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <skos:definition>facilities, resources and related services used by the scientific community to conduct research</skos:definition>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CLARIN"/>
+    <skos:prefLabel xml:lang="en">research infrastructure</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/ARIADNE"/>
+    <skos:note>based on "WHAT ARE RIs ?" Research Infrastructures. Accessed June 13, 2016. http://ec.europa.eu/research/infrastructures/index_en.cfm?pg=what.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/demography">
+    <skos:prefLabel xml:lang="en">demography</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/lexical_resource">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/language_resource"/>
+    <skos:definition>structured list of words or multi-word expressions providing reference information about their meaning, translations in other languages, pronunciation, origin, usage etc.</skos:definition>
+    <skos:prefLabel xml:lang="en">lexical resource</skos:prefLabel>
+    <skos:altLabel xml:lang="en">dictionary</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/tagging">
+    <skos:definition>assignment of descriptive labels (from a defined vocabulary) to particular segments of text. Typical example: word-class of tokens</skos:definition>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:prefLabel xml:lang="en">tagging</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/crowdsourcing">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition>practice of solving a given (data processing) task by contributions from a large group of people via the Internet</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:prefLabel xml:lang="en">crowdsourcing</skos:prefLabel>
+    <skos:note>based on Wikipedia contributors, "Crowdsourcing," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Crowdsourcing&amp;oldid=707269325 (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/annotation">
+    <skos:note>Wikipedia contributors, "Annotation," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Annotation&amp;oldid=696830730 (accessed February 28, 2016).</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:definition>metadata (e.g. a comment, explanation, presentational markup) attached to text, image, or other data, both manual and automatic</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">annotation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <dc:subject xml:lang="en">digital methods in humanities</dc:subject>
+    <dc:format>application/rdf+xml</dc:format>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <dc:relation rdf:resource="http://www.digital-humanities.at"/>
+    <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+    <dc:creator>Digital Humanities Austria (DHA) Consortium</dc:creator>
+    <dc:subject xml:lang="en">digital humanities</dc:subject>
+    <dc:language>English</dc:language>
+    <rdfs:comment>concept schema for terms used in dha</rdfs:comment>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+    <dc:description xml:lang="en">DHA taxonomy is a knowledge organization system designed to describe resources and subjects within activities of Digital Humanities Austria</dc:description>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Type"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_reading">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">type_reading</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Type"/>
+    <skos:definition>books, articles, journals, technical reports, documentation etc. informing on DH topics</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/ontology">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_resource"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">ontology</skos:prefLabel>
+    <skos:definition>formal representations of a set of concepts within a domain and the relationships between those concepts</skos:definition>
+    <skos:note>based on Wikipedia contributors, "Ontology engineering," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Ontology_engineering&amp;oldid=685693548 (accessed February 28, 2016).</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/taxonomy">
+    <skos:prefLabel xml:lang="en">taxonomy</skos:prefLabel>
+    <skos:definition>hierarchical classification of entities of interest</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_resource"/>
+    <skos:note>Wikipedia contributors, "Corporate taxonomy," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Corporate_taxonomy&amp;oldid=702154777 (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/morphology">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/linguistics"/>
+    <skos:prefLabel xml:lang="en">morphology</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/theatre_studies">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">theatre studies</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/cultural_studies">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">cultural studies</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/economics">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">economics</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/metasearch">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:altLabel xml:lang="en">aggregator</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/search_service"/>
+    <skos:prefLabel xml:lang="en">metasearch</skos:prefLabel>
+    <skos:definition>services that allows to query multiple search services and aggregates the multiple results to one result set</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/knowledge_base">
+    <skos:prefLabel xml:lang="en">knowledge base</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>complex information resource that consists of structured and unstructured data to be used in digital applications</skos:definition>
+    <skos:note>based on Wikipedia contributors, "Knowledge base," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Knowledge_base&amp;oldid=718798303 (accessed June 13, 2016).</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SPARQL">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>based on Wikipedia contributors, "SPARQL," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=SPARQL&amp;oldid=723415025 (accessed June 13, 2016).</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/query_language"/>
+    <skos:prefLabel xml:lang="en">SPARQL</skos:prefLabel>
+    <skos:altLabel xml:lang="en">SPARQL Protocol and RDF Query Language</skos:altLabel>
+    <skos:definition>query language for manipulating and retrieving data stored in RDF format</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/programming">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>information about programming guides, tutorials, documentation</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <skos:prefLabel xml:lang="en">programming</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/repository">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>service for depositing/preserving (and optionally presenting) resources</skos:definition>
+    <skos:prefLabel xml:lang="en">repository</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_organisation">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">type_organisation</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Type"/>
+    <skos:definition>groups of people such as organisations, research infrastructures, institutions, consortia, networks, etc.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/law">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">law</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/gender_studies">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">gender studies</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/machine_translation">
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>system or procedure automatically expressing text from one language in another language</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">machine translation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/communication_studies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">communication studies</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/search_service">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/metasearch"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">search service</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>service that allows to query a specific set of information resources</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/RDF">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>group of W3C specifications designed as a metadata data model to provide interoperability between applications that exchange machine-understandable information on the Web. It is used as a general method for conceptual description or modeling of information.</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_web_vocabularies"/>
+    <skos:note>based on Wikipedia contributors, "Resource Description Framework," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Resource_Description_Framework&amp;oldid=722184246 (accessed June 13, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">RDF</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Resource Description Framework</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/query_language">
+    <skos:note>based on Wikipedia contributors, "Query language," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Query_language&amp;oldid=708613942 (accessed June 13, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">query language</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Formats_Protocols_Standards"/>
+    <skos:definition>formalised system of signs for retrieving information from structured data stores (databases)</skos:definition>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SRU/CQL"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SPARQL"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CQP/CQL"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/SQL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/philosophy">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:prefLabel xml:lang="en">philosophy</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Europeana">
+    <skos:prefLabel xml:lang="en">Europeana</skos:prefLabel>
+    <skos:note>based on Europeana. Accessed June 13, 2016. http://www.europeana.eu/portal/.</skos:note>
+    <skos:definition>multi-lingual online collection of millions of digitised items from European museums, libraries, archives and multi-media collections</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/open_source">
+    <skos:definition>software free for use, distribution and improvements</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <skos:prefLabel xml:lang="en">open source</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources">
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/geodata"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/map"/>
+    <skos:prefLabel xml:lang="en">Resources</skos:prefLabel>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/image"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/3D"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/audio_recording"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_resource"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/language_resource"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/video_recording"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/geography">
+    <skos:prefLabel xml:lang="en">geography</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/digital_edition">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">digital edition</skos:prefLabel>
+    <skos:note>Patrick Sahle. "About a catalog of: Digital Scholarly Editions, v 3.0, Snapshot 2008ff." Scholarly Digital Editions. 2008. Accessed June 13, 2016. http://www.digitale-edition.de/vlet-about.html.</skos:note>
+    <skos:definition>scholarly edition is the critical representation of historical documents</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/linguistics">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/lexicography"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/morphology"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">linguistics</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/corpus_linguistics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CLARIN">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure"/>
+    <skos:definition>European research infrastructure for the Humanities and Social Sciences, focusing on language resources (data and tools)</skos:definition>
+    <skos:note>based on CLARIN. Accessed June 13, 2016.  https://www.clarin.eu/</skos:note>
+    <skos:altLabel xml:lang="en">Common LAnguage Resources and Technology INfrastructure</skos:altLabel>
+    <skos:prefLabel xml:lang="en">CLARIN</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/cultural_heritage">
+    <skos:definition>legacy of physical artifacts and intangible attributes of a group or society that are inherited from past generations, maintained in the present and bestowed for the benefit of future generations</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:note>Wikipedia contributors, "Cultural heritage," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Cultural_heritage&amp;oldid=703905866 (accessed February 29, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">cultural heritage</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/schema_mapping">
+    <skos:prefLabel xml:lang="en">schema mapping</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>process of establishing pairwise semantic equivalencies (or other semantic relations) between distinct knowledge representations</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_interoperability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/PARTHENOS">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:altLabel xml:lang="en">Pooling Activities, Resources and Tools for Heritage E-research Networking, Optimization and Synergies</skos:altLabel>
+    <skos:prefLabel xml:lang="en">PARTHENOS</skos:prefLabel>
+    <skos:note>based on PARTHENOS. Accessed June 13, 2016. http://www.parthenos-project.eu/.</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure"/>
+    <skos:definition>European cluster infrastucture H2020 project that aims to pool and harmonize the activities in existing research infrastructures  and strengthen the cohesion of research in the broad sector of Linguistic Studies, Humanities, Cultural Heritage, History, Archaeology and related fields</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/graph">
+    <skos:prefLabel xml:lang="en">graph</skos:prefLabel>
+    <skos:note>based on Wikipedia contributors, "Graph theory," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Graph_theory&amp;oldid=725036230 (accessed June 13, 2016).</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/visualization"/>
+    <skos:definition>(mathematical) structure representing objects (nodes) and relations between them (edges)</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/GIS">
+    <skos:note>GIS. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/gis (accessed February 28, 2016).</skos:note>
+    <skos:prefLabel xml:lang="en">GIS</skos:prefLabel>
+    <skos:definition>system for storing and manipulating geographical information</skos:definition>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:altLabel xml:lang="en">Geographic Information System</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/DARIAH">
+    <skos:definition>pan-european infrastructure for arts and humanities scholars working with computational methods</skos:definition>
+    <skos:altLabel xml:lang="en">Digital Research Infrastructure for the Arts and Humanities</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure"/>
+    <skos:note>based on DARIAH. Accessed June 13, 2016. https://dariah.eu/about/dariah-in-a-nutshell.html.</skos:note>
+    <skos:prefLabel xml:lang="en">DARIAH</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/CIDOC_CRM">
+    <skos:altLabel xml:lang="en">Comité international pour la documentation: Conceptual Reference Model</skos:altLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_web_vocabularies"/>
+    <skos:definition>machine-readable ontology that provides definitions and a formal structure for describing general (top-level) concepts and relationships; used mainly in cultural heritage domain</skos:definition>
+    <skos:note>based on "The CIDOC CRM." The CIDOC CRM. Accessed June 13, 2016. http://www.cidoc-crm.org/.</skos:note>
+    <skos:prefLabel xml:lang="en">CIDOC CRM</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/map">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:prefLabel xml:lang="en">map</skos:prefLabel>
+    <skos:note>based on map. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/map (accessed February 28, 2016).</skos:note>
+    <skos:definition>schematic representation of an area of land or sea showing physical features, cities, roads, etc.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/history_studies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">history studies</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/architecture">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:prefLabel xml:lang="en">architecture</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/musicology">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">musicology</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/tokenisation">
+    <skos:note>Wikipedia contributors, "Tokenization (lexical analysis)," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Tokenization_(lexical_analysis)&amp;oldid=637328355 (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:definition>process of breaking a stream of text up into words, phrases, symbols, or other meaningful elements called tokens</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/NLP"/>
+    <skos:prefLabel xml:lang="en">tokenisation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/vocabulary">
+    <skos:definition>list of words or phrases used to classify units of information</skos:definition>
+    <skos:prefLabel xml:lang="en">vocabulary</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/semantic_resource"/>
+    <skos:note>based on Wikipedia contributors, "Controlled vocabulary," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Controlled_vocabulary&amp;oldid=704734498 (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/oriental_studies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:prefLabel xml:lang="en">oriental studies</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/open_access">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">open access</skos:prefLabel>
+    <skos:definition>resources (both research outputs and research data) that are free of all restrictions on access and free of many restrictions on use</skos:definition>
+    <skos:note>based Wikipedia contributors, "Open access," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Open_access&amp;oldid=705203639 (accessed February 28, 2016).</skos:note>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/theology">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">theology</skos:prefLabel>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Social_network_analysis">
+    <skos:note>based on Wikipedia contributors, "Social network analysis," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Social_network_analysis&amp;oldid=702459164 (accessed February 28, 2016).</skos:note>
+    <skos:definition>set of methods used to investigate relationships and  interactions of individual actors and/or groups</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Tools_Services"/>
+    <skos:prefLabel xml:lang="en">Social network analysis</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/ARIADNE">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/research_infrastructure"/>
+    <skos:altLabel xml:lang="en">Advanced Research Infrastructure for Archaeological Dataset Networking in Europe</skos:altLabel>
+    <skos:definition>research infrastructure that brings together and integrates existing archaeological research data infrastructures</skos:definition>
+    <skos:note>based on ARIADNE. Accessed June 13, 2016. http://www.ariadne-infrastructure.eu/.</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">ARIADNE</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/copyright_and_licensing">
+    <skos:prefLabel xml:lang="en">copyright &amp; licensing</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>information about rights and conditions of use and distribution of resources</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/teaching">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">teaching</skos:prefLabel>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:definition>teaching materials in DH domain</skos:definition>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Topics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Type">
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_reading"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_resource"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_software"/>
+    <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
+    <skos:narrower rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/type_organisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/methods_and_statistics">
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">methods and statistics</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/historical_text">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/language_resource"/>
+    <skos:definition>any text created in the past</skos:definition>
+    <skos:note>ACDH-OEAW Team, 2016</skos:note>
+    <skos:prefLabel xml:lang="en">historical text</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/education">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+    <skos:prefLabel xml:lang="en">education</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/art_studies">
+    <skos:prefLabel xml:lang="en">art studies</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Disciplines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/geodata">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">geodata</skos:prefLabel>
+    <skos:note>geodata. Oxford Dictionaries. Oxford University Press. http://www.oxforddictionaries.com/definition/english/geodata (accessed February 28, 2016).</skos:note>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Resources"/>
+    <skos:definition>computerized geographical data</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/corpus_linguistics">
+    <skos:broader rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/linguistics"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/dhataxonomy/dha_taxonomy_schema"/>
+    <skos:prefLabel xml:lang="en">corpus linguistics</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
+
