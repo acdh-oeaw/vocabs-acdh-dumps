@@ -2,7 +2,7 @@
 
 used at https://vocabs.acdh.oeaw.ac.at/vicav_dialects_taxonomy/
 
-see redmine issue 
+see redmine issue 20608
 
 created internally at ACDH-CH for the VICAV project using the vocabseditor and currently a post-processing step
 
