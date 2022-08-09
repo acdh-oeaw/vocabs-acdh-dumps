@@ -19,6 +19,7 @@
                                      <http://purl.org/dc/terms/modified> "2021-07-22" ;
                                      <http://purl.org/dc/terms/rightsHolder> "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson" ;
                                      <http://purl.org/dc/terms/title> "TaDiRAH"@en ;
+                                     rdfs:label "TaDiRAH"@en ;
                                      owl:versionInfo "2.0.1" ;
                                      <http://www.w3.org/2004/02/skos/core#hasTopConcept> tadirah:analyzing ,
                                                                                          tadirah:capturing ,
