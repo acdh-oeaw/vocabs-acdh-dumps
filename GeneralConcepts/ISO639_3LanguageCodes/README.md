@@ -7,5 +7,7 @@ see redmine issue 14869
 created internally at ACDH-CH
 
 post-processing work:
+* delete `acdh:hasFormat`
+* change `acdh:hasUrl` to `acdh:hasUrl "https://vocabs.acdh.oeaw.ac.at/iso6393/schema"^^xsd:anyURI ;`
 * skosify it
 
