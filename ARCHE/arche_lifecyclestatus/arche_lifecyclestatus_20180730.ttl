@@ -1,0 +1,47 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active> a skos:Concept ;
+    skos:definition "Aktiv zeigt an, dass an dem Objekt noch aktiv gearbeitet wird."@de,
+        "Active indicates an actively worked on object."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> ;
+    skos:prefLabel "aktiv"@de,
+        "active"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> .
+
+<https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/completed> a skos:Concept ;
+    skos:definition "An einem abgeschlossenen Objekt wird nicht mehr gearbeitet und die Ergebnisse können als final betrachtet werden."@de,
+        "A complete object is not longer worked on and results are final."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> ;
+    skos:prefLabel "abgeschlossen"@de,
+        "completed"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> .
+
+<https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/deprecated> a skos:Concept ;
+    skos:definition "Wenn ein Objekt überholt ist, wird nicht mehr aktiv daran gearbeitet und es ist nicht unbedingt vollständig abgeschlossen."@de,
+        "If an object is deprecated it is not longer actively worked on and it might not be complete."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> ;
+    skos:prefLabel "überholt"@de,
+        "deprecated"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> .
+
+<https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> a skos:ConceptScheme ;
+    rdfs:label "ARCHE Lebenszyklusstatus"@de,
+        "ARCHE life cycle status"@en ;
+    dc:creator "Martina Trognitz" ;
+    dc:description "Eine Liste um den Lebenszyklusstatus eines Objektes in ARCHE anzugeben."@de,
+        "A list to indicate the life cycle status of an object in ARCHE."@en ;
+    dc:format "application/rdf+xml" ;
+    dc:language "English",
+        "German" ;
+    dc:relation <https://arche.acdh.oeaw.ac.at/browser/> ;
+    dc:rights "https://creativecommons.org/licenses/by/4.0/" ;
+    dc:subject "Datenlebenszyklus"@de,
+        "data life cycle"@en ;
+    dc:title "ARCHE Lebenszyklusstatus"@de,
+        "ARCHE life cycle status"@en ;
+    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active>,
+        <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/completed>,
+        <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/deprecated> .
+
