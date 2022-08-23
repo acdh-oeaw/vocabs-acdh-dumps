@@ -1,0 +1,50 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/academic> a skos:Concept ;
+    dc:source "CLARIN" ;
+    skos:definition "Akademischer Zugang bedeutet, dass die Zugehörigkeit an eine akademische Institution mittels Shibboleth-Login geprüft wird."@de,
+        "Academic access means that an affiliation with an academic institution is checked via Shibboleth login."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> ;
+    skos:prefLabel "akademisch"@de,
+        "academic"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> .
+
+<https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> a skos:Concept ;
+    dc:source "CLARIN" ;
+    skos:definition "Öffentliche Ressourcen sind ohne Einschränkungen zugänglich."@de,
+        "Public resources are accessible without any further restrictions."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> ;
+    skos:prefLabel "öffentlich"@de,
+        "public"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> .
+
+<https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/restricted> a skos:Concept ;
+    dc:source "CLARIN" ;
+    skos:definition "Beschränkter Zugang erfordert eine Registrierung und die Erlaubnis des Dateninhabers."@de,
+        "Restricted access requires registration and an a permission from the owner."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> ;
+    skos:prefLabel "eingeschränkt"@de,
+        "restricted"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> .
+
+<https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> a skos:ConceptScheme ;
+    rdfs:label "ARCHE Zugriffsbeschränkungen"@de,
+        "ARCHE access restrictions"@en ;
+    dc:creator "Martina Trognitz" ;
+    dc:description "Eine Liste mit Typen von Zugriffsmöglichkeiten für ARCHE"@de,
+        "A list of access restriction types for ARCHE."@en ;
+    dc:format "application/rdf+xml" ;
+    dc:language "English",
+        "German" ;
+    dc:relation <https://arche.acdh.oeaw.ac.at/browser/> ;
+    dc:rights "https://creativecommons.org/licenses/by/4.0/" ;
+    dc:subject "Zugriffsbeschränkung"@de,
+        "access restriction"@en ;
+    dc:title "ARCHE Zugriffsbeschränkungen"@de,
+        "ARCHE access restrictions"@en ;
+    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/academic>,
+        <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>,
+        <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/restricted> .
+
