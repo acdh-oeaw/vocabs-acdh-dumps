@@ -1,0 +1,3776 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455>
+a skos:ConceptScheme ;
+    rdfs:label "OeAI Thesaurus"@en ;
+    dc:creator "Micheline Welte, Niki Gail" ;
+    dc:description "Subset of OeAI Thesaurus focusing on cultural time periods"@en ;
+    dc:language "de", "en" ;
+    dc:publisher "OeAI" ;
+    dc:subject "Archaeology" ;
+    dc:title "OeAI Thesaurus - Kulturepochen"@de,
+        "OeAI Thesaurus - Cultural Time Periods"@en ;
+    dct:created "2020-02-20" ;
+    dct:license "https://creativecommons.org/licenses/by/4.0/" ;
+    dct:modified "2022-07-15" ;
+    owl:versionInfo "1.0" .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/100> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "achämenidisch"@de ;
+ skos:prefLabel "Achaemenid"@en ;
+ skos:altLabel "Achemenid"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/vpg0DvwPQxyc> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "ägyptisch"@de ;
+ skos:prefLabel "Egyptian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/6VooUMYGJjOI> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/102> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "assyrisch"@de ;
+ skos:prefLabel "Assyrian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/8Acc6pBnRz4V> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/103> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "byzantinisch"@de ;
+ skos:prefLabel "Byzantine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Rk5jShCApBwq> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/104> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Catalhöyük"@de ;
+ skos:prefLabel "Catalhöyük"@en ;
+ skos:altLabel "Catalhüyük"@de ;
+ skos:altLabel "Çatalhüyük"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q192522> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/105> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "etruskisch"@de ;
+ skos:prefLabel "Etruscan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/RGbECa9kHJT4> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/106> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Fikirtepe"@de ;
+ skos:prefLabel "Fikirtepe"@en ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/107> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "frühchristlich"@de ;
+ skos:prefLabel "Early Christian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/J316Dxjfexrl> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/108> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "griechisch"@de ;
+ skos:prefLabel "Greek"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/YOyP9TLDuhrb> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/109> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Hacilar"@de ;
+ skos:prefLabel "Hacilar"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q908860> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/110> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Halaf"@de ;
+ skos:prefLabel "Halaf"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/CePG4Xyy5sWn> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/111> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Hassuna"@de ;
+ skos:prefLabel "Hassuna"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/RcTmuXxf7IHX> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/112> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "helladisch"@de ;
+ skos:prefLabel "Helladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/IOVQ33rqV4KM> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/113> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "hethitisch"@de ;
+ skos:prefLabel "Hittite"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/OYIpMMUk6oOF> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/114> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "iranisch"@de ;
+ skos:prefLabel "Iranian"@en ;
+ skos:altLabel "persisch"@de ;
+ skos:altLabel "Persian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/elISqvMiPKMo> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/115> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "islamisch"@de ;
+ skos:prefLabel "Islamic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/gzNoWGDHpBcr> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "italisch"@de ;
+ skos:prefLabel "Italic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/2VmiOlvIObfR> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/117> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Kirbet Kerak"@de ;
+ skos:prefLabel "Khirbet Kerak"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/xfbzbyFXzV2z> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/118> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "kykladisch"@de ;
+ skos:prefLabel "Cycladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/lRiuE8KqMdM4> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/119> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "lydisch"@de ;
+ skos:prefLabel "Lydian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/KprSO1DTzWOC> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/120> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "minoisch"@de ;
+ skos:prefLabel "Minoan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/fIA3SHJthHYh> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/121> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Mittelalter"@de ;
+ skos:prefLabel "Middle Ages"@en ;
+ skos:altLabel "Medieval Period"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/6Ulfr1r7LcBs> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/122> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "mykenisch"@de ;
+ skos:prefLabel "Mycenaean"@en ;
+ skos:altLabel "Mycenean"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/iKJWJJjC5obx> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Neuzeit"@de ;
+ skos:prefLabel "Modern Era"@en ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/124> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Obeid"@de ;
+ skos:prefLabel "Ubaid"@en ;
+ skos:altLabel "Ubaid"@de ;
+ skos:altLabel "Obed"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/ICVrqTb3uj90> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/125> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "osmanisch"@de ;
+ skos:prefLabel "Ottoman"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/iOaFpwImnKYj> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/126> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "phrygisch"@de ;
+ skos:prefLabel "Phrygian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/n1fz7Xk0ved6> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Prähistorie"@de ;
+ skos:prefLabel "Prehistory"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/XLYbvLSSRb0t> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/128> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "römisch"@de ;
+ skos:prefLabel "Roman"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/KTwRym1w8abB> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/129> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "Samara"@de ;
+ skos:prefLabel "Samara"@en ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/130> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "urartäisch"@de ;
+ skos:prefLabel "Urartian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/aPVWSbyFD0AQ> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/131> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "zyprisch"@de ;
+ skos:prefLabel "Cypriot"@en ;
+ skos:altLabel "Cypriote"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/f1nOVhp4aLLF> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/132> 
+ a skos:Concept ;
+ skos:prefLabel "1. Zwischenzeit"@de ;
+ skos:prefLabel "First Intermediate Period"@en ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/kf17V19w3CWv> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/133> 
+ a skos:Concept ;
+ skos:prefLabel "2. Zwischenzeit"@de ;
+ skos:prefLabel "Second Intermediate Period"@en ;
+ skos:scopeNote "The Second Intermediate Period begins in the middle (or at the end, depending on the researcher) of the 13th Dynasty."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/6yDtOnq2H6fO> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/134> 
+ a skos:Concept ;
+ skos:prefLabel "3. Zwischenzeit"@de ;
+ skos:prefLabel "Third Intermediate Period"@en ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/3XPgYqqSJPoR> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/135> 
+ a skos:Concept ;
+ skos:prefLabel "Altes Reich"@de ;
+ skos:prefLabel "Old Kingdom"@en ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/kn2zrUYdWAe8> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/136> 
+ a skos:Concept ;
+ skos:prefLabel "Frühzeit"@de ;
+ skos:prefLabel "Early Dynastic Period"@en ;
+ skos:altLabel "Archaic"@en ;
+ skos:altLabel "Thinite Period"@en ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/bJXq0VVqpm2h> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/137> 
+ a skos:Concept ;
+ skos:prefLabel "Mittleres Reich"@de ;
+ skos:prefLabel "Middle Kingdom"@en ;
+ skos:scopeNote "The Middle Kingdom begins about halfway through the 11th Dynasty. The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties. "@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/876a7NVQZkH9> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/138> 
+ a skos:Concept ;
+ skos:prefLabel "Neues Reich"@de ;
+ skos:prefLabel "New Kingdom"@en ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/4DkjOuob3b7w> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/139> 
+ a skos:Concept ;
+ skos:prefLabel "ptolemäische Zeit"@de ;
+ skos:prefLabel "Ptolemaic Period"@en ;
+ skos:altLabel "ptolemaeische Zeit"@de ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/PKmoBh79izYT> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/140> 
+ a skos:Concept ;
+ skos:prefLabel "Spätzeit"@de ;
+ skos:prefLabel "Late Period"@en ;
+ skos:scopeNote "The divisions of the Egyptian periods do not perfectly align with the beginning and end of the dynasties."@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q621917> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/141> 
+ a skos:Concept ;
+ skos:prefLabel "Vorgeschichte"@de ;
+ skos:prefLabel "Prehistory"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/101> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/142> 
+ a skos:Concept ;
+ skos:prefLabel "frühbyzantinisch"@de ;
+ skos:prefLabel "Early Byzantine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/EliRdMbzrRLJ> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/103> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/143> 
+ a skos:Concept ;
+ skos:prefLabel "mittelbyzantinisch"@de ;
+ skos:prefLabel "Middle Byzantine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/CLpWAMh5aUgH> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/103> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/144> 
+ a skos:Concept ;
+ skos:prefLabel "spätbyzantinisch"@de ;
+ skos:prefLabel "Late Byzantine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/rL37RWstkEFe> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/103> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/145> 
+ a skos:Concept ;
+ skos:prefLabel "archaisch"@de ;
+ skos:prefLabel "Archaic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/LBnJ3GkRUjSy> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/108> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/146> 
+ a skos:Concept ;
+ skos:prefLabel "geometrisch"@de ;
+ skos:prefLabel "Geometric"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/AqUgeWHp0xIl> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/108> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/147> 
+ a skos:Concept ;
+ skos:prefLabel "hellenistisch"@de ;
+ skos:prefLabel "Hellenistic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/V9dy8McSgA2Y> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/108> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/148> 
+ a skos:Concept ;
+ skos:prefLabel "klassisch"@de ;
+ skos:prefLabel "Classical"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/lgmcrzRuu418> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/108> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/149> 
+ a skos:Concept ;
+ skos:prefLabel "frühhelladisch"@de ;
+ skos:prefLabel "Early Helladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/AYeqXxXF339o> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/112> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/150> 
+ a skos:Concept ;
+ skos:prefLabel "mittelhelladisch"@de ;
+ skos:prefLabel "Middle Helladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/ROkpsNEzFjOm> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/112> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/151> 
+ a skos:Concept ;
+ skos:prefLabel "späthelladisch"@de ;
+ skos:prefLabel "Late Helladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/aGXu2saj2dYX> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/112> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/152> 
+ a skos:Concept ;
+ skos:prefLabel "frühhethitisch"@de ;
+ skos:prefLabel "Old Hittite"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Ielmwklxtvt1> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/113> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/153> 
+ a skos:Concept ;
+ skos:prefLabel "mittelhethitisch"@de ;
+ skos:prefLabel "Middle Hittite"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Wv5o2s6PWOlH> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/113> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/154> 
+ a skos:Concept ;
+ skos:prefLabel "späthethitisch"@de ;
+ skos:prefLabel "Late Hittite"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/113> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/155> 
+ a skos:Concept ;
+ skos:prefLabel "achämenidisch"@de ;
+ skos:prefLabel "Achaemenid"@en ;
+ skos:altLabel "achaemenidisch"@de ;
+ skos:altLabel "Achemenid"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/vpg0DvwPQxyc> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/114> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/156> 
+ a skos:Concept ;
+ skos:prefLabel "arsakidisch"@de ;
+ skos:prefLabel "Parthian"@en ;
+ skos:altLabel "parthisch"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/cPkKW4krup3D> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/114> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/157> 
+ a skos:Concept ;
+ skos:prefLabel "medisch"@de ;
+ skos:prefLabel "Median"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/CPnAH7wcZdIp> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/114> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/158> 
+ a skos:Concept ;
+ skos:prefLabel "protoiranisch"@de ;
+ skos:prefLabel "Proto-Iranian"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/114> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/159> 
+ a skos:Concept ;
+ skos:prefLabel "sassanidisch"@de ;
+ skos:prefLabel "Sassanid"@en ;
+ skos:altLabel "Sasanid"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/prX4hmZMs0yp> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/114> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/160> 
+ a skos:Concept ;
+ skos:prefLabel "apulisch"@de ;
+ skos:prefLabel "Apulian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/RzbGVFodlQ5Z> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/161> 
+ a skos:Concept ;
+ skos:prefLabel "campanisch"@de ;
+ skos:prefLabel "Campanian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/KzRNJP4WR6PS> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/162> 
+ a skos:Concept ;
+ skos:prefLabel "italo-geometrisch"@de ;
+ skos:prefLabel "Italo-Geometric"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/163> 
+ a skos:Concept ;
+ skos:prefLabel "latinisch"@de ;
+ skos:prefLabel "Latin"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/164> 
+ a skos:Concept ;
+ skos:prefLabel "ligurisch"@de ;
+ skos:prefLabel "Ligurian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/qxRTvWeeS4mT> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/165> 
+ a skos:Concept ;
+ skos:prefLabel "oskisch"@de ;
+ skos:prefLabel "Oscan"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/166> 
+ a skos:Concept ;
+ skos:prefLabel "picenisch"@de ;
+ skos:prefLabel "Picentine"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/167> 
+ a skos:Concept ;
+ skos:prefLabel "samnitisch"@de ;
+ skos:prefLabel "Samnite"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/0Yevp82GLwdT> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/168> 
+ a skos:Concept ;
+ skos:prefLabel "umbrisch"@de ;
+ skos:prefLabel "Umbrian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/34aNFX1SMAZ6> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/116> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/169> 
+ a skos:Concept ;
+ skos:prefLabel "Karazkultur"@de ;
+ skos:prefLabel "Kura–Araxes"@en ;
+ skos:altLabel "Kur–Araz"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q169349> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/117> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/170> 
+ a skos:Concept ;
+ skos:prefLabel "frühkykladisch"@de ;
+ skos:prefLabel "Early Cycladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/9eJnzwj23JAu> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/118> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/171> 
+ a skos:Concept ;
+ skos:prefLabel "mittelkykladisch"@de ;
+ skos:prefLabel "Middle Cycladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/73BHzmkXjTDx> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/118> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/172> 
+ a skos:Concept ;
+ skos:prefLabel "spätkykladisch"@de ;
+ skos:prefLabel "Late Cycladic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/un3ffUxH9BBz> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/118> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/173> 
+ a skos:Concept ;
+ skos:prefLabel "frühminoisch"@de ;
+ skos:prefLabel "Early Minoan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/3LyVa2wb88y0> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/120> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/174> 
+ a skos:Concept ;
+ skos:prefLabel "mittelminoisch"@de ;
+ skos:prefLabel "Middle Minoan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/SuuD817asCH2> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/120> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/175> 
+ a skos:Concept ;
+ skos:prefLabel "spätminoisch"@de ;
+ skos:prefLabel "Late Minoan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/6e2ZbRiMULdQ> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/120> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/176> 
+ a skos:Concept ;
+ skos:prefLabel "subminoisch"@de ;
+ skos:prefLabel "Sub Minoan"@en ;
+ skos:altLabel "Sub-Minoan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/b40GOqHyfQlv> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/120> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/177> 
+ a skos:Concept ;
+ skos:prefLabel "Frühmittelalter"@de ;
+ skos:prefLabel "Early Middle Ages"@en ;
+ skos:altLabel "Early Medieval"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q202763> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/121> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/178> 
+ a skos:Concept ;
+ skos:prefLabel "Gotik"@de ;
+ skos:prefLabel "Gothic"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q46825> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/121> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/179> 
+ a skos:Concept ;
+ skos:prefLabel "Romanik"@de ;
+ skos:prefLabel "Romanesque"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q46805> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/121> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/180> 
+ a skos:Concept ;
+ skos:prefLabel "Spätmittelalter"@de ;
+ skos:prefLabel "Late Middle Ages"@en ;
+ skos:altLabel "Late Medieval"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q212976> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/121> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/181> 
+ a skos:Concept ;
+ skos:prefLabel "Völkerwanderung"@de ;
+ skos:prefLabel "Migration"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q131192> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/121> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/182> 
+ a skos:Concept ;
+ skos:prefLabel "frühmykenisch"@de ;
+ skos:prefLabel "Early Mycenaean"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/aGIlO07l9Yc5> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/122> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/183> 
+ a skos:Concept ;
+ skos:prefLabel "mittelmykenisch"@de ;
+ skos:prefLabel "Middle Mycenaean"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Ns3tiKfNhVmL> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/122> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/184> 
+ a skos:Concept ;
+ skos:prefLabel "spätmykenisch"@de ;
+ skos:prefLabel "Late Mycenaean"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/etfLhNF0LtBT> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/122> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/185> 
+ a skos:Concept ;
+ skos:prefLabel "submykenisch"@de ;
+ skos:prefLabel "Submycenean"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/cAUvIcb93BsX> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/122> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/186> 
+ a skos:Concept ;
+ skos:prefLabel "Barock"@de ;
+ skos:prefLabel "Baroque"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q37853> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/187> 
+ a skos:Concept ;
+ skos:prefLabel "Historismus"@de ;
+ skos:prefLabel "historicism"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q277466> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/188> 
+ a skos:Concept ;
+ skos:prefLabel "Jugendstil"@de ;
+ skos:prefLabel "Art Nouveau"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q34636> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/189> 
+ a skos:Concept ;
+ skos:prefLabel "Klassizismus"@de ;
+ skos:prefLabel "Classicism"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q170292> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/190> 
+ a skos:Concept ;
+ skos:prefLabel "Renaissance"@de ;
+ skos:prefLabel "Renaissance"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q4692> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/191> 
+ a skos:Concept ;
+ skos:prefLabel "Rokoko"@de ;
+ skos:prefLabel "Rococo"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q122960> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/123> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/192> 
+ a skos:Concept ;
+ skos:prefLabel "Bronzezeit"@de ;
+ skos:prefLabel "Bronze Age"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q11761> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/193> 
+ a skos:Concept ;
+ skos:prefLabel "Chalkolithikum"@de ;
+ skos:prefLabel "Chalcolithic"@en ;
+ skos:altLabel "Kupferzeit"@de ;
+ skos:altLabel "Copper Age"@en ;
+ skos:altLabel "Eneolithic"@en ;
+ skos:altLabel "Aeneolithic"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q130253> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/194> 
+ a skos:Concept ;
+ skos:prefLabel "Neolithikum"@de ;
+ skos:prefLabel "Neolithic"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q36422> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/195> 
+ a skos:Concept ;
+ skos:prefLabel "Paläolithikum"@de ;
+ skos:prefLabel "Palaeolithic"@en ;
+ skos:altLabel "Palaeolithikum"@de ;
+ skos:altLabel "Paleolithic"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q40203> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/196> 
+ a skos:Concept ;
+ skos:prefLabel "Proto-Sesklo"@de ;
+ skos:prefLabel "Proto-Sesklo"@en ;
+ skos:altLabel "Pre-Sesklo"@en ;
+ skos:exactMatch <http://vocab.getty.edu/page/aat/300106928> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/197> 
+ a skos:Concept ;
+ skos:prefLabel "Sesklo"@de ;
+ skos:prefLabel "Sesklo"@en ;
+ skos:exactMatch <http://vocab.getty.edu/page/aat/300106931> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/127> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/198> 
+ a skos:Concept ;
+ skos:prefLabel "kaiserzeitlich"@de ;
+ skos:prefLabel "Roman Empire"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/bCTpXj4LVC2n> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/128> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/199> 
+ a skos:Concept ;
+ skos:prefLabel "republikanisch"@de ;
+ skos:prefLabel "Roman Republic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/RX2Rv7kcbLGk> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/128> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/200> 
+ a skos:Concept ;
+ skos:prefLabel "frühurartäisch"@de ;
+ skos:prefLabel "Early Urartian"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/130> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/201> 
+ a skos:Concept ;
+ skos:prefLabel "mittelurartäisch"@de ;
+ skos:prefLabel "Middle Urartian"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/130> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/202> 
+ a skos:Concept ;
+ skos:prefLabel "späturartäisch"@de ;
+ skos:prefLabel "Late Urartian"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/130> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/203> 
+ a skos:Concept ;
+ skos:prefLabel "spätantik"@de ;
+ skos:prefLabel "Late Antiquity"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q217050> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/128> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/204> 
+ a skos:topConcept ;
+ skos:topConceptOf <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> ;
+ skos:prefLabel "selcukisch"@de ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/205> 
+ a skos:Concept ;
+ skos:prefLabel "10. Dynastie"@de ;
+ skos:prefLabel "10th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q429981> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/132> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/206> 
+ a skos:Concept ;
+ skos:prefLabel "9. Dynastie"@de ;
+ skos:prefLabel "9th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q728449> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/132> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/207> 
+ a skos:Concept ;
+ skos:prefLabel "13. Dynastie"@de ;
+ skos:prefLabel "13th Dynasty"@en ;
+ skos:scopeNote "The Second Intermediate Period begins in the middle (or at the end, depending on the researcher) of the 13th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q721807> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/133> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/208> 
+ a skos:Concept ;
+ skos:prefLabel "14. Dynastie"@de ;
+ skos:prefLabel "14th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q650945> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/133> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> 
+ a skos:Concept ;
+ skos:prefLabel "15. Dynastie"@de ;
+ skos:prefLabel "15th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q728479> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/133> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/210> 
+ a skos:Concept ;
+ skos:prefLabel "16. Dynastie"@de ;
+ skos:prefLabel "16th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q737695> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/133> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/211> 
+ a skos:Concept ;
+ skos:prefLabel "17. Dynastie"@de ;
+ skos:prefLabel "17th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q642301> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/133> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> 
+ a skos:Concept ;
+ skos:prefLabel "21. Dynastie"@de ;
+ skos:prefLabel "21st Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q748151> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/134> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> 
+ a skos:Concept ;
+ skos:prefLabel "22. Dynastie"@de ;
+ skos:prefLabel "22nd Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q737629> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/134> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/214> 
+ a skos:Concept ;
+ skos:prefLabel "23. Dynastie"@de ;
+ skos:prefLabel "23rd Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q748170> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/134> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/215> 
+ a skos:Concept ;
+ skos:prefLabel "24. Dynastie"@de ;
+ skos:prefLabel "24th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q754749> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/134> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> 
+ a skos:Concept ;
+ skos:prefLabel "25. Dynastie"@de ;
+ skos:prefLabel "25th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q737648> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/134> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> 
+ a skos:Concept ;
+ skos:prefLabel "3. Dynastie"@de ;
+ skos:prefLabel "3rd Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q220276> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/135> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> 
+ a skos:Concept ;
+ skos:prefLabel "4. Dynastie"@de ;
+ skos:prefLabel "4th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q211001> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/135> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> 
+ a skos:Concept ;
+ skos:prefLabel "5. Dynastie"@de ;
+ skos:prefLabel "5th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269237> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/135> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> 
+ a skos:Concept ;
+ skos:prefLabel "6. Dynastie"@de ;
+ skos:prefLabel "6th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269979> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/135> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/221> 
+ a skos:Concept ;
+ skos:prefLabel "8. Dynastie"@de ;
+ skos:prefLabel "8th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1400616> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/135> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> 
+ a skos:Concept ;
+ skos:prefLabel "1. Dynastie"@de ;
+ skos:prefLabel "1st Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q203859> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/136> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> 
+ a skos:Concept ;
+ skos:prefLabel "2. Dynastie"@de ;
+ skos:prefLabel "2nd Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q207778> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/136> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> 
+ a skos:Concept ;
+ skos:prefLabel "11. Dynastie"@de ;
+ skos:prefLabel "11th Dynasty"@en ;
+ skos:scopeNote "The Middle Kingdom begins around the middle of the 11th dynasty."@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q719634> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/137> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> 
+ a skos:Concept ;
+ skos:prefLabel "12. Dynastie"@de ;
+ skos:prefLabel "12th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q719639> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/137> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> 
+ a skos:Concept ;
+ skos:prefLabel "18. Dynastie"@de ;
+ skos:prefLabel "18th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q146055> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/138> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> 
+ a skos:Concept ;
+ skos:prefLabel "19. Dynastie"@de ;
+ skos:prefLabel "19th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157956> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/138> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> 
+ a skos:Concept ;
+ skos:prefLabel "20. Dynastie"@de ;
+ skos:prefLabel "20th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q583501> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/138> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> 
+ a skos:Concept ;
+ skos:prefLabel "27. Dynastie"@de ;
+ skos:prefLabel "27th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q926624> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/140> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/230> 
+ a skos:Concept ;
+ skos:prefLabel "28. Dynastie"@de ;
+ skos:prefLabel "28th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q833118> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/140> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/231> 
+ a skos:Concept ;
+ skos:prefLabel "29. Dynastie"@de ;
+ skos:prefLabel "29th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q511257> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/140> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/232> 
+ a skos:Concept ;
+ skos:prefLabel "30. Dynastie"@de ;
+ skos:prefLabel "30th Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q386303> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/140> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/233> 
+ a skos:Concept ;
+ skos:prefLabel "31. Dynastie"@de ;
+ skos:prefLabel "31st Dynasty"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q978071> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/140> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/234> 
+ a skos:Concept ;
+ skos:prefLabel "justinianisch"@de ;
+ skos:prefLabel "Justinian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/i8FokDK41BZ6> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/142> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/235> 
+ a skos:Concept ;
+ skos:prefLabel "früharchaisch"@de ;
+ skos:prefLabel "Early Archaic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/0Jnp2MWmSZjC> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/145> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/236> 
+ a skos:Concept ;
+ skos:prefLabel "hocharchaisch"@de ;
+ skos:prefLabel "High Archaic"@en ;
+ skos:altLabel "Middle Archaic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/gFZviC9Ehp0O> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/145> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/237> 
+ a skos:Concept ;
+ skos:prefLabel "orientalisierend"@de ;
+ skos:prefLabel "Orientalizing Period"@en ;
+ skos:altLabel "Orientalizing Period"@en ;
+ skos:altLabel "Orientalising Revolution"@en ;
+ skos:altLabel "Orientalizing Revolution"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/7FaA0NgbdXDs> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/145> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/238> 
+ a skos:Concept ;
+ skos:prefLabel "spätarchaisch"@de ;
+ skos:prefLabel "Late Archaic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/6GXiCOaCfmTQ> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/145> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/239> 
+ a skos:Concept ;
+ skos:prefLabel "frühgeometrisch"@de ;
+ skos:prefLabel "Early Geometric"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/9EZPSCbQ0bNP> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/146> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/240> 
+ a skos:Concept ;
+ skos:prefLabel "mittelgeometrisch"@de ;
+ skos:prefLabel "Middle Geometric"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/AMH9SUN4lnKm> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/146> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/241> 
+ a skos:Concept ;
+ skos:prefLabel "protogeometrisch"@de ;
+ skos:prefLabel "Proto-Geometric"@en ;
+ skos:altLabel "Protogeometric"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/90Hn6glf9wp5> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/146> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/242> 
+ a skos:Concept ;
+ skos:prefLabel "spätgeometrisch"@de ;
+ skos:prefLabel "Late Geometric"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/3Y47oKS1Pg8L> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/146> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/243> 
+ a skos:Concept ;
+ skos:prefLabel "subgeometrisch"@de ;
+ skos:prefLabel "Sub Geometric"@en ;
+ skos:altLabel "Sub-Geometric"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/U5KkgjlmLIc4> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/146> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/244> 
+ a skos:Concept ;
+ skos:prefLabel "frühhellenistisch"@de ;
+ skos:prefLabel "Early Hellenistic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/hORjfiFsdbaX> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/147> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/245> 
+ a skos:Concept ;
+ skos:prefLabel "hochhellenistisch"@de ;
+ skos:prefLabel "High Hellenistic"@en ;
+ skos:altLabel "Middle Hellenistic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/f1xgSq2EAdyK> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/147> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/246> 
+ a skos:Concept ;
+ skos:prefLabel "späthellenistisch"@de ;
+ skos:prefLabel "Late Hellenistic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/78jvQ8c4qZaK> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/147> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/247> 
+ a skos:Concept ;
+ skos:prefLabel "frühklassisch"@de ;
+ skos:prefLabel "Early Classical"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/HEBM03OOyAM5> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/148> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/248> 
+ a skos:Concept ;
+ skos:prefLabel "hochklassisch"@de ;
+ skos:prefLabel "High Classical"@en ;
+ skos:altLabel "Middle Classical"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/8yAvVAy4qe98> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/148> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/249> 
+ a skos:Concept ;
+ skos:prefLabel "Reicher Stil"@de ;
+ skos:prefLabel "Rich Style"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/148> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/250> 
+ a skos:Concept ;
+ skos:prefLabel "spätklassisch"@de ;
+ skos:prefLabel "Late Classical"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/tZJKzlCggBFA> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/148> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/251> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch I"@de ;
+ skos:prefLabel "Late Helladic I"@en ;
+ skos:altLabel "SH I"@de ;
+ skos:altLabel "Spaethelladisch I"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/3i1UvjawzQ73> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/151> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/253> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch II"@de ;
+ skos:prefLabel "Late Helladic II"@en ;
+ skos:altLabel "SH II"@de ;
+ skos:altLabel "Spaethelladisch II"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/yXcDwVzqYOZc> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/151> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/254> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIA"@de ;
+ skos:prefLabel "Late Helladic IIA"@en ;
+ skos:altLabel "SH IIA"@de ;
+ skos:altLabel "Spaethelladisch IIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/U8Bt9qsUxdPg> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/253> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/255> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIB"@de ;
+ skos:prefLabel "Late Helladic IIB"@en ;
+ skos:altLabel "SH IIB"@de ;
+ skos:altLabel "Spaethelladisch IIB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/OmLwJwy7CuKS> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/253> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/256> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch III"@de ;
+ skos:prefLabel "Late Helladic III"@en ;
+ skos:altLabel "SH III"@de ;
+ skos:altLabel "Spaethelladisch III"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/O5pOSDbgUIEU> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/151> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/257> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIA"@de ;
+ skos:prefLabel "Late Helladic IIIA"@en ;
+ skos:altLabel "SH IIIA"@de ;
+ skos:altLabel "Spaethelladisch IIIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/RZIAbqaeTzmI> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/256> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/258> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIA1"@de ;
+ skos:prefLabel "Late Helladic IIIA1"@en ;
+ skos:altLabel "SH IIIA1"@de ;
+ skos:altLabel "Spaethelladisch IIIA1"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/GZrnbuJSY6yV> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/257> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/259> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIA2"@de ;
+ skos:prefLabel "Late Helladic IIIA2"@en ;
+ skos:altLabel "SH IIIA2"@de ;
+ skos:altLabel "Spaethelladisch IIIA2"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/NUh7uOh17QQb> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/257> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/260> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIB"@de ;
+ skos:prefLabel "Late Helladic IIIB"@en ;
+ skos:altLabel "SH IIIB"@de ;
+ skos:altLabel "Spaethelladisch IIIB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/anG2pmK0097C> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/256> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/262> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIB1"@de ;
+ skos:prefLabel "Late Helladic IIIB1"@en ;
+ skos:altLabel "SH IIIB1"@de ;
+ skos:altLabel "Spaethelladisch IIIB1"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/7G2xPRWnKY06> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/260> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/263> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIB2"@de ;
+ skos:prefLabel "Late Helladic IIIB2"@en ;
+ skos:altLabel "SH IIIB2"@de ;
+ skos:altLabel "Spaethelladisch IIIB2"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/FLVf6DQUB25L> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/260> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/264> 
+ a skos:Concept ;
+ skos:prefLabel "Späthelladisch IIIC"@de ;
+ skos:prefLabel "Late Helladic III C"@en ;
+ skos:altLabel "SH IIIC"@de ;
+ skos:altLabel "Spaethelladisch IIIC"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/z2paLntWaKJm> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/256> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/265> 
+ a skos:Concept ;
+ skos:prefLabel "Spätkykladisch I"@de ;
+ skos:prefLabel "Late Cycladic I"@en ;
+ skos:altLabel "SK I"@de ;
+ skos:altLabel "Spaetkykladisch I"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/OhCEL9ryU4HL> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/172> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/266> 
+ a skos:Concept ;
+ skos:prefLabel "Frühminoisch I"@de ;
+ skos:prefLabel "Early Minoan I"@en ;
+ skos:altLabel "FM I"@de ;
+ skos:altLabel "Fruehminoisch I"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/W4Pzs5WmUR8U> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/173> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/267> 
+ a skos:Concept ;
+ skos:prefLabel "Frühminoisch II"@de ;
+ skos:prefLabel "Early Minoan II"@en ;
+ skos:altLabel "FM II"@de ;
+ skos:altLabel "Fruehminoisch II"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/4XeWN5lpQooL> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/173> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/268> 
+ a skos:Concept ;
+ skos:prefLabel "Frühminoisch IIA"@de ;
+ skos:prefLabel "Early Minoan IIA"@en ;
+ skos:altLabel "FM IIA"@de ;
+ skos:altLabel "Fruehminoisch IIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/x5uSxZmg05qr> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/267> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/269> 
+ a skos:Concept ;
+ skos:prefLabel "Frühminoisch IIB"@de ;
+ skos:prefLabel "Early Minoan IIB"@en ;
+ skos:altLabel "FM IIB"@de ;
+ skos:altLabel "Fruehminoisch IIB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/2Rt01S20nMqq> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/267> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/270> 
+ a skos:Concept ;
+ skos:prefLabel "Frühminoisch III"@de ;
+ skos:prefLabel "Early Minoan III"@en ;
+ skos:altLabel "FM III"@de ;
+ skos:altLabel "Fruehminoisch III"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/UDNlSgJFLNoO> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/173> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/272> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch I"@de ;
+ skos:prefLabel "Middle Minoan I"@en ;
+ skos:altLabel "MM I"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/INd7rM5RESXX> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/174> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/274> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch IA"@de ;
+ skos:prefLabel "Middle Minoan IA"@en ;
+ skos:altLabel "MM IA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/72DTmZZMriHD> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/272> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/275> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch IB"@de ;
+ skos:prefLabel "Middle Minoan IB"@en ;
+ skos:altLabel "MM IB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/vGkLErraPKsL> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/272> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/276> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch II"@de ;
+ skos:prefLabel "Middle Minoan II"@en ;
+ skos:altLabel "MM II"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/p0qvojDBQkKo> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/174> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/277> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch IIA"@de ;
+ skos:prefLabel "Middle Minoan IIA"@en ;
+ skos:altLabel "MM IIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/zwAAOU6Hu2Nm> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/276> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/278> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch IIB"@de ;
+ skos:prefLabel "Middle Minoan IIB"@en ;
+ skos:altLabel "MM IIB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/PpAGOV3UBCMU> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/276> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/279> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch III"@de ;
+ skos:prefLabel "Middle Minoan III"@en ;
+ skos:altLabel "MM III"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/4AmzRtTJnBIg> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/174> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/280> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch IIIA"@de ;
+ skos:prefLabel "Middle Minoan IIIA"@en ;
+ skos:altLabel "MM IIIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/L3Ky6d0YpzMe> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/279> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/281> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelminoisch IIIB"@de ;
+ skos:prefLabel "Middle Minoan IIIB"@en ;
+ skos:altLabel "MM IIIB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/G5kuvyw9DDaX> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/279> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/282> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch I"@de ;
+ skos:prefLabel "Late Minoan I"@en ;
+ skos:altLabel "SM I"@de ;
+ skos:altLabel "Spaetminoisch I"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Ggh6F2OLrBJd> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/175> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/283> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IA"@de ;
+ skos:prefLabel "Late Minoan IA"@en ;
+ skos:altLabel "SM IA"@de ;
+ skos:altLabel "Spaetminoisch IA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/K7vWtxMoUJ14> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/282> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/284> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IB"@de ;
+ skos:prefLabel "Late Minoan IB"@en ;
+ skos:altLabel "SM IB"@de ;
+ skos:altLabel "Spaetminoisch IB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/zKxEgCZAMote> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/282> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/285> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch II"@de ;
+ skos:prefLabel "Late Minoan II"@en ;
+ skos:altLabel "SM II"@de ;
+ skos:altLabel "Spaetminoisch II"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/ZpocwkvytUpd> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/175> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/287> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch III"@de ;
+ skos:prefLabel "Late Minoan III"@en ;
+ skos:altLabel "SM III"@de ;
+ skos:altLabel "Spaetminoisch III"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/P5Z5GW8eOMbY> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/175> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/288> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IIIA"@de ;
+ skos:prefLabel "Late Minoan IIIA"@en ;
+ skos:altLabel "SM IIIA"@de ;
+ skos:altLabel "Spaetminoisch IIIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/pHRknhlqTDKh> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/287> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/290> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IIIA1"@de ;
+ skos:prefLabel "Late Minoan IIIA1"@en ;
+ skos:altLabel "SM IIIA1"@de ;
+ skos:altLabel "Spaetminoisch IIIA1"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/XVMa04OzqkyP> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/288> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/291> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IIIA2"@de ;
+ skos:prefLabel "Late Minoan IIIA2"@en ;
+ skos:altLabel "SM IIIA2"@de ;
+ skos:altLabel "Spaetminoisch IIIA2"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/eRjJwJeWpOhx> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/288> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/292> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IIIB"@de ;
+ skos:prefLabel "Late Minoan IIIB"@en ;
+ skos:altLabel "SM IIIB"@de ;
+ skos:altLabel "Spaetminoisch IIIB"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/CwQTWp2KJdpr> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/287> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/293> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IIIC"@de ;
+ skos:prefLabel "Late Minoan IIIC"@en ;
+ skos:altLabel "SM IIIC"@de ;
+ skos:altLabel "Spaetminoisch IIIC"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/wWNOmfiKSqfq> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/287> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/294> 
+ a skos:Concept ;
+ skos:prefLabel "alamannisch"@de ;
+ skos:prefLabel "Alamannic"@en ;
+ skos:altLabel "alemannisch"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/oRysjlNaQkF5> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/181> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/295> 
+ a skos:Concept ;
+ skos:prefLabel "awarisch"@de ;
+ skos:prefLabel "Avar"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/gZM469VRx0RO> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/181> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/296> 
+ a skos:Concept ;
+ skos:prefLabel "bajuwarisch"@de ;
+ skos:prefLabel "Bavarian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/D9H0YAbqkZVY> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/181> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/297> 
+ a skos:Concept ;
+ skos:prefLabel "hunnisch"@de ;
+ skos:prefLabel "Hunnic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/IjIbjrz1ImyR> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/181> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/298> 
+ a skos:Concept ;
+ skos:prefLabel "Frühbronzezeit"@de ;
+ skos:prefLabel "Early Bronze Age"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1471923> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/192> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/299> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelbronzezeit"@de ;
+ skos:prefLabel "Middle Bronze Age"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q17175310> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/192> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/300> 
+ a skos:Concept ;
+ skos:prefLabel "Spätbronzezeit"@de ;
+ skos:prefLabel "Late Bronze Age"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1758757> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/192> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/301> 
+ a skos:Concept ;
+ skos:prefLabel "Frühchalkolithikum"@de ;
+ skos:prefLabel "Early Chalcolithic"@en ;
+ skos:exactMatch <http://vocab.getty.edu/page/aat/300106751> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/193> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/302> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelchalkolithikum"@de ;
+ skos:prefLabel "Middle Chalcolithic"@en ;
+ skos:exactMatch <http://vocab.getty.edu/page/aat/300106753> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/193> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/303> 
+ a skos:Concept ;
+ skos:prefLabel "Spätchalkolithikum"@de ;
+ skos:prefLabel "Late Chalcolithic"@en ;
+ skos:exactMatch <http://vocab.getty.edu/page/aat/300106755> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/193> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/304> 
+ a skos:Concept ;
+ skos:prefLabel "Neolithikum, akeramisch"@de ;
+ skos:prefLabel "Pre-pottery Neolithic"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1190360> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/194> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/305> 
+ a skos:Concept ;
+ skos:prefLabel "Neolithikum, keramisch"@de ;
+ skos:prefLabel "Pottery Neolithic"@en ;
+ skos:exactMatch <http://vocab.getty.edu/page/aat/300263188> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/194> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/306> 
+ a skos:Concept ;
+ skos:prefLabel "Epipaläolithikum"@de ;
+ skos:prefLabel "Epipalaeolithic"@en ;
+ skos:altLabel "Epipaleolithic"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q829005> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/195> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/307> 
+ a skos:Concept ;
+ skos:prefLabel "Frühpaläolithikum"@de ;
+ skos:prefLabel "Lower Palaeolithic"@en ;
+ skos:altLabel "Lower Paleolithic"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/195> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/308> 
+ a skos:Concept ;
+ skos:prefLabel "Mittelpaläolithikum"@de ;
+ skos:prefLabel "Middle Palaeolithic"@en ;
+ skos:altLabel "Middle Paleolithic"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/195> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/309> 
+ a skos:Concept ;
+ skos:prefLabel "Spätpaläolithikum"@de ;
+ skos:prefLabel "Upper Palaeolithic"@en ;
+ skos:altLabel "Upper Paleolithic"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/195> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/310> 
+ a skos:Concept ;
+ skos:prefLabel "frühkaiserzeitlich"@de ;
+ skos:prefLabel "Early Roman Empire"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/vve7mgqkCAGE> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/198> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/311> 
+ a skos:Concept ;
+ skos:prefLabel "mittelkaiserzeitlich"@de ;
+ skos:prefLabel "High Roman Empire"@en ;
+ skos:altLabel "Middle Roman Empire"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/OTyMiCtkjqCz> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/198> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/312> 
+ a skos:Concept ;
+ skos:prefLabel "spätkaiserzeitlich"@de ;
+ skos:prefLabel "Late Roman Empire"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/7fDysWha7NKs> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/198> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/313> 
+ a skos:Concept ;
+ skos:prefLabel "frührepublikanisch"@de ;
+ skos:prefLabel "Early Roman Republic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Y863Mey70o4t> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/199> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/314> 
+ a skos:Concept ;
+ skos:prefLabel "spätrepublikanisch"@de ;
+ skos:prefLabel "Late Roman Republic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/GzPQDbfWXlR8> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/199> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/315> 
+ a skos:Concept ;
+ skos:prefLabel "Sobeknofru-Zeit"@de ;
+ skos:prefLabel "Sobekneferu"@en ;
+ skos:altLabel "Nefrusobek"@en ;
+ skos:altLabel "Nofrusobek"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q228951> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/316> 
+ a skos:Concept ;
+ skos:prefLabel "Apachnas-Zeit"@de ;
+ skos:prefLabel "Apachnan"@en ;
+ skos:altLabel "Pachnan"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/317> 
+ a skos:Concept ;
+ skos:prefLabel "Apophis-Zeit"@de ;
+ skos:prefLabel "Apepi"@en ;
+ skos:altLabel "Ipepi"@en ;
+ skos:altLabel "Apophis"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q322169> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/318> 
+ a skos:Concept ;
+ skos:prefLabel "Beon-Zeit"@de ;
+ skos:prefLabel "Sheshi"@en ;
+ skos:altLabel "Bnon"@en ;
+ skos:altLabel "Beon"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q880139> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/319> 
+ a skos:Concept ;
+ skos:prefLabel "Chajan-Zeit"@de ;
+ skos:prefLabel "Khyan"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q440496> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/320> 
+ a skos:Concept ;
+ skos:prefLabel "Chamudi-Zeit"@de ;
+ skos:prefLabel "Khamudi"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q879157> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/321> 
+ a skos:Concept ;
+ skos:prefLabel "Salitis-Zeit"@de ;
+ skos:prefLabel "Salitis"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q509679> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/209> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/322> 
+ a skos:Concept ;
+ skos:prefLabel "Amenemnisut-Zeit"@de ;
+ skos:prefLabel "Amenemnisu"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q434877> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/323> 
+ a skos:Concept ;
+ skos:prefLabel "Amenemopet-Zeit"@de ;
+ skos:prefLabel "Amenemope"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q462448> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/324> 
+ a skos:Concept ;
+ skos:prefLabel "Osochor-Zeit"@de ;
+ skos:prefLabel "Osorkon the Elder"@en ;
+ skos:altLabel "Osochor"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q708389> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/325> 
+ a skos:Concept ;
+ skos:prefLabel "Psusennes I.-Zeit"@de ;
+ skos:prefLabel "Psusennes I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q380676> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/326> 
+ a skos:Concept ;
+ skos:prefLabel "Psusennes II.-Zeit"@de ;
+ skos:prefLabel "Psusennes II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q165989> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/327> 
+ a skos:Concept ;
+ skos:prefLabel "Siamun-Zeit"@de ;
+ skos:prefLabel "Siamun"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q366097> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/328> 
+ a skos:Concept ;
+ skos:prefLabel "Smendes-Zeit"@de ;
+ skos:prefLabel "Smendes"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q336395> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/212> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/329> 
+ a skos:Concept ;
+ skos:prefLabel "Auput I.-Zeit"@de ;
+ skos:prefLabel "Iuput I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q596489> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/330> 
+ a skos:Concept ;
+ skos:prefLabel "Harsieset-Zeit"@de ;
+ skos:prefLabel "Harsiese"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/331> 
+ a skos:Concept ;
+ skos:prefLabel "Ini-Zeit"@de ;
+ skos:prefLabel "Ini"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q325744> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/332> 
+ a skos:Concept ;
+ skos:prefLabel "Osorkon I.-Zeit"@de ;
+ skos:prefLabel "Osorkon I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q515574> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/333> 
+ a skos:Concept ;
+ skos:prefLabel "Osorkon II.-Zeit"@de ;
+ skos:prefLabel "Osorkon II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q459153> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/334> 
+ a skos:Concept ;
+ skos:prefLabel "Osorkon III.-Zeit"@de ;
+ skos:prefLabel "Osorkon III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q515584> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/335> 
+ a skos:Concept ;
+ skos:prefLabel "Pemu-Zeit"@de ;
+ skos:prefLabel "Pami"@en ;
+ skos:altLabel "Pimay"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q386681> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/336> 
+ a skos:Concept ;
+ skos:prefLabel "Petubastis I.-Zeit"@de ;
+ skos:prefLabel "Pedubastis I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q548570> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/337> 
+ a skos:Concept ;
+ skos:prefLabel "Rudamun-Zeit"@de ;
+ skos:prefLabel "Rudamon"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q879190> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/338> 
+ a skos:Concept ;
+ skos:prefLabel "Schoschenq I.-Zeit"@de ;
+ skos:prefLabel "Sheshonq I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q311811> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/339> 
+ a skos:Concept ;
+ skos:prefLabel "Schoschenq II.-Zeit"@de ;
+ skos:prefLabel "Sheshonq II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q708340> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/340> 
+ a skos:Concept ;
+ skos:prefLabel "Schoschenq III.-Zeit"@de ;
+ skos:prefLabel "Sheshonq III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q878396> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/341> 
+ a skos:Concept ;
+ skos:prefLabel "Schoschenq IIIa.-Zeit"@de ;
+ skos:prefLabel "Sheshonq IIIa"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/342> 
+ a skos:Concept ;
+ skos:prefLabel "Schoschenq IV.-Zeit"@de ;
+ skos:prefLabel "Sheshonq IV"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q781765> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/343> 
+ a skos:Concept ;
+ skos:prefLabel "Schoschenq V.-Zeit"@de ;
+ skos:prefLabel "Sheshonq V"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q21694324> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/344> 
+ a skos:Concept ;
+ skos:prefLabel "Takelot I.-Zeit"@de ;
+ skos:prefLabel "Takelot I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q548623> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/345> 
+ a skos:Concept ;
+ skos:prefLabel "Takelot II.-Zeit"@de ;
+ skos:prefLabel "Takelot II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q560026> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/346> 
+ a skos:Concept ;
+ skos:prefLabel "Takelot III.-Zeit"@de ;
+ skos:prefLabel "Takelot III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q879176> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/213> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/347> 
+ a skos:Concept ;
+ skos:prefLabel "Auput II.-Zeit"@de ;
+ skos:prefLabel "Iuput II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q533344> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/214> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/348> 
+ a skos:Concept ;
+ skos:prefLabel "Osorkon IV.-Zeit"@de ;
+ skos:prefLabel "Osorkon IV"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q718214> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/214> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/349> 
+ a skos:Concept ;
+ skos:prefLabel "Petubastis II.-Zeit"@de ;
+ skos:prefLabel "Pedubastis II"@en ;
+ skos:altLabel "Pedubast II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q886043> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/214> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/350> 
+ a skos:Concept ;
+ skos:prefLabel "Psammus-Zeit"@de ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/214> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/351> 
+ a skos:Concept ;
+ skos:prefLabel "Bokchoris-Zeit"@de ;
+ skos:prefLabel "Bakenrenef"@en ;
+ skos:altLabel "Bakenranef"@en ;
+ skos:altLabel "Bocchoris"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q510515> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/215> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/352> 
+ a skos:Concept ;
+ skos:prefLabel "Tefnachte-Zeit"@de ;
+ skos:prefLabel "Tefnakht"@en ;
+ skos:altLabel "Tefnakhte"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q459201> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/215> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/353> 
+ a skos:Concept ;
+ skos:prefLabel "Amosis II.-Zeit"@de ;
+ skos:prefLabel "Ahmose II"@en ;
+ skos:altLabel "Amasis II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q312045> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/354> 
+ a skos:Concept ;
+ skos:prefLabel "Apries-Zeit"@de ;
+ skos:prefLabel "Apries"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q349291> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/355> 
+ a skos:Concept ;
+ skos:prefLabel "Kaschta-Zeit"@de ;
+ skos:prefLabel "Kashta"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q546639> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/356> 
+ a skos:Concept ;
+ skos:prefLabel "Nekaw I.-Zeit"@de ;
+ skos:prefLabel "Necho I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q455594> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/357> 
+ a skos:Concept ;
+ skos:prefLabel "Pije-Zeit"@de ;
+ skos:prefLabel "Piye"@en ;
+ skos:altLabel "Piy"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q315695> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/358> 
+ a skos:Concept ;
+ skos:prefLabel "Psametik I.-Zeit"@de ;
+ skos:prefLabel "Psamtek I"@en ;
+ skos:altLabel "Psamtik I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q328763> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/359> 
+ a skos:Concept ;
+ skos:prefLabel "Psametik II.-Zeit"@de ;
+ skos:prefLabel "Psamtek II"@en ;
+ skos:altLabel "Psamtik II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q373521> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/360> 
+ a skos:Concept ;
+ skos:prefLabel "Psametik III.-Zeit"@de ;
+ skos:prefLabel "Psamtek III"@en ;
+ skos:altLabel "Psamtik III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q316278> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/361> 
+ a skos:Concept ;
+ skos:prefLabel "Schabako-Zeit"@de ;
+ skos:prefLabel "Shabaka"@en ;
+ skos:altLabel "Shabaqo"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q365929> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/362> 
+ a skos:Concept ;
+ skos:prefLabel "Schebitku-Zeit"@de ;
+ skos:prefLabel "Shebitku"@en ;
+ skos:altLabel "Shebitqo"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q434547> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/363> 
+ a skos:Concept ;
+ skos:prefLabel "Taharqo-Zeit"@de ;
+ skos:prefLabel "Taharqo"@en ;
+ skos:altLabel "Taharqa"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q315714> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/364> 
+ a skos:Concept ;
+ skos:prefLabel "Tanotamun-Zeit"@de ;
+ skos:prefLabel "Tanutamani"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q434535> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/216> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/365> 
+ a skos:Concept ;
+ skos:prefLabel "Ahu-Zeit"@de ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/366> 
+ a skos:Concept ;
+ skos:prefLabel "Djoser-Zeit"@de ;
+ skos:prefLabel "Djoser"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q174367> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/367> 
+ a skos:Concept ;
+ skos:prefLabel "Djoserti-Zeit"@de ;
+ skos:prefLabel "Sekhemkhet"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q220256> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/368> 
+ a skos:Concept ;
+ skos:prefLabel "Hor Chabai-Zeit"@de ;
+ skos:prefLabel "Hor-Khaba"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q220320> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/369> 
+ a skos:Concept ;
+ skos:prefLabel "Nebka-Zeit"@de ;
+ skos:prefLabel "Nebka"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q889891> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/370> 
+ a skos:Concept ;
+ skos:prefLabel "Souphis-Zeit"@de ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/217> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/371> 
+ a skos:Concept ;
+ skos:prefLabel "Bicheris-Zeit"@de ;
+ skos:prefLabel "Bikheris"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q220318> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/372> 
+ a skos:Concept ;
+ skos:prefLabel "Cheops-Zeit"@de ;
+ skos:prefLabel "Khufu"@en ;
+ skos:altLabel "Cheops"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q161904> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/373> 
+ a skos:Concept ;
+ skos:prefLabel "Chephren-Zeit"@de ;
+ skos:prefLabel "Khafra"@en ;
+ skos:altLabel "Chephren"@en ;
+ skos:altLabel "Khafre"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q199861> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/374> 
+ a skos:Concept ;
+ skos:prefLabel "Djedefre-Zeit"@de ;
+ skos:prefLabel "Djedefre"@en ;
+ skos:altLabel "Djedefra"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q209397> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/375> 
+ a skos:Concept ;
+ skos:prefLabel "Mykerinos-Zeit"@de ;
+ skos:prefLabel "Menkaura"@en ;
+ skos:altLabel "Mycerinus"@en ;
+ skos:altLabel "Menkaure"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q200986> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/376> 
+ a skos:Concept ;
+ skos:prefLabel "Schepseskaf-Zeit"@de ;
+ skos:prefLabel "Shepseskaf"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q220252> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/377> 
+ a skos:Concept ;
+ skos:prefLabel "Senofru-Zeit"@de ;
+ skos:prefLabel "Sneferu"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q189371> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/378> 
+ a skos:Concept ;
+ skos:prefLabel "Thamphthis-Zeit"@de ;
+ skos:prefLabel "Thamphthis"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q204252> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/218> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/379> 
+ a skos:Concept ;
+ skos:prefLabel "Djedkare-Zeit"@de ;
+ skos:prefLabel "Djedkara"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269247> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/380> 
+ a skos:Concept ;
+ skos:prefLabel "Menkawhor-Zeit"@de ;
+ skos:prefLabel "Menkauhor"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269257> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/381> 
+ a skos:Concept ;
+ skos:prefLabel "Neferefre-Zeit"@de ;
+ skos:prefLabel "Neferefre"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269271> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/382> 
+ a skos:Concept ;
+ skos:prefLabel "Neferirkare-Zeit"@de ;
+ skos:prefLabel "Neferirkara"@en ;
+ skos:altLabel "Neferirkare"@en ;
+ skos:altLabel "Ranefer A"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q268576> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/383> 
+ a skos:Concept ;
+ skos:prefLabel "Niuserre-Zeit"@de ;
+ skos:prefLabel "Nyuserra"@en ;
+ skos:altLabel "Nyuserre"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269200> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/384> 
+ a skos:Concept ;
+ skos:prefLabel "Sahure-Zeit"@de ;
+ skos:prefLabel "Sahura"@en ;
+ skos:altLabel "Sahure"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q243692> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/385> 
+ a skos:Concept ;
+ skos:prefLabel "Schepseskare-Zeit"@de ;
+ skos:prefLabel "Shepseskara"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q268601> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/386> 
+ a skos:Concept ;
+ skos:prefLabel "Unas-Zeit"@de ;
+ skos:prefLabel "Unas"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q244985> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/387> 
+ a skos:Concept ;
+ skos:prefLabel "Userkaf-Zeit"@de ;
+ skos:prefLabel "Userkaf"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q268614> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/219> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/388> 
+ a skos:Concept ;
+ skos:prefLabel "Nemtiemsaf I.-Zeit"@de ;
+ skos:prefLabel "Nemtyemsaf I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269209> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/389> 
+ a skos:Concept ;
+ skos:prefLabel "Nemtiemsaf II.-Zeit"@de ;
+ skos:prefLabel "Nemtyemsaf II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q320908> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/390> 
+ a skos:Concept ;
+ skos:prefLabel "Nitokris"@de ;
+ skos:prefLabel "Nitiqret"@en ;
+ skos:altLabel "Nitocris"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q230774> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/391> 
+ a skos:Concept ;
+ skos:prefLabel "Pepi I.-Zeit"@de ;
+ skos:prefLabel "Pepy I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269265> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/392> 
+ a skos:Concept ;
+ skos:prefLabel "Pepi II.-Zeit"@de ;
+ skos:prefLabel "Pepy II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q6198> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/393> 
+ a skos:Concept ;
+ skos:prefLabel "Teti-Zeit"@de ;
+ skos:prefLabel "Teti"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q269285> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/394> 
+ a skos:Concept ;
+ skos:prefLabel "Userkare-Zeit"@de ;
+ skos:prefLabel "Userkara"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q258637> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/220> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/395> 
+ a skos:Concept ;
+ skos:prefLabel "Athothis-Zeit"@de ;
+ skos:prefLabel "Hor-Aha"@en ;
+ skos:altLabel "Athothis"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/396> 
+ a skos:Concept ;
+ skos:prefLabel "Bieneches-Zeit"@de ;
+ skos:prefLabel "Qa'a"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q151819> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/397> 
+ a skos:Concept ;
+ skos:prefLabel "Ita-Zeit"@de ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/398> 
+ a skos:Concept ;
+ skos:prefLabel "Iti-Zeit"@de ;
+ skos:prefLabel "Djer"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q152375> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/399> 
+ a skos:Concept ;
+ skos:prefLabel "Menes-Zeit"@de ;
+ skos:prefLabel "Menes"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q189574> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/400> 
+ a skos:Concept ;
+ skos:prefLabel "Miebis-Zeit"@de ;
+ skos:prefLabel "Anedjib"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q111079> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/401> 
+ a skos:Concept ;
+ skos:prefLabel "Semempses-Zeit"@de ;
+ skos:prefLabel "Semerkhet"@en ;
+ skos:altLabel "Semempses"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q151805> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/402> 
+ a skos:Concept ;
+ skos:prefLabel "Usaphais-Zeit"@de ;
+ skos:prefLabel "Djet"@en ;
+ skos:altLabel "Usaphais"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q151828> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/222> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/403> 
+ a skos:Concept ;
+ skos:prefLabel "Binothris-Zeit"@de ;
+ skos:prefLabel "Nynetjer"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q151824> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/404> 
+ a skos:Concept ;
+ skos:prefLabel "Boethos-Zeit"@de ;
+ skos:prefLabel "Hotepsekhemwy"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q151817> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/405> 
+ a skos:Concept ;
+ skos:prefLabel "Chasechemui-Zeit"@de ;
+ skos:prefLabel "Khasekhemwy"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q294266> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/406> 
+ a skos:Concept ;
+ skos:prefLabel "Hudjefa-Zeit"@de ;
+ skos:prefLabel "Hudjefa I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q887937> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/407> 
+ a skos:Concept ;
+ skos:prefLabel "Kaiechos-Zeit"@de ;
+ skos:prefLabel "Nebra"@en ;
+ skos:altLabel "Nebre"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q152751> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/408> 
+ a skos:Concept ;
+ skos:prefLabel "Neferkare-Zeit"@de ;
+ skos:prefLabel "Neferkare"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q450558> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/409> 
+ a skos:Concept ;
+ skos:prefLabel "Neferkasokar-Zeit"@de ;
+ skos:prefLabel "Neferkasokar"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q464248> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/410> 
+ a skos:Concept ;
+ skos:prefLabel "Periibsen-Zeit"@de ;
+ skos:prefLabel "Peribsen"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q310878> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/411> 
+ a skos:Concept ;
+ skos:prefLabel "Sethenes-Zeit"@de ;
+ skos:prefLabel "Senedj"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q297704> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/412> 
+ a skos:Concept ;
+ skos:prefLabel "Tlas-Zeit"@de ;
+ skos:prefLabel "Wadjenes"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q2538799> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/223> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/413> 
+ a skos:Concept ;
+ skos:prefLabel "Anjotef I.-Zeit"@de ;
+ skos:prefLabel "Intef I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q310881> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/414> 
+ a skos:Concept ;
+ skos:prefLabel "Anjotef II.-Zeit"@de ;
+ skos:prefLabel "Intef II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q313869> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/415> 
+ a skos:Concept ;
+ skos:prefLabel "Anjotef III.-Zeit"@de ;
+ skos:prefLabel "Intef III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q316274> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/416> 
+ a skos:Concept ;
+ skos:prefLabel "Mentuhotep I.-Zeit"@de ;
+ skos:prefLabel "Mentuhotep I"@en ;
+ skos:altLabel "Menthotpe I.-Zeit"@de ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q316271> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/417> 
+ a skos:Concept ;
+ skos:prefLabel "Mentuhotep II.-Zeit"@de ;
+ skos:prefLabel "Mentuhotep II"@en ;
+ skos:altLabel "Menthotpe II.-Zeit"@de ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q296439> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/418> 
+ a skos:Concept ;
+ skos:prefLabel "Mentuhotep III.-Zeit"@de ;
+ skos:prefLabel "Mentuhotep III"@en ;
+ skos:altLabel "Menthotpe III.-Zeit"@de ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q310278> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/419> 
+ a skos:Concept ;
+ skos:prefLabel "Mentuhotep IV.-Zeit"@de ;
+ skos:prefLabel "Mentuhotep IV"@en ;
+ skos:altLabel "Menthotpe IV.-Zeit"@de ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q313865> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/224> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/420> 
+ a skos:Concept ;
+ skos:prefLabel "Amenemhet I.-Zeit"@de ;
+ skos:prefLabel "Amenemhet I"@en ;
+ skos:altLabel "Ammenemes I.-Zeit"@de ;
+ skos:altLabel "Amenemhat I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q18771> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/421> 
+ a skos:Concept ;
+ skos:prefLabel "Amenemhet II.-Zeit"@de ;
+ skos:prefLabel "Amenemhet II"@en ;
+ skos:altLabel "Ammenemes II.-Zeit"@de ;
+ skos:altLabel "Amenemhat II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q18734> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/422> 
+ a skos:Concept ;
+ skos:prefLabel "Amenemhet III.-Zeit"@de ;
+ skos:prefLabel "Amenemhet III"@en ;
+ skos:altLabel "Ammenemes III.-Zeit"@de ;
+ skos:altLabel "Amenemhat III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q19244> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/423> 
+ a skos:Concept ;
+ skos:prefLabel "Amenemhet IV.-Zeit"@de ;
+ skos:prefLabel "Amenemhet IV"@en ;
+ skos:altLabel "Ammenemes IV.-Zeit"@de ;
+ skos:altLabel "Amenemhat IV"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q19246> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/424> 
+ a skos:Concept ;
+ skos:prefLabel "Sesostris I.-Zeit"@de ;
+ skos:prefLabel "Senusret I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q18763> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/425> 
+ a skos:Concept ;
+ skos:prefLabel "Sesostris II.-Zeit"@de ;
+ skos:prefLabel "Senusret II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q18722> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/426> 
+ a skos:Concept ;
+ skos:prefLabel "Sesostris III.-Zeit"@de ;
+ skos:prefLabel "Senusret III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q19248> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/225> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/427> 
+ a skos:Concept ;
+ skos:prefLabel "Aja-Zeit"@de ;
+ skos:prefLabel "Ay"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q146029> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/428> 
+ a skos:Concept ;
+ skos:prefLabel "Amenophis I.-Zeit"@de ;
+ skos:prefLabel "Amenhotep I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157966> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/429> 
+ a skos:Concept ;
+ skos:prefLabel "Amenophis II.-Zeit"@de ;
+ skos:prefLabel "Amenhotep II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q158052> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/430> 
+ a skos:Concept ;
+ skos:prefLabel "Amenophis III.-Zeit"@de ;
+ skos:prefLabel "Amenhotep III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q42606> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/431> 
+ a skos:Concept ;
+ skos:prefLabel "Amenophis IV.-Zeit"@de ;
+ skos:prefLabel "Amenhotep IV"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q81794> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/432> 
+ a skos:Concept ;
+ skos:prefLabel "Amosis I.-Zeit"@de ;
+ skos:prefLabel "Ahmose I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q7222> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/433> 
+ a skos:Concept ;
+ skos:prefLabel "Haremhab-Zeit"@de ;
+ skos:prefLabel "Horemheb"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157995> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/434> 
+ a skos:Concept ;
+ skos:prefLabel "Hatschepsut-Zeit"@de ;
+ skos:prefLabel "Hatshepsut"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q129234> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/435> 
+ a skos:Concept ;
+ skos:prefLabel "Semenchkare-Zeit"@de ;
+ skos:prefLabel "Smenkhkara"@en ;
+ skos:altLabel "Smenkhkare"@en ;
+ skos:altLabel "Neferneferuaten"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q158003> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/436> 
+ a skos:Concept ;
+ skos:prefLabel "Thutmosis I.-Zeit"@de ;
+ skos:prefLabel "Thutmose I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157962> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/437> 
+ a skos:Concept ;
+ skos:prefLabel "Thutmosis II.-Zeit"@de ;
+ skos:prefLabel "Thutmose II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q158025> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/438> 
+ a skos:Concept ;
+ skos:prefLabel "Thutmosis III.-Zeit"@de ;
+ skos:prefLabel "Thutmose III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157899> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/439> 
+ a skos:Concept ;
+ skos:prefLabel "Thutmosis IV.-Zeit"@de ;
+ skos:prefLabel "Thutmose IV"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157985> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/440> 
+ a skos:Concept ;
+ skos:prefLabel "Tutanchamun-Zeit"@de ;
+ skos:prefLabel "Tutankhamun"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q12154> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/226> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/441> 
+ a skos:Concept ;
+ skos:prefLabel "Amenmessu-Zeit"@de ;
+ skos:prefLabel "Amenmessu"@en ;
+ skos:altLabel "Amenmesses"@en ;
+ skos:altLabel "Amenmose"@en ;
+ skos:altLabel "Amenmesse"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q158065> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/442> 
+ a skos:Concept ;
+ skos:prefLabel "Merenptah-Zeit"@de ;
+ skos:prefLabel "Merenptah"@en ;
+ skos:altLabel "Merneptah"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q158043> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/443> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses I.-Zeit"@de ;
+ skos:prefLabel "Ramses I"@en ;
+ skos:altLabel "Ramesses I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1526> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/444> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses II.-Zeit"@de ;
+ skos:prefLabel "Ramses II"@en ;
+ skos:altLabel "Ramesses II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1523> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/445> 
+ a skos:Concept ;
+ skos:prefLabel "Sethos I.-Zeit"@de ;
+ skos:prefLabel "Seti I"@en ;
+ skos:altLabel "Sety I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q157918> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/446> 
+ a skos:Concept ;
+ skos:prefLabel "Sethos II.-Zeit"@de ;
+ skos:prefLabel "Seti II"@en ;
+ skos:altLabel "Sety II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q8048> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/447> 
+ a skos:Concept ;
+ skos:prefLabel "Siptah-Zeit"@de ;
+ skos:prefLabel "Saptah"@en ;
+ skos:altLabel "Siptah"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q158059> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/227> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/448> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses III.-Zeit"@de ;
+ skos:prefLabel "Ramses III"@en ;
+ skos:altLabel "Ramesses III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1528> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/449> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses IV.-Zeit"@de ;
+ skos:prefLabel "Ramses IV"@en ;
+ skos:altLabel "Ramesses IV"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1532> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/450> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses IX.-Zeit"@de ;
+ skos:prefLabel "Ramses IX"@en ;
+ skos:altLabel "Ramesses IX"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q4009> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/451> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses V.-Zeit"@de ;
+ skos:prefLabel "Ramses V"@en ;
+ skos:altLabel "Ramesses V"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q4064> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/452> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses VI.-Zeit"@de ;
+ skos:prefLabel "Ramses VI"@en ;
+ skos:altLabel "Ramesses VI"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q5167> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/453> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses VII.-Zeit"@de ;
+ skos:prefLabel "Ramses VII"@en ;
+ skos:altLabel "Ramesses VII"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q6215> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/454> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses VIII.-Zeit"@de ;
+ skos:prefLabel "Ramses VIII"@en ;
+ skos:altLabel "Ramesses VIII"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q8045> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/455> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses X.-Zeit"@de ;
+ skos:prefLabel "Ramses X"@en ;
+ skos:altLabel "Ramesses X"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q4026> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/456> 
+ a skos:Concept ;
+ skos:prefLabel "Ramses XI.-Zeit"@de ;
+ skos:prefLabel "Ramses XI"@en ;
+ skos:altLabel "Ramesses XI"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q313121> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/228> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/457> 
+ a skos:Concept ;
+ skos:prefLabel "Artaxerxes II.-Zeit"@de ;
+ skos:prefLabel "Artaxerxes II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q188472> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/458> 
+ a skos:Concept ;
+ skos:prefLabel "Artaxerxes-Zeit"@de ;
+ skos:prefLabel "Artaxerxes I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q189689> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/459> 
+ a skos:Concept ;
+ skos:prefLabel "Dareios I.-Zeit"@de ;
+ skos:prefLabel "Darius I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q44387> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/460> 
+ a skos:Concept ;
+ skos:prefLabel "Dareios II.-Zeit"@de ;
+ skos:prefLabel "Darius II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q202236> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/461> 
+ a skos:Concept ;
+ skos:prefLabel "Xerxes I.-Zeit"@de ;
+ skos:prefLabel "Xerxes I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q129165> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/462> 
+ a skos:Concept ;
+ skos:prefLabel "Xerxes II.-Zeit"@de ;
+ skos:prefLabel "Xerxes II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q272043> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/229> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/463> 
+ a skos:Concept ;
+ skos:prefLabel "Amyrtaios"@de ;
+ skos:prefLabel "Amyrtaios"@en ;
+ skos:altLabel "Amyrtaeus"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q318000> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/230> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/464> 
+ a skos:Concept ;
+ skos:prefLabel "Achoris-Zeit"@de ;
+ skos:prefLabel "Hakor"@en ;
+ skos:altLabel "Hakoris"@en ;
+ skos:altLabel "Achoris"@en ;
+ skos:altLabel "Hagar"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q360012> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/231> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/465> 
+ a skos:Concept ;
+ skos:prefLabel "Nepherites II.-Zeit"@de ;
+ skos:prefLabel "Nepherites II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q504873> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/231> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/466> 
+ a skos:Concept ;
+ skos:prefLabel "Nepherites-Zeit"@de ;
+ skos:prefLabel "Nepherites I"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q450994> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/231> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/467> 
+ a skos:Concept ;
+ skos:prefLabel "Psamuthis-Zeit"@de ;
+ skos:prefLabel "Psammuthis"@en ;
+ skos:altLabel "Psammuthes"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q879122> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/231> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/468> 
+ a skos:Concept ;
+ skos:prefLabel "Nektanebes-Zeit"@de ;
+ skos:prefLabel "Nectanebo I"@en ;
+ skos:altLabel "Nectanebes"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q175775> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/232> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/469> 
+ a skos:Concept ;
+ skos:prefLabel "Nektanebos-Zeit"@de ;
+ skos:prefLabel "Nectanebo II"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q313126> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/232> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/470> 
+ a skos:Concept ;
+ skos:prefLabel "Teos-Zeit"@de ;
+ skos:prefLabel "Teos"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q198688> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/232> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/471> 
+ a skos:Concept ;
+ skos:prefLabel "Arses-Zeit"@de ;
+ skos:prefLabel "Arses"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q260783> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/233> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/472> 
+ a skos:Concept ;
+ skos:prefLabel "Artaxerxes III.-Zeit"@de ;
+ skos:prefLabel "Artaxerxes III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q192867> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/233> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/473> 
+ a skos:Concept ;
+ skos:prefLabel "Chababasch-Zeit"@de ;
+ skos:prefLabel "Khababash"@en ;
+ skos:altLabel "Khabash"@en ;
+ skos:altLabel "Khabbash"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q881240> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/233> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/474> 
+ a skos:Concept ;
+ skos:prefLabel "Dareios III.-Zeit"@de ;
+ skos:prefLabel "Darius III"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q102865> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/233> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/475> 
+ a skos:Concept ;
+ skos:prefLabel "Spätminoisch IIIA"@de ;
+ skos:prefLabel "Late Minoan IIIA"@en ;
+ skos:altLabel "SM IIIA"@de ;
+ skos:altLabel "Spaetminoisch IIIA"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/pHRknhlqTDKh> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/287> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/476> 
+ a skos:Concept ;
+ skos:prefLabel "Altes Reich, hethitisch"@de ;
+ skos:prefLabel "Old Kingdom, Hittite"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/ADKp8g8Rd4WZ> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/299> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/477> 
+ a skos:Concept ;
+ skos:prefLabel "Karumzeit"@de ;
+ skos:prefLabel "Karum"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/299> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/478> 
+ a skos:Concept ;
+ skos:prefLabel "Großreich, hethitisch"@de ;
+ skos:prefLabel "New Kingdom (Empire), Hittite"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/zQku91CVLlbI> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/300> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/479> 
+ a skos:Concept ;
+ skos:prefLabel "PPN A"@de ;
+ skos:prefLabel "Pre-pottery Neolithic A"@en ;
+ skos:altLabel "PPN A"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q1047444> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/304> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/480> 
+ a skos:Concept ;
+ skos:prefLabel "PPN B"@de ;
+ skos:prefLabel "Pre-pottery Neolithic B"@en ;
+ skos:altLabel "PPN B"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q897323> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/304> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/481> 
+ a skos:Concept ;
+ skos:prefLabel "PPN C"@de ;
+ skos:prefLabel "Pre-pottery Neolithic C"@en ;
+ skos:altLabel "PPN C"@en ;
+ skos:exactMatch <https://www.wikidata.org/wiki/Q2717024> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/304> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/482> 
+ a skos:Concept ;
+ skos:prefLabel "frühkeramische Neolithikum "@de ;
+ skos:prefLabel "Early Ceramic"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/305> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/483> 
+ a skos:Concept ;
+ skos:prefLabel "spätkeramische Neolithikum "@de ;
+ skos:prefLabel "Late Ceramic"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/305> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/484> 
+ a skos:Concept ;
+ skos:prefLabel "julisch-claudisch"@de ;
+ skos:prefLabel "Julio-Claudian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/9NcJMGJLmoxO> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/310> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/485> 
+ a skos:Concept ;
+ skos:prefLabel "neronisch"@de ;
+ skos:prefLabel "Neronian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/5bvpMrURKXyE> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/310> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/486> 
+ a skos:Concept ;
+ skos:prefLabel "antoninisch"@de ;
+ skos:prefLabel "Antonine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/dZ3ERUpZtmDy> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/311> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/487> 
+ a skos:Concept ;
+ skos:prefLabel "flavisch"@de ;
+ skos:prefLabel "Flavian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/mlZjTl5TmrHV> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/311> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/488> 
+ a skos:Concept ;
+ skos:prefLabel "hadrianisch"@de ;
+ skos:prefLabel "Hadrianic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/RwGmBmSWvZHL> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/311> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/489> 
+ a skos:Concept ;
+ skos:prefLabel "severisch"@de ;
+ skos:prefLabel "Severan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/Zs0m3wO3GgJe> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/311> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/490> 
+ a skos:Concept ;
+ skos:prefLabel "traianisch"@de ;
+ skos:prefLabel "Trajanic"@en ;
+ skos:altLabel "trajanisch"@de ;
+ skos:exactMatch <https://chronontology.dainst.org/period/9DshiEVPeqWQ> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/311> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/491> 
+ a skos:Concept ;
+ skos:prefLabel "gallienisch"@de ;
+ skos:prefLabel "Gallienic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/sQi9AkYPgCmb> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/312> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/492> 
+ a skos:Concept ;
+ skos:prefLabel "nachgallienisch"@de ;
+ skos:prefLabel "Post-Gallienic"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/312> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/493> 
+ a skos:Concept ;
+ skos:prefLabel "tetrarchisch"@de ;
+ skos:prefLabel "Tetrarchic"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/rioxFiEuYtAG> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/312> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/494> 
+ a skos:Concept ;
+ skos:prefLabel "augusteisch"@de ;
+ skos:prefLabel "Augustan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/dSJD5oYSDccr> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/484> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/495> 
+ a skos:Concept ;
+ skos:prefLabel "claudisch"@de ;
+ skos:prefLabel "Claudian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/ZEK7GvmSxqyz> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/484> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/496> 
+ a skos:Concept ;
+ skos:prefLabel "tiberisch"@de ;
+ skos:prefLabel "Tiberian"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/IuZMm71sRTYh> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/484> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/497> 
+ a skos:Concept ;
+ skos:prefLabel "frühantoninisch"@de ;
+ skos:prefLabel "Early Antonine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/1dH5kfYOFE5T> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/486> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/498> 
+ a skos:Concept ;
+ skos:prefLabel "mittelantoninisch"@de ;
+ skos:prefLabel "Middle Antonine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/MKDQdW5LKYHo> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/486> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/499> 
+ a skos:Concept ;
+ skos:prefLabel "spätantoninisch"@de ;
+ skos:prefLabel "Late Antonine"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/cGrUW4bfFGlv> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/486> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/500> 
+ a skos:Concept ;
+ skos:prefLabel "frühseverisch"@de ;
+ skos:prefLabel "Early Severan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/UxzJ6VWQnnvJ> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/489> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/501> 
+ a skos:Concept ;
+ skos:prefLabel "mittelseverisch"@de ;
+ skos:prefLabel "Middle Severan"@en ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/489> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/502> 
+ a skos:Concept ;
+ skos:prefLabel "spätseverisch"@de ;
+ skos:prefLabel "Late Severan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/ZfvGCBbvOtdd> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/489> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/503> 
+ a skos:Concept ;
+ skos:prefLabel "frühaugusteisch"@de ;
+ skos:prefLabel "Early Augustan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/jMI3kojyyYgk> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/494> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
+
+<https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/504> 
+ a skos:Concept ;
+ skos:prefLabel "spätaugusteisch"@de ;
+ skos:prefLabel "Late Augustan"@en ;
+ skos:exactMatch <https://chronontology.dainst.org/period/z2IlJ6Ey2mDf> ;
+ skos:broader <https://vocabseditor.acdh.oeaw.ac.at/oeai-kulturepochen/494> ;
+ dct:source "OeAI" ; 
+ skos:inScheme <https://vocabseditor.acdh.oeaw.ac.at/vocabs/scheme/455> .
