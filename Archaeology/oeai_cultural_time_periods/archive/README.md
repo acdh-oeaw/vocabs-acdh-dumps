@@ -1,0 +1,1 @@
+Initial version came from OpenRefine, this was post-processed and imported into vocabseditor. Since then, vocabseditor is the only place to edit this vocabualry. We hold in this directory the old versions for a short time (until mid of 2023) to see, if in the post-processeding everything was okay. Also put an in-between dump from vocabseditor there.
