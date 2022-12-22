@@ -5695,7 +5695,7 @@
         "22nd Dynasty"@en .
 
 <https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/> a skos:ConceptScheme ;
-    rdfs:label "OeAI Thesaurus - Kulturepochen"@de ;
+    rdfs:label "OeAI Thesaurus - Cultural Time Periods"@en ;
     dc:creator "Micheline Welte" ;
     dc:description "Subset of OeAI Thesaurus focusing on cultural time periods"@en ;
     dc:language "de",
@@ -5706,7 +5706,7 @@
         "OeAI Thesaurus - Cultural Time Periods"@en ;
     dct:created "2022-11-23T13:27:51.338937+00:00"^^xsd:dateTime ;
     dct:license "https://creativecommons.org/licenses/by/4.0/" ;
-    dct:modified "2022-12-13T16:52:07.747500+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-20T15:59:27.157589+00:00"^^xsd:dateTime ;
     owl:versionInfo "1.0.0" ;
     skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23180>,
         <https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23181>,
