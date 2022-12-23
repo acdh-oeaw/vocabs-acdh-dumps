@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Swedish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Schwedisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Swedish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">suédois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/pi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Pali_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Pali</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Pali</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pali</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="de">ISO 639-1 Sprachcodes</rdfs:label>
+    <rdfs:label xml:lang="en">ISO 639-1 Language Codes</rdfs:label>
+    <dc:description>ISO 639-1 provides a two-letter language codes</dc:description>
+    <dc:language xml:lang="de">Deutsch</dc:language>
+    <dc:language xml:lang="de">Englisch</dc:language>
+    <dc:language xml:lang="de">Französisch</dc:language>
+    <dc:language xml:lang="en">English</dc:language>
+    <dc:language xml:lang="en">French</dc:language>
+    <dc:language xml:lang="en">German</dc:language>
+    <dc:title xml:lang="de">ISO 639-1 Sprachcodes</dc:title>
+    <dc:title xml:lang="en">ISO 639-1 Language Codes</dc:title>
+    <dct:format>application/x-turtle</dct:format>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-01</dct:issued>
+    <owl:versionInfo>2002</owl:versionInfo>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/aa"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ab"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ae"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/af"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ak"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/am"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/an"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ar"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/as"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/av"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ay"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/az"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ba"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/be"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bg"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bh"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bm"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/br"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/bs"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ca"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ce"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ch"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/co"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/cr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/cs"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/cu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/cv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/cy"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/da"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/de"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/dv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/dz"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ee"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/el"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/en"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/eo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/es"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/et"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/eu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/fa"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ff"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/fi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/fj"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/fo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/fr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/fy"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ga"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/gd"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/gl"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/gn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/gu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/gv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ha"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/he"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/hi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ho"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/hr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ht"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/hu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/hy"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/hz"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ia"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/id"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ie"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ig"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ii"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ik"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/io"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/is"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/it"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/iu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ja"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/jv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ka"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kg"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ki"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kj"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kk"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kl"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/km"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ko"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ks"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ku"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/kw"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ky"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/la"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/lb"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/lg"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/li"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ln"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/lo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/lt"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/lu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/lv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mg"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mh"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mk"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ml"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ms"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/mt"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/my"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/na"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/nb"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/nd"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ne"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ng"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/nl"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/nn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/no"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/nr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/nv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ny"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/oc"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/oj"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/om"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/or"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/os"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/pa"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/pi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/pl"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ps"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/pt"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/qu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/rm"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/rn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ro"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ru"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/rw"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sa"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sc"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sd"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/se"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sg"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/si"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sk"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sl"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sm"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/so"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sq"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ss"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/st"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/su"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sv"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/sw"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ta"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/te"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tg"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/th"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ti"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tk"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tl"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tn"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/to"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ts"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tt"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/tw"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ty"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ug"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/uk"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ur"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/uz"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/ve"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/vi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/vo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/wa"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/wo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/xh"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/yi"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/yo"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/za"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/zh"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/zu"/>
+    <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
+    <acdh:hasExtent>184</acdh:hasExtent>
+    <acdh:hasFormat>application/x-turtle</acdh:hasFormat>
+    <acdh:hasIdentifier rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active"/>
+    <acdh:hasMetaDataCreator rdf:resource="https://id.acdh.oeaw.ac.at/choffmann"/>
+    <acdh:hasRelatedDiscipline>linguistics</acdh:hasRelatedDiscipline>
+    <acdh:hasTitle xml:lang="de">ISO 639-1 Sprachcodes</acdh:hasTitle>
+    <acdh:hasTitle xml:lang="en">ISO 639-1 Language Codes</acdh:hasTitle>
+    <acdh:hasUrl rdf:resource="lang:Schema"/>
+    <acdh:hasVersion>2002</acdh:hasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/nv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Navajo_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Navajo-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Navajo,Navaho</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">navaho</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kl">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kalaallisut_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Grönländisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kalaallisut,Greenlandic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">groenlandais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/my">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Burmese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Birmanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Burmese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">birman</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tl">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tagalog_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tagalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tagalog</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tagalog</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ga">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Irish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Irisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Irish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">irlandais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sanskrit_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Sanskrit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sanskrit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sanskrit</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mk">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Macedonian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Makedonisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Macedonian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">macédonien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/xh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Xhosa_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Xhosa-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Xhosa</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">xhosa</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ta">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tamil_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tamil</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tamil</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tamoul</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Marshallese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Marschallesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Marshallese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">marshall</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/no">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Norwegian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Norwegisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Norwegian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">norvégien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ro">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Romanian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Rumänisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Romanian,Moldavian,Moldovan</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">roumain,moldave</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/am">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Amharic_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Amharisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Amharic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">amharique</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/nn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Norwegian_Nynorsk_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Nynorsk</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Norwegian Nynorsk,Nynorsk, Norwegian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">norvégien nynorsk,nynorsk, norvégien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/an">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Aragonese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Aragonesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Aragonese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">aragonais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kk">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kazakh_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kasachisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kazakh</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kazakh</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Mongolian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Mongolisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mongolian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">mongol</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/vi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Vietnamese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Vietnamesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Vietnamese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">vietnamien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/af">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Afrikaans_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Afrikaans</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Afrikaans</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">afrikaans</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ar">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Arabic_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Arabisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Arabic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">arabe</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/jv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Javanese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Javanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Javanese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">javanais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bihari_languages"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bihari (Andere)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bihari languages</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">langues biharis</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/rn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Rundi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Rundi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Rundi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rundi</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ii">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sichuan_Yi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Lalo-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sichuan Yi,Nuosu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">yi de Sichuan</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ny">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Nyanja_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Nyanja-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chichewa,Chewa,Nyanja</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">chichewa,chewa,nyanja</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ewe_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ewe-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ewe</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">éwé</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/es">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Spanish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Spanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Spanish,Castilian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">espagnol,castillan</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/eo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Esperanto_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Esperanto</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Esperanto</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">espéranto</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/it">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Italian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Italienisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Italian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">italien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ce">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Chechen_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tschetschenisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chechen</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tchétchène</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ru">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Russian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Russisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Russian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">russe</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ht">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Haitian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Haïtien (Haiti-Kreolisch)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Haitian,Haitian Creole</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">haïtien,créole haïtien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/az">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Azerbaijani_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Aserbeidschanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Azerbaijani</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">azéri</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/st">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Southern_Sotho_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Süd-Sotho-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sotho, Southern</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sotho du Sud</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/nd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/North_Ndebele_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ndebele-Sprache (Simbabwe)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ndebele, North,North Ndebele</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ndébélé du Nord</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/uz">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Uzbek_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Usbekisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Uzbek</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ouszbek</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ko">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Korean_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Koreanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Korean</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">coréen</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ur">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Urdu_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Urdu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Urdu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ourdou</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/hz">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Herero_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Herero-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Herero</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">herero</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ae">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Avestan_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Avestisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Avestan</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">avestique</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/pa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Panjabi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Pandschabi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Panjabi,Punjabi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pendjabi</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/nr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/South_Ndebele_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ndebele-Sprache (Transvaal)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ndebele, South,South Ndebele</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ndébélé du Sud</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/id">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Indonesian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bahasa Indonesia</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Indonesian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">indonésien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/cy">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Welsh_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kymrisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Welsh</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gallois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/fj">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Fijian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Fidschi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fijian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">fidjien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sl">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Slovenian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Slowenisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Slovenian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">slovène</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/br">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Breton_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bretonisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Breton</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">breton</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/so">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Somali_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Somali</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Somali</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">somali</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/gl">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Galician_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Galicisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Galician</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">galicien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/za">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Zhuang_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Zhuang</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Zhuang,Chuang</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">zhuang,chuang</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/fi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Finnish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Finnisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Finnish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">finnois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/rm">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Romansh_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Rätoromanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Romansh</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">romanche</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/km">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Central_Khmer_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kambodschanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Central Khmer</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">khmer central</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tswana_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tswana-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tswana</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tswana</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ff">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Fulah_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ful</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fulah</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">peul</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Serbian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Serbisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Serbian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">serbe</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ug">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Uighur_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Uigurisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Uighur,Uyghur</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ouïgour</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ik">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Inupiaq_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Inupik</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Inupiaq</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">inupiaq</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bs">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bosnian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bosnisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bosnian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bosniaque</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Interlingue_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Interlingue</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Interlingue,Occidental</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">interlingue</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bislama_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Beach-la-mar</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bislama</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bichlamar</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Turkish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Türkisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Turkish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">turc</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Marathi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Marathi</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Marathi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">marathe</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/fr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/French_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Französisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">French</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">français</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sango_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Sango-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sango</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sango</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/dv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Dhivehi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Maledivisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Divehi,Dhivehi,Maldivian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">maldivien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ho">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Hiri_Motu_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Hiri-Motu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hiri Motu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hiri motu</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ch">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Chamorro_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Chamorro-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chamorro</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">chamorro</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/as">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Assamese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Assamesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Assamese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">assamais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/nb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Norwegian_Bokm%C3%A5l_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bokmål</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bokmål, Norwegian,Norwegian Bokmål</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">norvégien bokmål</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/hu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Hungarian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ungarisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hungarian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hongrois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bengali_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bengali</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bengali</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bengali</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ca">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Catalan_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Katalanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Catalan,Valencian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">catalan,valencien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/zh">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Chinese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Chinesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chinese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">chinois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/cu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Church_Slavic_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kirchenslawisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Church Slavic,Old Slavonic,Church Slavonic,Old Bulgarian,Old Church Slavonic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">slavon d'église,vieux slave,slavon liturgique,vieux bulgare</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/uk">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ukrainian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ukrainisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ukrainian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ukrainien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/nl">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Dutch_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Niederländisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dutch,Flemish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">néerlandais,flamand</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ja">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Japanese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Japanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Japanese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">japonais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/hi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Hindi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Hindi</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hindi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hindi</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ml">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Malayalam_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Malayalam</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malayalam</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">malayalam</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ka">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Georgian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Georgisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Georgian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">géorgien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ku">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kurdish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kurdisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kurdish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kurde</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/lt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Lithuanian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Litauisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lithuanian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lituanien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/lv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Latvian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Lettisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Latvian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">letton</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ne">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Nepali_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Nepali</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nepali</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">népalais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/dz">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Dzongkha_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Dzongkha</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Dzongkha</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">dzongkha</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Malagasy_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Malagassi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malagasy</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">malgache</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ky">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kirghiz_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kirgisisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kirghiz,Kyrgyz</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kirghiz</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Maori_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Maori-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Maori</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">maori</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sw">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Swahili_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Swahili</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Swahili</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">swahili</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/lu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Luba-Katanga_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Luba-Katanga-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Luba-Katanga</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">luba-katanga</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kw">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Cornish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kornisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cornish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cornique</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/si">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sinhala_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Singhalesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sinhala,Sinhalese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">singhalais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/cs">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Czech_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tschechisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Czech</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tchèque</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ak">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Akan_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Akan-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Akan</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">akan</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/pt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Portuguese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Portugiesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Portuguese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">portugais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/te">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Telugu_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Telugu-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Telugu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">télougou</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/eu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Basque_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Baskisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Basque</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">basque</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/li">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Limburgan_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Limburgisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Limburgan,Limburger,Limburgish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">limbourgeois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Standard_Tibetan"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tibetisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tibetan</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tibétain</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/gv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Manx_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Manx</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Manx</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">manx,mannois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/et">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Estonian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Estnisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Estonian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">estonien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ms">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Malay_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Malaiisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malay</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">malais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/aa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Afar_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Danakil-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Afar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">afar</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/be">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Belarusian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Weißrussisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Belarusian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">biélorusse</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/fa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Persian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Persisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Persian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">persan</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ab">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Abkhazian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Abchasisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Abkhazian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">abkhaze</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/yo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Yoruba_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Yoruba-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Yoruba</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">yoruba</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bulgarian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bulgarisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bulgarian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bulgare</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tw">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Twi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Twi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Twi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">twi</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/io">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ido_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ido</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ido</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ido</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ks">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kashmiri_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kaschmiri</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kashmiri</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kashmiri</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sk">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Slovak_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Slowakisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Slovak</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">slovaque</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/is">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Icelandic_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Isländisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Icelandic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">islandais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/hr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Croatian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kroatisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Croatian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">croate</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/lb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Luxembourgish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Luxemburgisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Luxembourgish,Letzeburgesch</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">luxembourgeois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/cr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Cree_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Cree-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Cree</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">cree</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sm">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Samoan_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Samoanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Samoan</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">samoan</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ln">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Lingala_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Lingala</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lingala</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lingala</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/to">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tonga_language_(Tonga_Islands)"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tongaisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tonga (Tonga Islands)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tongan (Îles Tonga)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/rw">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kinyarwanda_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Rwanda-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kinyarwanda</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rwanda</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/or">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Odiya_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Oriya-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Oriya</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">oriya</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/de">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/German_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Deutsch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">German</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">allemand</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/av">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Avaric_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Awarisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Avaric</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">avar</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/da">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Danish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Dänisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Danish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">danois</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kj">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kuanyama_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kwanyama-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kuanyama,Kwanyama</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kuanyama,kwanyama</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/la">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Latin_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Latein</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Latin</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">latin</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ve">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Venda_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Venda-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Venda</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">venda</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/th">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Thai_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Thailändisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Thai</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">thaï</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/gd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Scottish_Gaelic_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Gälisch-Schottisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Gaelic,Scottish Gaelic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">gaélique,gaélique écossais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ay">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Aymara_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Aymará-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Aymara</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">aymara</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sardinian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Sardisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sardinian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sarde</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/co">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Corsican_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Korsisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Corsican</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">corse</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/vo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Volap%C3%BCk_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Volapük</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Volapük</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">volapük</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/bm">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bambara_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Bambara-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bambara</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bambara</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Shona_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Schona-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Shona</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">shona</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Komi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Komi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Komi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kom</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/hy">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Armenian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Armenisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Armenian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">arménien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/qu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Quechua_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Quechua-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Quechua</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">quechua</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tajik_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tadschikisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tajik</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tadjik</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/gu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Gujarati_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Gujarati-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Gujarati</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">goudjrati</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ia">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Interlingua_language_(International_Auxiliary_Language_Association)"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Interlingua</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Interlingua (International Auxiliary Language Association)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">interlingua (langue auxiliaire internationale)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/en">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/English_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Englisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">English</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">anglais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/yi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Yiddish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Jiddisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Yiddish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">yiddish</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ba">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bashkir_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Baschkirisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bashkir</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">bachkir</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ki">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kikuyu_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kikuyu-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kikuyu,Gikuyu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kikuyu</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/pl">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Polish_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Polnisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Polish</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">polonais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ng">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ndonga_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ndonga</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ndonga</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ndonga</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/wo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Wolof_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Wolof-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Wolof</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">wolof</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ti">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tigrinya_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tigrinja-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tigrinya</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tigrigna</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ty">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tahitian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tahitisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tahitian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tahitien</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/os">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ossetian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ossetisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ossetian,Ossetic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ossète</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sindhi_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Sindhi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sindhi</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sindhi</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/om">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Oromo_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Galla-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Oromo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">galla</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ts">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tsonga_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tsonga-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tsonga</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tsonga</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/lo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Lao_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Laotisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Lao</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">lao</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ps">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Pushto_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Paschtu</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Pushto,Pashto</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">pachto</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/cv">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Chuvash_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tschuwaschisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Chuvash</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tchouvache</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/su">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Sundanese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Sundanesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sundanese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">soundanais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/gn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Guarani_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Guaraní-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Guarani</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">guarani</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/fy">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Western_Frisian_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Friesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Western Frisian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">frison occidental</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/lg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ganda_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ganda-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ganda</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ganda</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/he">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Hebrew_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Hebräisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hebrew</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hébreu</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/mt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Maltese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Maltesisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Maltese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">maltais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tk">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Turkmen_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Turkmenisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Turkmen</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">turkmène</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/oj">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Ojibwa_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ojibwa-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ojibwa</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">ojibwa</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ss">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Swati_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Swasi-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Swati</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">swati</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/el">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Modern_Greek_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Neugriechisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Greek, Modern (1453-)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">grec moderne (après 1453)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kanuri_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kanuri-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kanuri</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kanouri</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/sq">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Albanian_languages"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Albanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Albanian</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">albanais</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kg">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kongo_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kongo-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kongo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kongo</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ha">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Hausa_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Haussa-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hausa</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">haoussa</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/oc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Occitan_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Okzitanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Occitan (post 1500)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">occitan (après 1500)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/se">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Northern_Sami_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Nordsaamisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Northern Sami</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">sami du Nord</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/wa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Walloon_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Wallonisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Walloon</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">wallon</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/zu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Zulu_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Zulu-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Zulu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">zoulou</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/iu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Inuktitut_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Inuktitut</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Inuktitut</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">inuktitut</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/fo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Faroese_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Färöisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Faroese</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">féroïen</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/tt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Tatar_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Tatarisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Tatar</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">tatar</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/na">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Nauru_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Nauruanisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Nauru</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">nauruan</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/kn">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Kannada_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Kannada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Kannada</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">kannada</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/iso6391/ig">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Igbo_language"/>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+    <skos:prefLabel xml:lang="de">Ibo-Sprache</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Igbo</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">igbo</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6391/Schema"/>
+  </rdf:Description>
+</rdf:RDF>
