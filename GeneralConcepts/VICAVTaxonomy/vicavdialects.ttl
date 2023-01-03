@@ -1,0 +1,1085 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/collection246> a skos:Collection ;
+    dct:created "2019-10-29T15:58:56.552922+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:59:55.081680+00:00"^^xsd:dateTime ;
+    skos:member <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16847>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16848>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16852>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322824>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322827>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323625>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323859>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324291>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324646> ;
+    skos:prefLabel "qəltu"@en ;
+    skos:scopeNote "Mesopotamian dialects"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/collection247> a skos:Collection ;
+    dct:created "2019-10-29T16:00:18.749000+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:00:18.775188+00:00"^^xsd:dateTime ;
+    skos:member <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16845>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16846>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322697> ;
+    skos:prefLabel "gilit"@en ;
+    skos:scopeNote "Mesopotamian dialects"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16821> a skos:Concept ;
+    dct:created "2019-10-29T13:02:08.111565+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T13:02:08.176831+00:00"^^xsd:dateTime ;
+    skos:altLabel "Šammar"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323197> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northern-najd" ;
+    skos:prefLabel "Northern Najd"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16822> a skos:Concept ;
+    dct:created "2019-10-29T14:13:15.242001+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:13:15.285693+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "south-western-group" ;
+    skos:prefLabel "South-western group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16823> a skos:Concept ;
+    dct:created "2019-10-29T14:13:37.294807+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:13:37.339747+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "hedjaz" ;
+    skos:prefLabel "Hedjaz"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16824> a skos:Concept ;
+    dct:created "2019-10-29T14:15:03.322378+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:15:26.762528+00:00"^^xsd:dateTime ;
+    skos:altLabel "Tihāma"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "tihama" ;
+    skos:prefLabel "Tihama"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16825> a skos:Concept ;
+    dct:created "2019-10-29T14:16:24.584529+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:16:24.624094+00:00"^^xsd:dateTime ;
+    skos:altLabel "Ḥugariyyah"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "hugariyya" ;
+    skos:prefLabel "Hugariyya"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16826> a skos:Concept ;
+    dct:created "2019-10-29T14:18:39.952307+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:18:52.072714+00:00"^^xsd:dateTime ;
+    skos:altLabel "Maḥābiša, Jabal Wašḥa"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "mahabisha-and-jabal-washha" ;
+    skos:prefLabel "Mahabisha and Jabal Washha"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16827> a skos:Concept ;
+    dct:created "2019-10-29T14:19:12.540886+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:19:25.973652+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-plains" ;
+    skos:prefLabel "Central plains"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16828> a skos:Concept ;
+    dct:created "2019-10-29T14:21:30.403739+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:38:33.435752+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "southeastern-group" ;
+    skos:prefLabel "Southeastern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16829> a skos:Concept ;
+    dct:created "2019-10-29T14:42:16.436448+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:42:16.486765+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "dathina" ;
+    skos:prefLabel "Dathina"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16830> a skos:Concept ;
+    dct:created "2019-10-29T14:42:47.374576+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:42:47.412463+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "hadramawt" ;
+    skos:prefLabel "Hadramawt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16831> a skos:Concept ;
+    dct:created "2019-10-29T14:43:06.843599+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:43:06.885120+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "dhofar" ;
+    skos:prefLabel "Dhofar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16832> a skos:Concept ;
+    dct:created "2019-10-29T15:40:53.546502+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:40:53.590135+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322550> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "southern-group" ;
+    skos:prefLabel "Southern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16833> a skos:Concept ;
+    dct:created "2019-10-29T15:41:28.386930+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:39:58.961376+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322550> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-south-group" ;
+    skos:prefLabel "Central south group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16834> a skos:Concept ;
+    dct:created "2019-10-29T15:42:49.893310+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:04:57.088729+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "syria-north" ;
+    skos:prefLabel "North"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16835> a skos:Concept ;
+    dct:created "2019-10-29T15:43:21.549545+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:43:21.609307+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "qalamun-and-damascus" ;
+    skos:prefLabel "Qalamun and Damascus"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16836> a skos:Concept ;
+    dct:created "2019-10-29T15:44:03.964237+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:44:42.117827+00:00"^^xsd:dateTime ;
+    skos:altLabel "Ḥawrān"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "hawran" ;
+    skos:prefLabel "Horan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16837> a skos:Concept ;
+    dct:created "2019-10-29T15:45:08.354377+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:45:08.395301+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324365> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-palestine" ;
+    skos:prefLabel "Central Palestine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16838> a skos:Concept ;
+    dct:created "2019-10-29T15:45:28.272812+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:45:28.314491+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324365> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "south-palestine" ;
+    skos:prefLabel "South Palestine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16839> a skos:Concept ;
+    dct:created "2019-10-29T15:48:57.788943+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:48:57.826230+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323933> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "hatay" ;
+    skos:prefLabel "Hatay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16841> a skos:Concept ;
+    dct:created "2019-10-29T15:50:36.204631+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:04:08.733264+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16840> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "jordan-north" ;
+    skos:prefLabel "North"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16842> a skos:Concept ;
+    dct:created "2019-10-29T15:50:51.735480+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:03:47.552289+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16840> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "jordan-centre" ;
+    skos:prefLabel "Centre"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16843> a skos:Concept ;
+    dct:created "2019-10-29T15:51:42.773293+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:04:24.328551+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16840> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "jordan-south" ;
+    skos:prefLabel "South"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16849> a skos:Concept ;
+    dct:created "2019-10-29T16:10:16.877385+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:10:16.915665+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324646> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "mardin-town" ;
+    skos:prefLabel "Mardin town"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16850> a skos:Concept ;
+    dct:created "2019-10-29T16:10:36.625404+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:10:36.668696+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324646> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "mardin-villages" ;
+    skos:prefLabel "Mardin villages"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16851> a skos:Concept ;
+    dct:created "2019-10-29T16:10:59.127559+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:10:59.165308+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324646> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "mhallamiyye" ;
+    skos:prefLabel "Mhallamiyye"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16853> a skos:Concept ;
+    dct:created "2019-10-31T12:44:52.365525+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:44:24.596095+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northwestern-group" ;
+    skos:prefLabel "Northwestern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16854> a skos:Concept ;
+    dct:created "2019-10-31T12:48:02.571299+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T12:49:23.181368+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322476> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "bedouin-group-1" ;
+    skos:prefLabel "Bedouin group I"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16855> a skos:Concept ;
+    dct:created "2019-10-31T12:48:15.309931+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T12:48:55.894872+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322476> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "bedouin-group-2" ;
+    skos:prefLabel "Bedouin group II"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16856> a skos:Concept ;
+    dct:created "2019-10-31T13:03:07.845889+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:03:07.891958+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322476> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "sedentary-group-1" ;
+    skos:prefLabel "Sedentary group I"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16857> a skos:Concept ;
+    dct:created "2019-10-31T13:03:45.575052+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:03:45.618681+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322476> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "sedentary-group-2" ;
+    skos:prefLabel "Sedentary group I"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16858> a skos:Concept ;
+    dct:created "2019-10-31T15:45:00.563073+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:45:00.616816+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northeastern-group" ;
+    skos:prefLabel "Northeastern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16859> a skos:Concept ;
+    dct:created "2019-10-31T15:47:55.481555+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:47:55.520135+00:00"^^xsd:dateTime ;
+    skos:altLabel "Sāḥil dialects"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "coastal-group" ;
+    skos:prefLabel "Coastal group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16860> a skos:Concept ;
+    dct:created "2019-10-31T15:56:56.746015+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:56:56.791291+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "mauritania" ;
+    skos:prefLabel "Mauritania"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16861> a skos:Concept ;
+    dct:created "2019-10-31T16:00:34.747828+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:06:34.981869+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322884> ;
+    skos:example "according to EALL Ḥassāniyya in Saharan towns like Mhamid, Tata, Goulimine, Bedouin dialects like that of the Zʿīr in the plains between Rabat and Casablanca."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "saharan-morocco" ;
+    skos:prefLabel "Saharan group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16863> a skos:Concept ;
+    dct:created "2019-10-31T16:05:20.244539+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:05:20.283081+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322884> ;
+    skos:example "dialects of Oujda, Atlantic coast south of Rabat, Casablanca, rural dialects around Fes and Sidi Kasem, Atlantic coast south of Casablanca, El Jadida, Essaouira, Marrakech, Skura, etc."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-morocco" ;
+    skos:prefLabel "Central group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16864> a skos:Concept ;
+    dct:created "2019-10-31T16:13:18.565027+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:13:18.606567+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324164> ;
+    skos:example "Tripolitania and Fezzan"@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "western-group" ;
+    skos:prefLabel "Western group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16866> a skos:Concept ;
+    dct:created "2019-11-11T09:10:15.615494+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:10:15.665043+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16865> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "chad" ;
+    skos:prefLabel "Chad"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16867> a skos:Concept ;
+    dct:created "2019-11-11T09:10:38.791456+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:10:38.835255+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16865> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "nigeria" ;
+    skos:prefLabel "Nigeria"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16868> a skos:Concept ;
+    dct:created "2019-11-11T09:11:24.773359+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:11:24.814006+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323575> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northern-sudan" ;
+    skos:prefLabel "Northern Sudan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16869> a skos:Concept ;
+    dct:created "2019-11-11T09:11:58.851464+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:11:58.900287+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323575> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "western-sudan" ;
+    skos:prefLabel "Western Sudan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16870> a skos:Concept ;
+    dct:created "2019-11-11T09:12:18.077287+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:12:18.121875+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322614> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "oases" ;
+    skos:prefLabel "Oases"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16872> a skos:Concept ;
+    dct:created "2019-11-11T09:13:58.368907+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:13:58.415791+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "eastern-delta" ;
+    skos:prefLabel "Eastern Delta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16873> a skos:Concept ;
+    dct:created "2019-11-11T09:14:18.730210+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:14:18.775921+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northeastern-delta" ;
+    skos:prefLabel "Northeastern Delta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16874> a skos:Concept ;
+    dct:created "2019-11-11T09:14:37.245505+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:14:37.284381+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322620> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "alexandria" ;
+    skos:prefLabel "Alexandria"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16875> a skos:Concept ;
+    dct:created "2019-11-11T09:15:07.191963+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:15:07.233940+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322620> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "rosetta" ;
+    skos:prefLabel "Rosetta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16876> a skos:Concept ;
+    dct:created "2019-11-11T09:15:24.422311+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:15:24.480233+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322620> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "burullus" ;
+    skos:prefLabel "Burullus"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16877> a skos:Concept ;
+    dct:created "2019-11-11T09:15:45.469918+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:15:45.509081+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "bedouin-group" ;
+    skos:prefLabel "Bedouin group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16878> a skos:Concept ;
+    dct:created "2019-11-11T09:16:01.296358+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:16:01.332665+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16871> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "cairo" ;
+    skos:prefLabel "Cairo"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16879> a skos:Concept ;
+    dct:created "2019-11-11T09:16:15.792165+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:16:15.834581+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16871> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "middle-egypt" ;
+    skos:prefLabel "Middle Egypt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16880> a skos:Concept ;
+    dct:created "2019-11-11T09:16:31.610042+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:16:31.654181+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16871> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "upper-egypt" ;
+    skos:prefLabel "Upper Egypt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322506> a skos:Concept ;
+    dct:created "2019-09-13T12:06:32.213292+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:08:39.723939+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322503> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "western-algeria" ;
+    skos:prefLabel "Western group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322553> a skos:Concept ;
+    dct:created "2019-09-13T12:06:31.219301+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:39:47.761058+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322550> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-north-group" ;
+    skos:prefLabel "Central north group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322650> a skos:Concept ;
+    dct:created "2019-09-13T12:06:21.399386+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:07:25.234942+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322503> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northern-algeria" ;
+    skos:prefLabel "Northern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322887> a skos:Concept ;
+    dct:created "2019-09-13T12:06:38.669731+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:58:47.097766+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322884> ;
+    skos:example "dialects of Tangier, Tetouan, Jbala, ancient medina of Rabat, Fes, Sefrou, Taza"@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northern-morocco" ;
+    skos:prefLabel "Northern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322964> a skos:Concept ;
+    dct:created "2019-09-13T12:06:36.450249+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T12:57:07.565613+00:00"^^xsd:dateTime ;
+    skos:altLabel "Šāwi"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323197> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "syro-mesopotamian-fringe" ;
+    skos:prefLabel "Syro-Mesopotamian fringe"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323136> a skos:Concept ;
+    dct:created "2019-09-13T12:06:30.116332+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:09:08.169896+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323575> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-sudan" ;
+    skos:prefLabel "Central Sudan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323200> a skos:Concept ;
+    dct:created "2019-09-13T12:06:36.952439+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T12:58:35.088431+00:00"^^xsd:dateTime ;
+    skos:altLabel "ˁAnaza"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323197> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-najd" ;
+    skos:prefLabel "Central Najd"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323203> a skos:Concept ;
+    dct:created "2019-09-13T12:06:39.988354+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T13:00:46.431926+00:00"^^xsd:dateTime ;
+    skos:altLabel "Eastern group"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "gulf" ;
+    skos:prefLabel "Gulf"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323297> a skos:Concept ;
+    dct:created "2019-09-13T12:06:32.840195+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:04:42.584410+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "syria-centre" ;
+    skos:prefLabel "Centre"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323357> a skos:Concept ;
+    dct:created "2019-09-13T12:06:29.949742+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:07:42.685875+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322503> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "saharan-algeria" ;
+    skos:prefLabel "Saharan group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323404> a skos:Concept ;
+    dct:created "2019-09-13T12:06:28.876689+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:29.085301+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "aden" ;
+    skos:prefLabel "Aden"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323451> a skos:Concept ;
+    dct:created "2019-09-13T12:06:22.935308+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:23.127905+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "coast" ;
+    skos:prefLabel "Coast"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323578> a skos:Concept ;
+    dct:created "2019-09-13T12:06:27.210085+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:27.382984+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323575> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "eastern-sudan" ;
+    skos:prefLabel "Eastern Sudan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323672> a skos:Concept ;
+    dct:created "2019-09-13T12:06:29.182555+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T14:15:44.757818+00:00"^^xsd:dateTime ;
+    skos:altLabel "Ṣaˁdah"@ar ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "sada-region" ;
+    skos:prefLabel "Sa’da region"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323782> a skos:Concept ;
+    dct:created "2019-09-13T12:06:35.191734+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:45:48.683317+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "southern-tunisia" ;
+    skos:prefLabel "Southern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323936> a skos:Concept ;
+    dct:created "2019-09-13T12:06:36.627302+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:49:16.487613+00:00"^^xsd:dateTime ;
+    skos:altLabel "Çukurova"@tr ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323933> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "cilicia-çukurova" ;
+    skos:prefLabel "Cilicia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324090> a skos:Concept ;
+    dct:created "2019-09-13T12:06:40.481736+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:41:52.027351+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "oases-and-steppe-dialects-1" ;
+    skos:prefLabel "Oases and Steppe"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324167> a skos:Concept ;
+    dct:created "2019-09-13T12:06:37.314559+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:40:44.381206+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324164> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northeastern-libya" ;
+    skos:prefLabel "Northeastern Libya"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324214> a skos:Concept ;
+    dct:created "2019-09-13T12:06:38.540278+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:26:19.634466+00:00"^^xsd:dateTime ;
+    skos:altLabel "Western mountains"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "western-highlands" ;
+    skos:prefLabel "Western Highlands"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324321> a skos:Concept ;
+    dct:created "2019-09-13T12:06:39.245481+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:46:31.913960+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central western-tunisia" ;
+    skos:prefLabel "Central western group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324368> a skos:Concept ;
+    dct:created "2019-09-13T12:06:26.160257+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:26.336729+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324365> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "galilee" ;
+    skos:prefLabel "Galilee"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324415> a skos:Concept ;
+    dct:created "2019-09-13T12:06:31.030809+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:31.122838+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322550> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northern-group-1" ;
+    skos:prefLabel "Northern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324509> a skos:Concept ;
+    dct:created "2019-09-13T12:06:41.787074+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:44:00.873667+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northern-tunisia" ;
+    skos:prefLabel "Northern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324539> a skos:Concept ;
+    dct:created "2019-09-13T12:06:25.591840+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T16:03:40.211517+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322503> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "eastern-group" ;
+    skos:prefLabel "Eastern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324599> a skos:Concept ;
+    dct:created "2019-09-13T12:06:21.930589+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:13:00.929161+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "central-delta" ;
+    skos:prefLabel "Central Delta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16845> a skos:Concept ;
+    dct:created "2019-10-29T16:06:55.567538+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:32:50.535866+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "iraq-north" ;
+    skos:prefLabel "North"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16846> a skos:Concept ;
+    dct:created "2019-10-29T16:07:19.536493+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:32:25.217241+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "iraq-centre" ;
+    skos:prefLabel "Centre"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16847> a skos:Concept ;
+    dct:created "2019-10-29T16:08:16.059951+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:30:47.500632+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "iraq-euphrates" ;
+    skos:prefLabel "Euphrates group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16848> a skos:Concept ;
+    dct:created "2019-10-29T16:08:41.799305+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:31:06.553764+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "iraq-kurdistan" ;
+    skos:prefLabel "Kurdistan group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16852> a skos:Concept ;
+    dct:created "2019-10-29T16:11:41.422728+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:34:55.398408+00:00"^^xsd:dateTime ;
+    skos:altLabel "Diyarbakır"@tr ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "diyarbakir-group" ;
+    skos:prefLabel "Diyarbakir group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322697> a skos:Concept ;
+    dct:created "2019-09-13T12:06:39.801471+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:33:11.093556+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "iraq-south" ;
+    skos:prefLabel "South"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322827> a skos:Concept ;
+    dct:created "2019-09-13T12:06:27.960247+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:37:20.582222+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322824> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "northeastern-syria-euphrates" ;
+    skos:prefLabel "Euphrates group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323625> a skos:Concept ;
+    dct:created "2019-09-13T12:06:28.736469+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:31:29.633208+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "tigris-group" ;
+    skos:prefLabel "Tigris group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323859> a skos:Concept ;
+    dct:created "2019-09-13T12:06:28.550812+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:35:16.369017+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "kozluk-sason-muș-group" ;
+    skos:prefLabel "Kozluk-Sason-Muș group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324291> a skos:Concept ;
+    dct:created "2019-09-13T12:06:41.046929+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:35:55.544966+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:notation "siirt-group" ;
+    skos:prefLabel "Siirt group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16865> a skos:Concept ;
+    dct:created "2019-11-11T09:07:35.598326+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:07:58.225211+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323572> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16866>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16867> ;
+    skos:notation "sudan-western-group" ;
+    skos:prefLabel "Western group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322611> a skos:Concept ;
+    dct:created "2019-09-13T12:06:32.528263+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-15T07:19:31.773098+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322458> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322614>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323572> ;
+    skos:notation "egypt-sudan" ;
+    skos:prefLabel "Egypt-Sudan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322824> a skos:Concept ;
+    dct:created "2019-09-13T12:06:36.132240+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:40:23.025898+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322821> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322827> ;
+    skos:notation "northeastern-syria-qəltu" ;
+    skos:prefLabel "Northeastern Syria"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323572> a skos:Concept ;
+    dct:created "2019-09-13T12:06:31.557335+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:31.633174+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322611> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16865>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323575> ;
+    skos:notation "sudan" ;
+    skos:prefLabel "Sudan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323933> a skos:Concept ;
+    dct:created "2019-09-13T12:06:27.646688+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:27.687597+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16839>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323936> ;
+    skos:notation "turkey" ;
+    skos:prefLabel "Turkey"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324164> a skos:Concept ;
+    dct:created "2019-09-13T12:06:23.256429+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:23.369670+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16864>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324167> ;
+    skos:notation "libya" ;
+    skos:prefLabel "Libya"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16840> a skos:Concept ;
+    dct:created "2019-10-29T15:50:01.399652+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T15:50:01.441126+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16841>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16842>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16843> ;
+    skos:notation "jordan" ;
+    skos:prefLabel "Jordan"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16871> a skos:Concept ;
+    dct:created "2019-11-11T09:12:44.293284+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:12:44.332272+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322614> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16878>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16879>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16880> ;
+    skos:notation "nile-valley" ;
+    skos:prefLabel "Nile Valley"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322614> a skos:Concept ;
+    dct:created "2019-09-13T12:06:26.624186+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:26.806064+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322611> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16870>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16871>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> ;
+    skos:notation "egypt" ;
+    skos:prefLabel "Egypt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322620> a skos:Concept ;
+    dct:created "2019-09-13T12:06:40.687994+00:00"^^xsd:dateTime ;
+    dct:modified "2019-11-11T09:14:45.267483+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16874>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16875>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16876> ;
+    skos:notation "western-delta" ;
+    skos:prefLabel "Western Delta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322821> a skos:Concept ;
+    dct:created "2019-09-13T12:06:21.568394+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-15T07:21:20.649428+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322458> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322824>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> ;
+    skos:notation "mesopotamia" ;
+    skos:prefLabel "Mesopotamia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322884> a skos:Concept ;
+    dct:created "2019-09-13T12:06:28.245609+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:28.328442+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16861>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16863>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322887> ;
+    skos:notation "morocco" ;
+    skos:prefLabel "Morocco"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323197> a skos:Concept ;
+    dct:created "2019-09-13T12:06:23.510704+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-15T07:24:04.478019+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16821>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322964>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323200> ;
+    skos:notation "northern-group-1" ;
+    skos:prefLabel "Northern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324365> a skos:Concept ;
+    dct:created "2019-09-13T12:06:27.479066+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:27.552354+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16837>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16838>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324368> ;
+    skos:notation "palestine" ;
+    skos:prefLabel "Palestine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322458> a skos:Concept ;
+    dct:created "2019-09-13T12:06:19.893827+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:20.100380+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322611>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322821> ;
+    skos:notation "east-mashriq" ;
+    skos:prefLabel "East (Mashriq)"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/vicavdialects> .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322476> a skos:Concept ;
+    dct:created "2019-09-13T12:06:41.570488+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-15T07:24:26.248305+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16854>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16855>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16856>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16857> ;
+    skos:notation "oman" ;
+    skos:prefLabel "Oman"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322503> a skos:Concept ;
+    dct:created "2019-09-13T12:06:24.112635+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:24.322023+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322506>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322650>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323357>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324539> ;
+    skos:notation "algeria" ;
+    skos:prefLabel "Algeria"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322550> a skos:Concept ;
+    dct:created "2019-09-13T12:06:38.038711+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:38.154491+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16832>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16833>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322553>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324415> ;
+    skos:notation "lebanon" ;
+    skos:prefLabel "Lebanon"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323575> a skos:Concept ;
+    dct:created "2019-09-13T12:06:24.818308+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:25.012646+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323572> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16868>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16869>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323136>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323578> ;
+    skos:notation "eastern-group" ;
+    skos:prefLabel "Eastern group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324646> a skos:Concept ;
+    dct:created "2019-09-13T12:06:27.781811+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:35:32.995770+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16849>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16850>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16851> ;
+    skos:notation "mardin-group" ;
+    skos:prefLabel "Mardin group"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> a skos:Concept ;
+    dct:created "2019-09-13T12:06:25.117620+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:25.156209+00:00"^^xsd:dateTime ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16860>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322503>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322884>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324164>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> ;
+    skos:notation "west-maghreb" ;
+    skos:prefLabel "West (Maghreb)"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/vicavdialects> .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547> a skos:Concept ;
+    dct:created "2019-09-13T12:06:39.023741+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-15T07:20:12.470521+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322458> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16840>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322550>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323933>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324365> ;
+    skos:notation "levant-1" ;
+    skos:prefLabel "Levant"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322617> a skos:Concept ;
+    dct:created "2019-09-13T12:06:25.876797+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:26.064964+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322614> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16872>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16873>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16877>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322620>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324599> ;
+    skos:notation "delta" ;
+    skos:prefLabel "Delta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322931> a skos:Concept ;
+    dct:created "2019-09-13T12:06:39.428447+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-29T16:01:04.419951+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322821> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16852>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323859>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324291>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324646> ;
+    skos:notation "anatolia" ;
+    skos:prefLabel "Anatolia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> a skos:Concept ;
+    dct:created "2019-09-13T12:06:20.985399+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-14T12:43:25.220150+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322458> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16822>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16823>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322476>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323197>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323203>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> ;
+    skos:notation "arabia" ;
+    skos:prefLabel "Arabia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323294> a skos:Concept ;
+    dct:created "2019-09-13T12:06:35.671820+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:35.738557+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322547> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16834>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16835>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16836>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323297>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323451>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324090> ;
+    skos:notation "syria" ;
+    skos:prefLabel "Syria"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323622> a skos:Concept ;
+    dct:created "2019-09-13T12:06:34.980586+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T13:31:59.346861+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322821> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16845>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16846>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16847>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16848>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322697>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323625> ;
+    skos:notation "iraq" ;
+    skos:prefLabel "Iraq"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324318> a skos:Concept ;
+    dc:source "Talmoudi 1980"@en ;
+    dct:created "2019-09-13T12:06:34.367079+00:00"^^xsd:dateTime ;
+    dct:modified "2019-10-31T15:42:15.396411+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16853>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16858>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16859>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323782>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324321>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324509> ;
+    skos:notation "tunisia" ;
+    skos:prefLabel "Tunisia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323401> a skos:Concept ;
+    dct:created "2019-09-13T12:06:30.667173+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:06:30.701086+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322771> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/vicavdialects> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16824>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16825>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16826>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16827>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16828>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16829>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16830>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/concept16831>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323404>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171323672>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171324214> ;
+    skos:notation "yemen-1" ;
+    skos:prefLabel "Yemen"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/vicavdialects> a skos:ConceptScheme ;
+    rdfs:label "VICAV Taxonomy of Arabic Dialects"@en ;
+    dc:creator "Charly Mörth" ;
+    dc:description "The „VICAV Taxonomy of Arabic Dialects“ provides a classification scheme for Arabic dialects used in the VICAV application and sources."@en ;
+    dc:language "en" ;
+    dc:publisher "Austrian Centre for Digital Humanities" ;
+    dc:title "VICAV Taxonomy of Arabic Dialects"@en ;
+    dct:created "2019-09-13T12:06:12.486628+00:00"^^xsd:dateTime ;
+    dct:modified "2019-09-13T12:09:29.874357+00:00"^^xsd:dateTime ;
+    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322458>,
+        <https://vocabs.acdh.oeaw.ac.at/vicavdialects/id171322488> .
+
