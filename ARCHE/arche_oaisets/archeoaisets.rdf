@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-07T11:15:48.188959+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T10:56:19.189507+00:00</dct:modified>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <dc:creator>Martina Trognitz</dc:creator>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition xml:lang="de">Kennzeichnet Sammlungen oder Ressourcen in ARCHE, die durch das CLARIN Virtual Language Observatory (VLO, https://vlo.clarin.eu) aggregiert werden sollen. &#13;
+Kriterien für die Aufnahme: das Objekt sollte eine Sprachressource darstellen, d.h. es sollte die definierten Kriterien der Klasse E33 'Linguistic Object' in CIDOC CRM erfüllen.&#13;
+Aus der Definition von E33: die Klasse fasst identifizierbare Ausdrucksformen natürlicher Sprache zusammen. Instanzen können in verschiedenen Formen ausgedrück werden: z.B. als geschriebener Text, aufgenommene Sprache oder Zeichensprache. Sie sind unabhängig vom Medium oder der Methode durch die sie ausgedrückt werden. Ausdrücke in formalen Sprachen, wie Computercode oder mathematische Formeln, sind nicht Teil der Klasse. (http://www.cidoc-crm.org/Entity/e33-linguistic-object/version-6.1)&#13;
+Beispiele: die Fotografie einer Inschrift, ein Textdokument, der Scan eines Textdokumentes, eine Wörterbuchdatei, ein Korpus, eine Audioaufnahme, etc.</skos:definition>
+    <skos:prefLabel xml:lang="de">CLARIN VLO</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <skos:prefLabel xml:lang="en">CLARIN VLO</skos:prefLabel>
+    <skos:notation>clarin-vlo</skos:notation>
+    <skos:definition xml:lang="en">Denotes Collections or Resources in ARCHE that should be harvested by the CLARIN Virtual Language Observatory (VLO, https://vlo.clarin.eu).&#13;
+Criteria for inclusion: the object should be a language resource, i. e. conform to the criteria defined by the Class E33 'Linguistic Object' in CIDOC CRM.&#13;
+From the definition of E33: the set comprises identifiable expressions in natural language or languages. Instances can be expressed in many ways: e.g. as written texts, recorded speech or sign language. They are independent from the medium or method by which they are expressed. Expressions in formal languages, such as computer code or mathematical formulae, are not part of the set. (http://www.cidoc-crm.org/Entity/e33-linguistic-object/version-6.1)&#13;
+Examples: a photograph of an inscription, a text document, a scan of a text document, a dictionary file, a corpus, an audio recording etc.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema">
+    <dc:description xml:lang="en">A list of sets for the OAI-PMH protocol for ARCHE. They are used to denote which object is going to be delivered to which aggregator.</dc:description>
+    <dc:description xml:lang="de">Eine Liste von Sets für das OAI-PMH-Protokoll für ARCHE. Sie werden verwendet, um zu kennzeichnen welches Objekt an welchen Aggregator ausgeliefert wird.</dc:description>
+    <dc:title xml:lang="en">ARCHE OAI Sets</dc:title>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
+    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/ariadne"/>
+    <rdfs:label xml:lang="en">ARCHE OAI Sets</rdfs:label>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-07T11:12:01.621587+00:00</dct:created>
+    <dct:rightsHolder>ACDH-CH</dct:rightsHolder>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dc:title xml:lang="de">ARCHE OAI Sets</dc:title>
+    <dc:subject>OAI-PMH</dc:subject>
+    <dc:language>German</dc:language>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:subject>Selective Harvesting</dc:subject>
+    <dc:relation rdf:resource="https://arche.acdh.oeaw.ac.at/oai"/>
+    <dc:language>English</dc:language>
+    <dc:creator>Martina Trognitz</dc:creator>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T18:17:30.830611+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T10:56:34.554808+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">Kulturpool</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <skos:notation>kulturpool</skos:notation>
+    <skos:prefLabel xml:lang="de">Kulturpool</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <skos:definition xml:lang="en">Denotes any Collections or Resources in ARCHE that should be harvested by Kulturpool (http://www.kulturpool.at) which is further harvested by Europeana (https://www.europeana.eu). &#13;
+To have a better understanding of what should be included, have a look at the Europeana Content Strategy (https://pro.europeana.eu/post/europeana-content-strategy).&#13;
+Criteria for inlcusion: relation to cultural heritage, high-quality content, open data (metadata has to point to a freely accessible digital object), relation to Europe.</skos:definition>
+    <skos:definition xml:lang="de">Kennzeichnet jene Sammlungen und Ressourchen in ARCHE, die durch Kulturpool (http://www.kulturpool.at) aggregiert werden sollten. Diese Daten werden weiter an Europeana (https://www.europeana.eu) gereicht.&#13;
+Ein besseres Verständnis über relevanten Inhalt bietet die Europeana Content Strategy (https://pro.europeana.eu/post/europeana-content-strategy).&#13;
+Kriterien für die Aufnahme: Bezug zu kulturellem Erbe, hoch qualitativer Inhalt, offene Daten (Metadaten müssen auf ein frei zugängliches digitales Objekt zeigen), Bezug zu Europa.</skos:definition>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-07T11:19:31.531393+00:00</dct:created>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dc:creator>Martina Trognitz</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archeoaisets/ariadne">
+    <skos:definition xml:lang="de">Kennzeichnet jene Sammlungen und Ressourchen in ARCHE, die durch ARIADNEplus (https://ariadne-infrastructure.eu) aggregiert werden sollen.&#13;
+Kriterien für die Aufnahme: Bezug zur Archäologie, z.B. hasRelatedDiscipline ist 6010 oder eine der Subkategorien in ÖFOS 2012 (https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/6010).</skos:definition>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-07T10:55:59.502484+00:00</dct:modified>
+    <skos:prefLabel xml:lang="de">ARIADNE</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <skos:prefLabel xml:lang="en">ARIADNE</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-06T13:58:40.992257+00:00</dct:created>
+    <dc:creator>Martina Trognitz</dc:creator>
+    <skos:definition xml:lang="en">Denotes any Collections or Resources in ARCHE that should be harvested by ARIADNEplus (https://ariadne-infrastructure.eu).&#13;
+Criteria for inclusion: relation to archaeology, e.g. hasRelatedDiscipline is 6010 or one of subcategories in ÖFOS 2012 (https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/6010).</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:notation>ariadne</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archeoaisets/openaire_data">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T10:55:59.502484+00:00</dct:modified>
+    <skos:prefLabel xml:lang="de">OpenAIRE</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <skos:prefLabel xml:lang="en">OpenAIRE</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T10:55:59.502484+00:00</dct:created>
+    <dc:creator>Mateusz Żółtak</dc:creator>
+    <skos:definition xml:lang="en">Denotes any Collections or Resources in ARCHE that should be harvested by the OpenAIRE (https://www.openaire.eu/).&#13;
+Criteria for inclusion: all top collections.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:notation>openaire_data</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-fcs">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T18:55:59.502484+00:00</dct:modified>
+    <skos:prefLabel xml:lang="de">CLARIN-FCS</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <skos:prefLabel xml:lang="en">CLARIN-FCS</skos:prefLabel>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-19T18:55:59.502484+00:00</dct:created>
+    <dc:creator>Mateusz Żółtak</dc:creator>
+    <skos:definition xml:lang="en">Denotes any Collections or Resources in ARCHE that should be aggregated by the CLARIN Federated Content Search (https://www.clarin.eu/content/federated-content-search-clarin-fcs).&#13;
+Criteria for inclusion: full text searchable resources</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/Schema"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:notation>clarin-fcs</skos:notation>
+  </rdf:Description>
+</rdf:RDF>
+

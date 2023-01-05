@@ -1,288 +1,220 @@
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://purl.org/dc/dcmitype/Collection> skos:closeMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/collection> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/Schema>
+  a skos:ConceptScheme ;
+  dc11:title "ARCHE Resource Type Category"@en, "Kategorien für Ressourcen in ARCHE"@de ;
+  rdfs:label "Resource Type Category"@en, "Kategorien für Ressourcen"@de ;
+  dc11:description "The general resource type an object can have based on controlled vocabulary of DataCite metadata schema 4.4."@en, "Der generelle Ressourcentyp für ein Objekt. Basiert auf dem kontrollierten Vokabular des Metadatenschemas von DataCite 4.4."@de ;
+  dct:modified "2022-08-08";
+  dc11:creator "Martina Trognitz" ;
+  dc11:creator "Massimiliano Carloni" ;
+  dc11:rights "https://creativecommons.org/licenses/by/4.0/" ;
+  dc11:relation <https://arche.acdh.oeaw.ac.at/browser/> ;
+  dc11:language "English", "German" ;
+  dc11:format "application/rdf+xml" ;
+  dc11:format "application/x-turtle" ;
+  owl:versionInfo "3.0.0" ;
+  skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/archecategory/3dData>, <https://vocabs.acdh.oeaw.ac.at/archecategory/annotation>, <https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual>, <https://vocabs.acdh.oeaw.ac.at/archecategory/collection>, <https://vocabs.acdh.oeaw.ac.at/archecategory/corpus>, <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset>, <https://vocabs.acdh.oeaw.ac.at/archecategory/image>, <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource>, <https://vocabs.acdh.oeaw.ac.at/archecategory/lexicalResource>, <https://vocabs.acdh.oeaw.ac.at/archecategory/model>, <https://vocabs.acdh.oeaw.ac.at/archecategory/other>, <https://vocabs.acdh.oeaw.ac.at/archecategory/physicalObject>, <https://vocabs.acdh.oeaw.ac.at/archecategory/service>, <https://vocabs.acdh.oeaw.ac.at/archecategory/software>, <https://vocabs.acdh.oeaw.ac.at/archecategory/sound>, <https://vocabs.acdh.oeaw.ac.at/archecategory/text>, <https://vocabs.acdh.oeaw.ac.at/archecategory/workflow> .
 
-<http://purl.org/dc/dcmitype/Dataset> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/3dData>
+  a skos:Concept ;
+  skos:definition "A file containing 3d Data."@en, "Eine Datei mit 3D-Daten."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "3D-Daten"@de, "3d data"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<http://purl.org/dc/dcmitype/InteractiveResource> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/annotation>
+  a skos:Concept ;
+  skos:definition "Additional/secondary structured information explicating certain aspects of the original resource (which could be of any type: text, audio, video, image, ...)."@en, "Zusätzliche/sekundäre strukturierte Informationen, die bestimmte Aspekte der ursprünglichen Ressource erläutern (die von jedem Typ sein können: Text, Audio, Video, Bild, ...)."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Annotation"@de, "Annotation"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<http://purl.org/dc/dcmitype/MovingImage> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual>
+  a skos:Concept ;
+  skos:definition "A series of visual representations imparting an impression of motion when shown in succession. May or may not include sound. May be used for films, video etc."@en, "Eine Serie visueller Darstellungen, die den Eindruck von Bewegung vermitteln, wenn sie hintereinander gezeigt werden. Kann auch Ton enthalten. Kann für Film, Video etc. verwendet werden."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Audiovisuelles Medium"@de, "Audio Visual"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/MovingImage> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<http://purl.org/dc/dcmitype/PhysicalObject> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/physicalObject> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/collection>
+  a skos:Concept ;
+  skos:definition "An aggregation of resources of various types. If a collection consists of a single type, use the single type to describe it."@en, "Eine Sammlung von Ressourcen unterschiedlicher Typen. Wenn die Sammlung aus Ressourcen eines einzigen Typs besteht, sollte dieser Ressourcentyp verwendet werden."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Datensammlung"@de, "Collection"@en ;
+  skos:closeMatch <http://purl.org/dc/dcmitype/Collection> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/collection/recordingSession> .
 
-<http://purl.org/dc/dcmitype/Service> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/service> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/collection/recordingSession>
+  a skos:Concept ;
+  skos:definition "A bundle of resources capturing different aspects of a recording, usually an audio or video file with a transcription and metadata describing the characteristics of the recording."@en, "Ein Bündel von Ressourcen, das verschiedene Aspekte einer Aufnahme erfasst, in der Regel eine Audio- oder Videodatei mit einer Transkription und Metadaten, die die Eigenschaften der Aufnahme beschreiben."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Aufnahmesession"@de, "Recording Session"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/collection> .
 
-<http://purl.org/dc/dcmitype/Software> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/software> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/corpus>
+  a skos:Concept ;
+  skos:definition "A body of data of one kind (text or audio) that can be accessed and analysed as a whole, usually via a corpus search system; corpus is in general not synonymous with or narrower than a collection, because the individual items may not be accessible separately."@en, "Ein Korpus von Daten einer Art (Text oder Audio), die als Ganzes zugänglich und analysierbar sind, üblicherweise über ein Korpussuchsystem; ein Korpus ist im Allgemeinen nicht gleichbedeutend mit oder enger als eine Datensammlung, da die einzelnen Elemente möglicherweise nicht separat zugänglich sind."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Korpus"@de, "Corpus"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<http://purl.org/dc/dcmitype/Sound> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/sound> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/dataset>
+  a skos:Concept ;
+  skos:definition "Data encoded in a defined structure. Could be data from measurements."@en, "Daten, deren Kodierung einer definierten Struktur folgt, wie etwa Daten aus Messreihen."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Datenset"@de, "Dataset"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/Dataset> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/geojson>, <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/tabular> .
 
-<http://purl.org/dc/dcmitype/StillImage> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/image> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/geojson>
+  a skos:Concept ;
+  skos:definition "Data in GeoJSON format."@en, "Daten im GeoJSON-Format."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "GeoJSON-Datenset"@de, "GeoJSON Dataset"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> .
 
-<http://purl.org/dc/dcmitype/Text> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archecategory/text> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/tabular>
+  a skos:Concept ;
+  skos:definition "Data in a tabular structure."@en, "Daten in einer tabellarischen Struktur."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Tabellarisches Datenset"@de, "Tabular Dataset"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/3dData> a skos:Concept ;
-    skos:definition "Eine Datei mit 3D-Daten."@de,
-        "A file containing 3d Data."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "3D-Daten"@de,
-        "3d data"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/image>
+  a skos:Concept ;
+  skos:definition "A visual representation other than text. Digitised or born digital images, drawings, paintings or photographs."@en, "Eine visuelle Darstellung, die nicht Text ist. Digitalisierte oder digitale Bilder, Zeichnungen, Gemälde oder Fotografien."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Bild"@de, "Image"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/StillImage> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/image/georeferenced> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/annotation> a skos:Concept ;
-    skos:definition "Zusätzliche/sekundäre strukturierte Informationen, die bestimmte Aspekte der ursprünglichen Ressource erläutern (die von jedem Typ sein können: Text, Audio, Video, Bild, ...)."@de,
-        "Additional/secondary structured information explicating certain aspects of the original resource (which could be of any type: text, audio, video, image, ...)."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Annotation"@de,
-        "Annotation"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/image/georeferenced>
+  a skos:Concept ;
+  skos:definition "An image that embeds georeferencing information, such as a GeoTIFF file."@en, "Ein Bild, das Informationen zur geografischen Referenzierung einbettet, z. B. eine GeoTIFF-Datei."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Georeferenziertes Bild"@de, "Georeferenced Image"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/image> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/collection/recordingSession> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/collection> ;
-    skos:definition "Ein Bündel von Ressourcen, das verschiedene Aspekte einer Aufnahme erfasst, in der Regel eine Audio- oder Videodatei mit einer Transkription und Metadaten, die die Eigenschaften der Aufnahme beschreiben."@de,
-        "A bundle of resources capturing different aspects of a recording, usually an audio or video file with a transcription and metadata describing the characteristics of the recording."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Aufnahmesession"@de,
-        "Recording Session"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource>
+  a skos:Concept ;
+  skos:definition "A resource requiring interaction from the user to be understood, executed, or experienced. Files that require use of a viewer or query/response portals."@en, "Eine Ressource, die eine Interaktion des Nutzers benötigt, um verstanden, ausgeführt oder erfahrbar zu werden. Dateien, die einen Viewer oder ein Abfrage/Antwort-Portal benötigen."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Interaktive Ressource"@de, "Interactive Resource"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/InteractiveResource> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource/computationalNotebook> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/corpus> a skos:Concept ;
-    skos:definition "Ein Korpus von Daten einer Art (Text oder Audio), die als Ganzes zugänglich und analysierbar sind, üblicherweise über ein Korpussuchsystem; ein Korpus ist im Allgemeinen nicht gleichbedeutend mit oder enger als eine Datensammlung, da die einzelnen Elemente möglicherweise nicht separat zugänglich sind."@de,
-        "A body of data of one kind (text or audio) that can be accessed and analysed as a whole, usually via a corpus search system; corpus is in general not synonymous with or narrower than a collection, because the individual items may not be accessible separately."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Korpus"@de,
-        "Corpus"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource/computationalNotebook>
+  a skos:Concept ;
+  skos:definition "A virtual notebook environment used for literate programming."@en, "Eine virtuelle Notebook-Umgebung für das Schreiben von Programmen."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Computational Notebook"@de, "Computational Notebook"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/geojson> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> ;
-    skos:definition "Daten im GeoJSON-Format."@de,
-        "Data in GeoJSON format."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "GeoJSON-Datenset"@de,
-        "GeoJSON Dataset"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/lexicalResource>
+  a skos:Concept ;
+  skos:definition "A set of structured items describing or defining various aspects of lexical units (words, multi-word expressions)."@en, "Eine Reihe strukturierter Elemente, die verschiedene Aspekte lexikalischer Einheiten (Wörter, Mehrwortausdrücke) beschreiben oder definieren."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Lexikalische Ressource"@de, "Lexical Resource"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/tabular> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> ;
-    skos:definition "Daten in einer tabellarischen Struktur."@de,
-        "Data in a tabular structure."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Tabellarisches Datenset"@de,
-        "Tabular Dataset"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/model>
+  a skos:Concept ;
+  skos:definition "An abstract, conceptual, graphical, mathematical or visualisation model that represents empirical objects, phenomena, or physical processes. Modelled descriptions of, for example, different aspects of languages or a molecular biology reaction chain."@en, "Ein abstraktes, konzeptuelles, grafisches, mathematisches oder visuelles Modell, das empirische Objekte, Phänomene oder physische Prozesse repräsentiert. Modellierte Beschreibungen von beispielsweise verschiedenen Aspekten natürlicher Sprache oder eine molekularbiologische Reaktionskette."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Modell"@de, "Model"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/model/grammar> , <https://vocabs.acdh.oeaw.ac.at/archecategory/model/controlledVocabulary> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/image/georeferenced> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
-    skos:definition "Ein Bild, das Informationen zur geografischen Referenzierung einbettet, z. B. eine GeoTIFF-Datei."@de,
-        "An image that embeds georeferencing information, such as a GeoTIFF file."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Georeferenziertes Bild"@de,
-        "Georeferenced Image"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/model/grammar>
+  a skos:Concept ;
+  skos:definition "A formalized description of the structure of a language."@en, "Eine formalisierte Beschreibung der Struktur einer Sprache."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Grammatik"@de, "Grammar"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/model> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource/computationalNotebook> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource> ;
-    skos:definition "Eine virtuelle Notebook-Umgebung für das Schreiben von Programmen."@de,
-        "A virtual notebook environment used for literate programming."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Computational Notebook"@de,
-        "Computational Notebook"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/model/controlledVocabulary>
+  a skos:Concept ;
+  skos:definition "An organised set of terms to provide a consistent way to describe data. Examples include subject headings, taxonomies, thesauri, and ontologies."@en, "Eine organisierte Menge von Begriffen zur einheitlichen Beschreibung von Daten. Beispiele sind Schlagwörter, Taxonomien, Thesauri und Ontologien."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Kontrolliertes Vokabular"@de, "Controlled Vocabulary"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/model> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/lexicalResource> a skos:Concept ;
-    skos:definition "Eine Reihe strukturierter Elemente, die verschiedene Aspekte lexikalischer Einheiten (Wörter, Mehrwortausdrücke) beschreiben oder definieren."@de,
-        "A set of structured items describing or defining various aspects of lexical units (words, multi-word expressions)."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Lexikalische Ressource"@de,
-        "Lexical Resource"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/other>
+  a skos:Concept ;
+  skos:definition "Choose only in case none of the other resource types applies."@en, "Nur zu verwenden, wenn kein anderer Ressourcentyp passt."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Andere"@de, "Other"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/model/controlledVocabulary> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/model> ;
-    skos:definition "Eine organisierte Menge von Begriffen zur einheitlichen Beschreibung von Daten. Beispiele sind Schlagwörter, Taxonomien, Thesauri und Ontologien."@de,
-        "An organised set of terms to provide a consistent way to describe data. Examples include subject headings, taxonomies, thesauri, and ontologies."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Kontrolliertes Vokabular"@de,
-        "Controlled Vocabulary"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/physicalObject>
+  a skos:Concept ;
+  skos:definition "An inanimate, three-dimensional object or substance. E. g. an artefact."@en, "Ein unbelebtes, dreidimensionales Objekt oder eine Substanz. Beispielsweise ein Artefakt."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Physisches Objekt"@de, "Physical Object"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/PhysicalObject> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/model/grammar> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/model> ;
-    skos:definition "Eine formalisierte Beschreibung der Struktur einer Sprache."@de,
-        "A formalized description of the structure of a language."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Grammatik"@de,
-        "Grammar"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/service>
+  a skos:Concept ;
+  skos:definition "A system that provides one or more functions of value to the end-user."@en, "Ein System, das dem Nutzer eine oder mehrere Funktionen bietet."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Service"@de, "Service"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/Service> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/other> a skos:Concept ;
-    skos:definition "Nur zu verwenden, wenn kein anderer Ressourcentyp passt."@de,
-        "Choose only in case none of the other resource types applies."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Andere"@de,
-        "Other"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/software>
+  a skos:Concept ;
+  skos:definition "A computer program in source code (text) or compiled form."@en, "Ein Computerprogramm, als Quellcode (Text) oder in kompilierter Form."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Software"@de, "Software"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/Software> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/sound/speech> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/sound> ;
-    skos:definition "Ein Stück gesprochene Sprache."@de,
-        "A piece of spoken language."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Rede"@de,
-        "Speech"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/sound>
+  a skos:Concept ;
+  skos:definition "A resource primarily intended to be heard.  E. g. an audio recording."@en, "Eine Ressource, die in erster Linie zum Anhören bestimmt ist, wie etwa eine Tonaufnahme."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Audio"@de, "Sound"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/Sound> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/sound/speech> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> a skos:Concept ;
-    skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/text> ;
-    skos:definition "Ein Text, der nach den TEI-Richtlinien kodiert ist."@de,
-        "A text that is encoded according to the TEI guidelines."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "XML/TEI"@de,
-        "XML/TEI"@en .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/sound/speech>
+  a skos:Concept ;
+  skos:definition "A piece of spoken language."@en, "Ein Stück gesprochene Sprache."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Rede"@de, "Speech"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/sound> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/workflow> a skos:Concept ;
-    skos:definition "Eine strukturierte Reihe von Schritten, die ausgeführt werden können, um ein Endergebnis zu (re-)produzieren."@de,
-        "A structured series of steps which can be executed to (re-)produce a final outcome."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Workflow, Arbeitsablauf"@de,
-        "Workflow"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/text>
+  a skos:Concept ;
+  skos:definition "A resource consisting primarily of words for reading."@en, "Eine Ressource, die hauptsächlich aus Wörtern zum Lesen besteht."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Text"@de, "Text"@en ;
+  skos:exactMatch <http://purl.org/dc/dcmitype/Text> ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual> a skos:Concept ;
-    skos:definition "Eine Serie visueller Darstellungen, die den Eindruck von Bewegung vermitteln, wenn sie hintereinander gezeigt werden. Kann auch Ton enthalten. Kann für Film, Video etc. verwendet werden."@de,
-        "A series of visual representations imparting an impression of motion when shown in succession. May or may not include sound. May be used for films, video etc."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/MovingImage> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Audiovisuelles Medium"@de,
-        "Audio Visual"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
+<https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>
+  a skos:Concept ;
+  skos:definition "A text that is encoded according to the TEI guidelines."@en, "Ein Text, der nach den TEI-Richtlinien kodiert ist."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "XML/TEI"@de, "XML/TEI"@en ;
+  skos:broader <https://vocabs.acdh.oeaw.ac.at/archecategory/text> .
 
-<https://vocabs.acdh.oeaw.ac.at/archecategory/physicalObject> a skos:Concept ;
-    skos:definition "Ein unbelebtes, dreidimensionales Objekt oder eine Substanz. Beispielsweise ein Artefakt."@de,
-        "An inanimate, three-dimensional object or substance. E. g. an artefact."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/PhysicalObject> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Physisches Objekt"@de,
-        "Physical Object"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/service> a skos:Concept ;
-    skos:definition "Ein System, das dem Nutzer eine oder mehrere Funktionen bietet."@de,
-        "A system that provides one or more functions of value to the end-user."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/Service> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Service"@de,
-        "Service"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/software> a skos:Concept ;
-    skos:definition "Ein Computerprogramm, als Quellcode (Text) oder in kompilierter Form."@de,
-        "A computer program in source code (text) or compiled form."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/Software> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:prefLabel "Software"@de,
-        "Software"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/collection> a skos:Concept ;
-    skos:closeMatch <http://purl.org/dc/dcmitype/Collection> ;
-    skos:definition "Eine Sammlung von Ressourcen unterschiedlicher Typen. Wenn die Sammlung aus Ressourcen eines einzigen Typs besteht, sollte dieser Ressourcentyp verwendet werden."@de,
-        "An aggregation of resources of various types. If a collection consists of a single type, use the single type to describe it."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/collection/recordingSession> ;
-    skos:prefLabel "Datensammlung"@de,
-        "Collection"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/image> a skos:Concept ;
-    skos:definition "Eine visuelle Darstellung, die nicht Text ist. Digitalisierte oder digitale Bilder, Zeichnungen, Gemälde oder Fotografien."@de,
-        "A visual representation other than text. Digitised or born digital images, drawings, paintings or photographs."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/StillImage> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/image/georeferenced> ;
-    skos:prefLabel "Bild"@de,
-        "Image"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource> a skos:Concept ;
-    skos:definition "Eine Ressource, die eine Interaktion des Nutzers benötigt, um verstanden, ausgeführt oder erfahrbar zu werden. Dateien, die einen Viewer oder ein Abfrage/Antwort-Portal benötigen."@de,
-        "A resource requiring interaction from the user to be understood, executed, or experienced. Files that require use of a viewer or query/response portals."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/InteractiveResource> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource/computationalNotebook> ;
-    skos:prefLabel "Interaktive Ressource"@de,
-        "Interactive Resource"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/model> a skos:Concept ;
-    skos:definition "Ein abstraktes, konzeptuelles, grafisches, mathematisches oder visuelles Modell, das empirische Objekte, Phänomene oder physische Prozesse repräsentiert. Modellierte Beschreibungen von beispielsweise verschiedenen Aspekten natürlicher Sprache oder eine molekularbiologische Reaktionskette."@de,
-        "An abstract, conceptual, graphical, mathematical or visualisation model that represents empirical objects, phenomena, or physical processes. Modelled descriptions of, for example, different aspects of languages or a molecular biology reaction chain."@en ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/model/controlledVocabulary>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/model/grammar> ;
-    skos:prefLabel "Modell"@de,
-        "Model"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/sound> a skos:Concept ;
-    skos:definition "Eine Ressource, die in erster Linie zum Anhören bestimmt ist, wie etwa eine Tonaufnahme."@de,
-        "A resource primarily intended to be heard.  E. g. an audio recording."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/Sound> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/sound/speech> ;
-    skos:prefLabel "Audio"@de,
-        "Sound"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/text> a skos:Concept ;
-    skos:definition "Eine Ressource, die hauptsächlich aus Wörtern zum Lesen besteht."@de,
-        "A resource consisting primarily of words for reading."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/Text> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
-    skos:prefLabel "Text"@de,
-        "Text"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> a skos:Concept ;
-    skos:definition "Daten, deren Kodierung einer definierten Struktur folgt, wie etwa Daten aus Messreihen."@de,
-        "Data encoded in a defined structure. Could be data from measurements."@en ;
-    skos:exactMatch <http://purl.org/dc/dcmitype/Dataset> ;
-    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
-    skos:narrower <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/geojson>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset/tabular> ;
-    skos:prefLabel "Datenset"@de,
-        "Dataset"@en ;
-    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .
-
-<https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> a skos:ConceptScheme ;
-    rdfs:label "Kategorien für Ressourcen"@de,
-        "Resource Type Category"@en ;
-    dc:creator "Martina Trognitz",
-        "Massimiliano Carloni" ;
-    dc:description "Der generelle Ressourcentyp für ein Objekt. Basiert auf dem kontrollierten Vokabular des Metadatenschemas von DataCite 4.4."@de,
-        "The general resource type an object can have based on controlled vocabulary of DataCite metadata schema 4.4."@en ;
-    dc:format "application/rdf+xml",
-        "application/x-turtle" ;
-    dc:language "English",
-        "German" ;
-    dc:relation <https://arche.acdh.oeaw.ac.at/browser/> ;
-    dc:rights "https://creativecommons.org/licenses/by/4.0/" ;
-    dc:title "Kategorien für Ressourcen in ARCHE"@de,
-        "ARCHE Resource Type Category"@en ;
-    dct:modified "2022-08-08" ;
-    owl:versionInfo "3.0.0" ;
-    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/archecategory/3dData>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/annotation>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/collection>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/corpus>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/image>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/interactiveResource>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/lexicalResource>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/model>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/other>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/physicalObject>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/service>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/software>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/sound>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/text>,
-        <https://vocabs.acdh.oeaw.ac.at/archecategory/workflow> .
-
+<https://vocabs.acdh.oeaw.ac.at/archecategory/workflow>
+  a skos:Concept ;
+  skos:definition "A structured series of steps which can be executed to (re-)produce a final outcome."@en, "Eine strukturierte Reihe von Schritten, die ausgeführt werden können, um ein Endergebnis zu (re-)produzieren."@de ;
+  skos:inScheme <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> ;
+  skos:prefLabel "Workflow, Arbeitsablauf"@de, "Workflow"@en ;
+  skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/archecategory/Schema> .

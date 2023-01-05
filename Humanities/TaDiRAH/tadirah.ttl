@@ -1,0 +1,2177 @@
+@prefix : <https://vocabs.dariah.eu/tadirah/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tadirah: <https://vocabs.dariah.eu/tadirah/> .
+@base <https://vocabs.dariah.eu/tadirah/> .
+
+<https://vocabs.dariah.eu/tadirah/> rdf:type owl:Ontology ;
+                                     owl:imports <http://www.w3.org/2004/02/skos/core> ;
+                                     <http://purl.org/dc/elements/1.1/contributor> "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande" ;
+                                     <http://purl.org/dc/elements/1.1/creator> "Luise Borek, Canan Hastik, Vera Khramova, Jonathan Geiger" ;
+                                     <http://purl.org/dc/elements/1.1/language> "English"@en ;
+                                     <http://purl.org/dc/terms/created> "2020" ;
+                                     <http://purl.org/dc/terms/description> "Taxonomy of Digital Research Activities in the Humanities was designed to help community-driven sites and projects structure their digital humanities (DH) content and gain better visibility.TaDiRAH provides terminology for DH research activities as well as scope notes that also explain the methods associated with them. Version 2.0 linked here is a complete revision and skosification of the taxonomy. For more information and additional resources, see tadirah.info"@en ;
+                                     <http://purl.org/dc/terms/issued> "2020-09-28" ;
+                                     <http://purl.org/dc/terms/license> "https://creativecommons.org/publicdomain/zero/1.0" ;
+                                     <http://purl.org/dc/terms/modified> "2021-07-22" ;
+                                     <http://purl.org/dc/terms/rightsHolder> "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson" ;
+                                     <http://purl.org/dc/terms/title> "TaDiRAH"@en ;
+                                     rdfs:label "TaDiRAH"@en ;
+                                     owl:versionInfo "2.0.1" ;
+                                     <http://www.w3.org/2004/02/skos/core#hasTopConcept> tadirah:analyzing ,
+                                                                                         tadirah:capturing ,
+                                                                                         tadirah:creating ,
+                                                                                         tadirah:disseminating ,
+                                                                                         tadirah:enriching ,
+                                                                                         tadirah:interpreting ,
+                                                                                         tadirah:storing ;
+                                     <http://xmlns.com/foaf/0.1/homepage> <http://www.tadirah.info> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/language
+<http://purl.org/dc/elements/1.1/language> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rightsHolder
+<http://purl.org/dc/terms/rightsHolder> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrower
+<http://www.w3.org/2004/02/skos/core#narrower> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#related
+<http://www.w3.org/2004/02/skos/core#related> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://vocabs.dariah.eu/tadirah/
+<https://vocabs.dariah.eu/tadirah/> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+
+
+###  https://vocabs.dariah.eu/tadirah/abstractThinking
+tadirah:abstractThinking rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:theorizing ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q25501084,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25501084&oldid=1231655399 (accessed September 4, 2020)."@en ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Abstract Thinking"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/academicPublishing
+tadirah:academicPublishing rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:publishing ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "subfield of publishing which distributes academic research and scholarship (Wikidata contributors, \"Q5246046,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5246046&oldid=1266348457 (accessed September 4, 2020)."@en ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Academic Publishing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/adding
+tadirah:adding rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+               <http://www.w3.org/2004/02/skos/core#definition> "arithmetic operation (Wikidata contributors, \"Q32043,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q32043&oldid=1268649023 (accessed September 4, 2020)."@en ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Adding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/aggregating
+tadirah:aggregating rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:gathering ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "act of collecting together physical or conceptual objects (Wikidata contributors, \"Q23007394,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23007394&oldid=1210318642 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Aggregating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/analyzing
+tadirah:analyzing rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=25> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:contentAnalysis ,
+                                                                 tadirah:networkAnalysis ,
+                                                                 tadirah:relationalAnalysis ,
+                                                                 tadirah:spatialAnalysis ,
+                                                                 tadirah:structuralAnalysis ,
+                                                                 tadirah:stylisticAnalysis ,
+                                                                 tadirah:visualAnalysis ;
+                  <http://www.w3.org/2004/02/skos/core#note> "analyzing  refers to the activity of examining any kind of information from collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi"@it ,
+                                                                  "Analyse"@de ,
+                                                                  "Analyse"@fr ,
+                                                                  "Analyzing"@en ,
+                                                                  "Análise"@pt ,
+                                                                  "Análisis"@es ,
+                                                                  "Анализа"@sr ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/annotating
+tadirah:annotating rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:enriching ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=22&/annotating> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:associating ,
+                                                                  tadirah:audioAnnotation ,
+                                                                  tadirah:contextualizing ,
+                                                                  tadirah:encoding ,
+                                                                  tadirah:georeferencing ,
+                                                                  tadirah:highlighting ,
+                                                                  tadirah:linkedOpenData ,
+                                                                  tadirah:namedEntityRecognition ,
+                                                                  tadirah:posTagging ,
+                                                                  tadirah:segmenting ,
+                                                                  tadirah:tagging ,
+                                                                  tadirah:visualAnnotation ;
+                   <http://www.w3.org/2004/02/skos/core#note> "annotating  refers to the activity of making information about a digital object explicit by adding notes, metadata, keywords, tags or links to a digitized representation or to an annotation file associated with it. This can be in the form of explanatory annotations that comments or contextualize a passage, annotations that make structural or linguistic information explicit, as linked open data making the relationships between objects machine-readable, or in the case of general metadata, adding information about the object as a whole."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Annotating"@en ,
+                                                                   "Annotation"@fr ,
+                                                                   "Annotazione"@it ,
+                                                                   "Annotieren"@de ,
+                                                                   "Anotación"@es ,
+                                                                   "Anotação"@pt ,
+                                                                   "Анотирање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/archiving
+tadirah:archiving rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:gathering ,
+                                                                tadirah:storing ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=38&/archiving> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:cataloging ,
+                                                                 tadirah:collecting ,
+                                                                 tadirah:dataIngestion ,
+                                                                 tadirah:scanning ,
+                                                                 tadirah:webScraping ;
+                  <http://www.w3.org/2004/02/skos/core#note> "archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Archivage"@fr ,
+                                                                  "Archiviazione"@it ,
+                                                                  "Archivieren"@de ,
+                                                                  "Archiving"@en ,
+                                                                  "Архивирање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/associate
+tadirah:associate rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:contextualizing ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q2868277,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2868277&oldid=1256900973 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Associate"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/associating
+tadirah:associating rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847960,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847960&oldid=1270669574 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Associating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/audioAnnotation
+tadirah:audioAnnotation rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847703,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847703&oldid=1270667708 (accessed September 4, 2020)."@en ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Audio Annotation"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/audioConferencing
+tadirah:audioConferencing rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:communicating ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Audio Conferencing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/audioRecording
+tadirah:audioRecording rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> tadirah:recording ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "mechanical or digital record of a series of audio events (Wikidata contributors, \"Q3302947,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3302947&oldid=1254901544 (accessed September 4, 2020)."@en ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Audio Recording"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/authorshipAttribution
+tadirah:authorshipAttribution rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#broader> tadirah:stylisticAnalysis ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                              <http://www.w3.org/2004/02/skos/core#note> "authorship attribution means the theory and method of determining the author of a given piece of work, e.g. a text by appropriate characterization of stylistic and thematic features."@en ;
+                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Authorship Attribution"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/bitStreamPreservation
+tadirah:bitStreamPreservation rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                              <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                              <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847577,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847577&oldid=1270666738 (accessed September 4, 2020)."@en ;
+                              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                              <http://www.w3.org/2004/02/skos/core#prefLabel> "Bit Stream Preservation"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/blogging
+tadirah:blogging rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:publishing ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "action of writing articles or maintaining a weblog (Wikidata contributors, \"Q21124681,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21124681&oldid=1262333720 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Blogging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/browsing
+tadirah:browsing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:discovering ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "exploratory use of an information system (Wikidata contributors, \"Q516508,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q516508&oldid=1169408380 (accessed July 30, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Browsing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/capturing
+tadirah:capturing rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=7> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:converting ,
+                                                                 tadirah:dataRecognition ,
+                                                                 tadirah:discovering ,
+                                                                 tadirah:extracting ,
+                                                                 tadirah:gathering ,
+                                                                 tadirah:imaging ,
+                                                                 tadirah:recording ,
+                                                                 tadirah:transcribing ;
+                  <http://www.w3.org/2004/02/skos/core#note> "capturing generally refers to the activity of creating digital surrogates of real world objects, or expressing existing artifacts in a digital representation. This refers basically to learning and noticing something (as in discovering) and could be enhanced by a manual process (as in transcribing) or an automated procedure (as in imaging, data recognition or recording). This also includes aggregating resources, information and data (as in gathering)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Acquisition"@fr ,
+                                                                  "Acquisizione"@it ,
+                                                                  "Captura"@es ,
+                                                                  "Captura"@pt ,
+                                                                  "Capturing"@en ,
+                                                                  "Erfassen"@de ,
+                                                                  "Захватање"@sr ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/cataloging
+tadirah:cataloging rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:archiving ,
+                                                                 tadirah:gathering ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "process of listing information resources for inclusion in a database (Wikidata contributors, \"Q3535655,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3535655&oldid=1256785269 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Cataloging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/clusterAnalysis
+tadirah:clusterAnalysis rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:relationalAnalysis ,
+                                                                      tadirah:stylisticAnalysis ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) (Wikidata contributors, \"Q622825,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q622825&oldid=1212288392 (accessed July 30, 2020)."@en ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Cluster Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/coOccurrence
+tadirah:coOccurrence rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:contextualizing ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#note> "co-occurrence indicates the semantic proximity or an idiomatic expression of text corpora, based on the statistical-linguistic frequency of occurrence of at least two terms in a certain order."@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Co-Occurrence"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/collaborating
+tadirah:collaborating rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ;
+                      <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=43&/collaboration> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#narrower> tadirah:discussing ,
+                                                                     tadirah:organizing ,
+                                                                     tadirah:socialNetworking ;
+                      <http://www.w3.org/2004/02/skos/core#note> "collaborating  is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive digital research environments, but can also happen around more specific activities, such as communication or sharing of resources."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Colaboración"@es ,
+                                                                      "Colaboração"@pt ,
+                                                                      "Collaborating"@en ,
+                                                                      "Collaboration"@fr ,
+                                                                      "Collaborazione"@it ,
+                                                                      "Kollaboration"@de ,
+                                                                      "Колаборација/Сарадња"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/collating
+tadirah:collating rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:gathering ,
+                                                                tadirah:relationalAnalysis ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#note> "collating describes the activity of comparing two or more versions of written or spoken natural language data by aligning them into alphabetical or numerical order to identify similarities and differences. "@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Collating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/collecting
+tadirah:collecting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:archiving ,
+                                                                 tadirah:gathering ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "purposefully gathering items (Wikidata contributors, \"Q208165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q208165&oldid=1249560517 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Collecting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/collocationAnalysis
+tadirah:collocationAnalysis rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> tadirah:structuralAnalysis ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                            <http://www.w3.org/2004/02/skos/core#note> "analysis of recurrent co-occurrences of two or more words in language."@en ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Collocation Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/commenting
+tadirah:commenting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=44&/commenting> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:contextualizing ,
+                                                                  tadirah:expressingOpinion ;
+                   <http://www.w3.org/2004/02/skos/core#note> "commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Comentario"@es ,
+                                                                   "Comentário"@pt ,
+                                                                   "Commentaire"@fr ,
+                                                                   "Commenting"@en ,
+                                                                   "Commento"@it ,
+                                                                   "Kommentieren"@de ,
+                                                                   "Стављање коментара"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/communicating
+tadirah:communicating rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ;
+                      <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=45&/communicating> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#narrower> tadirah:audioConferencing ,
+                                                                     tadirah:eMailing ,
+                                                                     tadirah:instantMessaging ,
+                                                                     tadirah:microblogging ,
+                                                                     tadirah:textMessaging ,
+                                                                     tadirah:videoConference ;
+                      <http://www.w3.org/2004/02/skos/core#note> "communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Communicating"@en ,
+                                                                      "Communication"@fr ,
+                                                                      "Comunicación"@es ,
+                                                                      "Comunicazione"@it ,
+                                                                      "Comunicação"@pt ,
+                                                                      "Kommunizieren"@de ,
+                                                                      "Комуницирање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/comparing
+tadirah:comparing rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:relationalAnalysis ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98845331,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845331&oldid=1270639313 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Comparing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/compiling
+tadirah:compiling rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:converting ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "translation of code written in a higher-level programming language to a lower-level form (Wikidata contributors, \"Q56248166,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56248166&oldid=1230644647 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Compiling"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/conceptualizing
+tadirah:conceptualizing rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:theorizing ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#note> "conceptualizing means the simplification, specification and formalization of an abstract idea, principle or part of the world in mind, speech, text or even in images. This design activity initially focuses on developing a common understanding of projects, topics, objects and elements and their relationship to one another."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Conceptualizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/concordance
+tadirah:concordance rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:structuralAnalysis ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "list of words or terms in a published book (Wikidata contributors, \"Q839018,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q839018&oldid=1228232199 (accessed July 30, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Concordance"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/contentAnalysis
+tadirah:contentAnalysis rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=26&/content-analysis> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#narrower> tadirah:discourseAnalysis ,
+                                                                       tadirah:identifying ,
+                                                                       tadirah:informationRetrieval ,
+                                                                       tadirah:machineLearning ,
+                                                                       tadirah:namedEntityRecognition ,
+                                                                       tadirah:sentimentAnalysis ,
+                                                                       tadirah:tagging ,
+                                                                       tadirah:topicModeling ;
+                        <http://www.w3.org/2004/02/skos/core#note> "content analysis includes researching/studying aspects of objects relating to their meaning, such as identifying concepts or meaningful units."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi Contenutistica"@it ,
+                                                                        "Analyse de contenu"@fr ,
+                                                                        "Análise de conteúdo"@pt ,
+                                                                        "Análisis de contenido"@es ,
+                                                                        "Content Analysis"@en ,
+                                                                        "Inhaltsanalyse"@de ,
+                                                                        "Анализа садржаја"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/contextualizing
+tadirah:contextualizing rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                                      tadirah:commenting ,
+                                                                      tadirah:interpreting ;
+                        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=34&/contextualizing> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#narrower> tadirah:associate ,
+                                                                       tadirah:coOccurrence ,
+                                                                       tadirah:integrating ,
+                                                                       tadirah:mapping ,
+                                                                       tadirah:semantification ;
+                        <http://www.w3.org/2004/02/skos/core#note> "contextualizing  refers to  creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Contestualizzazione"@it ,
+                                                                        "Contextualisation"@fr ,
+                                                                        "Contextualización"@es ,
+                                                                        "Contextualização"@pt ,
+                                                                        "Contextualizing"@en ,
+                                                                        "Kontextualisieren"@de ,
+                                                                        "Контекстуализовање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/contrastiveAnalysis
+tadirah:contrastiveAnalysis rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> tadirah:stylisticAnalysis ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q614959,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q614959&oldid=1118155497 (accessed September 4, 2020)."@en ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Contrastive Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/converting
+tadirah:converting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=8&/conversion> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:compiling ,
+                                                                  tadirah:lemmatizing ,
+                                                                  tadirah:naturalLanguageProcessing ,
+                                                                  tadirah:parsing ,
+                                                                  tadirah:transcoding ;
+                   <http://www.w3.org/2004/02/skos/core#note> "converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it may involve mapping one metadata schema to another."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Conversion"@fr ,
+                                                                   "Conversione"@it ,
+                                                                   "Conversión"@es ,
+                                                                   "Conversão"@pt ,
+                                                                   "Converting"@en ,
+                                                                   "Konvertieren"@de ,
+                                                                   "Конвертовање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/correcting
+tadirah:correcting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataCleansing ,
+                                                                 tadirah:editing ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98848041,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848041&oldid=1270670016 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Correcting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/creating
+tadirah:creating rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=15&/2_creation> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#narrower> tadirah:designing ,
+                                                                tadirah:programming ,
+                                                                tadirah:translating ,
+                                                                tadirah:webDevelopment ,
+                                                                tadirah:writing ;
+                 <http://www.w3.org/2004/02/skos/core#note> "creating generally refers to an achievement of producing born-digital objects as an own contribution, rather than creating an output by capturing and digitizing existing analog objects or enrichment of information. Creating can involve writing or translating natural language texts or could also concern other forms of expressions, such as creating an executable code (programming), composing a musical score, creating an image, or developing any design (designing) for any media or implementing these design concepts (web development)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Creación"@es ,
+                                                                 "Creating"@en ,
+                                                                 "Creazione"@it ,
+                                                                 "Criação"@pt ,
+                                                                 "Création"@fr ,
+                                                                 "Erzeugen"@de ,
+                                                                 "Стварање"@sr ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/cropping
+tadirah:cropping rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "to remove unwanted outer parts of an image (Wikidata contributors, \"Q785116,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q785116&oldid=1110149634 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Cropping"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/crowdsourcing
+tadirah:crowdsourcing rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ;
+                      <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=46&/crowdsourcing> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#narrower> tadirah:gamification ,
+                                                                     tadirah:userGeneratedContent ;
+                      <http://www.w3.org/2004/02/skos/core#note> "crowdsourcing refers to the paradigm of user-generated content by an open, large and constantly growing group of contributors in a collaborative and collective web context, applied here to the domain of digital humanities research."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Cooperazione Collettiva"@it ,
+                                                                      "Crowdsourcing"@de ,
+                                                                      "Crowdsourcing"@en ,
+                                                                      "Crowdsourcing"@fr ,
+                                                                      "Прибављање малих новчаних прилога од великог броја људи"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataCleansing
+tadirah:dataCleansing rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:enriching ;
+                      <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=23&/cleanup> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#narrower> tadirah:correcting ,
+                                                                     tadirah:debugging ,
+                                                                     tadirah:improving ,
+                                                                     tadirah:removing ;
+                      <http://www.w3.org/2004/02/skos/core#note> "data cleansing involves improving the quality of an existing digital object. This could include correcting errors in a written text, errors in OCR results or  debugging code."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Bereinigen"@de ,
+                                                                      "Data Cleansing"@en ,
+                                                                      "Limpeza de dados"@pt ,
+                                                                      "Limpieza de datos"@es ,
+                                                                      "Nettoyage"@fr ,
+                                                                      "Pulizia"@it ,
+                                                                      "Чишћење"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataIngestion
+tadirah:dataIngestion rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:archiving ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847455,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847455&oldid=1270665713 (accessed September 4, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Ingestion"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataMapping
+tadirah:dataMapping rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:modeling ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "process of linking data objects in distinct models (Wikidata contributors, \"Q2330408,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2330408&oldid=1185372641 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Mapping"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataMining
+tadirah:dataMining rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:extracting ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning (Wikidata contributors, \"Q172491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q172491&oldid=1268899513 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Mining"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataRecognition
+tadirah:dataRecognition rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=9&/data-recognition> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#narrower> tadirah:encoding ,
+                                                                       tadirah:opticalCharacterRecognition ,
+                                                                       tadirah:opticalMusicRecognition ,
+                                                                       tadirah:preprocessing ;
+                        <http://www.w3.org/2004/02/skos/core#note> "data recognition, e.g. optical character recognition (OCR), refers to the process of treating the immediate products of digital data capturing (recording or imaging), such as digital facsimiles of texts or of music score, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Recognition"@en ,
+                                                                        "Datenerkennung"@de ,
+                                                                        "Reconhecimento de dados"@pt ,
+                                                                        "Reconnaissance de données"@fr ,
+                                                                        "Reconocimiento de datos"@es ,
+                                                                        "Riconoscimento dei Dati"@it ,
+                                                                        "Препознавање података"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/dataVisualization
+tadirah:dataVisualization rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:visualAnalysis ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "creation and study of the visual representation of data (Wikidata contributors, \"Q6504956,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6504956&oldid=1258700005 (accessed September 4, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Visualization"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/debugging
+tadirah:debugging rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataCleansing ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system (Wikidata contributors, \"Q845566,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q845566&oldid=1240856516 (accessed July 30, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Debugging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/defining
+tadirah:defining rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:theorizing ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "statement that attaches a meaning to a term (Wikidata contributors, \"Q101072,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q101072&oldid=1267587775 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Defining"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/description
+tadirah:description rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "text for clarification; one of four rhetorical modes (Wikidata contributors, \"Q1200750,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1200750&oldid=1266102146 (accessed September 5, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Description"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/designing
+tadirah:designing rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:creating ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=16&/designing> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:diagramming ,
+                                                                 tadirah:drawing ,
+                                                                 tadirah:wireframing ;
+                  <http://www.w3.org/2004/02/skos/core#note> "designing refers to the development of a user or a graphical interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, user interaction, participation and usability aspects where a person’s perceptions and needs of the practical dimensions such as utility, ease of use, and efficiency of the system are taken into consideration."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Design"@de ,
+                                                                  "Design"@fr ,
+                                                                  "Design"@pt ,
+                                                                  "Designing"@en ,
+                                                                  "Diseño"@es ,
+                                                                  "Progettazione"@it ,
+                                                                  "Дизајнирање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/diagramming
+tadirah:diagramming rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:designing ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98845265,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845265&oldid=1270638355 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diagramming"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/digitalObjectIdentifier
+tadirah:digitalObjectIdentifier rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#altLabel> "DOI"@en ;
+                                <http://www.w3.org/2004/02/skos/core#broader> tadirah:identifying ;
+                                <http://www.w3.org/2004/02/skos/core#definition> "character string used as a permanent identifier for a digital object, in a format controlled by the International DOI Foundation (Wikidata contributors, \"Q25670,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25670&oldid=1280060100 (accessed September 24, 2020)."@en ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Digital Object Identifier"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/digitalPublishing
+tadirah:digitalPublishing rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:publishing ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q1224844,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1224844&oldid=573797951 (accessed September 4, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Digital Publishing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/discourseAnalysis
+tadirah:discourseAnalysis rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:contentAnalysis ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "generic term for the analysis of social, language policy or historiographical discourse phenomena (Wikidata contributors, \"Q1129466,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1129466&oldid=1269534863 (accessed September 4, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Discourse Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/discovering
+tadirah:discovering rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=10&/discovering> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#narrower> tadirah:browsing ,
+                                                                   tadirah:exploration ,
+                                                                   tadirah:informationRetrieval ,
+                                                                   tadirah:querying ,
+                                                                   tadirah:searching ;
+                    <http://www.w3.org/2004/02/skos/core#note> "discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest."@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Discovering"@en ,
+                                                                    "Découverte"@fr ,
+                                                                    "Entdecken"@de ,
+                                                                    "Localización"@es ,
+                                                                    "Localização"@pt ,
+                                                                    "Scoperta"@it ,
+                                                                    "Проналажење"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/discussing
+tadirah:discussing rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:collaborating ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847226,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847226&oldid=1270663604 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Discussing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/disseminating
+tadirah:disseminating rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=42&/7_dissemination> ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#narrower> tadirah:collaborating ,
+                                                                     tadirah:commenting ,
+                                                                     tadirah:communicating ,
+                                                                     tadirah:crowdsourcing ,
+                                                                     tadirah:publishing ,
+                                                                     tadirah:sharing ,
+                                                                     tadirah:teaching ;
+                      <http://www.w3.org/2004/02/skos/core#note> "disseminating refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing (publishing and commenting) and sharing (collaborating, crowdsourcing, and communicating) of data using a variety of methods and techniques including the application of linked open data."@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Difusión"@es ,
+                                                                      "Difusão"@pt ,
+                                                                      "Disseminating"@en ,
+                                                                      "Dissemination"@de ,
+                                                                      "Dissémination"@fr ,
+                                                                      "Divulgazione"@it ,
+                                                                      "Дисеминација"@sr ;
+                      <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/distanceMeasures
+tadirah:distanceMeasures rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:stylisticAnalysis ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "definitions for distance between two objects or events in the universe (Wikidata contributors, \"Q1344778,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1344778&oldid=1172224550 (accessed July 30, 2020)."@en ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Distance Measures"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/drawing
+tadirah:drawing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:designing ;
+                <http://www.w3.org/2004/02/skos/core#definition> "visual artwork in two-dimensional medium (Wikidata contributors, \"Q93184,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q93184&oldid=1269736568 (accessed September 4, 2020)."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Drawing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/eMailing
+tadirah:eMailing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:communicating ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q386274,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q386274&oldid=855343099 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "E-mailing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/editing
+tadirah:editing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:enriching ;
+                <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=24&/editing> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#narrower> tadirah:adding ,
+                                                               tadirah:correcting ,
+                                                               tadirah:cropping ,
+                                                               tadirah:formatting ,
+                                                               tadirah:merging ,
+                                                               tadirah:modifying ,
+                                                               tadirah:subtracting ,
+                                                               tadirah:supplementing ,
+                                                               tadirah:videoEditing ;
+                <http://www.w3.org/2004/02/skos/core#note> "editing refers to adding, correcting, condensating, organizing or in other form modifying information of a specific object with the intention to complete and finalize it by making structural, layout-related, semantic, or other scholarly explicit inline or stand-off markup."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Bearbeiten"@de ,
+                                                                "Edición"@es ,
+                                                                "Editare"@it ,
+                                                                "Editing"@en ,
+                                                                "Edição"@pt ,
+                                                                "Édition"@fr ,
+                                                                "Уређивање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/emulation
+tadirah:emulation rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "system that emulates a real system such that the behavior closely resembles the behavior of the real system (Wikidata contributors, \"Q202871,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q202871&oldid=1159572399 (accessed July 30, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Emulation"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/encoding
+tadirah:encoding rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                               tadirah:dataRecognition ,
+                                                               tadirah:programming ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "process of creating a message for transmission (Wikidata contributors, \"Q5375490,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5375490&oldid=1224419731 (accessed July 30, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Encoding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/enriching
+tadirah:enriching rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=21> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:annotating ,
+                                                                 tadirah:dataCleansing ,
+                                                                 tadirah:editing ;
+                  <http://www.w3.org/2004/02/skos/core#note> "enriching refers to the activity of annotating, editing, or cleaning information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Anreichern"@de ,
+                                                                  "Arricchimento"@it ,
+                                                                  "Enriching"@en ,
+                                                                  "Enrichissement"@fr ,
+                                                                  "Enriquecimento"@pt ,
+                                                                  "Enriquecimiento"@es ,
+                                                                  "Обогаћивање"@sr ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/explanation
+tadirah:explanation rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:theorizing ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "set of statements constructed to describe a set of facts (Wikidata contributors, \"Q7958,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7958&oldid=1255429522 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Explanation"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/exploration
+tadirah:exploration rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:discovering ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "act of searching or traveling around a terrain for the purpose of discovery (Wikidata contributors, \"Q6502154,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6502154&oldid=1238428839 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploration"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/expressingOpinion
+tadirah:expressingOpinion rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:commenting ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#note> "expressing opinion refers to the activity of conveying one's feelings and/or thoughts about something to someone in writing or orally. Hereby existing opinions can be agreed or disagreed with, thus stimulating a discourse."@en ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Expressing Opinion"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/extracting
+tadirah:extracting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:dataMining ,
+                                                                  tadirah:informationMining ,
+                                                                  tadirah:knowledgeDiscovery ,
+                                                                  tadirah:knowledgeExtraction ;
+                   <http://www.w3.org/2004/02/skos/core#note> "extracting refers to the process to distill structured information from texts, images or other machine-readable digital documents of a certain domain not necessarily in a human understandable form. Information extraction, knowledge extraction, knowledge discovery, information mining and data mining are methodologically similar. The activity of extracting also concerns processing human language texts by means of natural language processing (NLP)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Extracting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/finding
+tadirah:finding rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:organizing ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q28195064,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28195064&oldid=559043572 (accessed September 4, 2020)."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Finding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/formatting
+tadirah:formatting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98848248,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848248&oldid=1270671201 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Formatting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/gamification
+tadirah:gamification rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:crowdsourcing ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "the use of game thinking and game mechanics in non-game contexts to engage users in solving problems (Wikidata contributors, \"Q1067402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1067402&oldid=1233709490 (accessed July 30, 2020)."@en ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Gamification"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/gathering
+tadirah:gathering rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=11&/gathering> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:aggregating ,
+                                                                 tadirah:archiving ,
+                                                                 tadirah:cataloging ,
+                                                                 tadirah:collating ,
+                                                                 tadirah:collecting ,
+                                                                 tadirah:preserving ,
+                                                                 tadirah:webCrawling ,
+                                                                 tadirah:webScraping ;
+                  <http://www.w3.org/2004/02/skos/core#note> "gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Collecte"@fr ,
+                                                                  "Gathering"@en ,
+                                                                  "Raccolta"@it ,
+                                                                  "Recolección"@es ,
+                                                                  "Recolección"@pt ,
+                                                                  "Sammeln"@de ,
+                                                                  "Прикупљање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/genreRecognition
+tadirah:genreRecognition rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:stylisticAnalysis ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#note> "genre recognition refers to methods and technologies for analyzing pieces of art (e.g. literature, music, film), extracting and classifying features to associate them with different genres automatically or semi-automatically."@en ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Genre Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/georeferencing
+tadirah:georeferencing rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                                     tadirah:spatialAnalysis ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "identification of something to locations in physical space (Wikidata contributors, \"Q772007,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q772007&oldid=1240907550 (accessed September 4, 2020)."@en ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Georeferencing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/graphicsProgramming
+tadirah:graphicsProgramming rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> tadirah:programming ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98845304,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845304&oldid=1270638847 (accessed September 4, 2020)."@en ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Graphics Programming"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/highlighting
+tadirah:highlighting rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847905,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847905&oldid=1270669260 (accessed September 4, 2020)."@en ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Highlighting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/identifier
+tadirah:identifier rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:identifying ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "name that identifies either a unique object or a unique class of objects (Wikidata contributors, \"Q853614,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q853614&oldid=1265951822 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Identifier"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/identifying
+tadirah:identifying rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:contentAnalysis ,
+                                                                  tadirah:networkAnalysis ,
+                                                                  tadirah:relationalAnalysis ,
+                                                                  tadirah:storing ;
+                    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=39&/identifying> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#narrower> tadirah:digitalObjectIdentifier ,
+                                                                   tadirah:identifier ,
+                                                                   tadirah:namingConvention ,
+                                                                   tadirah:persistentIdentifier ,
+                                                                   tadirah:uniformResourceIdentifier ;
+                    <http://www.w3.org/2004/02/skos/core#note> "identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers such as a word, number, letter, symbol, or any combination to objects of enquiry or to any kind of digital object."@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Identification"@fr ,
+                                                                    "Identificazione"@it ,
+                                                                    "Identifizieren"@de ,
+                                                                    "Identifying"@en ,
+                                                                    "Идентификовање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/imaging
+tadirah:imaging rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=12&/imaging> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#narrower> tadirah:photographing ,
+                                                               tadirah:scanning ;
+                <http://www.w3.org/2004/02/skos/core#note> "imaging refers to capturing texts, images, artifacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Bilderfassung"@de ,
+                                                                "Captura em formato de imagem"@pt ,
+                                                                "Captura en formato imagen"@es ,
+                                                                "Gestione delle Immagini"@it ,
+                                                                "Imagerie"@fr ,
+                                                                "Imaging"@en ,
+                                                                "Усликавање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/improving
+tadirah:improving rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataCleansing ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "process of a thing moving from one state to another that is considered to be better, usually through some action intended to bring about that better state (Wikidata contributors, \"Q21255975,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21255975&oldid=1264546813 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Improving"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/informationMining
+tadirah:informationMining rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:extracting ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847165&oldid=1270662707 (accessed September 4, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Information Mining"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/informationRetrieval
+tadirah:informationRetrieval rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#broader> tadirah:contentAnalysis ,
+                                                                           tadirah:discovering ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "activity of obtaining information resources relevant to an information need from a collection of information resources (Wikidata contributors, \"Q816826,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q816826&oldid=1228359828 (accessed July 30, 2020)."@en ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Information Retrieval"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/instantMessaging
+tadirah:instantMessaging rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:communicating ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "form of communication over the Internet (Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Instant Messaging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/integrating
+tadirah:integrating rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:contextualizing ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847635,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847635&oldid=1270667187 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Integrating"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/interpreting
+tadirah:interpreting rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=33&/5_interpretation> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#narrower> tadirah:contextualizing ,
+                                                                    tadirah:modeling ,
+                                                                    tadirah:theorizing ;
+                     <http://www.w3.org/2004/02/skos/core#note> "interpreting is the activity of explaining and ascribing the intended meaning to phenomena observed in analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis. It refers to processes opening up the discussed phenomenon to a wider debate (contextualisation), of deductive and inductive reasoning (theorizing), or  formalizing specific aspects (modeling)."@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Interpretación"@es ,
+                                                                     "Interpretation"@de ,
+                                                                     "Interpretazione"@it ,
+                                                                     "Interpretação"@pt ,
+                                                                     "Interpreting"@en ,
+                                                                     "Interprétation"@fr ,
+                                                                     "Тумачење"@sr ;
+                     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/knowledgeDiscovery
+tadirah:knowledgeDiscovery rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:extracting ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847144,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847144&oldid=1270662396 (accessed September 4, 2020)."@en ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Knowledge Discovery"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/knowledgeExtraction
+tadirah:knowledgeExtraction rdf:type owl:NamedIndividual ,
+                                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+                            <http://www.w3.org/2004/02/skos/core#broader> tadirah:extracting ;
+                            <http://www.w3.org/2004/02/skos/core#definition> "creation of knowledge from structured and unstructured sources (Wikidata contributors, \"Q1582085,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1582085&oldid=1235011290 (accessed September 4, 2020)."@en ;
+                            <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Knowledge Extraction"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/lemmatizing
+tadirah:lemmatizing rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:converting ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q2554325,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2554325&oldid=1114054839 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Lemmatizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/lettering
+tadirah:lettering rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:writing ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "creation of hand-drawn letters in graphic design and typography (Wikidata contributors, \"Q5538738,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5538738&oldid=1222349737 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Lettering"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/linkedOpenData
+tadirah:linkedOpenData rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#altLabel> "LOD"@en ;
+                       <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                                     tadirah:publishing ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "linked data available under an open license (Wikidata contributors, \"Q18692990,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q18692990&oldid=1229182996 (accessed July 30, 2020)."@en ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Linked Open Data"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/machineLearning
+tadirah:machineLearning rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "ML"@en ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:contentAnalysis ,
+                                                                      tadirah:relationalAnalysis ,
+                                                                      tadirah:structuralAnalysis ,
+                                                                      tadirah:stylisticAnalysis ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "branch of statistics and computer science, which studies algorithms and architectures that learn from observed facts (Wikidata contributors, \"Q2539,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30, 2020)."@en ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Machine Learning"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/managing
+tadirah:managing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:organizing ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "influence or authority over something; process of directing the operation of a device, system, or process (Wikidata contributors, \"Q29017603,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q29017603&oldid=1238420285 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Managing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/mapping
+tadirah:mapping rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:contextualizing ,
+                                                              tadirah:visualAnalysis ;
+                <http://www.w3.org/2004/02/skos/core#definition> "binary relation which is left-total (defined on all its input set) (Wikidata contributors, \"Q370502,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q370502&oldid=1183603611 (accessed September 4, 2020)."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Mapping"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/merging
+tadirah:merging rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98848337,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848337&oldid=1270671768 (accessed September 4, 2020)."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Merging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/microblogging
+tadirah:microblogging rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:communicating ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "broadcast medium (Wikidata contributors, \"Q92438,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q92438&oldid=1237465325 (accessed September 4, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Microblogging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/migration
+tadirah:migration rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another (Wikidata contributors, \"Q1932543,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1932543&oldid=1212596075 (accessed July 30, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Migration"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/mindMapping
+tadirah:mindMapping rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:visualAnalysis ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98846887,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846887&oldid=1270658470 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Mind Mapping"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/modeling
+tadirah:modeling rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:interpreting ;
+                 <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=35&/modeling> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#narrower> tadirah:dataMapping ,
+                                                                tadirah:transformation ;
+                 <http://www.w3.org/2004/02/skos/core#note> "modeling refers to creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modeling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Further it refers to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema."@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Modelagem"@pt ,
+                                                                 "Modeling"@en ,
+                                                                 "Modelización"@es ,
+                                                                 "Modelizzazione"@it ,
+                                                                 "Modellieren"@de ,
+                                                                 "Modélisation"@fr ,
+                                                                 "Моделовање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/modifying
+tadirah:modifying rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98848358,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848358&oldid=1270671956 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Modifying"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/namedEntityRecognition
+tadirah:namedEntityRecognition rdf:type owl:NamedIndividual ,
+                                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+                               <http://www.w3.org/2004/02/skos/core#altLabel> "NER"@en ;
+                               <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                                             tadirah:contentAnalysis ,
+                                                                             tadirah:networkAnalysis ,
+                                                                             tadirah:spatialAnalysis ;
+                               <http://www.w3.org/2004/02/skos/core#definition> "extraction of named entity mentions in unstructured text into pre-defined categories (Wikidata contributors, \"Q403574,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q403574&oldid=1232404694 (accessed July 30, 2020)."@en ;
+                               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Named Entity Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/namingConvention
+tadirah:namingConvention rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:identifying ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "set of rules for naming variables, types, functions, etc. in programming (Wikidata contributors, \"Q461984,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q461984&oldid=1221175218 (accessed September 4, 2020)."@en ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Naming Convention"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing
+tadirah:naturalLanguageProcessing rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#altLabel> "NLP"@en ;
+                                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:converting ;
+                                  <http://www.w3.org/2004/02/skos/core#definition> "field of computer science and linguistics (Wikidata contributors, \"Q30642,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q30642&oldid=1257963465 (accessed September 4, 2020)."@en ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural Language Processing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/networkAnalysis
+tadirah:networkAnalysis rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=27&/network-analysis> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#narrower> tadirah:identifying ,
+                                                                       tadirah:namedEntityRecognition ;
+                        <http://www.w3.org/2004/02/skos/core#note> "network analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature. The resulting network is made up of nodes (entities) and edges (relations)."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi delle Reti"@it ,
+                                                                        "Analyse de réseaux"@fr ,
+                                                                        "Análise de redes"@pt ,
+                                                                        "Análisis de redes"@es ,
+                                                                        "Network Analysis"@en ,
+                                                                        "Netzwerkanalyse"@de ,
+                                                                        "Анализа мреже"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition
+tadirah:opticalCharacterRecognition rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                    <http://www.w3.org/2004/02/skos/core#altLabel> "OCR"@en ;
+                                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataRecognition ;
+                                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q167555,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q167555&oldid=1257963956 (accessed September 4, 2020)."@en ;
+                                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Optical Character Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/opticalMusicRecognition
+tadirah:opticalMusicRecognition rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                <http://www.w3.org/2004/02/skos/core#altLabel> "OMR"@en ;
+                                <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataRecognition ;
+                                <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q1243229,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1243229&oldid=1126910841 (accessed September 4, 2020)."@en ;
+                                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Optical Music Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/organizing
+tadirah:organizing rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:collaborating ,
+                                                                 tadirah:storing ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=40&/organizing> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:finding ,
+                                                                  tadirah:managing ,
+                                                                  tadirah:sharing ;
+                   <http://www.w3.org/2004/02/skos/core#note> "organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisation"@fr ,
+                                                                   "Organisieren"@de ,
+                                                                   "Organizing"@en ,
+                                                                   "Organizzazione"@it ,
+                                                                   "Организовање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/parsing
+tadirah:parsing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:converting ;
+                <http://www.w3.org/2004/02/skos/core#definition> "process of analyzing a string of symbols, either in natural language, computer languages or data structures, conforming to the rules of a formal grammar (Wikidata contributors, \"Q194152,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q194152&oldid=1264510115 (accessed September 4, 2020)."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Parsing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/patternRecognition
+tadirah:patternRecognition rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:relationalAnalysis ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "branch of machine learning (Wikidata contributors, \"Q378859,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q378859&oldid=1234461159 (accessed July 30, 2020)."@en ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Pattern Recognition"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/persistentIdentifier
+tadirah:persistentIdentifier rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#altLabel> "PID"@en ;
+                             <http://www.w3.org/2004/02/skos/core#broader> tadirah:identifying ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "long-lasting digital name (Wikidata contributors, \"Q420330,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q420330&oldid=1268700365 (accessed September 4, 2020)."@en ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Persistent Identifier"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/photographing
+tadirah:photographing rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:imaging ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "art, science, and practice of creating durable images by recording light or other electromagnetic radiation (Wikidata contributors, \"Q11633,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11633&oldid=1237597469 (accessed July 30, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Photographing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/plotting
+tadirah:plotting rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:visualAnalysis ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98846923,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846923&oldid=1270658999 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Plotting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/posTagging
+tadirah:posTagging rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "Part-of-Speech-Tagging"@en ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                                 tadirah:structuralAnalysis ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "the process of identifying the grammatical type of words in a text (Wikidata contributors, \"Q1271424,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1271424&oldid=1167811400 (accessed July 30, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "POS-Tagging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/posting
+tadirah:posting rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:sharing ;
+                <http://www.w3.org/2004/02/skos/core#definition> "content on a social media platform, a forum or a blog (Wikidata contributors, \"Q1453674,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1453674&oldid=1178826153 (accessed September 4, 2020)."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Posting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/preprocessing
+tadirah:preprocessing rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataRecognition ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q28838080,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28838080&oldid=941780726 (accessed September 4, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Preprocessing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/preservationMetadata
+tadirah:preservationMetadata rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "information that supports and documents acts of preservation on digital materials (Wikidata contributors, \"Q7241044,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7241044&oldid=1202709309 (accessed July 30, 2020)."@en ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Preservation Metadata"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/preserving
+tadirah:preserving rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:gathering ,
+                                                                 tadirah:storing ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=41&/preservation> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:bitStreamPreservation ,
+                                                                  tadirah:description ,
+                                                                  tadirah:emulation ,
+                                                                  tadirah:migration ,
+                                                                  tadirah:preservationMetadata ,
+                                                                  tadirah:replication ,
+                                                                  tadirah:versioning ;
+                   <http://www.w3.org/2004/02/skos/core#note> "preserving refers to the application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Conservation"@fr ,
+                                                                   "Konservierung"@de ,
+                                                                   "Preservación"@es ,
+                                                                   "Preservazione"@it ,
+                                                                   "Preservação"@pt ,
+                                                                   "Preserving"@en ,
+                                                                   "Очување"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/principalComponentAnalysis
+tadirah:principalComponentAnalysis rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:relationalAnalysis ,
+                                                                                 tadirah:stylisticAnalysis ;
+                                   <http://www.w3.org/2004/02/skos/core#definition> "conversion of a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (Wikidata contributors, \"Q2873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2873&oldid=1237203694 (accessed July 30, 2020)."@en ;
+                                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Principal Component Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/programming
+tadirah:programming rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:creating ;
+                    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=17&/programming> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#narrower> tadirah:encoding ,
+                                                                   tadirah:graphicsProgramming ,
+                                                                   tadirah:pseudoCoding ;
+                    <http://www.w3.org/2004/02/skos/core#note> "programming describes the process of creating executable code for a computer including scripts or application software. Often programming comprises pseudo coding and editing ac source code or algorithm and is varying for different programming languages."@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Programación"@es ,
+                                                                    "Programação"@pt ,
+                                                                    "Programmation"@fr ,
+                                                                    "Programmazione"@it ,
+                                                                    "Programmieren"@de ,
+                                                                    "Programming"@en ,
+                                                                    "Програмирање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/pseudoCoding
+tadirah:pseudoCoding rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:programming ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#note> "pseudo coding refers to the basic process of breaking complex problems into modular algorithms and logical procedures described in plain text. It primarily aims at human readability."@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Pseudo Coding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/publishing
+tadirah:publishing rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=47&/publishing> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:academicPublishing ,
+                                                                  tadirah:blogging ,
+                                                                  tadirah:digitalPublishing ,
+                                                                  tadirah:linkedOpenData ,
+                                                                  tadirah:tweet ;
+                   <http://www.w3.org/2004/02/skos/core#note> "publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Pubblicazione"@it ,
+                                                                   "Publicación"@es ,
+                                                                   "Publication"@fr ,
+                                                                   "Publicação"@pt ,
+                                                                   "Publishing"@en ,
+                                                                   "Veröffentlichen"@de ,
+                                                                   "Објављивање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/querying
+tadirah:querying rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:discovering ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847088,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847088&oldid=1270661541 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Querying"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/reasoning
+tadirah:reasoning rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:theorizing ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "type of thought (Wikidata contributors, \"Q1156402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1156402&oldid=1265618386 (accessed September 4, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Reasoning"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/recording
+tadirah:recording rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                  <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=13&/recording> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#narrower> tadirah:audioRecording ,
+                                                                 tadirah:screencast ,
+                                                                 tadirah:videoCapture ;
+                  <http://www.w3.org/2004/02/skos/core#note> "recording refers to capturing audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Aufzeichnen"@de ,
+                                                                  "Enregistrement"@fr ,
+                                                                  "Grabación"@es ,
+                                                                  "Gravação"@pt ,
+                                                                  "Recording"@en ,
+                                                                  "Registrazione"@it ,
+                                                                  "Снимање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/relationalAnalysis
+tadirah:relationalAnalysis rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                           <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=28&/relational-analysis> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#narrower> tadirah:clusterAnalysis ,
+                                                                          tadirah:collating ,
+                                                                          tadirah:comparing ,
+                                                                          tadirah:identifying ,
+                                                                          tadirah:machineLearning ,
+                                                                          tadirah:patternRecognition ,
+                                                                          tadirah:principalComponentAnalysis ,
+                                                                          tadirah:sequenceAlignment ,
+                                                                          tadirah:stylometry ;
+                           <http://www.w3.org/2004/02/skos/core#note> "relational analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between different texts (e.g. text reuse or  plagiarism), or comparison of texts variations regarding completeness and correctness (e.g. collation), or assessing the similarity of texts in terms of stylistic features (e.g. stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting."@en ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi delle Relazioni"@it ,
+                                                                           "Analyse relationnelle"@fr ,
+                                                                           "Analyse von Relationen"@de ,
+                                                                           "Análise relacional"@pt ,
+                                                                           "Análisis relacional"@es ,
+                                                                           "Relational Analysis"@en ,
+                                                                           "Релациона анализа"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/removing
+tadirah:removing rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:dataCleansing ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "dissociation of the original object with its old part; moving an object on distance of disconnect; process of moving, or the fact of being removed (Wikidata contributors, \"Q23009442,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23009442&oldid=1268618349 (accessed September 4, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Removing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/replication
+tadirah:replication rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "sharing information to ensure consistency in computing (Wikidata contributors, \"Q1332873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1332873&oldid=1221552165 (accessed July 30, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Replication"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/rhetoricalAnalysis
+tadirah:rhetoricalAnalysis rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:stylisticAnalysis ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98845926,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845926&oldid=1270647161 (accessed September 4, 2020)."@en ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhetorical Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/scanning
+tadirah:scanning rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:archiving ,
+                                                               tadirah:imaging ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "process of creating digital images with a scanner (Wikidata contributors, \"Q59155052,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q59155052&oldid=1184040702 (accessed July 30, 2020)."@en ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Scanning"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/screencast
+tadirah:screencast rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:recording ;
+                   <http://www.w3.org/2004/02/skos/core#definition> "digital recording of computer screen output (Wikidata contributors, \"Q1365447,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1365447&oldid=1234996090 (accessed September 4, 2020)."@en ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Screencast"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/searching
+tadirah:searching rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:discovering ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "search for target data from a set of data (Wikidata contributors, \"Q11540953,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11540953&oldid=1207018344 (accessed July 30, 2020)."@en ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Searching"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/segmenting
+tadirah:segmenting rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#note> "segmenting refers to a management process or method of dividing something into smaller homogeneous parts/units to gain better understanding about an object or topic. Segmentation can range from demographic, geographical, ethical, behavioral, visual, linguistic, musical to other areas and can be multi-dimensional."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Segmenting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/semantification
+tadirah:semantification rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:contextualizing ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#note> "semantification refers to the process of identifying and associating explicit information with each other by facing challenges such as ambiguity and formalization of implicit knowledge to improve access, automatically data analysis and reuse."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Semantification"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/sentimentAnalysis
+tadirah:sentimentAnalysis rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:contentAnalysis ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials (Wikidata contributors, \"Q2271421,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2271421&oldid=1170108641 (accessed July 30, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Sentiment Analysis"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/sequenceAlignment
+tadirah:sequenceAlignment rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:relationalAnalysis ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Sequence Alignment"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/sharing
+tadirah:sharing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ,
+                                                              tadirah:organizing ;
+                <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=48&/sharing> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#narrower> tadirah:posting ,
+                                                               tadirah:upload ;
+                <http://www.w3.org/2004/02/skos/core#note> "sharing refers to the activity of making objects such as digital information, documents, files, software and other publically findable, accessible, interoperable and reusable according to the fair principles and in the sense of open science through communication channels such as blogs, code sharing sites such as GitHUB, social media sites or other web-based services, collaborative and network applications."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Condivisione"@it ,
+                                                                "Intercambio"@es ,
+                                                                "Partage"@fr ,
+                                                                "Sharing"@en ,
+                                                                "Teilen"@de ,
+                                                                "Troca"@pt ,
+                                                                "Дељење"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/socialNetworking
+tadirah:socialNetworking rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:collaborating ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "The process of building one's group of personal or business contacts (Wikidata contributors, \"Q19368491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q19368491&oldid=1132647061 (accessed September 4, 2020)."@en ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Social Networking"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/spatialAnalysis
+tadirah:spatialAnalysis rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=29&/spatial-analysis> ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#narrower> tadirah:georeferencing ,
+                                                                       tadirah:namedEntityRecognition ;
+                        <http://www.w3.org/2004/02/skos/core#note> "spatial analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis may lead to Visualization or Modeling in the form of maps."@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi dello Spazio"@it ,
+                                                                        "Analyse spatiale"@fr ,
+                                                                        "Análise espacial"@pt ,
+                                                                        "Análisis espacial"@es ,
+                                                                        "Räumliche Analyse"@de ,
+                                                                        "Spatial Analysis"@en ,
+                                                                        "Просторна анализа"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/speechRecognizing
+tadirah:speechRecognizing rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:transcribing ;
+                          <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98846987,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846987&oldid=1270659968 (accessed September 4, 2020)."@en ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Speech Recognizing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/storing
+tadirah:storing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=37&/6_storage> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#narrower> tadirah:archiving ,
+                                                               tadirah:identifying ,
+                                                               tadirah:organizing ,
+                                                               tadirah:preserving ;
+                <http://www.w3.org/2004/02/skos/core#note> "storing refers to the activity of making digital copies of objects of inquiry, results of research, software and services, or any media keeping (preserving) them long-term accessible (archiving), without necessarily making them available to the public. This includes management activities (organizing) and processes of identifying the resource."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Almacenamiento"@es ,
+                                                                "Armazenamento"@pt ,
+                                                                "Conservazione"@it ,
+                                                                "Speicherung"@de ,
+                                                                "Stockage"@fr ,
+                                                                "Storing"@en ,
+                                                                "Похрањивање"@sr ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://vocabs.dariah.eu/tadirah/> .
+
+
+###  https://vocabs.dariah.eu/tadirah/structuralAnalysis
+tadirah:structuralAnalysis rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                           <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=30&/structural-analysis> ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#narrower> tadirah:collocationAnalysis ,
+                                                                          tadirah:concordance ,
+                                                                          tadirah:machineLearning ,
+                                                                          tadirah:posTagging ,
+                                                                          tadirah:treeTagging ;
+                           <http://www.w3.org/2004/02/skos/core#note> "structural analysis involves analysis of dimensions of the language system on the level of the relations between these structural elements such as morphology or syntax."@en ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi Strutturale"@it ,
+                                                                           "Analyse structurelle"@fr ,
+                                                                           "Análise estrutural"@pt ,
+                                                                           "Análisis estructural"@es ,
+                                                                           "Structural Analysis"@en ,
+                                                                           "Strukturanalyse"@de ,
+                                                                           "Структурална анализа"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/stylisticAnalysis
+tadirah:stylisticAnalysis rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                          <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=31&/stylistic-analysis> ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                          <http://www.w3.org/2004/02/skos/core#narrower> tadirah:authorshipAttribution ,
+                                                                         tadirah:clusterAnalysis ,
+                                                                         tadirah:contrastiveAnalysis ,
+                                                                         tadirah:distanceMeasures ,
+                                                                         tadirah:genreRecognition ,
+                                                                         tadirah:machineLearning ,
+                                                                         tadirah:principalComponentAnalysis ,
+                                                                         tadirah:rhetoricalAnalysis ,
+                                                                         tadirah:stylometry ,
+                                                                         tadirah:textCategorization ;
+                          <http://www.w3.org/2004/02/skos/core#note> "stylistic analysis consists of identifying stylistic or formal features as a particular variety of digital objects such as language, physical artifacts, painting, music or movies. Computational stylistics analysis is in many cases applied to texts and based on linguistic features."@en ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Analisi Stilistica"@it ,
+                                                                          "Analyse stylistique"@fr ,
+                                                                          "Análise estilística"@pt ,
+                                                                          "Análisis estilístico"@es ,
+                                                                          "Stilistische Analyse"@de ,
+                                                                          "Stylistic Analysis"@en ,
+                                                                          "Стилистичка анализа"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/stylometry
+tadirah:stylometry rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:relationalAnalysis ,
+                                                                 tadirah:stylisticAnalysis ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#note> "stylometry refers to research methods and techniques for analyzing, characterizing and comparing writing styles to determine authorship via statistical probability. A typical stylometric approach is based on the observation the frequency of occurrence of individual words, length of sentences, complexity of sentences, frequent words, spelling errors, etc."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Stylometry"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/subtracting
+tadirah:subtracting rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98848418,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848418&oldid=1270672456 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Subtracting"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/supplementing
+tadirah:supplementing rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98848097,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848097&oldid=1270670374 (accessed September 4, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Supplementing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/tagging
+tadirah:tagging rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ,
+                                                              tadirah:contentAnalysis ;
+                <http://www.w3.org/2004/02/skos/core#definition> "the act of labelling a piece of data or content wth a short string to express some metadata (Wikidata contributors, \"Q43401994,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q43401994&oldid=1198888121 (accessed September 4, 2020)"@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Tagging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/teaching
+tadirah:teaching rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> tadirah:disseminating ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                 <http://www.w3.org/2004/02/skos/core#note> "teaching refers to the activity of actively imparting knowledge, competences or skills."@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Teaching"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/textCategorization
+tadirah:textCategorization rdf:type owl:NamedIndividual ,
+                                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+                           <http://www.w3.org/2004/02/skos/core#broader> tadirah:stylisticAnalysis ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q57771142,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q57771142&oldid=1072020823 (accessed September 4, 2020)."@en ;
+                           <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Text Categorization"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/textMessaging
+tadirah:textMessaging rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:communicating ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "act of typing and sending a brief, digital message (Wikidata contributors, \"Q17166101,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q17166101&oldid=1266645836 (accessed September 4, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Text Messaging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/theorizing
+tadirah:theorizing rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:interpreting ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=36&/theorizing> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#narrower> tadirah:abstractThinking ,
+                                                                  tadirah:conceptualizing ,
+                                                                  tadirah:defining ,
+                                                                  tadirah:explanation ,
+                                                                  tadirah:reasoning ;
+                   <http://www.w3.org/2004/02/skos/core#note> "theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations that can be tested. Theorizing can take different forms while a theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Teorización"@es ,
+                                                                   "Teorização"@pt ,
+                                                                   "Teorizzazione"@it ,
+                                                                   "Theoriebildung"@de ,
+                                                                   "Theorizing"@en ,
+                                                                   "Théorisation"@fr ,
+                                                                   "Теоретизовање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/topicModeling
+tadirah:topicModeling rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#Concept> ;
+                      <http://www.w3.org/2004/02/skos/core#broader> tadirah:contentAnalysis ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "set of techniques in computational linguistics and related fields (Wikidata contributors, \"Q96468792,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q96468792&oldid=1211601100 (accessed July 30, 2020)."@en ;
+                      <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Topic Modeling"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/transcoding
+tadirah:transcoding rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:converting ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "direct digital-to-digital conversion of one encoding to another (Wikidata contributors, \"Q1888734,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1888734&oldid=1225865439 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcoding"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/transcribing
+tadirah:transcribing rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:capturing ;
+                     <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=14&/transcription> ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "transcribing describes  the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#narrower> tadirah:speechRecognizing ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcribing"@en ,
+                                                                     "Transcripción"@es ,
+                                                                     "Transcription"@fr ,
+                                                                     "Transcrição"@pt ,
+                                                                     "Transkription"@de ,
+                                                                     "Trascrizione"@it ,
+                                                                     "Транскрипција"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/transformation
+tadirah:transformation rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> tadirah:modeling ;
+                       <http://www.w3.org/2004/02/skos/core#definition> "process involving change into a qualitatively different form (Wikidata contributors, \"Q65757353,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q65757353&oldid=1268189392 (accessed September 4, 2020)."@en ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Transformation"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/translating
+tadirah:translating rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:creating ;
+                    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=18&/translation> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#note> "translating involves generating a new linguistic object based on a natural languages source document but written in a different language than the source."@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Traducción"@es ,
+                                                                    "Traduction"@fr ,
+                                                                    "Traduzione"@it ,
+                                                                    "Tradução"@pt ,
+                                                                    "Translating"@en ,
+                                                                    "Übersetzen"@de ,
+                                                                    "Превођење"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/treeTagging
+tadirah:treeTagging rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:structuralAnalysis ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98845582,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845582&oldid=1270642307 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Tree-Tagging"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/tweet
+tadirah:tweet rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#broader> tadirah:publishing ;
+              <http://www.w3.org/2004/02/skos/core#definition> "individual post on the Twitter microblogging service (Wikidata contributors, \"Q56119332,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56119332&oldid=1249804975 (accessed September 4, 2020)."@en ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Tweet"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/uniformResourceIdentifier
+tadirah:uniformResourceIdentifier rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#altLabel> "URI"@en ;
+                                  <http://www.w3.org/2004/02/skos/core#broader> tadirah:identifying ;
+                                  <http://www.w3.org/2004/02/skos/core#definition> "string of characters used to identify a name of a resource on a network such as the internet (Wikidata contributors, \"Q61694,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61694&oldid=1253478595 (accessed September 4, 2020)."@en ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Uniform Resource Identifier"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/upload
+tadirah:upload rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#broader> tadirah:sharing ;
+               <http://www.w3.org/2004/02/skos/core#definition> "sending of data from a local system to a remote system (Wikidata contributors, \"Q7126699,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7126699&oldid=1267188395 (accessed September 4, 2020)."@en ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Upload"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/userGeneratedContent
+tadirah:userGeneratedContent rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#broader> tadirah:crowdsourcing ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "online content created by users (Wikidata contributors, \"Q579716,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q579716&oldid=1244820573 (accessed September 4, 2020)."@en ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "User Generated Content"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/versioning
+tadirah:versioning rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#broader> tadirah:preserving ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                   <http://www.w3.org/2004/02/skos/core#note> "versioning comprises the management of different but improved and optimized models, releases or parts of a product or work (e.g. document, websites or software) by archiving, referencing and documenting of the changes in these different versions."@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Versioning"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/videoCapture
+tadirah:videoCapture rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:recording ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q2778015,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2778015&oldid=1112440881 (accessed September 4, 2020)."@en ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Video Capture"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/videoConference
+tadirah:videoConference rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        <http://www.w3.org/2004/02/skos/core#broader> tadirah:communicating ;
+                        <http://www.w3.org/2004/02/skos/core#definition> "type of conference (Wikidata contributors, \"Q238354,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q238354&oldid=1262194128 (accessed September 4, 2020)."@en ;
+                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Video Conference"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/videoEditing
+tadirah:videoEditing rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#broader> tadirah:editing ;
+                     <http://www.w3.org/2004/02/skos/core#definition> "editing live television and video production (Wikidata contributors, \"Q1154312,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1154312&oldid=1149134104 (accessed September 4, 2020)."@en ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Video Editing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/visualAnalysis
+tadirah:visualAnalysis rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> tadirah:analyzing ;
+                       <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=32&/visualization> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                       <http://www.w3.org/2004/02/skos/core#narrower> tadirah:dataVisualization ,
+                                                                      tadirah:mapping ,
+                                                                      tadirah:mindMapping ,
+                                                                      tadirah:plotting ;
+                       <http://www.w3.org/2004/02/skos/core#note> "visual analysis refers to activities to aggregate and graphically represent patterns, structures, trends or points of interest in large and complex data sets using them analytically and making them visually explorable with methods of automatic data analysis in order to gain new insights. Virtually any type of data, information or knowledge can be visualized in static, dynamic or interactive visual formats such as images, maps, timelines, charts or tables, 2D, 3D and the like."@en ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Visual Analysis"@en ,
+                                                                       "Visualisation"@fr ,
+                                                                       "Visualisierung"@de ,
+                                                                       "Visualización"@es ,
+                                                                       "Visualização"@pt ,
+                                                                       "Visualizzazione"@it ,
+                                                                       "Визуализација"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/visualAnnotation
+tadirah:visualAnnotation rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broader> tadirah:annotating ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98847784,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847784&oldid=1270668347 (accessed September 4, 2020)."@en ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Visual Annotation"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/webCrawling
+tadirah:webCrawling rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:gathering ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "systematic access of resources across the web (Wikidata contributors, \"Q61466324,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61466324&oldid=1232626072 (accessed July 30, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Web Crawling"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/webDevelopment
+tadirah:webDevelopment rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                       <http://www.w3.org/2004/02/skos/core#broader> tadirah:creating ;
+                       <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=19&/web-development> ;
+                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                       <http://www.w3.org/2004/02/skos/core#note> "web development refers to the creation of websites by writing HTML/CSS, or other scripting languages, and building or configuring  a platform, content management system or framework such as Drupal, WordPress, Bootstrap, or Omeka, but also includes creating digital assets for browser-based applications."@en ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Desarrollo web"@es ,
+                                                                       "Desenvolvimento web"@pt ,
+                                                                       "Développement Web"@fr ,
+                                                                       "Sviluppo Web"@it ,
+                                                                       "Web Development"@en ,
+                                                                       "Webentwicklung"@de ,
+                                                                       "Развој мреже-Веб програмирање"@sr .
+
+
+###  https://vocabs.dariah.eu/tadirah/webScraping
+tadirah:webScraping rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:archiving ,
+                                                                  tadirah:gathering ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "data scraping used for extracting data from websites (Wikidata contributors, \"Q665452,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q665452&oldid=1203621822 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Web Scraping"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/wireframing
+tadirah:wireframing rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#broader> tadirah:designing ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Wikidata contributors, \"Q98845203,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845203&oldid=1270637566 (accessed September 4, 2020)."@en ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wireframing"@en .
+
+
+###  https://vocabs.dariah.eu/tadirah/writing
+tadirah:writing rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#broader> tadirah:creating ;
+                <http://www.w3.org/2004/02/skos/core#closeMatch> <http://tadirah.dariah.eu/vocab/index.php?tema=20&/writing> ;
+                <http://www.w3.org/2004/02/skos/core#definition> "writing designates the activity of creating new texts (instead of capturing existing text). Here, it primarily concerns research papers and reports, but may include other textually-oriented objects."@en ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> <https://vocabs.dariah.eu/tadirah/> ;
+                <http://www.w3.org/2004/02/skos/core#narrower> tadirah:lettering ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Escrita"@pt ,
+                                                                "Escritura"@es ,
+                                                                "Schreiben"@de ,
+                                                                "Scrittura"@it ,
+                                                                "Writing"@en ,
+                                                                "Écriture"@fr ,
+                                                                "Писање"@sr .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
