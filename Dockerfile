@@ -9,11 +9,11 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN sed -i -e 's~http://archive~http://at.archive~' /etc/apt/sources.list && \
   apt-get update && apt-get dist-upgrade -y && \
   apt-get install -y apache2 apache2-utils links curl vim git locales && \
-  apt clean && \
+  apt-get clean && \
   rm -f /etc/localtime && \
   ln -s /usr/share/zoneinfo/Europe/Vienna /etc/localtime && \
   a2enmod rewrite
 
 # expose
 EXPOSE 80
-CMD [“apache2ctl”, “-D”, “FOREGROUND”]
+CMD ["apache2ctl", "-D", "FOREGROUND"]
