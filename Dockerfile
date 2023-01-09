@@ -12,7 +12,6 @@ RUN sed -i -e 's~http://archive~http://at.archive~' /etc/apt/sources.list && \
   apt clean && \
   rm -f /etc/localtime && \
   ln -s /usr/share/zoneinfo/Europe/Vienna /etc/localtime && \
-  dpkg-reconfigure --frontend noninteractive tzdata && \
   a2enmod rewrite
 
 # expose
