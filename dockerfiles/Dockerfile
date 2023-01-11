@@ -9,10 +9,14 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN sed -i -e 's~http://archive~http://at.archive~' /etc/apt/sources.list && \
   apt-get update && apt-get dist-upgrade -y && \
   apt-get install -y apache2 apache2-utils links curl vim git locales unzip && \
-  apt-get clean && \
-  rm -f /etc/localtime && \
-  ln -s /usr/share/zoneinfo/Europe/Vienna /etc/localtime && \
-  a2enmod rewrite && \
+  apt-get clean
+
+RUN rm -f /etc/localtime && \
+  ln -s /usr/share/zoneinfo/Europe/Vienna /etc/localtime
+
+COPY dockerfiles/000-default.conf /etc/apache2/sites-available/000-default.conf
+
+RUN a2enmod rewrite && \
   a2enmod expires
 
 WORKDIR /var/www/html
