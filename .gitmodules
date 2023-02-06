@@ -1,0 +1,3 @@
+[submodule "vocabs-common"]
+	path = vocabs-common
+	url = https://github.com/SSHOC/vocabularies
