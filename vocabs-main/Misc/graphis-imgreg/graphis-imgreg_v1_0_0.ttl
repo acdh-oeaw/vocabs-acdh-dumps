@@ -1,0 +1,130 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/contentProdContrRoles> a skos:Collection ;
+    dct:created "2023-05-04T15:51:27.789476+00:00"^^xsd:dateTime ;
+    dct:modified "2023-08-25T09:50:42.057164+00:00"^^xsd:dateTime ;
+    skos:definition "The roles of parties (persons or organisations or algorithms) which created, originated, supplied, enhanced, distributed, altered or contributed in another way to the content, or the roles of parties which supported these activities. (see also https://cv.iptc.org/newscodes/contentprodpartyrole)"@en ;
+    skos:member <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/descrWriter>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/imgRegCreator>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/transcrWriter> ;
+    skos:prefLabel "content production contributor roles"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/imgRegRoles> a skos:Collection ;
+    dct:created "2023-05-05T10:24:59.557910+00:00"^^xsd:dateTime ;
+    dct:modified "2023-08-25T09:51:00.082115+00:00"^^xsd:dateTime ;
+    skos:definition "The roles of delineated image regions among other delineated image regions in the same image or in other images. (see also http://cv.iptc.org/newscodes/imageregionrole/)"@en ;
+    skos:member <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/areaOfInterest>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/mainSubjectArea>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/subjectArea> ;
+    skos:prefLabel "image region roles"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/imgRegTypes> a skos:Collection ;
+    dct:created "2023-05-05T10:26:10.907919+00:00"^^xsd:dateTime ;
+    dct:modified "2023-08-25T09:51:18.577468+00:00"^^xsd:dateTime ;
+    skos:definition "The types of the things depicted by delineated regions in an image. (see also http://cv.iptc.org/newscodes/imageregiontype/)"@en ;
+    skos:member <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/graffiti>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/textGraffito> ;
+    skos:prefLabel "image region types"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/areaOfInterest> a skos:Concept ;
+    dct:created "2023-04-04T13:07:53.628909+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:41:03.219433+00:00"^^xsd:dateTime ;
+    skos:definition "\"Image region contains a thing of special interest to the viewer\" (CC BY 4.0 Creator: IPTC)"@en ;
+    skos:exactMatch <http://cv.iptc.org/newscodes/imageregionrole/areaOfInterest> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:prefLabel "area of interest"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/descrWriter> a skos:Concept ;
+    dct:created "2023-04-04T13:08:58.371772+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:42:54.650868+00:00"^^xsd:dateTime ;
+    skos:definition "\"The person or party editing the description of content\" (CC BY 4.0 Creator: IPTC)"@en ;
+    skos:exactMatch <http://cv.iptc.org/newscodes/contentprodpartyrole/descrWriter> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:prefLabel "description writer"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/graffiti> a skos:Concept ;
+    dct:created "2023-04-04T13:04:46.914363+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:46:08.658056+00:00"^^xsd:dateTime ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/indigo/graffiti> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:note "Graffito is one entity of the multiple noun graffiti."@en ;
+    skos:prefLabel "graffito"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/imgRegCreator> a skos:Concept ;
+    dct:created "2023-04-04T13:09:25.595139+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:46:17.181409+00:00"^^xsd:dateTime ;
+    skos:definition "The person or algorithm that created (or modified) an image region."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:prefLabel "image region creator"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/mainSubjectArea> a skos:Concept ;
+    dct:created "2023-04-04T13:07:23.710126+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:45:49.582376+00:00"^^xsd:dateTime ;
+    skos:definition "\"Image region contains the main subject in the overall scene. Same as the Exif SubjectArea.\" (CC BY 4.0 Creator: IPTC)"@en ;
+    skos:exactMatch <http://cv.iptc.org/newscodes/imageregionrole/mainSubjectArea> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:note "\"Only a single region of an image may be set as main subject area.\" (CC BY 4.0 Creator: IPTC)"@en ;
+    skos:prefLabel "main subject area"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/subjectArea> a skos:Concept ;
+    dct:created "2023-04-04T13:06:54.805659+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:47:13.485470+00:00"^^xsd:dateTime ;
+    skos:definition "\"Image region contains a subject in the overall scene.\" (CC BY 4.0 Creator: IPTC)"@en ;
+    skos:exactMatch <http://cv.iptc.org/newscodes/imageregionrole/subjectArea> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:note "\"Multiple regions of an image may be set as subject area.\" (CC BY 4.0 Creator: IPTC)"@en ;
+    skos:prefLabel "subject area"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/textGraffito> a skos:Concept ;
+    dct:created "2023-04-04T13:05:26.036578+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:48:22.116672+00:00"^^xsd:dateTime ;
+    skos:definition "Any alphanumerical character as part of a graffito, easy to read or not."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:prefLabel "text (graffito)"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/transcrWriter> a skos:Concept ;
+    dct:created "2023-04-04T13:09:52.901489+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T10:48:29.671145+00:00"^^xsd:dateTime ;
+    skos:definition "The person or algorithm that transcribed (or altered) text visible in (a part of) the image."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> ;
+    skos:prefLabel "transcript writer"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> .
+
+<https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/> a skos:ConceptScheme ;
+    rdfs:label "GRAPHIS Image Region"@en ;
+    dc:creator "Geert Verhoeven",
+        "Massimiliano Carloni" ;
+    dc:description """This GRAPHIS Image Region vocabulary contains all concepts GRAPHIS currently provides its users to annotate image regions. Image regions are shapes like rectangles, circles or any possible polygon that can be marked and saved within an image. The IPTC Photo Metadata Standard (https://iptc.org/standards/photo-metadata/iptc-standard) has enabled storing these image regions since its 2019.1 version (see https://iptc.org/std/photometadata/specification/IPTC-PhotoMetadata#image-region, https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-2019.1.html).\r
+GRAPHIS (Generate Regions and Annotations for Photos using the IPTC Standard) is a software developed within the academic graffiti project INDIGO and freely available on GitHub (https://github.com/GraffitiProjectINDIGO/GRAPHIS). GRAPHIS provides a graphical user interface to generate, visualise and annotate these image regions while adhering to the IPTC Photo Metadata Standard."""@en ;
+    dc:language "en" ;
+    dc:relation <https://projectindigo.eu> ;
+    dc:source "Contains information from the IPTC NewsCodes \"Content Production Party Role\" controlled vocabulary (http://cv.iptc.org/newscodes/contentprodpartyrole/), which is made available under the Creative Commons Attribution 4.0 International License."@en,
+        "Contains information from the IPTC NewsCodes \"Image Region Role\" controlled vocabulary (http://cv.iptc.org/newscodes/imageregionrole/), which is made available under the Creative Commons Attribution 4.0 International License."@en,
+        "Contains information from the IPTC NewsCodes \"Image Region Type\" controlled vocabulary (http://cv.iptc.org/newscodes/imageregiontype/), which is made available under the Creative Commons Attribution 4.0 International License."@en ;
+    dc:title "GRAPHIS Image Region"@en ;
+    dct:created "2023-04-04T12:53:26.257295+00:00"^^xsd:dateTime ;
+    dct:license "https://creativecommons.org/publicdomain/zero/1.0/" ;
+    dct:modified "2023-08-25T16:26:42.144331+00:00"^^xsd:dateTime ;
+    dct:rightsHolder "project INDIGO" ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/areaOfInterest>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/descrWriter>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/graffiti>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/imgRegCreator>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/mainSubjectArea>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/subjectArea>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/textGraffito>,
+        <https://vocabs.acdh.oeaw.ac.at/graphis-imgreg/transcrWriter> .
+
