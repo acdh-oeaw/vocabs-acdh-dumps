@@ -1,0 +1,2882 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vocab.getty.edu/page/aat/300010439> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> .
+
+<http://vocab.getty.edu/page/aat/300010445> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17054> .
+
+<http://vocab.getty.edu/page/aat/300010451> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23881> .
+
+<http://vocab.getty.edu/page/aat/300010669> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23905> .
+
+<http://vocab.getty.edu/page/aat/300010737> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769> .
+
+<http://vocab.getty.edu/page/aat/300010797> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> .
+
+<http://vocab.getty.edu/page/aat/300010900> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> .
+
+<http://vocab.getty.edu/page/aat/300010902> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> .
+
+<http://vocab.getty.edu/page/aat/300010946> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23786> .
+
+<http://vocab.getty.edu/page/aat/300010957> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23780> .
+
+<http://vocab.getty.edu/page/aat/300010965> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23782> .
+
+<http://vocab.getty.edu/page/aat/300011002> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23781> .
+
+<http://vocab.getty.edu/page/aat/300011015> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23778> .
+
+<http://vocab.getty.edu/page/aat/300011020> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784> .
+
+<http://vocab.getty.edu/page/aat/300011021> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783> .
+
+<http://vocab.getty.edu/page/aat/300011022> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779> .
+
+<http://vocab.getty.edu/page/aat/300011024> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17062> .
+
+<http://vocab.getty.edu/page/aat/300011028> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23979> .
+
+<http://vocab.getty.edu/page/aat/300011029> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787> .
+
+<http://vocab.getty.edu/page/aat/300011031> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23986> .
+
+<http://vocab.getty.edu/page/aat/300011033> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23789> .
+
+<http://vocab.getty.edu/page/aat/300011037> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23790> .
+
+<http://vocab.getty.edu/page/aat/300011068> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> .
+
+<http://vocab.getty.edu/page/aat/300011079> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038> .
+
+<http://vocab.getty.edu/page/aat/300011084> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23849> .
+
+<http://vocab.getty.edu/page/aat/300011087> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17081> .
+
+<http://vocab.getty.edu/page/aat/300011098> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23867> .
+
+<http://vocab.getty.edu/page/aat/300011099> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23860> .
+
+<http://vocab.getty.edu/page/aat/300011101> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23839> .
+
+<http://vocab.getty.edu/page/aat/300011122> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23879> .
+
+<http://vocab.getty.edu/page/aat/300011123> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037> .
+
+<http://vocab.getty.edu/page/aat/300011124> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17089> .
+
+<http://vocab.getty.edu/page/aat/300011131> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23943> .
+
+<http://vocab.getty.edu/page/aat/300011132> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890> .
+
+<http://vocab.getty.edu/page/aat/300011133> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23842> .
+
+<http://vocab.getty.edu/page/aat/300011134> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848> .
+
+<http://vocab.getty.edu/page/aat/300011135> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838> .
+
+<http://vocab.getty.edu/page/aat/300011136> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23884> .
+
+<http://vocab.getty.edu/page/aat/300011137> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23894> .
+
+<http://vocab.getty.edu/page/aat/300011141> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857> .
+
+<http://vocab.getty.edu/page/aat/300011143> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856> .
+
+<http://vocab.getty.edu/page/aat/300011151> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870> .
+
+<http://vocab.getty.edu/page/aat/300011164> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23904> .
+
+<http://vocab.getty.edu/page/aat/300011183> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863> .
+
+<http://vocab.getty.edu/page/aat/300011210> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23850> .
+
+<http://vocab.getty.edu/page/aat/300011213> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843> .
+
+<http://vocab.getty.edu/page/aat/300011214> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> .
+
+<http://vocab.getty.edu/page/aat/300011219> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23851> .
+
+<http://vocab.getty.edu/page/aat/300011220> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23900> .
+
+<http://vocab.getty.edu/page/aat/300011222> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845> .
+
+<http://vocab.getty.edu/page/aat/300011230> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23858> .
+
+<http://vocab.getty.edu/page/aat/300011232> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011> .
+
+<http://vocab.getty.edu/page/aat/300011254> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883> .
+
+<http://vocab.getty.edu/page/aat/300011264> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23903> .
+
+<http://vocab.getty.edu/page/aat/300011265> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23885> .
+
+<http://vocab.getty.edu/page/aat/300011286> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872> .
+
+<http://vocab.getty.edu/page/aat/300011329> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23902> .
+
+<http://vocab.getty.edu/page/aat/300011348> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24288> .
+
+<http://vocab.getty.edu/page/aat/300011374> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23886> .
+
+<http://vocab.getty.edu/page/aat/300011376> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891> .
+
+<http://vocab.getty.edu/page/aat/300011386> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23847> .
+
+<http://vocab.getty.edu/page/aat/300011391> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23868> .
+
+<http://vocab.getty.edu/page/aat/300011425> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23869> .
+
+<http://vocab.getty.edu/page/aat/300011430> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23878> .
+
+<http://vocab.getty.edu/page/aat/300011438> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23861> .
+
+<http://vocab.getty.edu/page/aat/300011443> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> .
+
+<http://vocab.getty.edu/page/aat/300011490> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005> .
+
+<http://vocab.getty.edu/page/aat/300011505> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23995> .
+
+<http://vocab.getty.edu/page/aat/300011557> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24007> .
+
+<http://vocab.getty.edu/page/aat/300011562> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24009> .
+
+<http://vocab.getty.edu/page/aat/300011576> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23994> .
+
+<http://vocab.getty.edu/page/aat/300011580> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24001> .
+
+<http://vocab.getty.edu/page/aat/300011594> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24008> .
+
+<http://vocab.getty.edu/page/aat/300011599> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24010> .
+
+<http://vocab.getty.edu/page/aat/300011607> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24014> .
+
+<http://vocab.getty.edu/page/aat/300011623> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893> .
+
+<http://vocab.getty.edu/page/aat/300011626> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> .
+
+<http://vocab.getty.edu/page/aat/300011627> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898> .
+
+<http://vocab.getty.edu/page/aat/300011665> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23899> .
+
+<http://vocab.getty.edu/page/aat/300011692> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> .
+
+<http://vocab.getty.edu/page/aat/300011790> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23835> .
+
+<http://vocab.getty.edu/page/aat/300011796> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809> .
+
+<http://vocab.getty.edu/page/aat/300011798> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> .
+
+<http://vocab.getty.edu/page/aat/300011800> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23819> .
+
+<http://vocab.getty.edu/page/aat/300011809> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23808> .
+
+<http://vocab.getty.edu/page/aat/300011811> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23828> .
+
+<http://vocab.getty.edu/page/aat/300011814> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> .
+
+<http://vocab.getty.edu/page/aat/300011820> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23934> .
+
+<http://vocab.getty.edu/page/aat/300011826> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815> .
+
+<http://vocab.getty.edu/page/aat/300011829> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> .
+
+<http://vocab.getty.edu/page/aat/300011844> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23831> .
+
+<http://vocab.getty.edu/page/aat/300011845> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23829> .
+
+<http://vocab.getty.edu/page/aat/300011851> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23830> .
+
+<http://vocab.getty.edu/page/aat/300011855> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> .
+
+<http://vocab.getty.edu/page/aat/300011857> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23797> .
+
+<http://vocab.getty.edu/page/aat/300011878> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23806> .
+
+<http://vocab.getty.edu/page/aat/300011914> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814> .
+
+<http://vocab.getty.edu/page/aat/300012862> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036> .
+
+<http://vocab.getty.edu/page/aat/300012882> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> .
+
+<http://vocab.getty.edu/page/aat/300012934> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23812> .
+
+<http://vocab.getty.edu/page/aat/300012949> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23939> .
+
+<http://vocab.getty.edu/page/aat/300013109> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> .
+
+<http://vocab.getty.edu/page/aat/300013280> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23968> .
+
+<http://vocab.getty.edu/page/aat/300014024> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> .
+
+<http://vocab.getty.edu/page/aat/300014041> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23800> .
+
+<http://vocab.getty.edu/page/aat/300014043> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23801> .
+
+<http://vocab.getty.edu/page/aat/300014063> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> .
+
+<http://vocab.getty.edu/page/aat/300014067> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23823> .
+
+<http://vocab.getty.edu/page/aat/300014069> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23824> .
+
+<http://vocab.getty.edu/page/aat/300014078> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23803> .
+
+<http://vocab.getty.edu/page/aat/300014109> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23804> .
+
+<http://vocab.getty.edu/page/aat/300014127> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23805> .
+
+<http://vocab.getty.edu/page/aat/300014224> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23802> .
+
+<http://vocab.getty.edu/page/aat/300014335> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23777> .
+
+<http://vocab.getty.edu/page/aat/300014341> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17049> .
+
+<http://vocab.getty.edu/page/aat/300014585> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23973> .
+
+<http://vocab.getty.edu/page/aat/300014741> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> .
+
+<http://vocab.getty.edu/page/aat/300014743> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23794> .
+
+<http://vocab.getty.edu/page/aat/300014748> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23793> .
+
+<http://vocab.getty.edu/page/aat/300014910> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23975> .
+
+<http://vocab.getty.edu/page/aat/300014922> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23908> .
+
+<http://vocab.getty.edu/page/aat/300014966> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23772> .
+
+<http://vocab.getty.edu/page/aat/300048153> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23799> .
+
+<http://vocab.getty.edu/page/aat/300133223> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23877> .
+
+<http://vocab.getty.edu/page/aat/300133748> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23791> .
+
+<http://vocab.getty.edu/page/aat/300133751> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23788> .
+
+<http://vocab.getty.edu/page/aat/300152583> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771> .
+
+<http://vocab.getty.edu/page/aat/300191632> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> .
+
+<http://vocab.getty.edu/page/aat/300191893> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23796> .
+
+<http://vocab.getty.edu/page/aat/300193683> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24033> .
+
+<http://vocab.getty.edu/page/aat/300193786> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24012> .
+
+<http://vocab.getty.edu/page/aat/300201964> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23853> .
+
+<http://vocab.getty.edu/page/aat/300209721> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17061> .
+
+<http://vocab.getty.edu/page/aat/300209942> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17038> .
+
+<http://vocab.getty.edu/page/aat/300212174> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17088> .
+
+<http://vocab.getty.edu/page/aat/300235507> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972> .
+
+<http://vocab.getty.edu/page/aat/300243428> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23825> .
+
+<http://vocab.getty.edu/page/aat/300243430> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23826> .
+
+<http://vocab.getty.edu/page/aat/300263391> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23837> .
+
+<http://vocab.getty.edu/page/aat/300263800> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> .
+
+<http://vocab.getty.edu/page/aat/300264232> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070> .
+
+<http://vocab.getty.edu/page/aat/300264869> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23944> .
+
+<http://vocab.getty.edu/page/aat/300265183> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23974> .
+
+<http://vocab.getty.edu/page/aat/300311452> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23969> .
+
+<http://vocab.getty.edu/page/aat/300379424> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> .
+
+<http://vocab.getty.edu/page/aat/300379483> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17058> .
+
+<http://vocab.getty.edu/page/aat/300379536> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23946> .
+
+<http://vocab.getty.edu/page/aat/300379609> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23871> .
+
+<http://vocab.getty.edu/page/aat/300379820> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23956> .
+
+<http://vocab.getty.edu/page/aat/300380041> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23983> .
+
+<http://vocab.getty.edu/page/aat/300380120> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23841> .
+
+<http://vocab.getty.edu/page/aat/300380366> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23998> .
+
+<http://vocab.getty.edu/page/aat/300380422> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23866> .
+
+<http://vocab.getty.edu/page/aat/300380470> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23959> .
+
+<http://vocab.getty.edu/page/aat/300380471> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> .
+
+<http://vocab.getty.edu/page/aat/300380480> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17039> .
+
+<http://vocab.getty.edu/page/aat/300386525> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23938> .
+
+<http://vocab.getty.edu/page/aat/300386691> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24040> .
+
+<http://vocab.getty.edu/page/aat/300400467> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23833> .
+
+<http://vocab.getty.edu/page/aat/300400468> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810> .
+
+<http://vocab.getty.edu/page/aat/300400620> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041> .
+
+<http://vocab.getty.edu/page/aat/300400883> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23967> .
+
+<http://vocab.getty.edu/page/aat/300444909> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24006> .
+
+<http://vocab.getty.edu/page/aat/300451454> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23816> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/agate/3.27> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/andesit/3.29> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/antler/3.7> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/basalt/3.20> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/bone/3.5> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/calcite/3.37> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chalcedony/3.13> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/charcoal/4.1> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chert/3.12> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chlorite/3.21> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/clay/2.19> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/concrete/6.16> skos:closeMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/copper/3.31> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/flint/4.11> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/gold/3.34> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/granite/3.24> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/horn/3.8> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/jasper/3.14> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/lead/5.10> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/limestone/3.22> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/malachite/3.35> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/marble/3.10> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/metal/2.9> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/obsidian/3.2> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/porphyry/3.30> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartz/3.15> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartzite/5.8> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/radiolarite/4.18> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/rock_crystal/3.16> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/sandstone/3.25> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/serpentine/3.23> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/shell/3.6> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/silver/5.9> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/stone/2.1> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/straw/6.8> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/tooth/3.28> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> .
+
+<https://vocabs.acdh.oeaw.ac.at/defcthesaurus/wood/3.32> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17048> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dc:source "Nordström, Hans-Åke; Bourriau, Janine D. \"Ceramic Technology: Clays and Fabrics\" in An Introduction to Ancient Egyptian Pottery, ed(s). Dorothea Arnold and Janine D. Bourriau. Mainz am Rhein: P. von Zabern, 1993, 143-190.",
+        "Peloschek, Lisa, \"Cultural Transfers in Aswan (Upper Egypt). Petrographic Evidence for Ceramic Production and Exchange from the Ptolemaic to the Late Antique Period.\", PhD, Archaeometry, University of Vienna, 2015." ;
+    dct:created "2020-05-19T07:41:41.493608+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:25:15.103671+00:00"^^xsd:dateTime ;
+    skos:altLabel "Aswan clay"@en,
+        "Aswan ware"@en,
+        "Aswani clay"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Kaolinitischer Ton aus der Region Assuan."@de,
+        "Kaolinitic clay from the Aswan region."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aswan pink clay"@de,
+        "Aswan pink clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17050> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dc:source "https://de.wikipedia.org/wiki/Keramik_im_Alten_%C3%84gypten",
+        "https://www.levantineceramics.org/petrofabrics/102-egypt-marl-clay" ;
+    dct:created "2020-05-19T07:41:41.688513+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:18:50.848571+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Kalziumkarbonatreicher Ton für Keramik die hauptsächlich in Ägypten hergestellt wurde. Aus Schiefer und Kalkstein entlang des Nils zwichen Esna und Kairo gewonnen."@de,
+        "Type of calcareous clay that was mainly used for ceramics produced in Egypt. It is derived from slate and limestone found along the Nile between Esna and Cairo."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Mergelton (ägyptisch)"@de,
+        "marl clay (Egyptian)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17074> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dc:source "Rice. (2015). Pottery analysis : a sourcebook (2. ed.). Univ. of Chicago Press." ;
+    dct:created "2020-05-19T07:41:45.073241+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:23:27.462248+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ton, der reich an Kalziumkarbonat ist."@de,
+        "Clay that is composed of calcium carbonate."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "kalkreicher Ton"@de,
+        "calcareous clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17080> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dc:source "Rice. (2015). Pottery analysis : a sourcebook (2. ed.). Univ. of Chicago Press." ;
+    dct:created "2020-05-19T07:41:46.115303+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:06:12.620103+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ton, dem Kalziumkarbonat fehlt."@de,
+        "Clay that lacks calcium carbonate."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "kalkarmer Ton"@de,
+        "non-calcareous clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23896> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Schist" ;
+    dct:created "2022-12-21T16:08:02.479043+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:35:55.421361+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mittelkörniges metamorphes Gestein mit flockiger Textur (Schieferung), das aufgrund seines hohen Gehalts an plättchenförmigen Mineralien leicht in Schichten zerfällt und einen hohen Anteil des Minerals Chlorit aufweist."@de,
+        "A medium-grained metamorphic rock with a flakey texture (schistosity), which easily breaks into plates due to its high content of platy minerals. Chlorite schist contains high levels of the mineral chlorite."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Chloritschiefer"@de,
+        "chlorite schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23936> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Glass_coloring_and_color_marking" ;
+    dct:created "2023-03-22T08:47:17.626380+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:14:27.056975+00:00"^^xsd:dateTime ;
+    skos:altLabel "färbig"@de,
+        "colored glass"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Glasart, der bei der Herstellung Metalloxide zugesetzt wurden, um eine bestimmte Färbung zu erhalten (z. B. Co2+ für Blau, Cr3+ für Grün, Mn3+ für Lila usw.)."@de,
+        "Type of glass to which metal oxides have been added during the production to obtain a specific color (e.g., Co2+ for blue, Cr3+ for green, Mn3+ for purple, etc.)."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "farbiges Glas"@de,
+        "coloured glass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23937> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Roman_glass" ;
+    dct:created "2023-03-22T08:55:23.117596+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:13:18.596276+00:00"^^xsd:dateTime ;
+    skos:altLabel "transluzentes Glas"@de,
+        "colorless glass"@en,
+        "colourless glass"@en,
+        "translucent glass"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Art von römischem und hellenistischem Glas, dem bei der Herstellung Antimonoxide (Sb2O3) oder Manganoxide (MnO2) zugesetzt wurden, um farblose und transparente Artefakte zu erhalten."@de,
+        "Type of Roman and Hellenistic glass to which antimony oxides (Sb2O3) or manganese oxides (MnO2) have been added during the production to obtain colorless and transparent artifacts."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "farbloses Glas (römisch)"@de,
+        "colourless glass (Roman)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23950> a skos:Concept ;
+    dc:source "Wentworth, Chester K. “A Scale of Grade and Class Terms for Clastic Sediments.” The Journal of Geology, vol. 30, no. 5, 1922, pp." ;
+    dct:created "2023-03-22T12:19:12.660919+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:11:29.354199+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Natürlich vorkommendes Mineral aus Silizium und Sauerstoff (SiO2), das witterungsbeständig ist und reichlich auf der Erdoberfläche vorkommt. Es hat eine Korngröße von 0,06 bis 2 mm und wird üblicherweise als Härter in der Keramikproduktion sowie als Hauptbestandteil bei der Glasherstellung verwendet."@de,
+        "Naturally occurring mineral made up of silicon and oxygen (SiO2), which is resistant to weathering and found in abundance on the earth´s surface. It has a grain size ranging from 0.06 to 2 mm and is commonly used as temper in ceramic production and as major component in glassmaking."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarzsand"@de,
+        "quartz sand"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23955> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Cosmoloid" ;
+    dct:created "2023-03-22T12:35:06.953147+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:59:50.697356+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Cosmoloid ist ein markenrechtlich geschütztes mikrokristallines Wachsprodukt, das häufig bei der Restaurierung / Konservierung von Gemälden und Metallgegenständen verwendet wird."@de,
+        "Cosmoloid is a trademarked microcrystalline wax product, often used on paintings and metal objects."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Cosmoloid"@de,
+        "Cosmoloid"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23958> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Klucel" ;
+    dct:created "2023-03-22T12:37:54.766410+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:48:05.471177+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Markenrechtlich geschützter Handelsname einer Reihe von Hydroxypropylcelluloseverbindungen mit nichtionischen, wasserlöslichen Polymeren, die häufig zum Binden von Keramikglasuren verwendet werden."@de,
+        "Trademarked commercial name of a series of hydroxypropyl cellulose compounds with nonionic, water soluble polymers, often used to bind ceramic glazes."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Klucel"@de,
+        "Klucel"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23960> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Paraloid_B-48N" ;
+    dct:created "2023-03-22T12:39:10.633343+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:47:14.782479+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Markenrechtlich geschützter Handelsname für ein Copolymer aus Methylmethacrylat und Butylacrylat mit einem Haftvermittler zur Unterstützung der Verbindung mit Metallen."@de,
+        "Trademarked commercial name for a copolymer of Methyl methacrylate and butyl acrylate with an adhesion promoter to help with bonding to metals."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Paraloid B48N"@de,
+        "Paraloid B48N"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23961> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Cyclododecane" ;
+    dct:created "2023-03-22T12:39:53.639716+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:57:35.250386+00:00"^^xsd:dateTime ;
+    skos:altLabel "Cyclododecan Spray"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23957> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein temporäres Konservierungsmittel zum Schutz der Tinte bei wässrigen Oberflächenreinigungen, wobei sich dieser Begriff speziell auf die Sprühverteilungsmethode bezieht."@de,
+        "A temporary preservative agent for protecting ink during washing treatments, with this concept referring specifically to the spray distribution method."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Cyclododekan Spray"@de,
+        "Cyclododecane spray"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23963> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Araldite" ;
+    dct:created "2023-03-22T12:42:24.240590+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:00:32.493938+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein transparentes, farbloses Zweikomponenten-Epoxidharz der Marke Araldite."@de,
+        "A transparent, colourless, two part epoxy of the Araldite brand."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Araldite 2020"@de,
+        "Araldite 2020"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23993> a skos:Concept ;
+    dc:source "Janet Burnett Grossman, Looking at Greek and Roman Sculpture in Stone, J. Paul Getty Trust, Los Angeles, 2003" ;
+    dct:created "2023-03-23T08:54:03.006087+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:46:13.087651+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mittel- bis grobkörniger warmweißer oder blaugrauer Marmor, der in der antiken türkischen Stätte Aphrodisias abgebaut wurde. Der Marmor wurde hauptsächlich im hellenistischen bis spätrömischen Stil verwendet, um einen zweifarbigen Effekt zu erzielen."@de,
+        "A medium- to large grained marble, warm white or blue-gray in colour,  quarried from the ancient Turkish site of Aphrodisias. Primarily Hellenistic to Late Roman use, the marble was often used to create a two colour effect."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "aphrodisisch"@de,
+        "aphrodisian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23996> a skos:Concept ;
+    dc:source "Russell, B. (2015, November 17). Gazetteer of Stone Quarries in the roman world. University of Edinburgh Research Explorer. https://www.research.ed.ac.uk/en/publications/gazetteer-of-stone-quarries-in-the-roman-world" ;
+    dct:created "2023-03-23T08:58:57.776570+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:45:10.673496+00:00"^^xsd:dateTime ;
+    skos:altLabel "Marmor Chalcidicum"@de,
+        "fior di pesco"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Rekristallisierter Kalkstein von rosagrauer Farbe mit vereinzelt roten, braunen, weißen und violetten Flecken; in der römischen Kaiserzeit stark exportiert."@de,
+        "Recrystallised limestone of a pink-grey colouring with some red, brown, white and violet patches; heavily exported in the Roman imperial period."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "chalkidisch"@de,
+        "chalcidic marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24000> a skos:Concept ;
+    dc:source "Natalia Toma, Marmor – Maße – Monumente. Vorfertigung, Standardisierung und Massenproduktion marmorner Bauteile in der römischen Kaiserzeit. Philippika, 121. Wiesbaden: Harrassowitz Verlag, 2020." ;
+    dct:created "2023-03-23T09:01:03.506198+00:00"^^xsd:dateTime ;
+    dct:modified "2023-10-27T15:16:09.210027+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Mittelkörniger weißer Marmor aus der Region Ephesos mit makroskopischen Merkmalen wie grauen Streifen und Flecken (wie Marmor Proconnesium), aber ihre Streifen sind unregelmäßig und dieser Marmor hat beim Mahlen keinen Schwefelgeruch."@de,
+        "Free translation from German definition: Medium-grained white marble from the Ephesus region with macroscopic features such as gray streaks and spots (similar to Proconnesium marble; however, the streaks are irregular). It has no sulfur odor when ground up."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "ephesisch"@de,
+        "ephesian marble"@en .
+
+<https://www.wikidata.org/wiki/Q103223> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17084> .
+
+<https://www.wikidata.org/wiki/Q105794> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17083> .
+
+<https://www.wikidata.org/wiki/Q106532> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23945> .
+
+<https://www.wikidata.org/wiki/Q107099> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23951> .
+
+<https://www.wikidata.org/wiki/Q1074> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> .
+
+<https://www.wikidata.org/wiki/Q111444518> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23834> .
+
+<https://www.wikidata.org/wiki/Q1145804> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17045> .
+
+<https://www.wikidata.org/wiki/Q11474> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23776> .
+
+<https://www.wikidata.org/wiki/Q14552475> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23840> .
+
+<https://www.wikidata.org/wiki/Q1468713> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23882> .
+
+<https://www.wikidata.org/wiki/Q160066> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992> .
+
+<https://www.wikidata.org/wiki/Q171917> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075> .
+
+<https://www.wikidata.org/wiki/Q1789729> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24004> .
+
+<https://www.wikidata.org/wiki/Q193054> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23949> .
+
+<https://www.wikidata.org/wiki/Q1992479> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17064> .
+
+<https://www.wikidata.org/wiki/Q2003497> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23822> .
+
+<https://www.wikidata.org/wiki/Q2050687> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846> .
+
+<https://www.wikidata.org/wiki/Q207079> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23897> .
+
+<https://www.wikidata.org/wiki/Q211737> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23948> .
+
+<https://www.wikidata.org/wiki/Q2314> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23947> .
+
+<https://www.wikidata.org/wiki/Q2779570> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962> .
+
+<https://www.wikidata.org/wiki/Q2947189> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23889> .
+
+<https://www.wikidata.org/wiki/Q3287561> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005> .
+
+<https://www.wikidata.org/wiki/Q335239> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24290> .
+
+<https://www.wikidata.org/wiki/Q3511295> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24032> .
+
+<https://www.wikidata.org/wiki/Q5259911> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24030> .
+
+<https://www.wikidata.org/wiki/Q561> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23832> .
+
+<https://www.wikidata.org/wiki/Q567788> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23844> .
+
+<https://www.wikidata.org/wiki/Q6066207> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17082> .
+
+<https://www.wikidata.org/wiki/Q618716> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23862> .
+
+<https://www.wikidata.org/wiki/Q648913> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23888> .
+
+<https://www.wikidata.org/wiki/Q664311> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23887> .
+
+<https://www.wikidata.org/wiki/Q7067844> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23892> .
+
+<https://www.wikidata.org/wiki/Q721849> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17037> .
+
+<https://www.wikidata.org/wiki/Q9394827> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23901> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17037> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:39.736849+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-08T14:37:57.960379+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q721849> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Eisenoxyd"@de,
+        "iron oxide"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17038> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:39.962966+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T13:25:39.288711+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300209942> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Dolomit (Mineral)"@de,
+        "dolomite (mineral)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17039> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:40.164673+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-09T15:09:09.615615+00:00"^^xsd:dateTime ;
+    skos:altLabel "Aluminosilicate"@de,
+        "Alumosilicate"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380480> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aluminiumsilikat"@de,
+        "aluminosilicate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17045> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:41.028746+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-08T13:58:08.963328+00:00"^^xsd:dateTime ;
+    skos:altLabel "hydrous mica"@en,
+        "mica"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1145804> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Illit"@de,
+        "illite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17049> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:41.595856+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T09:50:26.484207+00:00"^^xsd:dateTime ;
+    skos:altLabel "sandig"@de,
+        "sandy"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014341> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sand"@de,
+        "sand"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17054> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:42.173258+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-08T12:02:28.215725+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kaolinit"@de,
+        "kaolinite"@en,
+        "kaolinitic"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010445> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kaolin"@de,
+        "kaolin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17058> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:42.651211+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T09:53:46.396029+00:00"^^xsd:dateTime ;
+    skos:altLabel "schluffig"@de,
+        "silty"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379483> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schluff"@de,
+        "silt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17061> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:42.976900+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-26T14:30:22.757041+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300209721> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Montmorillonit"@de,
+        "montmorillonite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17062> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:43.097377+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T11:27:07.371569+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011024> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Magnesium"@de,
+        "magnesium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17064> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dc:source "Nordström, Hans-Åke; Bourriau, Janine D. \"Ceramic Technology: Clays and Fabrics\" in An Introduction to Ancient Egyptian Pottery, ed(s). Dorothea Arnold and Janine D. Bourriau. Mainz am Rhein: P. von Zabern, 1993, 143-190.",
+        "Peloschek, Lisa, \"Cultural Transfers in Aswan (Upper Egypt). Petrographic Evidence for Ceramic Production and Exchange from the Ptolemaic to the Late Antique Period.\", PhD, Archaeometry, University of Vienna, 2015." ;
+    dct:created "2020-05-19T07:41:43.330713+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:12:42.617281+00:00"^^xsd:dateTime ;
+    skos:altLabel "Nilschlammton"@de,
+        "Nilton"@de,
+        "Nile clay"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Art von schluffigem Ton, der speziell in den Vulkanregionen Äthiopiens vorkommt."@de,
+        "Type of silty clay that is particular to the volcanic regions of Ethiopia."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1992479> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Nilschlamm"@de,
+        "Nile silt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17081> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:46.268442+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-26T15:37:06.890845+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011087> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Feldspat"@de,
+        "feldspar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17082> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:46.446486+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:04:18.119509+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6066207> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Dung"@de,
+        "dung"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17083> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:46.678323+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-25T14:03:55.204659+00:00"^^xsd:dateTime ;
+    skos:altLabel "Magnesiumeisenglimmer"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q105794> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Biotit"@de,
+        "biotite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17084> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:46.915264+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-20T11:48:58.580677+00:00"^^xsd:dateTime ;
+    skos:altLabel "haematite"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q103223> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Hämatit"@de,
+        "hematite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17088> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:47.677602+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:30:59.788458+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kalziumkarbonat"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300212174> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Calciumcarbonat"@de,
+        "calcium carbonate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17089> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dc:source "https://en.wikipedia.org/wiki/Mica" ;
+    dct:created "2020-05-19T07:41:47.919007+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:12:14.937478+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Eine Art Silikatmineral mit perfekter Basalspaltung (d.h. Es lässt sich leicht in dünne elastische Platten aufspalten)"@de,
+        "A type of silicate mineral with perfect basal cleavage (i.e. easily split into thin elastic plates)."@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011124> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Glimmer"@de,
+        "mica"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771> a skos:Concept ;
+    dct:created "2022-12-21T09:10:07.362338+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:36:44.149996+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300152583> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Erz"@de,
+        "ore"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23772> a skos:Concept ;
+    dct:created "2022-12-21T09:10:23.595072+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-21T10:46:00.894536+00:00"^^xsd:dateTime ;
+    skos:altLabel "moulding"@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014966> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Stuck"@de,
+        "stucco"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23776> a skos:Concept ;
+    dct:created "2022-12-21T09:13:29.434502+00:00"^^xsd:dateTime ;
+    dct:modified "2023-01-10T12:18:31.217248+00:00"^^xsd:dateTime ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q11474> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kunststoff"@de,
+        "plastic (synthetic)"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23777> a skos:Concept ;
+    dct:created "2022-12-21T09:13:58.409085+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-20T12:15:37.613300+00:00"^^xsd:dateTime ;
+    skos:altLabel "lehmig"@de,
+        "loamy"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014335> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Lehm"@de,
+        "loam"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23778> a skos:Concept ;
+    dct:created "2022-12-21T09:14:15.539631+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-21T12:59:27.501085+00:00"^^xsd:dateTime ;
+    skos:altLabel "aluminum"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011015> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aluminium"@de,
+        "aluminium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23780> a skos:Concept ;
+    dct:created "2022-12-21T09:14:52.213577+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T12:31:01.052512+00:00"^^xsd:dateTime ;
+    skos:altLabel "AE"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010957> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bronze"@de,
+        "bronze"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23781> a skos:Concept ;
+    dct:created "2022-12-21T09:15:31.750667+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:30:36.480502+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011002> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Eisen"@de,
+        "iron"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23782> a skos:Concept ;
+    dct:created "2022-12-21T09:15:47.206843+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T12:32:37.675546+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010965> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Elektron"@de,
+        "electrum"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23786> a skos:Concept ;
+    dct:created "2022-12-21T09:17:04.502412+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T12:32:07.366991+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010946> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Messing"@de,
+        "brass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23788> a skos:Concept ;
+    dct:created "2022-12-21T09:17:42.398800+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T12:33:30.970370+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300133751> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Stahl"@de,
+        "steel"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23789> a skos:Concept ;
+    dct:created "2022-12-21T09:33:52.961900+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T11:57:56.658849+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011033> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Titan"@de,
+        "titanium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23790> a skos:Concept ;
+    dct:created "2022-12-21T09:34:07.800652+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-21T13:00:22.342889+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011037> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zink"@de,
+        "zinc"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23791> a skos:Concept ;
+    dct:created "2022-12-21T09:34:26.831369+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:05:25.832135+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300133748> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zinn"@de,
+        "tin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23793> a skos:Concept ;
+    dct:created "2022-12-21T09:34:56.043675+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:40:47.336252+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014748> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalkmörtel"@de,
+        "lime mortar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23794> a skos:Concept ;
+    dct:created "2022-12-21T09:35:11.760035+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:41:21.181137+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014743> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zementmörtel"@de,
+        "cement mortar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23796> a skos:Concept ;
+    dct:created "2022-12-21T09:35:49.153375+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:44:12.680560+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300191893> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Eierschale"@de,
+        "eggshell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23797> a skos:Concept ;
+    dct:created "2022-12-21T09:36:05.707266+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:19:20.221566+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011857> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Elfenbein"@de,
+        "ivory"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23799> a skos:Concept ;
+    dct:created "2022-12-21T09:42:41.298027+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:47:52.290751+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300048153> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bast"@de,
+        "bast"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23800> a skos:Concept ;
+    dct:created "2022-12-21T09:42:58.041452+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:47:07.357793+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014041> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Flachs"@de,
+        "flax"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23801> a skos:Concept ;
+    dct:created "2022-12-21T09:43:12.127686+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:48:31.447333+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014043> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Hanf"@de,
+        "hemp"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23802> a skos:Concept ;
+    dct:created "2022-12-21T09:43:26.545274+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:49:09.112363+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014224> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kartonage"@de,
+        "cardboard"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23803> a skos:Concept ;
+    dct:created "2022-12-21T09:43:39.637211+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:50:05.924433+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014078> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Leinwand"@de,
+        "canvas"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23804> a skos:Concept ;
+    dct:created "2022-12-21T09:43:55.661100+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:50:49.753109+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014109> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Papier"@de,
+        "paper"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23805> a skos:Concept ;
+    dct:created "2022-12-21T09:44:11.165919+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:52:37.876466+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014127> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Papyrus"@de,
+        "papyrus"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23806> a skos:Concept ;
+    dct:created "2022-12-21T09:44:31.356958+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:51:24.661526+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011878> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schilf"@de,
+        "reed"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23808> a skos:Concept ;
+    dct:created "2022-12-21T09:47:09.597354+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:56:11.697221+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011809> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Feder"@de,
+        "feather"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23812> a skos:Concept ;
+    dct:created "2022-12-21T09:49:00.007812+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:55:48.929995+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012934> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bernstein"@de,
+        "amber"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23816> a skos:Concept ;
+    dct:created "2022-12-21T09:50:39.216703+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T13:47:59.939459+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300451454> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Knochen, menschlich"@de,
+        "bone (human)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23819> a skos:Concept ;
+    dct:created "2022-12-21T10:02:07.516074+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:06:52.206959+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011800> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Koralle"@de,
+        "coral"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23822> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Gastropod_shell" ;
+    dct:created "2022-12-21T10:04:30.135230+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:02:59.960411+00:00"^^xsd:dateTime ;
+    skos:altLabel "Schnecke"@de,
+        "snail shell"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Bezieht sich speziell auf das Exoskelett oder Gehäuse von Gastropoden oder Schnecken."@de,
+        "Refers specifically to the exoskeleton or shell of a gastropod or snail."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2003497> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gastropodenschale"@de,
+        "gastropod shell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23823> a skos:Concept ;
+    dct:created "2022-12-21T10:05:00.594755+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:17:24.807333+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014067> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Baumwolle"@de,
+        "cotton"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23824> a skos:Concept ;
+    dct:created "2022-12-21T10:05:17.804531+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:16:55.590858+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014069> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Leinen"@de,
+        "linen"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23825> a skos:Concept ;
+    dct:created "2022-12-21T10:05:31.585113+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:16:25.184723+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300243428> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Seide"@de,
+        "silk"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23826> a skos:Concept ;
+    dct:created "2022-12-21T10:07:09.672244+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:17:58.417652+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300243430> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Wolle"@de,
+        "wool"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23828> a skos:Concept ;
+    dct:created "2022-12-21T10:07:33.484647+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-19T15:16:48.279345+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011811> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Fell"@de,
+        "fur"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23829> a skos:Concept ;
+    dct:created "2022-12-21T10:07:46.262255+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T12:11:38.501577+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011845> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Leder"@de,
+        "leather"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23830> a skos:Concept ;
+    dct:created "2022-12-21T10:07:59.472246+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T12:12:14.200642+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011851> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pergament"@de,
+        "parchment"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23831> a skos:Concept ;
+    dct:created "2022-12-21T10:08:15.035389+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T12:13:06.139142+00:00"^^xsd:dateTime ;
+    skos:altLabel "hide"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011844> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Tierhaut"@de,
+        "animal skin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23832> a skos:Concept ;
+    dct:created "2022-12-21T10:08:34.379248+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T11:36:28.282813+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q561> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zahn, menschlich"@de,
+        "tooth (human)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23833> a skos:Concept ;
+    dct:created "2022-12-21T10:08:50.890030+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-08T09:39:39.971054+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400467> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zahn, tierisch"@de,
+        "tooth (animal)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23834> a skos:Concept ;
+    dct:created "2022-12-21T13:07:42.699991+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-05T13:50:37.786997+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q111444518> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Knochen, tierisch"@de,
+        "bone (animal)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23835> a skos:Concept ;
+    dct:created "2022-12-21T13:23:55.390849+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:23:55.563608+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011790> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schlacke"@de,
+        "slag"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23837> a skos:Concept ;
+    dct:created "2022-12-21T13:40:15.794637+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T09:50:48.582504+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300263391> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sinter"@de,
+        "sinter"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23839> a skos:Concept ;
+    dct:created "2022-12-21T13:42:45.433247+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T12:48:22.554340+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011101> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Alabaster (Gips)"@de,
+        "alabaster (gypsum)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23840> a skos:Concept ;
+    dct:created "2022-12-21T13:46:14.153649+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-12T08:39:53.166001+00:00"^^xsd:dateTime ;
+    skos:altLabel "Egyptian alabaster"@en,
+        "onyx marble"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q14552475> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalzitalabaster"@de,
+        "alabaster (calcite)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23841> a skos:Concept ;
+    dct:created "2022-12-21T13:46:56.635185+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:46:56.693579+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380120> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Almandin"@de,
+        "almandine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23842> a skos:Concept ;
+    dct:created "2022-12-21T13:47:28.936346+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:05:52.570206+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011133> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Amethyst"@de,
+        "amethyst"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23844> a skos:Concept ;
+    dct:created "2022-12-21T13:49:09.631733+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:49:09.721155+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q567788> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Anorthosit"@de,
+        "anorthosite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23847> a skos:Concept ;
+    dct:created "2022-12-21T13:53:54.562841+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:19:01.843436+00:00"^^xsd:dateTime ;
+    skos:altLabel "blue stone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011386> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Blaustein"@de,
+        "bluestone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23849> a skos:Concept ;
+    dct:created "2022-12-21T13:55:27.590629+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-20T11:39:27.924122+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011084> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Diamant"@de,
+        "diamond"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23850> a skos:Concept ;
+    dct:created "2022-12-21T13:55:59.608872+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T14:13:12.304278+00:00"^^xsd:dateTime ;
+    skos:altLabel "Granodiorit"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011210> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "granodiorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23851> a skos:Concept ;
+    dct:created "2022-12-21T13:56:40.559437+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T14:13:33.775381+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011219> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarzdiorit"@de,
+        "quartz-diorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23853> a skos:Concept ;
+    dct:created "2022-12-21T13:57:45.961113+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T11:28:44.917184+00:00"^^xsd:dateTime ;
+    skos:altLabel "gem"@en,
+        "jewel"@en,
+        "precious stone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300201964> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Edelstein"@de,
+        "gemstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23858> a skos:Concept ;
+    dct:created "2022-12-21T14:15:16.445194+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T14:15:16.589777+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011230> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gabbro"@de,
+        "gabbro"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23860> a skos:Concept ;
+    dct:created "2022-12-21T14:38:39.451626+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-06T13:30:23.680644+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011099> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gips"@de,
+        "gypsum"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23861> a skos:Concept ;
+    dct:created "2022-12-21T14:39:36.467501+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T14:39:36.560765+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011438> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gneis"@de,
+        "gneiss"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23862> a skos:Concept ;
+    dct:created "2022-12-21T14:42:41.897273+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-09T14:36:11.588259+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q618716> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aplitgranit"@de,
+        "aplite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23866> a skos:Concept ;
+    dct:created "2022-12-21T14:49:01.817926+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T14:49:01.942070+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380422> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Rosengranit"@de,
+        "rose granite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23867> a skos:Concept ;
+    dct:created "2022-12-21T14:51:10.521183+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:25:33.955339+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011098> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Graphit"@de,
+        "graphite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23868> a skos:Concept ;
+    dct:created "2022-12-21T14:53:31.948268+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:26:46.419427+00:00"^^xsd:dateTime ;
+    skos:altLabel "graywacke"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011391> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Grauwacke"@de,
+        "greywacke"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23869> a skos:Concept ;
+    dct:created "2022-12-21T14:54:04.823566+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:53:45.183336+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011425> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Brekzie"@de,
+        "breccia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23871> a skos:Concept ;
+    dct:created "2022-12-21T15:00:23.799514+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T13:55:35.946453+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379609> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalksandstein"@de,
+        "calcarenite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23877> a skos:Concept ;
+    dct:created "2022-12-21T15:42:28.740374+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T15:42:28.839984+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300133223> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Karneol"@de,
+        "carnelian"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23878> a skos:Concept ;
+    dct:created "2022-12-21T15:43:01.408466+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T15:43:01.472190+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011430> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Konglomerat"@de,
+        "conglomerate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23879> a skos:Concept ;
+    dct:created "2022-12-21T15:43:37.715261+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:37:37.778776+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011122> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Lapislazuli"@de,
+        "lapis lazuli"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23881> a skos:Concept ;
+    dct:created "2022-12-21T15:45:47.529236+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-09T14:37:23.088870+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010451> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Mergel"@de,
+        "marl"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23882> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Norite" ;
+    dct:created "2022-12-21T15:46:39.304996+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:40:54.062665+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mafisches, intrusives magmatisches Gestein, das hauptsächlich aus Labradorit, Olivin und Orthopyroxen besteht."@de,
+        "A mafic intrusive igneous rock that mostly consists of labradorite, olivine and orthopyroxene."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1468713> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Norit"@de,
+        "norite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23884> a skos:Concept ;
+    dct:created "2022-12-21T15:47:51.201760+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:40:09.860016+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011136> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Onyx"@de,
+        "onyx"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23885> a skos:Concept ;
+    dct:created "2022-12-21T15:48:47.604787+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T15:48:47.689992+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011265> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Peperin"@de,
+        "peperino"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23886> a skos:Concept ;
+    dct:created "2022-12-21T15:52:01.913931+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T14:48:52.100710+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011374> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Poros"@de,
+        "poros"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23887> a skos:Concept ;
+    dct:created "2022-12-21T15:54:14.886165+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T09:42:56.466665+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q664311> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Harzburgit"@de,
+        "harzburgite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23888> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Pyroxenite" ;
+    dct:created "2022-12-21T15:56:07.183053+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:39:53.467100+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein ultramafisches magmatisches Gestein, das hauptsächlich aus Pyroxenmineralien wie Augit, Bronzit, Diopsid und Enstatit besteht."@de,
+        "An ultramafic igneous rock mainly composed of pyroxene minerals, such as augite, bronzite, diopside, and enstatite."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q648913> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pyroxenit"@de,
+        "pyroxenite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23889> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Wehrlite" ;
+    dct:created "2022-12-21T15:58:50.235523+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:27:09.162389+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Eine ultramafische und ultrabasische Gesteinsmischung aus Olivin und Klinopyroxen."@de,
+        "An ultramafic and ultrabasic rock mixture of olivine and clinopyroxene."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2947189> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Wehrlit"@de,
+        "wehrlite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23892> a skos:Concept ;
+    dct:created "2022-12-21T16:02:31.789453+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T11:58:28.729020+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7067844> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "nubisch"@de,
+        "Nubian sandstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23894> a skos:Concept ;
+    dct:created "2022-12-21T16:04:49.655312+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T16:04:49.725581+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011137> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sardonyx"@de,
+        "sardonyx"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23897> a skos:Concept ;
+    dc:source "https://de.wikipedia.org/wiki/Schiefer#Tonschiefer" ;
+    dct:created "2022-12-21T16:09:49.118933+00:00"^^xsd:dateTime ;
+    dct:modified "2023-10-27T15:10:18.038834+00:00"^^xsd:dateTime ;
+    skos:altLabel "slate"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> ;
+    skos:definition "\"Tonschiefer sind Gesteine aus dem Übergangsbereich von der Diagenese zur Metamorphose. Es sind dichte, feinklastische Gesteine mit schwarzer, schwärzlich grauer, bläulich grauer, auch grünlicher, gelblicher, roter und violetter Farbe mit einer engständigen Schieferung, durch die das Gestein im Millimeterbereich spaltbar ist.\""@de,
+        "Free translation from German definition: Type of rock in the transition area from diagenesis to metamorphosis. They are dense, fine clastic rocks with colours such as black, blackish grey, bluish grey, greenish, yellowish, red and violet. They have a narrow cleavage where rock can be split in the millimeter range."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q207079> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Tonschiefer"@de,
+        "clay schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23899> a skos:Concept ;
+    dct:created "2022-12-21T16:13:31.037698+00:00"^^xsd:dateTime ;
+    dct:modified "2023-01-11T16:22:23.079763+00:00"^^xsd:dateTime ;
+    skos:altLabel "soapstone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011665> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Steatit"@de,
+        "steatite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23900> a skos:Concept ;
+    dct:created "2022-12-21T16:14:13.100240+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T16:14:13.254093+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011220> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Syenit"@de,
+        "syenite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23901> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Schist" ;
+    dct:created "2022-12-21T16:16:26.166871+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:29:22.101562+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mittelkörniges metamorphes Gestein mit flockiger Textur (Schieferung), das aufgrund seines hohen Gehalts an plättchenförmigen Mineralien leicht in Schichten zerfällt und einen hohen Talkanteil aufweist."@de,
+        "A medium-grained metamorphic rock with a flakey texture (schistosity), which easily breaks into plates due to its high content of platy minerals. Talc schist contains a high level of talc."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q9394827> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Talkschiefer"@de,
+        "talc schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23902> a skos:Concept ;
+    dct:created "2022-12-21T16:20:05.536825+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T16:20:05.664465+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011329> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Travertin"@de,
+        "travertine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23903> a skos:Concept ;
+    dct:created "2022-12-21T16:20:44.710046+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T16:20:44.827991+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011264> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Tuff"@de,
+        "tuff"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23904> a skos:Concept ;
+    dct:created "2022-12-21T16:21:28.376268+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-12T08:44:08.783479+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011164> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Türkis"@de,
+        "turquoise (mineral)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23905> a skos:Concept ;
+    dct:created "2022-12-21T16:26:27.385514+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T16:30:11.242446+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010669> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Terrakotta"@de,
+        "terracotta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23908> a skos:Concept ;
+    dct:created "2022-12-21T16:31:38.000713+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T16:31:38.226412+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014922> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Verputz"@de,
+        "plaster"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23934> a skos:Concept ;
+    dct:created "2023-03-21T13:10:01.940722+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T14:09:45.561221+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011820> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Haar (menschlich)"@de,
+        "hair (human)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23938> a skos:Concept ;
+    dct:created "2023-03-22T08:57:15.221653+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T09:02:23.660021+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300386525> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "opakes Glas"@de,
+        "opaque glass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23939> a skos:Concept ;
+    dct:created "2023-03-22T09:24:17.110735+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T15:16:11.405317+00:00"^^xsd:dateTime ;
+    skos:altLabel "Teer"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012949> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pech (Harz)"@de,
+        "pitch"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23943> a skos:Concept ;
+    dct:created "2023-03-22T10:45:27.383027+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T10:45:27.481329+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011131> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Silicium"@de,
+        "silica"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23944> a skos:Concept ;
+    dct:created "2023-03-22T12:03:23.434473+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:15:26.837757+00:00"^^xsd:dateTime ;
+    skos:altLabel "Schamottemehl"@de,
+        "chamotte"@en,
+        "grog"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Tonscherben, die zur Verwendung als Mischungszusatz zerkleinert wurden."@de,
+        "Pottery sherds that have been crushed for use as a mixture additive."@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300264869> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schamott"@de,
+        "crushed sherd"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23945> a skos:Concept ;
+    dct:created "2023-03-22T12:10:55.458740+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:10:55.506653+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q106532> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Muskovit"@de,
+        "muscovite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23946> a skos:Concept ;
+    dct:created "2023-03-22T12:11:54.661602+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:11:54.714758+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379536> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "lösliches Salz"@de,
+        "soluble salt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23947> a skos:Concept ;
+    dct:created "2023-03-22T12:13:29.413826+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:13:29.466673+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kochsalz"@de,
+        "rock salt"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2314> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Natriumchlorid"@de,
+        "sodium chloride"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23948> a skos:Concept ;
+    dct:created "2023-03-22T12:15:12.334349+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:15:12.423301+00:00"^^xsd:dateTime ;
+    skos:altLabel "sodium sulphate"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q211737> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Natriumsulfat"@de,
+        "sodium sulfate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23949> a skos:Concept ;
+    dct:created "2023-03-22T12:16:43.509078+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:16:43.573978+00:00"^^xsd:dateTime ;
+    skos:altLabel "potassium sulphate"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q193054> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kaliumsulfat"@de,
+        "potassium sulfate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23951> a skos:Concept ;
+    dct:created "2023-03-22T12:20:54.786184+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T09:40:10.289953+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q107099> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "vulkanische Asche"@de,
+        "volcanic ash"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23956> a skos:Concept ;
+    dct:created "2023-03-22T12:36:02.063633+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:36:02.120413+00:00"^^xsd:dateTime ;
+    skos:altLabel "ethylenediamine tetraacetic acid"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379820> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "EDTA"@de,
+        "EDTA"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23957> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Cyclododecane" ;
+    dct:created "2023-03-22T12:36:39.371283+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:59:08.399879+00:00"^^xsd:dateTime ;
+    skos:altLabel "Cyclododecan"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein temporäres Konservierungsmittel zum Schutz der Tinte bei wässrigen Oberflächenreinigungen."@de,
+        "A temporary preservative agent for protecting ink during washing treatments."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23961> ;
+    skos:prefLabel "Cyclododekan"@de,
+        "Cyclododecane"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23959> a skos:Concept ;
+    dct:created "2023-03-22T12:38:36.779813+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:38:36.831476+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380470> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Paraloid B72"@de,
+        "Paraloid B72"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23967> a skos:Concept ;
+    dct:created "2023-03-22T13:17:39.722067+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T13:17:39.804041+00:00"^^xsd:dateTime ;
+    skos:altLabel "vermillion"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400883> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zinnober"@de,
+        "cinnabar (pigment)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23968> a skos:Concept ;
+    dct:created "2023-03-22T13:19:07.830514+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T13:19:07.894240+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300013280> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Ägyptischblau"@de,
+        "Egyptian blue"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23969> a skos:Concept ;
+    dct:created "2023-03-22T13:26:44.147283+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T13:26:44.331373+00:00"^^xsd:dateTime ;
+    skos:altLabel "vermillion"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300311452> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zinnober (Mineral)"@de,
+        "cinnabar (mineral)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23973> a skos:Concept ;
+    dct:created "2023-03-22T15:16:25.465229+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T15:16:25.521005+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014585> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Wachs"@de,
+        "wax"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23974> a skos:Concept ;
+    dct:created "2023-03-22T15:17:46.289576+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-26T14:29:36.468932+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300265183> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Fayence"@de,
+        "faience"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23975> a skos:Concept ;
+    dct:created "2023-03-22T16:19:37.730339+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T16:19:37.924015+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014910> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Emaille"@de,
+        "enamel"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23979> a skos:Concept ;
+    dct:created "2023-03-23T08:29:14.890294+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T08:29:14.978823+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011028> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Nickel"@de,
+        "nickel"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23983> a skos:Concept ;
+    dct:created "2023-03-23T08:36:07.765550+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T08:36:07.874545+00:00"^^xsd:dateTime ;
+    skos:altLabel "Zirkonium"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380041> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zirconium"@de,
+        "zirconium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23986> a skos:Concept ;
+    dct:created "2023-03-23T08:40:45.913892+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T08:40:45.975314+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011031> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Platin"@de,
+        "platinum"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23994> a skos:Concept ;
+    dct:created "2023-03-23T08:54:53.781641+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T08:54:53.835808+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011576> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Carrara"@de,
+        "carrara marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23995> a skos:Concept ;
+    dct:created "2023-03-23T08:55:34.698957+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T08:55:34.746749+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011505> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Celticum"@de,
+        "celticum marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23998> a skos:Concept ;
+    dct:created "2023-03-23T08:59:59.151863+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-24T14:41:24.572222+00:00"^^xsd:dateTime ;
+    skos:altLabel "granito del foro"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380366> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Claudianum"@de,
+        "claudianum marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24001> a skos:Concept ;
+    dct:created "2023-03-23T09:01:38.362571+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T09:01:38.429773+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011580> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "hymettisch"@de,
+        "hymettian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24004> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Lapis_Lacedaemonius" ;
+    dct:created "2023-03-23T09:03:13.244649+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T14:42:39.654244+00:00"^^xsd:dateTime ;
+    skos:altLabel "Krokeischer Stein"@de,
+        "porfido verde antico"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Eine Art Andesit- oder Vulkangestein, das im Dorf Krokees in der Region Peloponnes in Griechenland vorkommt."@de,
+        "A type of andesite or volcanic rock found in the village of Krokees in the Peloponnese region in Greece."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1789729> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Lapis lakedaimonisch"@de,
+        "lacedaemonian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24006> a skos:Concept ;
+    dct:created "2023-03-23T09:04:24.712776+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T09:04:24.775295+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300444909> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "naxisch"@de,
+        "naxian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24007> a skos:Concept ;
+    dct:created "2023-03-23T09:05:02.434918+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-30T09:00:00.390000+00:00"^^xsd:dateTime ;
+    skos:altLabel "giallo antico"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011557> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Numidicum"@de,
+        "numidian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24008> a skos:Concept ;
+    dct:created "2023-03-23T09:05:37.846653+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T09:05:37.901761+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011594> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "parisch"@de,
+        "parian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24009> a skos:Concept ;
+    dct:created "2023-03-23T09:07:07.581858+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-19T15:57:33.088005+00:00"^^xsd:dateTime ;
+    skos:altLabel "Marmor Phrygium"@de,
+        "phrygisch"@de,
+        "phrygian marble"@en,
+        "synnadic marble"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011562> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pavonazzetto"@de,
+        "pavonazzetto marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24010> a skos:Concept ;
+    dct:created "2023-03-23T09:07:48.474023+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T09:07:48.543470+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011599> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "pentelischer"@de,
+        "pentelic marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24012> a skos:Concept ;
+    dct:created "2023-03-23T09:09:10.330385+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-04T14:21:51.116483+00:00"^^xsd:dateTime ;
+    skos:altLabel "prokonnesian marble"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300193786> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "prokonnesisch"@de,
+        "proconnesian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24014> a skos:Concept ;
+    dct:created "2023-03-23T09:10:27.541343+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-23T09:10:27.614559+00:00"^^xsd:dateTime ;
+    skos:altLabel "tasio"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011607> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "thasisch"@de,
+        "thasian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24030> a skos:Concept ;
+    dct:created "2023-04-27T12:48:24.712451+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-02T07:53:23.094177+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5259911> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Menschenhaut"@de,
+        "human skin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24032> a skos:Concept ;
+    dc:source "https://en.wikipedia.org/wiki/Bivalve_shell" ;
+    dct:created "2023-05-09T16:03:37.250540+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:10:32.944171+00:00"^^xsd:dateTime ;
+    skos:altLabel "Muschel"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Bezieht sich speziell auf das Exoskelett oder Gehäuse einer zweischaligen Muschel."@de,
+        "Refers specifically to the exoskeleton or shell of a bivalve mollusk."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3511295> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "bivalve shell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24033> a skos:Concept ;
+    dct:created "2023-05-11T13:53:44.526974+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-11T13:53:44.619944+00:00"^^xsd:dateTime ;
+    skos:altLabel "Hornsubstanz"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300193683> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Keratin"@de,
+        "keratin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24040> a skos:Concept ;
+    dct:created "2023-05-12T14:06:38.341501+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-19T15:21:04.858326+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300386691> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Grünstein"@de,
+        "greenstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24288> a skos:Concept ;
+    dct:created "2023-06-07T13:24:14.318235+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T13:25:03.324342+00:00"^^xsd:dateTime ;
+    skos:altLabel "Dolomitstein"@de,
+        "dolostone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011348> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Dolomit (Gestein)"@de,
+        "dolomite (rock)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24290> a skos:Concept ;
+    dct:created "2023-06-13T14:50:38.518175+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-13T14:50:38.701971+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q335239> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Amphibolit"@de,
+        "amphibolite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:44.164350+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-06T14:14:45.857390+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kalzium"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300264232> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17088> ;
+    skos:prefLabel "Calcium"@de,
+        "calcium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075> a skos:Concept ;
+    dc:creator "Micheline Welte" ;
+    dct:created "2020-05-19T07:41:45.217504+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-06T14:14:10.857906+00:00"^^xsd:dateTime ;
+    skos:altLabel "Kalzit"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/calcite/3.37>,
+        <https://www.wikidata.org/wiki/Q171917> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Calcit"@de,
+        "calcite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769> a skos:Concept ;
+    dct:created "2022-12-20T15:53:32.729252+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-12T08:32:34.750882+00:00"^^xsd:dateTime ;
+    skos:altLabel "cement"@en ;
+    skos:closeMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/concrete/6.16> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010737> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Beton"@de,
+        "concrete"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779> a skos:Concept ;
+    dct:created "2022-12-21T09:14:34.128216+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:02:44.564824+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011022>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/lead/5.10> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Blei"@de,
+        "lead"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783> a skos:Concept ;
+    dct:created "2022-12-21T09:16:01.507061+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:02:20.130569+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011021>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/gold/3.34> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gold"@de,
+        "gold"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784> a skos:Concept ;
+    dct:created "2022-12-21T09:16:20.559211+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:01:58.104941+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011020>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/copper/3.31> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kupfer"@de,
+        "copper"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787> a skos:Concept ;
+    dct:created "2022-12-21T09:17:22.770959+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:03:08.563069+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011029>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/silver/5.9> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Silber"@de,
+        "silver"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809> a skos:Concept ;
+    dct:created "2022-12-21T09:47:23.711602+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:05:21.721483+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011796>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/antler/3.7> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Geweih"@de,
+        "antler"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810> a skos:Concept ;
+    dct:created "2022-12-21T09:47:52.325703+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-21T09:07:19.697566+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400468> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23828> ;
+    skos:prefLabel "Haar (tierisch)"@de,
+        "hair (animal)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815> a skos:Concept ;
+    dct:created "2022-12-21T09:50:15.440822+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:35:31.117564+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011826>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/horn/3.8> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Horn"@de,
+        "horn"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838> a skos:Concept ;
+    dct:created "2022-12-21T13:41:01.536863+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:29:28.905164+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011135>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/agate/3.27> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Achat"@de,
+        "agate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843> a skos:Concept ;
+    dct:created "2022-12-21T13:48:03.535663+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:30:13.581853+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011213>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/andesit/3.29> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Andesit"@de,
+        "andesite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845> a skos:Concept ;
+    dct:created "2022-12-21T13:49:51.949652+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T14:50:17.681957+00:00"^^xsd:dateTime ;
+    skos:altLabel "Dolerit"@de,
+        "dolerite"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011222>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/basalt/3.20> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Basalt"@de,
+        "basalt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846> a skos:Concept ;
+    dct:created "2022-12-21T13:52:46.175687+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:45:03.172953+00:00"^^xsd:dateTime ;
+    skos:altLabel "clear quartz"@en,
+        "mountain crystal"@en,
+        "pure quartz"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/rock_crystal/3.16>,
+        <https://www.wikidata.org/wiki/Q2050687> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bergkristall"@de,
+        "rock crystal"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848> a skos:Concept ;
+    dct:created "2022-12-21T13:54:54.933505+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:31:38.492635+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011134>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chalcedony/3.13> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Chalzedon"@de,
+        "chalcedony"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856> a skos:Concept ;
+    dct:created "2022-12-21T14:04:09.962890+00:00"^^xsd:dateTime ;
+    dct:modified "2023-10-16T11:11:26.102704+00:00"^^xsd:dateTime ;
+    skos:altLabel "Silex"@de,
+        "flintstone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011143>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/flint/4.11> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Feuerstein"@de,
+        "flint (rock)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857> a skos:Concept ;
+    dct:created "2022-12-21T14:12:05.892188+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:32:09.453867+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011141>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chert/3.12> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Hornstein"@de,
+        "chert"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870> a skos:Concept ;
+    dct:created "2022-12-21T14:54:56.300156+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:36:51.529258+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011151>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/jasper/3.14> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Jaspis"@de,
+        "jasper"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872> a skos:Concept ;
+    dct:created "2022-12-21T15:01:02.530569+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:37:37.788729+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011286>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/limestone/3.22> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalkstein"@de,
+        "limestone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883> a skos:Concept ;
+    dct:created "2022-12-21T15:47:13.118410+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:38:34.677611+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011254>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/obsidian/3.2> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Obsidian"@de,
+        "obsidian"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890> a skos:Concept ;
+    dct:created "2022-12-21T16:00:15.762535+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:40:02.173211+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011132>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartz/3.15> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarz"@de,
+        "quartz"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891> a skos:Concept ;
+    dct:created "2022-12-21T16:00:50.352067+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:40:53.063894+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011376>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/sandstone/3.25> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sandstein"@de,
+        "sandstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893> a skos:Concept ;
+    dct:created "2022-12-21T16:04:06.668999+00:00"^^xsd:dateTime ;
+    dct:modified "2023-10-27T10:14:07.106941+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011623>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartzite/5.8> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarzit"@de,
+        "quartzite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898> a skos:Concept ;
+    dct:created "2022-12-21T16:11:33.086805+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T10:59:50.752081+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011627>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/serpentine/3.23> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Serpentin"@de,
+        "serpentine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962> a skos:Concept ;
+    dc:source "https://cameo.mfa.org/wiki/Araldite" ;
+    dct:created "2023-03-22T12:42:00.354943+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:01:34.468008+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Markenname für einen Klebstofftyp auf Basis von Epoxid-, Polyurethan- oder Acrylpolymeren."@de,
+        "Brand name for a type of adhesive based on epoxy, polyurethane, or acrylic polymers."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2779570> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23963> ;
+    skos:prefLabel "Araldite"@de,
+        "Araldite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972> a skos:Concept ;
+    dct:created "2023-03-22T13:45:18.237055+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T13:52:09.722894+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300235507> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23944> ;
+    skos:prefLabel "Keramik"@de,
+        "ceramic"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992> a skos:Concept ;
+    dct:created "2023-03-23T08:51:40.191220+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-19T14:05:32.975737+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/straw/6.8>,
+        <https://www.wikidata.org/wiki/Q160066> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Stroh"@de,
+        "straw"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005> a skos:Concept ;
+    dct:created "2023-03-23T09:03:49.476694+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-13T11:16:28.260389+00:00"^^xsd:dateTime ;
+    skos:altLabel "africano"@de,
+        "African marble"@en,
+        "lucullite"@en,
+        "marmor lucullum"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011490>,
+        <https://www.wikidata.org/wiki/Q3287561> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "lukullisch"@de,
+        "lucullan marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011> a skos:Concept ;
+    dct:created "2023-03-23T09:08:32.437888+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:39:22.259952+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011232>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/porphyry/3.30> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Porphyr"@de,
+        "porphyry"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036> a skos:Concept ;
+    dct:created "2023-05-12T13:52:30.256411+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:59:47.051283+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012862>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/charcoal/4.1> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Holzkohle"@de,
+        "charcoal"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037> a skos:Concept ;
+    dct:created "2023-05-12T14:01:33.243103+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:01:33.327578+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011123>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/malachite/3.35> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Malachit"@de,
+        "malachite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038> a skos:Concept ;
+    dct:created "2023-05-12T14:03:13.680216+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:03:13.743538+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011079>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chlorite/3.21> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Chlorit"@de,
+        "chlorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041> a skos:Concept ;
+    dct:created "2023-05-12T14:11:53.511135+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:11:53.561716+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400620>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/radiolarite/4.18> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Radiolarit"@de,
+        "radiolarite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> a skos:Concept ;
+    dct:created "2022-12-21T09:35:30.127610+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:41:45.927500+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014741> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23793>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23794> ;
+    skos:prefLabel "Mörtel"@de,
+        "mortar"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> a skos:Concept ;
+    dct:created "2022-12-21T09:48:41.982461+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T14:56:52.709554+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011814> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23934> ;
+    skos:prefLabel "Haar"@de,
+        "hair"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> a skos:Concept ;
+    dct:created "2022-12-21T09:49:15.373489+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:56:17.751155+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012882> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23812>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23939> ;
+    skos:prefLabel "Harz"@de,
+        "resin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814> a skos:Concept ;
+    dct:created "2022-12-21T09:49:28.036592+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:07:40.043370+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011914>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/wood/3.32> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036> ;
+    skos:prefLabel "Holz"@de,
+        "wood"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> a skos:Concept ;
+    dct:created "2022-12-21T13:57:15.519749+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:57:15.599877+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011214> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23850>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23851> ;
+    skos:prefLabel "Diorit"@de,
+        "diorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863> a skos:Concept ;
+    dct:created "2022-12-21T14:43:40.548173+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:33:43.482116+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011183>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/granite/3.24> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23866> ;
+    skos:prefLabel "Granit"@de,
+        "granite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> a skos:Concept ;
+    dct:created "2023-03-22T12:34:02.445789+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:34:02.496319+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380471> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23959>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23960> ;
+    skos:prefLabel "Paraloid"@de,
+        "Paraloid"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> a skos:Concept ;
+    dct:created "2023-03-22T12:57:13.406719+00:00"^^xsd:dateTime ;
+    dct:modified "2023-03-22T12:57:13.511260+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300013109> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23967>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23968> ;
+    skos:prefLabel "Pigment"@de,
+        "pigment"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> a skos:Concept ;
+    dct:created "2023-05-09T09:34:54.578803+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-09T09:34:54.653465+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300263800> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23951> ;
+    skos:prefLabel "vulkanisches Glas"@de,
+        "vulcanic glass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> a skos:Concept ;
+    dct:created "2022-12-21T10:02:31.294091+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-09T11:04:16.750104+00:00"^^xsd:dateTime ;
+    skos:altLabel "Gehäuse"@de,
+        "Schale"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011829>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/shell/3.6> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23822>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24032> ;
+    skos:prefLabel "Muschel"@de,
+        "shell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> a skos:Concept ;
+    dct:created "2023-05-12T14:04:06.253552+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-12T12:35:01.307863+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011626> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23896>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23897>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23901> ;
+    skos:prefLabel "Schiefer"@de,
+        "schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> a skos:Concept ;
+    dct:created "2022-12-21T09:16:44.595497+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:28:38.549413+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010902> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23780>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23782>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23786>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23788> ;
+    skos:prefLabel "Legierung"@de,
+        "alloy"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> a skos:Concept ;
+    dct:created "2022-12-21T10:07:20.541796+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:18:38.535228+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014063> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23823>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23824>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23825>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23826> ;
+    skos:prefLabel "Textil"@de,
+        "textile"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> a skos:Concept ;
+    dct:created "2023-03-21T13:03:46.499910+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:06:12.826420+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011798>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/bone/3.5> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23816>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23834> ;
+    skos:prefLabel "Knochen"@de,
+        "bone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> a skos:Concept ;
+    dct:created "2023-03-21T13:32:23.190304+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:08:27.288317+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011855>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/tooth/3.28> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23797>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23832>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23833> ;
+    skos:prefLabel "Zahn"@de,
+        "tooth"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> a skos:Concept ;
+    dct:created "2023-04-27T12:36:22.177566+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-27T12:44:39.927704+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1074> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23829>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23830>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23831>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24030> ;
+    skos:prefLabel "Haut"@de,
+        "skin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> a skos:Concept ;
+    dct:created "2022-12-21T09:09:39.478662+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-19T13:59:09.250745+00:00"^^xsd:dateTime ;
+    skos:altLabel "Boden"@de,
+        "Erde"@de,
+        "Schlamm"@de,
+        "earth"@en,
+        "mud"@en,
+        "soil"@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379424> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17049>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17058>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23777>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23837>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:prefLabel "Sediment"@de,
+        "sediment"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> a skos:Concept ;
+    dct:created "2022-12-21T09:12:39.811964+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:37:37.084453+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010797> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23936>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23937>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23938>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23974>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> ;
+    skos:prefLabel "Glas"@de,
+        "glass"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> a skos:Concept ;
+    dct:created "2023-03-22T12:32:57.048363+00:00"^^xsd:dateTime ;
+    dct:modified "2023-11-03T15:02:12.114170+00:00"^^xsd:dateTime ;
+    skos:definition "Chemikalien, die bei der Konservierung und Restaurierung von Artefakten und Objekten verwendet werden."@de,
+        "Chemicals used in artifact and feature conservation processes."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23955>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23956>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23957>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23958>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962> ;
+    skos:prefLabel "Restaurationschemikalien"@de,
+        "restoration chemicals"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> a skos:Concept ;
+    dct:created "2022-12-21T09:44:46.787551+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T12:43:41.015704+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014024> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23799>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23800>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23801>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23802>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23803>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23804>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23805>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23806> ;
+    skos:prefLabel "Faser"@de,
+        "fibre"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> a skos:Concept ;
+    dct:created "2022-12-21T16:29:15.818316+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:03:36.099619+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010439>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/clay/2.19> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17048>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17050>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17054>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17061>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17064>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17074>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17080>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23881>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23905> ;
+    skos:prefLabel "Ton"@de,
+        "clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> a skos:Concept ;
+    dct:created "2022-12-21T09:34:41.762382+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T13:01:35.001245+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010900>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/metal/2.9> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23778>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23781>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23789>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23790>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23791>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23979>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23983>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23986> ;
+    skos:prefLabel "Metall"@de,
+        "metal"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> a skos:Concept ;
+    dct:created "2022-12-21T09:51:09.722419+00:00"^^xsd:dateTime ;
+    dct:modified "2022-12-21T13:22:25.050230+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300191632> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17082>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23796>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23808>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23819>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23973>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24033> ;
+    skos:prefLabel "organisch"@de,
+        "organic"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> a skos:Concept ;
+    dct:created "2022-12-21T15:45:07.447077+00:00"^^xsd:dateTime ;
+    dct:modified "2023-05-12T12:38:05.452085+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011443>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/marble/3.10> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23993>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23994>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23995>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23996>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23998>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24000>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24001>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24004>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24006>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24007>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24008>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24009>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24010>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24012>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24014> ;
+    skos:prefLabel "Marmor"@de,
+        "marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> a skos:Concept ;
+    dct:created "2023-03-21T12:23:22.170819+00:00"^^xsd:dateTime ;
+    dct:modified "2023-04-25T13:34:12.717303+00:00"^^xsd:dateTime ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011068> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17037>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17038>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17039>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17062>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17081>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17083>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17084>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17089>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23839>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23842>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23849>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23860>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23867>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23879>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23884>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23904>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23943>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23945>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23947>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23948>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23949>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23950>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23969>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038> ;
+    skos:prefLabel "Mineral"@de,
+        "mineral"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> a skos:Concept ;
+    dct:created "2022-12-21T13:26:28.012318+00:00"^^xsd:dateTime ;
+    dct:modified "2023-06-07T13:27:29.788268+00:00"^^xsd:dateTime ;
+    skos:altLabel "stone"@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011692>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/stone/2.1> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:narrower <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17045>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23840>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23841>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23844>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23847>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23853>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23858>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23861>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23862>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23868>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23869>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23871>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23877>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23878>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23882>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23885>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23886>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23887>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23888>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23889>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23892>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23894>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23899>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23900>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23902>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23903>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23946>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24040>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24288>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24290> ;
+    skos:prefLabel "Gestein"@de,
+        "rock"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/> a skos:ConceptScheme ;
+    rdfs:label "OeAI Thesaurus - Materials"@en ;
+    dc:creator "Micheline Welte" ;
+    dc:description "Subset of the OeAI Thesaurus for materials."@en ;
+    dc:language "de",
+        "en" ;
+    dc:publisher "OeAI" ;
+    dc:subject "Archaeology" ;
+    dc:title "OeAI Thesaurus - Materialien"@de,
+        "OeAI Thesaurus - Materials"@en ;
+    dct:created "2020-05-19T07:41:38.281098+00:00"^^xsd:dateTime ;
+    dct:license "https://creativecommons.org/licenses/by/4.0/" ;
+    dct:modified "2023-11-16T16:22:12.377450+00:00"^^xsd:dateTime ;
+    owl:versionInfo "0.0.2" ;
+    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23772>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23776>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23835>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23908>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23975> .
+
