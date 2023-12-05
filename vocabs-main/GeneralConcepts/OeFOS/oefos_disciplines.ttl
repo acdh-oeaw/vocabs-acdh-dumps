@@ -5,7 +5,6 @@
 @prefix disc: <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 disc:101001 a skos:Concept ;
     skos:broader disc:1010 ;
@@ -490,6 +489,27 @@ disc:102037 a skos:Concept ;
     skos:prefLabel "Visualisierung"@de,
         "Visualisation"@en .
 
+disc:102038 a skos:Concept ;
+    skos:broader disc:1020 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "102038" ;
+    skos:prefLabel "Cloud Computing"@de,
+        "Cloud computing"@en .
+
+disc:102039 a skos:Concept ;
+    skos:broader disc:1020 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "102039" ;
+    skos:prefLabel "Neuroinformatik"@de,
+        "Neuroinformatics"@en .
+
+disc:102040 a skos:Concept ;
+    skos:broader disc:1020 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "102040" ;
+    skos:prefLabel "Quantencomputing"@de,
+        "Quantum computing"@en .
+
 disc:103001 a skos:Concept ;
     skos:broader disc:1030 ;
     skos:inScheme disc:Schema ;
@@ -797,6 +817,13 @@ disc:103044 a skos:Concept ;
     skos:notation "103044" ;
     skos:prefLabel "Kosmologie"@de,
         "Cosmology"@en .
+
+disc:103045 a skos:Concept ;
+    skos:broader disc:1030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "103045" ;
+    skos:prefLabel "Lichtoptische Mikroskopie"@de,
+        "Light optical microscopy"@en .
 
 disc:104001 a skos:Concept ;
     skos:broader disc:1040 ;
@@ -2121,6 +2148,13 @@ disc:201132 a skos:Concept ;
     skos:prefLabel "Computational Engineering"@de,
         "Computational engineering"@en .
 
+disc:201133 a skos:Concept ;
+    skos:broader disc:2011 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "201133" ;
+    skos:prefLabel "Bauakustik"@de,
+        "Building acoustics"@en .
+
 disc:201201 a skos:Concept ;
     skos:broader disc:2012 ;
     skos:inScheme disc:Schema ;
@@ -2883,6 +2917,13 @@ disc:203038 a skos:Concept ;
     skos:notation "203038" ;
     skos:prefLabel "Lüftungstechnik"@de,
         "Ventilation technology"@en .
+
+disc:203039 a skos:Concept ;
+    skos:broader disc:2030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "203039" ;
+    skos:prefLabel "Schiffbautechnik"@de,
+        "Shipbuilding technology"@en .
 
 disc:204001 a skos:Concept ;
     skos:broader disc:2040 ;
@@ -3835,6 +3876,13 @@ disc:211926 a skos:Concept ;
     skos:notation "211926" ;
     skos:prefLabel "Technikethik"@de,
         "Technology ethics"@en .
+
+disc:211927 a skos:Concept ;
+    skos:broader disc:2119 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "211927" ;
+    skos:prefLabel "Wasserstofftechnologie"@de,
+        "Hydrogen technology"@en .
 
 disc:301101 a skos:Concept ;
     skos:broader disc:3011 ;
@@ -5114,7 +5162,7 @@ disc:303036 a skos:Concept ;
     skos:broader disc:3030 ;
     skos:inScheme disc:Schema ;
     skos:notation "303036" ;
-    skos:prefLabel "Patientensicherheit"@de,
+    skos:prefLabel "Patient:innensicherheit"@de,
         "Patient safety"@en .
 
 disc:303037 a skos:Concept ;
@@ -5144,6 +5192,13 @@ disc:303040 a skos:Concept ;
     skos:notation "303040" ;
     skos:prefLabel "Versorgungsforschung"@de,
         "Health services research"@en .
+
+disc:303041 a skos:Concept ;
+    skos:broader disc:3030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "303041" ;
+    skos:prefLabel "Infektiologie"@de,
+        "Infectious diseases"@en .
 
 disc:304001 a skos:Concept ;
     skos:broader disc:3040 ;
@@ -5200,6 +5255,13 @@ disc:304008 a skos:Concept ;
     skos:notation "304008" ;
     skos:prefLabel "Regenerative Medizin"@de,
         "Regenerative medicine"@en .
+
+disc:304009 a skos:Concept ;
+    skos:broader disc:3040 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "304009" ;
+    skos:prefLabel "Zelltherapie"@de,
+        "Cell therapy"@en .
 
 disc:305101 a skos:Concept ;
     skos:broader disc:3051 ;
@@ -5263,6 +5325,13 @@ disc:305109 a skos:Concept ;
     skos:notation "305109" ;
     skos:prefLabel "Forensische Anthropologie"@de,
         "Forensic anthropology"@en .
+
+disc:305110 a skos:Concept ;
+    skos:broader disc:3051 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "305110" ;
+    skos:prefLabel "Forensische Bildgebung"@de,
+        "Forensic imaging"@en .
 
 disc:305901 a skos:Concept ;
     skos:broader disc:3059 ;
@@ -5950,6 +6019,20 @@ disc:403036 a skos:Concept ;
     skos:prefLabel "Intensivmedizin (Veterinärmedizin)"@de,
         "Veterinary critical care medicine"@en .
 
+disc:403037 a skos:Concept ;
+    skos:broader disc:4030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "403037" ;
+    skos:prefLabel "Physikalische Medizin (Veterinärmedizin)"@de,
+        "Veterinary physical medicine"@en .
+
+disc:403038 a skos:Concept ;
+    skos:broader disc:4030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "403038" ;
+    skos:prefLabel "Physiotherapie (Veterinärmedizin)"@de,
+        "Veterinary physiotherapy"@en .
+
 disc:404001 a skos:Concept ;
     skos:broader disc:4040 ;
     skos:inScheme disc:Schema ;
@@ -6257,6 +6340,20 @@ disc:501030 a skos:Concept ;
     skos:notation "501030" ;
     skos:prefLabel "Kognitionswissenschaft"@de,
         "Cognitive science"@en .
+
+disc:501031 a skos:Concept ;
+    skos:broader disc:5010 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "501031" ;
+    skos:prefLabel "Eigensteuerung"@de,
+        "Self-organization"@en .
+
+disc:501032 a skos:Concept ;
+    skos:broader disc:5010 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "501032" ;
+    skos:prefLabel "Emotionspsychologie"@de,
+        "Emotional psychology"@en .
 
 disc:502001 a skos:Concept ;
     skos:broader disc:5020 ;
@@ -6671,6 +6768,13 @@ disc:502059 a skos:Concept ;
     skos:prefLabel "Kreislaufwirtschaft"@de,
         "Circular economy"@en .
 
+disc:502060 a skos:Concept ;
+    skos:broader disc:5020 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "502060" ;
+    skos:prefLabel "Diversitätsmanagement"@de,
+        "Diversity management"@en .
+
 disc:503001 a skos:Concept ;
     skos:broader disc:5030 ;
     skos:inScheme disc:Schema ;
@@ -6923,6 +7027,20 @@ disc:503036 a skos:Concept ;
     skos:prefLabel "Stimmforschung"@de,
         "Vocal research"@en .
 
+disc:503037 a skos:Concept ;
+    skos:broader disc:5030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "503037" ;
+    skos:prefLabel "Lehrer:innenbildung"@de,
+        "Teacher education"@en .
+
+disc:503038 a skos:Concept ;
+    skos:broader disc:5030 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "503038" ;
+    skos:prefLabel "Schulentwicklung"@de,
+        "School development"@en .
+
 disc:504001 a skos:Concept ;
     skos:broader disc:5040 ;
     skos:inScheme disc:Schema ;
@@ -7139,6 +7257,13 @@ disc:504031 a skos:Concept ;
     skos:notation "504031" ;
     skos:prefLabel "Diversitätsforschung"@de,
         "Diversity research"@en .
+
+disc:504032 a skos:Concept ;
+    skos:broader disc:5040 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "504032" ;
+    skos:prefLabel "Sozialarbeitsforschung"@de,
+        "Social work research"@en .
 
 disc:505001 a skos:Concept ;
     skos:broader disc:5050 ;
@@ -7511,6 +7636,13 @@ disc:505053 a skos:Concept ;
     skos:prefLabel "Verwaltungsverfahrensrecht"@de,
         "Administrative procedural law"@en .
 
+disc:505054 a skos:Concept ;
+    skos:broader disc:5050 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "505054" ;
+    skos:prefLabel "Asyl- und Fremdenrecht"@de,
+        "Asylum and immigration law"@en .
+
 disc:506001 a skos:Concept ;
     skos:broader disc:5060 ;
     skos:inScheme disc:Schema ;
@@ -7840,6 +7972,20 @@ disc:507029 a skos:Concept ;
     skos:prefLabel "Stadtökologie"@de,
         "Urban ecology"@en .
 
+disc:507030 a skos:Concept ;
+    skos:broader disc:5070 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "507030" ;
+    skos:prefLabel "Mobilitätsforschung"@de,
+        "Mobility research"@en .
+
+disc:507031 a skos:Concept ;
+    skos:broader disc:5070 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "507031" ;
+    skos:prefLabel "Wohnungsforschung"@de,
+        "Housing studies"@en .
+
 disc:508001 a skos:Concept ;
     skos:broader disc:5080 ;
     skos:inScheme disc:Schema ;
@@ -7986,6 +8132,20 @@ disc:508021 a skos:Concept ;
     skos:notation "508021" ;
     skos:prefLabel "Medienwissenschaft"@de,
         "Media studies"@en .
+
+disc:508022 a skos:Concept ;
+    skos:broader disc:5080 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "508022" ;
+    skos:prefLabel "Gesundheitskommunikation"@de,
+        "Health communication"@en .
+
+disc:508023 a skos:Concept ;
+    skos:broader disc:5080 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "508023" ;
+    skos:prefLabel "Medienökonomie"@de,
+        "Media economics"@en .
 
 disc:509001 a skos:Concept ;
     skos:broader disc:5090 ;
@@ -8371,6 +8531,20 @@ disc:601029 a skos:Concept ;
     skos:notation "601029" ;
     skos:prefLabel "Sozialgeschichte"@de,
         "Social history"@en .
+
+disc:601030 a skos:Concept ;
+    skos:broader disc:6010 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "601030" ;
+    skos:prefLabel "Erinnerungskultur"@de,
+        "Culture of remembrance"@en .
+
+disc:601031 a skos:Concept ;
+    skos:broader disc:6010 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "601031" ;
+    skos:prefLabel "Umweltgeschichte"@de,
+        "Environmental history"@en .
 
 disc:602001 a skos:Concept ;
     skos:broader disc:6020 ;
@@ -8967,6 +9141,13 @@ disc:603126 a skos:Concept ;
     skos:prefLabel "Interkulturelle Philosophie"@de,
         "Intercultural philosophy"@en .
 
+disc:603127 a skos:Concept ;
+    skos:broader disc:6031 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "603127" ;
+    skos:prefLabel "Komparative Philosophie"@de,
+        "Comparative philosophy"@en .
+
 disc:603201 a skos:Concept ;
     skos:broader disc:6032 ;
     skos:inScheme disc:Schema ;
@@ -9127,6 +9308,13 @@ disc:603223 a skos:Concept ;
     skos:notation "603223" ;
     skos:prefLabel "Theologische Anthropologie"@de,
         "Theological anthropology"@en .
+
+disc:603224 a skos:Concept ;
+    skos:broader disc:6032 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "603224" ;
+    skos:prefLabel "Interreligiöser Dialog"@de,
+        "Interreligious dialogue"@en .
 
 disc:603901 a skos:Concept ;
     skos:broader disc:6039 ;
@@ -9540,6 +9728,20 @@ disc:605008 a skos:Concept ;
     skos:notation "605008" ;
     skos:prefLabel "Kulturerbe"@de,
         "Cultural heritage"@en .
+
+disc:605009 a skos:Concept ;
+    skos:broader disc:6050 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "605009" ;
+    skos:prefLabel "Food Studies"@de,
+        "Food studies"@en .
+
+disc:605010 a skos:Concept ;
+    skos:broader disc:6050 ;
+    skos:inScheme disc:Schema ;
+    skos:notation "605010" ;
+    skos:prefLabel "Visuelle Kultur"@de,
+        "Visual culture"@en .
 
 disc:7 skos:inScheme disc:Schema ;
     skos:topConceptOf disc:Schema .
@@ -10212,36 +10414,6 @@ disc:3013 a skos:Concept ;
     skos:prefLabel "Medizinische Biochemie, Humangenetik"@de,
         "Medical Biochemistry, Human Genetics"@en .
 
-disc:3040 a skos:Concept ;
-    skos:broader disc:304 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:304001,
-        disc:304002,
-        disc:304003,
-        disc:304004,
-        disc:304005,
-        disc:304006,
-        disc:304007,
-        disc:304008 ;
-    skos:notation "3040" ;
-    skos:prefLabel "Medizinische Biotechnologie"@de,
-        "Medical Biotechnology"@en .
-
-disc:6050 a skos:Concept ;
-    skos:broader disc:605 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:605001,
-        disc:605002,
-        disc:605003,
-        disc:605004,
-        disc:605005,
-        disc:605006,
-        disc:605007,
-        disc:605008 ;
-    skos:notation "6050" ;
-    skos:prefLabel "Andere Geisteswissenschaften"@de,
-        "Other Humanities"@en .
-
 disc:1054 a skos:Concept ;
     skos:broader disc:105 ;
     skos:inScheme disc:Schema ;
@@ -10274,21 +10446,21 @@ disc:3014 a skos:Concept ;
     skos:prefLabel "Neurowissenschaften"@de,
         "Neurosciences"@en .
 
-disc:3051 a skos:Concept ;
-    skos:broader disc:305 ;
+disc:3040 a skos:Concept ;
+    skos:broader disc:304 ;
     skos:inScheme disc:Schema ;
-    skos:narrower disc:305101,
-        disc:305102,
-        disc:305103,
-        disc:305104,
-        disc:305105,
-        disc:305106,
-        disc:305107,
-        disc:305108,
-        disc:305109 ;
-    skos:notation "3051" ;
-    skos:prefLabel "Gerichtsmedizin"@de,
-        "Forensic Medicine"@en .
+    skos:narrower disc:304001,
+        disc:304002,
+        disc:304003,
+        disc:304004,
+        disc:304005,
+        disc:304006,
+        disc:304007,
+        disc:304008,
+        disc:304009 ;
+    skos:notation "3040" ;
+    skos:prefLabel "Medizinische Biotechnologie"@de,
+        "Medical Biotechnology"@en .
 
 disc:4012 a skos:Concept ;
     skos:broader disc:401 ;
@@ -10339,6 +10511,23 @@ disc:1070 a skos:Concept ;
     skos:prefLabel "Andere Naturwissenschaften"@de,
         "Other Natural Sciences"@en .
 
+disc:3051 a skos:Concept ;
+    skos:broader disc:305 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:305101,
+        disc:305102,
+        disc:305103,
+        disc:305104,
+        disc:305105,
+        disc:305106,
+        disc:305107,
+        disc:305108,
+        disc:305109,
+        disc:305110 ;
+    skos:notation "3051" ;
+    skos:prefLabel "Gerichtsmedizin"@de,
+        "Forensic Medicine"@en .
+
 disc:3059 a skos:Concept ;
     skos:broader disc:305 ;
     skos:inScheme disc:Schema ;
@@ -10372,6 +10561,23 @@ disc:6039 a skos:Concept ;
     skos:notation "6039" ;
     skos:prefLabel "Sonstige Religion, Religionswissenschaften"@de,
         "Religion, Religious Studies not elsewhere classified"@en .
+
+disc:6050 a skos:Concept ;
+    skos:broader disc:605 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:605001,
+        disc:605002,
+        disc:605003,
+        disc:605004,
+        disc:605005,
+        disc:605006,
+        disc:605007,
+        disc:605008,
+        disc:605009,
+        disc:605010 ;
+    skos:notation "6050" ;
+    skos:prefLabel "Andere Geisteswissenschaften"@de,
+        "Other Humanities"@en .
 
 disc:2 a skos:Concept ;
     skos:inScheme disc:Schema ;
@@ -10644,7 +10850,9 @@ disc:5080 a skos:Concept ;
         disc:508018,
         disc:508019,
         disc:508020,
-        disc:508021 ;
+        disc:508021,
+        disc:508022,
+        disc:508023 ;
     skos:notation "5080" ;
     skos:prefLabel "Medien- und Kommunikationswissenschaften"@de,
         "Media and Communication Sciences"@en .
@@ -10674,43 +10882,11 @@ disc:6032 a skos:Concept ;
         disc:603220,
         disc:603221,
         disc:603222,
-        disc:603223 ;
+        disc:603223,
+        disc:603224 ;
     skos:notation "6032" ;
     skos:prefLabel "Theologie"@de,
         "Theology"@en .
-
-disc:2119 a skos:Concept ;
-    skos:broader disc:211 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:211901,
-        disc:211902,
-        disc:211903,
-        disc:211904,
-        disc:211905,
-        disc:211906,
-        disc:211907,
-        disc:211908,
-        disc:211909,
-        disc:211910,
-        disc:211911,
-        disc:211912,
-        disc:211913,
-        disc:211914,
-        disc:211915,
-        disc:211916,
-        disc:211917,
-        disc:211918,
-        disc:211919,
-        disc:211920,
-        disc:211921,
-        disc:211922,
-        disc:211923,
-        disc:211924,
-        disc:211925,
-        disc:211926 ;
-    skos:notation "2119" ;
-    skos:prefLabel "Sonstige Technische Wissenschaften"@de,
-        "Technical Sciences not elsewhere classified"@en .
 
 disc:5090 a skos:Concept ;
     skos:broader disc:509 ;
@@ -10745,39 +10921,6 @@ disc:5090 a skos:Concept ;
     skos:prefLabel "Andere Sozialwissenschaften"@de,
         "Other Social Sciences"@en .
 
-disc:6031 a skos:Concept ;
-    skos:broader disc:603 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:603101,
-        disc:603102,
-        disc:603103,
-        disc:603104,
-        disc:603105,
-        disc:603106,
-        disc:603107,
-        disc:603108,
-        disc:603109,
-        disc:603110,
-        disc:603111,
-        disc:603112,
-        disc:603113,
-        disc:603114,
-        disc:603115,
-        disc:603116,
-        disc:603117,
-        disc:603118,
-        disc:603119,
-        disc:603120,
-        disc:603121,
-        disc:603122,
-        disc:603123,
-        disc:603124,
-        disc:603125,
-        disc:603126 ;
-    skos:notation "6031" ;
-    skos:prefLabel "Philosophie, Ethik"@de,
-        "Philosophy, Ethics"@en .
-
 disc:1040 a skos:Concept ;
     skos:broader disc:104 ;
     skos:inScheme disc:Schema ;
@@ -10811,6 +10954,74 @@ disc:1040 a skos:Concept ;
     skos:notation "1040" ;
     skos:prefLabel "Chemie"@de,
         "Chemistry"@en .
+
+disc:2119 a skos:Concept ;
+    skos:broader disc:211 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:211901,
+        disc:211902,
+        disc:211903,
+        disc:211904,
+        disc:211905,
+        disc:211906,
+        disc:211907,
+        disc:211908,
+        disc:211909,
+        disc:211910,
+        disc:211911,
+        disc:211912,
+        disc:211913,
+        disc:211914,
+        disc:211915,
+        disc:211916,
+        disc:211917,
+        disc:211918,
+        disc:211919,
+        disc:211920,
+        disc:211921,
+        disc:211922,
+        disc:211923,
+        disc:211924,
+        disc:211925,
+        disc:211926,
+        disc:211927 ;
+    skos:notation "2119" ;
+    skos:prefLabel "Sonstige Technische Wissenschaften"@de,
+        "Technical Sciences not elsewhere classified"@en .
+
+disc:6031 a skos:Concept ;
+    skos:broader disc:603 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:603101,
+        disc:603102,
+        disc:603103,
+        disc:603104,
+        disc:603105,
+        disc:603106,
+        disc:603107,
+        disc:603108,
+        disc:603109,
+        disc:603110,
+        disc:603111,
+        disc:603112,
+        disc:603113,
+        disc:603114,
+        disc:603115,
+        disc:603116,
+        disc:603117,
+        disc:603118,
+        disc:603119,
+        disc:603120,
+        disc:603121,
+        disc:603122,
+        disc:603123,
+        disc:603124,
+        disc:603125,
+        disc:603126,
+        disc:603127 ;
+    skos:notation "6031" ;
+    skos:prefLabel "Philosophie, Ethik"@de,
+        "Philosophy, Ethics"@en .
 
 disc:1051 a skos:Concept ;
     skos:broader disc:105 ;
@@ -10878,7 +11089,9 @@ disc:5070 a skos:Concept ;
         disc:507026,
         disc:507027,
         disc:507028,
-        disc:507029 ;
+        disc:507029,
+        disc:507030,
+        disc:507031 ;
     skos:notation "5070" ;
     skos:prefLabel "Humangeographie, Regionale Geographie, Raumplanung"@de,
         "Human Geography, Regional Geography, Regional Planning"@en .
@@ -10914,85 +11127,12 @@ disc:6010 a skos:Concept ;
         disc:601026,
         disc:601027,
         disc:601028,
-        disc:601029 ;
+        disc:601029,
+        disc:601030,
+        disc:601031 ;
     skos:notation "6010" ;
     skos:prefLabel "Geschichte, Archäologie"@de,
         "History, Archaeology"@en .
-
-disc:5010 a skos:Concept ;
-    skos:broader disc:501 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:501001,
-        disc:501002,
-        disc:501003,
-        disc:501004,
-        disc:501005,
-        disc:501006,
-        disc:501007,
-        disc:501008,
-        disc:501009,
-        disc:501010,
-        disc:501011,
-        disc:501012,
-        disc:501013,
-        disc:501014,
-        disc:501015,
-        disc:501016,
-        disc:501017,
-        disc:501018,
-        disc:501019,
-        disc:501020,
-        disc:501021,
-        disc:501022,
-        disc:501023,
-        disc:501024,
-        disc:501025,
-        disc:501026,
-        disc:501027,
-        disc:501028,
-        disc:501029,
-        disc:501030 ;
-    skos:notation "5010" ;
-    skos:prefLabel "Psychologie"@de,
-        "Psychology"@en .
-
-disc:5040 a skos:Concept ;
-    skos:broader disc:504 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:504001,
-        disc:504002,
-        disc:504003,
-        disc:504004,
-        disc:504005,
-        disc:504006,
-        disc:504007,
-        disc:504008,
-        disc:504009,
-        disc:504010,
-        disc:504011,
-        disc:504012,
-        disc:504013,
-        disc:504014,
-        disc:504015,
-        disc:504016,
-        disc:504017,
-        disc:504018,
-        disc:504019,
-        disc:504020,
-        disc:504021,
-        disc:504022,
-        disc:504023,
-        disc:504024,
-        disc:504025,
-        disc:504026,
-        disc:504027,
-        disc:504028,
-        disc:504029,
-        disc:504030,
-        disc:504031 ;
-    skos:notation "5040" ;
-    skos:prefLabel "Soziologie"@de,
-        "Sociology"@en .
 
 disc:1010 a skos:Concept ;
     skos:broader disc:101 ;
@@ -11033,6 +11173,84 @@ disc:1010 a skos:Concept ;
     skos:prefLabel "Mathematik"@de,
         "Mathematics"@en .
 
+disc:5010 a skos:Concept ;
+    skos:broader disc:501 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:501001,
+        disc:501002,
+        disc:501003,
+        disc:501004,
+        disc:501005,
+        disc:501006,
+        disc:501007,
+        disc:501008,
+        disc:501009,
+        disc:501010,
+        disc:501011,
+        disc:501012,
+        disc:501013,
+        disc:501014,
+        disc:501015,
+        disc:501016,
+        disc:501017,
+        disc:501018,
+        disc:501019,
+        disc:501020,
+        disc:501021,
+        disc:501022,
+        disc:501023,
+        disc:501024,
+        disc:501025,
+        disc:501026,
+        disc:501027,
+        disc:501028,
+        disc:501029,
+        disc:501030,
+        disc:501031,
+        disc:501032 ;
+    skos:notation "5010" ;
+    skos:prefLabel "Psychologie"@de,
+        "Psychology"@en .
+
+disc:5040 a skos:Concept ;
+    skos:broader disc:504 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:504001,
+        disc:504002,
+        disc:504003,
+        disc:504004,
+        disc:504005,
+        disc:504006,
+        disc:504007,
+        disc:504008,
+        disc:504009,
+        disc:504010,
+        disc:504011,
+        disc:504012,
+        disc:504013,
+        disc:504014,
+        disc:504015,
+        disc:504016,
+        disc:504017,
+        disc:504018,
+        disc:504019,
+        disc:504020,
+        disc:504021,
+        disc:504022,
+        disc:504023,
+        disc:504024,
+        disc:504025,
+        disc:504026,
+        disc:504027,
+        disc:504028,
+        disc:504029,
+        disc:504030,
+        disc:504031,
+        disc:504032 ;
+    skos:notation "5040" ;
+    skos:prefLabel "Soziologie"@de,
+        "Sociology"@en .
+
 disc:2011 a skos:Concept ;
     skos:broader disc:201 ;
     skos:inScheme disc:Schema ;
@@ -11067,7 +11285,8 @@ disc:2011 a skos:Concept ;
         disc:201129,
         disc:201130,
         disc:201131,
-        disc:201132 ;
+        disc:201132,
+        disc:201133 ;
     skos:notation "2011" ;
     skos:prefLabel "Bauingenieurwesen"@de,
         "Civil Engineering"@en .
@@ -11110,7 +11329,9 @@ disc:4030 a skos:Concept ;
         disc:403033,
         disc:403034,
         disc:403035,
-        disc:403036 ;
+        disc:403036,
+        disc:403037,
+        disc:403038 ;
     skos:notation "4030" ;
     skos:prefLabel "Veterinärmedizin"@de,
         "Veterinary Medicine"@en .
@@ -11153,54 +11374,12 @@ disc:5030 a skos:Concept ;
         disc:503033,
         disc:503034,
         disc:503035,
-        disc:503036 ;
+        disc:503036,
+        disc:503037,
+        disc:503038 ;
     skos:notation "5030" ;
     skos:prefLabel "Erziehungswissenschaften"@de,
         "Educational Sciences"@en .
-
-disc:1020 a skos:Concept ;
-    skos:broader disc:102 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:102001,
-        disc:102002,
-        disc:102003,
-        disc:102004,
-        disc:102005,
-        disc:102006,
-        disc:102007,
-        disc:102008,
-        disc:102009,
-        disc:102010,
-        disc:102011,
-        disc:102012,
-        disc:102013,
-        disc:102014,
-        disc:102015,
-        disc:102016,
-        disc:102017,
-        disc:102018,
-        disc:102019,
-        disc:102020,
-        disc:102021,
-        disc:102022,
-        disc:102023,
-        disc:102024,
-        disc:102025,
-        disc:102026,
-        disc:102027,
-        disc:102028,
-        disc:102029,
-        disc:102030,
-        disc:102031,
-        disc:102032,
-        disc:102033,
-        disc:102034,
-        disc:102035,
-        disc:102036,
-        disc:102037 ;
-    skos:notation "1020" ;
-    skos:prefLabel "Informatik"@de,
-        "Computer Sciences"@en .
 
 disc:2030 a skos:Concept ;
     skos:broader disc:203 ;
@@ -11242,10 +11421,58 @@ disc:2030 a skos:Concept ;
         disc:203035,
         disc:203036,
         disc:203037,
-        disc:203038 ;
+        disc:203038,
+        disc:203039 ;
     skos:notation "2030" ;
     skos:prefLabel "Maschinenbau"@de,
         "Mechanical Engineering"@en .
+
+disc:1020 a skos:Concept ;
+    skos:broader disc:102 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:102001,
+        disc:102002,
+        disc:102003,
+        disc:102004,
+        disc:102005,
+        disc:102006,
+        disc:102007,
+        disc:102008,
+        disc:102009,
+        disc:102010,
+        disc:102011,
+        disc:102012,
+        disc:102013,
+        disc:102014,
+        disc:102015,
+        disc:102016,
+        disc:102017,
+        disc:102018,
+        disc:102019,
+        disc:102020,
+        disc:102021,
+        disc:102022,
+        disc:102023,
+        disc:102024,
+        disc:102025,
+        disc:102026,
+        disc:102027,
+        disc:102028,
+        disc:102029,
+        disc:102030,
+        disc:102031,
+        disc:102032,
+        disc:102033,
+        disc:102034,
+        disc:102035,
+        disc:102036,
+        disc:102037,
+        disc:102038,
+        disc:102039,
+        disc:102040 ;
+    skos:notation "1020" ;
+    skos:prefLabel "Informatik"@de,
+        "Computer Sciences"@en .
 
 disc:3030 a skos:Concept ;
     skos:broader disc:303 ;
@@ -11289,7 +11516,8 @@ disc:3030 a skos:Concept ;
         disc:303037,
         disc:303038,
         disc:303039,
-        disc:303040 ;
+        disc:303040,
+        disc:303041 ;
     skos:notation "3030" ;
     skos:prefLabel "Gesundheitswissenschaften"@de,
         "Health Sciences"@en .
@@ -11438,7 +11666,8 @@ disc:1030 a skos:Concept ;
         disc:103041,
         disc:103042,
         disc:103043,
-        disc:103044 ;
+        disc:103044,
+        disc:103045 ;
     skos:notation "1030" ;
     skos:prefLabel "Physik, Astronomie"@de,
         "Physics, Astronomy"@en .
@@ -11498,76 +11727,11 @@ disc:5050 a skos:Concept ;
         disc:505050,
         disc:505051,
         disc:505052,
-        disc:505053 ;
+        disc:505053,
+        disc:505054 ;
     skos:notation "5050" ;
     skos:prefLabel "Rechtswissenschaften"@de,
         "Law"@en .
-
-disc:5020 a skos:Concept ;
-    skos:broader disc:502 ;
-    skos:inScheme disc:Schema ;
-    skos:narrower disc:502001,
-        disc:502002,
-        disc:502003,
-        disc:502004,
-        disc:502005,
-        disc:502006,
-        disc:502007,
-        disc:502008,
-        disc:502009,
-        disc:502010,
-        disc:502011,
-        disc:502012,
-        disc:502013,
-        disc:502014,
-        disc:502015,
-        disc:502016,
-        disc:502017,
-        disc:502018,
-        disc:502019,
-        disc:502020,
-        disc:502021,
-        disc:502022,
-        disc:502023,
-        disc:502024,
-        disc:502025,
-        disc:502026,
-        disc:502027,
-        disc:502028,
-        disc:502029,
-        disc:502030,
-        disc:502031,
-        disc:502032,
-        disc:502033,
-        disc:502034,
-        disc:502035,
-        disc:502036,
-        disc:502037,
-        disc:502038,
-        disc:502039,
-        disc:502040,
-        disc:502041,
-        disc:502042,
-        disc:502043,
-        disc:502044,
-        disc:502045,
-        disc:502046,
-        disc:502047,
-        disc:502048,
-        disc:502049,
-        disc:502050,
-        disc:502051,
-        disc:502052,
-        disc:502053,
-        disc:502054,
-        disc:502055,
-        disc:502056,
-        disc:502057,
-        disc:502058,
-        disc:502059 ;
-    skos:notation "5020" ;
-    skos:prefLabel "Wirtschaftswissenschaften"@de,
-        "Economics"@en .
 
 disc:6020 a skos:Concept ;
     skos:broader disc:602 ;
@@ -11702,6 +11866,73 @@ disc:1060 a skos:Concept ;
     skos:prefLabel "Biologie"@de,
         "Biology"@en .
 
+disc:5020 a skos:Concept ;
+    skos:broader disc:502 ;
+    skos:inScheme disc:Schema ;
+    skos:narrower disc:502001,
+        disc:502002,
+        disc:502003,
+        disc:502004,
+        disc:502005,
+        disc:502006,
+        disc:502007,
+        disc:502008,
+        disc:502009,
+        disc:502010,
+        disc:502011,
+        disc:502012,
+        disc:502013,
+        disc:502014,
+        disc:502015,
+        disc:502016,
+        disc:502017,
+        disc:502018,
+        disc:502019,
+        disc:502020,
+        disc:502021,
+        disc:502022,
+        disc:502023,
+        disc:502024,
+        disc:502025,
+        disc:502026,
+        disc:502027,
+        disc:502028,
+        disc:502029,
+        disc:502030,
+        disc:502031,
+        disc:502032,
+        disc:502033,
+        disc:502034,
+        disc:502035,
+        disc:502036,
+        disc:502037,
+        disc:502038,
+        disc:502039,
+        disc:502040,
+        disc:502041,
+        disc:502042,
+        disc:502043,
+        disc:502044,
+        disc:502045,
+        disc:502046,
+        disc:502047,
+        disc:502048,
+        disc:502049,
+        disc:502050,
+        disc:502051,
+        disc:502052,
+        disc:502053,
+        disc:502054,
+        disc:502055,
+        disc:502056,
+        disc:502057,
+        disc:502058,
+        disc:502059,
+        disc:502060 ;
+    skos:notation "5020" ;
+    skos:prefLabel "Wirtschaftswissenschaften"@de,
+        "Economics"@en .
+
 disc:3020 a skos:Concept ;
     skos:broader disc:302 ;
     skos:inScheme disc:Schema ;
@@ -11816,13 +12047,11 @@ disc:Schema a skos:ConceptScheme ;
         "Fields of Science Classification"@en ;
     dc:title "ÖFOS 2012. Österreichische Version der 'Fields of Science and Technology (FOS) Classification'"@de,
         "ÖFOS 2012. Austrian Fields of Science and Technology Classification 2012"@en ;
-    rdfs:label "ÖFOS 2012. Österreichische Version der 'Fields of Science and Technology (FOS) Classification'"@de,
-        "ÖFOS 2012. Austrian Fields of Science and Technology Classification 2012"@en ;
     dct:created "2012" ;
     dct:format "application/x-turtle" ;
     dct:issued "2019-03-22" ;
     dct:license "https://creativecommons.org/licenses/by/4.0/" ;
-    dct:modified "2022-02-10" ;
+    dct:modified "2023-11-23" ;
     dct:relation "http://www.statistik.at/web_de/statistiken/index.html" ;
     dct:rightsHolder "Statistik Austria - data.statistik.gv.at" ;
     owl:versionInfo "2012" ;
