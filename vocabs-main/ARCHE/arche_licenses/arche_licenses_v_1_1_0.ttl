@@ -5,44 +5,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rightsstatements.org/vocab/CNE/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cne> .
-
-<http://rightsstatements.org/vocab/InC-EDU/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu> .
-
-<http://rightsstatements.org/vocab/InC-OW-EU/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu> .
-
-<http://rightsstatements.org/vocab/InC/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc> .
-
-<http://rightsstatements.org/vocab/NKC/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/nkc> .
-
-<http://rightsstatements.org/vocab/NoC-CR/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-cr> .
-
-<http://rightsstatements.org/vocab/NoC-NC/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc> .
-
-<http://rightsstatements.org/vocab/NoC-OKLR/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr> .
-
-<http://rightsstatements.org/vocab/UND/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/und> .
-
-<https://creativecommons.org/licenses/by-nc-nd/4.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0> .
-
-<https://creativecommons.org/licenses/by-nc-sa/3.0/at/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at> .
-
-<https://creativecommons.org/licenses/by-nc-sa/4.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0> .
-
-<https://creativecommons.org/licenses/by-nc/4.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0> .
-
-<https://creativecommons.org/licenses/by-nd/4.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0> .
-
-<https://creativecommons.org/licenses/by-sa/4.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0> .
-
-<https://creativecommons.org/licenses/by/4.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> .
-
-<https://creativecommons.org/publicdomain/mark/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0> .
-
-<https://creativecommons.org/publicdomain/zero/1.0/> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0> .
-
-<https://opensource.org/licenses/MIT> skos:closeMatch <https://vocabs.acdh.oeaw.ac.at/archelicenses/mit> .
-
 <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> a skos:Concept ;
     dct:created "2020-02-29T15:06:19.522758+00:00"^^xsd:dateTime ;
     dct:modified "2024-04-15T10:08:53.318304+00:00"^^xsd:dateTime ;

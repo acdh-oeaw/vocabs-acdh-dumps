@@ -1,320 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-    xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc">
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/und">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="de">InC</skos:altLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:29:01.168314+00:00</dct:created>
-    <skos:definition xml:lang="en">This Rights Statement can be used for an Item that is in copyright. Using this statement implies that the organization making this Item available has determined that the Item is in copyright and either is the rights-holder, has obtained permission from the rights-holder(s) to make their Work(s) available, or makes the Item available under an exception or limitation to copyright (including Fair Use) that entitles it to make the Item available.</skos:definition>
-    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/InC/1.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:16:33.284777+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">UND</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">UND</skos:prefLabel>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="de">Dieser Rechtehinweis kann für Objekte verwendet werden, die urheberrechtlich geschützt sind. Die Benutzung des Rechtehinweises setzt voraus, dass die Institution, die das Objekt zugänglich macht, festgestellt hat, dass dieses urheberrechtlich geschützt ist, und sie entweder selbst Rechteinhaber ist, die Erlaubnis der/des Rechteinhaber(s) erhalten hat deren/dessen Werk(e) zugänglich zu machen, oder aber das Objekt berechtigterweise auf der Grundlage einer urheberrechtlichen Ausnahme- oder Schrankenbestimmung (einschließlich Fair Use) zugänglich macht.</skos:definition>
-    <skos:prefLabel xml:lang="en">In Copyright</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Urheberrechtsschutz</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Copyright Undetermined</skos:altLabel>
+    <skos:altLabel xml:lang="de">Urheberrechtsschutz ungewiss</skos:altLabel>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis sollte für Objekte genutzt werden, bei denen der Urheberrechtsschutz unbekannt ist und bei denen die Institution, die sie verfügbar macht, (erfolglose) Anstrengungen unternommen hat, den Urheberrechtsschutz des zugrunde liegenden Werks festzustellen. Typischerweise wird dieser Rechtehinweis benutzt, wenn der Institution Schlüsselinformationen fehlen, die für eine exakte Feststellung des Urheberrechtsschutz unerlässlich sind.</skos:definition>
+    <skos:definition xml:lang="en">This Rights Statement should be used for Items for which the copyright status has not been determined conclusively, but for which the organization that intends to make the Item available has reasonable cause to believe that the underlying Work is not covered by copyright or related rights anymore. This Rights Statement should not be used for Orphan Works (which are assumed to be in-copyright) or for Items where the organization that intends to make the Item available has not undertaken an effort to ascertain the copyright status of the underlying Work.</skos:definition>
     <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:altLabel xml:lang="en">InC</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:19:27.863841+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:53:50.978282+00:00</dct:created>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="en">This Rights Statement should be used for Items that are in the Public Domain but that cannot be freely re-used as the consequence of known legal restrictions that prevent the organization that intends to make the Item available from allowing free re-use of the Item, such as cultural heritage or traditional cultural expression protections. In order for this Rights Statement to be conclusive, the organization that intends to make the Item available should provide a link to a page detailing the legal restrictions that limit re-use of the Item.</skos:definition>
-    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/NoC-OKLR/1.0/"/>
-    <skos:definition xml:lang="de">Dieser Rechtehinweis sollte für Objekte verwendet werden, die gemeinfrei sind, aber im Hinblick auf eine freie Nachnutzung rechtlichen Beschränkungen unterliegen, die sich etwa aus dem Kulturgutschutz oder dem Schutz von traditionellen kulturellen Ausdrucksformen ergeben, sodass die Institution, die beabsichtigt, ein solches Objekt zugänglich zu machen, eine freie Nachnutzung nicht erlauben kann. Damit der Rechtehinweis eindeutig ist, sollte die Institution, die beabsichtigt, das betreffende Objekt zugänglich zu machen, einen Link mitteilen, der zu einer Seite mit Detailinformationen zu den vertraglichen Beschränkungen der Nutzung des Objekts führt.</skos:definition>
-    <skos:prefLabel xml:lang="de">Kein Urheberrechtsschutz - Andere rechtliche Beschränkungen</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">No Copyright - Other Known Legal Restrictions</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">NoC-OKLR</skos:altLabel>
-    <skos:altLabel xml:lang="de">NoC-OKLR</skos:altLabel>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/UND/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T09:04:23.310122+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.880842+00:00</dct:modified>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">CC BY-NC-ND 4.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY-NC-ND 4.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International (CC BY-NC-ND 4.0)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</skos:altLabel>
     <skos:definition xml:lang="en">This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can’t change them in any way or use them commercially.</skos:definition>
     <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:15:54.501763+00:00</dct:created>
-    <skos:altLabel xml:lang="en">CC BY-NC-ND 4.0</skos:altLabel>
-    <skos:altLabel xml:lang="de">CC BY-NC-ND 4.0</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</skos:prefLabel>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:12:46.843344+00:00</dct:modified>
     <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-    <skos:prefLabel xml:lang="de">Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International (CC BY-NC-ND 4.0)</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/mit">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">MIT Lizenz</skos:prefLabel>
-    <skos:definition xml:lang="en">The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT). It is intended to be used for software licensing.</skos:definition>
-    <skos:altLabel xml:lang="en">MIT</skos:altLabel>
-    <skos:altLabel xml:lang="de">MIT</skos:altLabel>
-    <skos:closeMatch rdf:resource="https://opensource.org/licenses/MIT"/>
-    <skos:prefLabel xml:lang="en">MIT license</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:52:01.625310+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:18:22.755397+00:00</dct:modified>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rightsstatements.org/vocab/NoC-NC/1.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rightsstatements.org/vocab/NoC-OKLR/1.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://opensource.org/licenses/MIT">
-    <skos:closeMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/mit"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/3.0/at/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:10:57.396363+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:10:51.666061+00:00</dct:created>
-    <skos:prefLabel xml:lang="de">Namensnennung - Keine Bearbeitungen 4.0 International (CC BY-ND 4.0)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nd/4.0/"/>
-    <skos:altLabel xml:lang="en">CC BY-ND 4.0</skos:altLabel>
-    <skos:altLabel xml:lang="de">CC BY-ND 4.0</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">This license lets others reuse the work for any purpose, including commercially; however, it cannot be shared with others in adapted form, and credit must be provided to you.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:14:27.204474+00:00</dct:modified>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="en">This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.</skos:definition>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
-    <skos:prefLabel xml:lang="de">Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-NC-SA 4.0)</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:14:36.959071+00:00</dct:created>
-    <skos:altLabel xml:lang="en">CC BY-NC-SA 4.0</skos:altLabel>
-    <skos:altLabel xml:lang="de">CC BY-NC-SA 4.0</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc/4.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/publicdomain/mark/1.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:14:51.002975+00:00</dct:modified>
-    <skos:prefLabel xml:lang="de">Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</skos:prefLabel>
-    <skos:altLabel xml:lang="en">CC BY-SA 4.0</skos:altLabel>
-    <skos:altLabel xml:lang="de">CC BY-SA 4.0</skos:altLabel>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
-    <skos:definition xml:lang="en">This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.</skos:definition>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:08:29.163102+00:00</dct:created>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rightsstatements.org/vocab/InC/1.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:15:54.501763+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.657418+00:00</dct:modified>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu">
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="en">This Rights Statement is intended for use with Items for which the underlying Work has been identified as an Orphan Work in accordance with Directive 2012/28/EU of the European Parliament and of the Council of 25 October 2012 on certain permitted uses of Orphan Works. It can only be applied to Items derived from Works that are covered by the Directive: Works published in the form of books, journals, newspapers, magazines or other writings as well as cinematographic or audiovisual works and phonograms (note: this excludes photography and visual arts). It can only be applied by organizations that are beneficiaries of the Directive: publicly accessible libraries, educational establishments and museums, archives, film or audio heritage institutions and public-service broadcasting organizations, established in one of the EU member states. The beneficiary is also expected to have registered the work in the EU Orphan Works Database maintained by EUIPO.</skos:definition>
-    <skos:prefLabel xml:lang="de">Urheberrechtsschutz - Verwaistes Werk EU</skos:prefLabel>
-    <skos:definition xml:lang="de">Dieser Rechtehinweis ist für die Verwendung bei Objekten bestimmt, bei denen das zugrunde liegende Werk in Übereinstimmung mit der Richtlinie 2012/28/EU des Europäischen Parlaments und Rates vom 25. Oktober 2012 über bestimmte zulässige Formen der Nutzung verwaister Werke als verwaistes Werk identifiziert wurde. Die Benutzung des Rechtehinweises setzt voraus, dass das dem Objekt zugrunde liegende Werk als solches von der Richtlinie erfasst wird: veröffentlichte Werke in Form von Büchern, Zeitschriften, Zeitungen, Magazinen oder anderen Schriftwerken sowie Filmwerke und andere audiovisuelle Werke und Tonaufzeichnungen (Achtung: Fotografie und Werke der bildenden Kunst sind ausgeschlossen!). Außerdem muss die Institution, die das Objekt verfügbar macht, durch die Richtlinie begünstigt sein: öffentlich zugängliche Bibliotheken, Bildungseinrichtungen und Museen, Archive, Film- und Ton-Kulturerbe-Einrichtungen und öffentlich-rechtliche Rundfunkanstalten aus einem Mitgliedstaat der EU. Die begünstigte Institution muss das entsprechende Werk außerdem in der EU-Datenbank für Verwaiste Werke beim EUIPO eingetragen haben.</skos:definition>
-    <skos:altLabel xml:lang="en">InC-OW-EU</skos:altLabel>
-    <skos:altLabel xml:lang="de">InC-OW-EU</skos:altLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:prefLabel xml:lang="en">In Copyright - EU Orphan Work</skos:prefLabel>
-    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/InC-OW-EU/1.0/"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:17:56.379097+00:00</dct:modified>
+    <skos:prefLabel xml:lang="en">InC-OW-EU</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">InC-OW-EU</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Urheberrechtsschutz - Verwaistes Werk EU</skos:altLabel>
+    <skos:altLabel xml:lang="en">In Copyright - EU Orphan Work</skos:altLabel>
+    <skos:definition xml:lang="en">This Rights Statement is intended for use with Items for which the underlying Work has been identified as an Orphan Work in accordance with Directive 2012/28/EU of the European Parliament and of the Council of 25 October 2012 on certain permitted uses of Orphan Works. It can only be applied to Items derived from Works that are covered by the Directive: Works published in the form of books, journals, newspapers, magazines or other writings as well as cinematographic or audiovisual works and phonograms (note: this excludes photography and visual arts). It can only be applied by organizations that are beneficiaries of the Directive: publicly accessible libraries, educational establishments and museums, archives, film or audio heritage institutions and public-service broadcasting organizations, established in one of the EU member states. The beneficiary is also expected to have registered the work in the EU Orphan Works Database maintained by EUIPO.</skos:definition>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis ist für die Verwendung bei Objekten bestimmt, bei denen das zugrunde liegende Werk in Übereinstimmung mit der Richtlinie 2012/28/EU des Europäischen Parlaments und Rates vom 25. Oktober 2012 über bestimmte zulässige Formen der Nutzung verwaister Werke als verwaistes Werk identifiziert wurde. Die Benutzung des Rechtehinweises setzt voraus, dass das dem Objekt zugrunde liegende Werk als solches von der Richtlinie erfasst wird: veröffentlichte Werke in Form von Büchern, Zeitschriften, Zeitungen, Magazinen oder anderen Schriftwerken sowie Filmwerke und andere audiovisuelle Werke und Tonaufzeichnungen (Achtung: Fotografie und Werke der bildenden Kunst sind ausgeschlossen!). Außerdem muss die Institution, die das Objekt verfügbar macht, durch die Richtlinie begünstigt sein: öffentlich zugängliche Bibliotheken, Bildungseinrichtungen und Museen, Archive, Film- und Ton-Kulturerbe-Einrichtungen und öffentlich-rechtliche Rundfunkanstalten aus einem Mitgliedstaat der EU. Die begünstigte Institution muss das entsprechende Werk außerdem in der EU-Datenbank für Verwaiste Werke beim EUIPO eingetragen haben.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/InC-OW-EU/1.0/"/>
     <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:43:41.955802+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.151375+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">NoC-OKLR</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">NoC-OKLR</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Kein Urheberrechtsschutz - Andere rechtliche Beschränkungen</skos:altLabel>
+    <skos:altLabel xml:lang="en">No Copyright - Other Known Legal Restrictions</skos:altLabel>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis sollte für Objekte verwendet werden, die gemeinfrei sind, aber im Hinblick auf eine freie Nachnutzung rechtlichen Beschränkungen unterliegen, die sich etwa aus dem Kulturgutschutz oder dem Schutz von traditionellen kulturellen Ausdrucksformen ergeben, sodass die Institution, die beabsichtigt, ein solches Objekt zugänglich zu machen, eine freie Nachnutzung nicht erlauben kann. Damit der Rechtehinweis eindeutig ist, sollte die Institution, die beabsichtigt, das betreffende Objekt zugänglich zu machen, einen Link mitteilen, der zu einer Seite mit Detailinformationen zu den vertraglichen Beschränkungen der Nutzung des Objekts führt.</skos:definition>
+    <skos:definition xml:lang="en">This Rights Statement should be used for Items that are in the Public Domain but that cannot be freely re-used as the consequence of known legal restrictions that prevent the organization that intends to make the Item available from allowing free re-use of the Item, such as cultural heritage or traditional cultural expression protections. In order for this Rights Statement to be conclusive, the organization that intends to make the Item available should provide a link to a page detailing the legal restrictions that limit re-use of the Item.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/NoC-OKLR/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:53:50.978282+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.749998+00:00</dct:modified>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cne">
-    <skos:definition xml:lang="en">This Rights Statement should be used for Items for which the copyright status is unknown and for which the organization that intends to make the Item available has not undertaken an effort to determine the copyright status of the underlying Work.</skos:definition>
-    <skos:altLabel xml:lang="de">CNE</skos:altLabel>
-    <skos:altLabel xml:lang="en">CNE</skos:altLabel>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:16:07.621809+00:00</dct:modified>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:45:15.892669+00:00</dct:created>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Copyright Not Evaluated</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Urheberrechtsschutz nicht bewertet</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:prefLabel xml:lang="en">CNE</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CNE</skos:prefLabel>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Urheberrechtsschutz nicht bewertet</skos:altLabel>
+    <skos:altLabel xml:lang="en">Copyright Not Evaluated</skos:altLabel>
+    <skos:definition xml:lang="en">This Rights Statement should be used for Items for which the copyright status is unknown and for which the organization that intends to make the Item available has not undertaken an effort to determine the copyright status of the underlying Work.</skos:definition>
     <skos:definition xml:lang="de">Dieser Rechtehinweis sollte für Objekte genutzt werden, bei denen der Urheberrechtsschutz unbekannt ist und bei denen die Institution, die beabsichtigt, das Objekt zugänglich zu machen, keine Anstrengungen unternommen hat, den Urheberrechtsschutz des zugrunde liegenden Werkes festzustellen.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
     <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/CNE/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:45:15.892669+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.936965+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">CC BY-NC 4.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY-NC 4.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung-Nicht kommerziell 4.0 International (CC BY-NC 4.0)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</skos:altLabel>
+    <skos:definition xml:lang="en">This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:13:06.724693+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.598827+00:00</dct:modified>
   </rdf:Description>
   <rdf:Description rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
     <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu">
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:31:51.001760+00:00</dct:created>
-    <skos:prefLabel xml:lang="de">Urheberrechtsschutz - Nutzung zu Bildungszwecken erlaubt</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">InC-EDU</skos:altLabel>
-    <skos:altLabel xml:lang="de">InC-EDU</skos:altLabel>
-    <skos:prefLabel xml:lang="en">In Copyright - Educational Use Permitted</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="en">This Rights Statement can be used only for copyrighted Items for which the organization making the Item available is the rights-holder or has been explicitly authorized by the rights-holder(s) to allow third parties to use their Work(s) for educational purposes without first obtaining permission.</skos:definition>
-    <skos:definition xml:lang="de">Dieser Rechtehinweis kann nur für urheberrechtlich geschützte Objekte verwendet werden, bei denen die Institution, die diese verfügbar macht, selbst Rechteinhaber ist oder ausdrücklich von dem/den Rechteinhaber(n) ermächtigt wurde, Dritten die Nutzung dessen/derer Werk(e) zu Bildungszwecken ohne vorherige Rechteeinholung zu erlauben.</skos:definition>
-    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/InC-EDU/1.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:17:15.790857+00:00</dct:modified>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0">
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="de">Dieses Werk wurde als frei von bekannten urheberrechtlichen Einschränkungen identifiziert, einschließlich aller verwandten Schutzrechte.&#xD;&#xD;
-Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, sogar zu kommerziellen Zwecken, ohne irgendwie um Erlaubnis bitten zu müssen.</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="en">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.&#xD;&#xD;
-You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</skos:definition>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
-    <skos:prefLabel xml:lang="en">Public Domain Mark 1.0</skos:prefLabel>
-    <skos:prefLabel xml:lang="de">Public Domain Mark 1.0</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:36:09.229386+00:00</dct:created>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:36:09.415362+00:00</dct:modified>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema">
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc"/>
-    <dc:source xml:lang="en">Sources for the vocabularies are:&#xD;&#xD;
-* Europeana: https://pro.europeana.eu/page/available-rights-statements&#xD;&#xD;
-* RightsStatements.org: https://rightsstatements.org&#xD;&#xD;
-* Creative Commons: https://creativecommons.org/&#xD;&#xD;
-* Open Definition Licenses Service: https://licenses.opendefinition.org/&#xD;&#xD;
-* Open Source Initiative, Licenses: https://opensource.org/licenses&#xD;&#xD;
-&#xD;&#xD;
-Further information about licensing can be:&#xD;&#xD;
-* https://d-nb.info/1168771641/34 (general)&#xD;&#xD;
-* https://www.clarin.eu/content/clic-overview-copyright-law (on copyright law)</dc:source>
-    <owl:versionInfo>1.0</owl:versionInfo>
-    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
-    <dc:publisher>ACDH-CH</dc:publisher>
-    <rdfs:label xml:lang="en">ARCHE Licenses</rdfs:label>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dc:description xml:lang="de">Eine Liste mit Lizenzen, die für acdh:hasLicense in ARCHE verwendet werden können.</dc:description>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/mit"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-20T09:03:02.906684+00:00</dct:created>
-    <dc:creator>Martina Trognitz</dc:creator>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:27:55.654242+00:00</dct:modified>
-    <dc:subject>Licenses</dc:subject>
-    <dc:language>en</dc:language>
+    <dc:title xml:lang="en">ARCHE Licenses</dc:title>
     <dc:title xml:lang="de">ARCHE Lizenzen</dc:title>
+    <rdfs:label xml:lang="en">ARCHE Licenses</rdfs:label>
+    <dc:description xml:lang="de">Eine Liste mit Lizenzen, die für acdh:hasLicense in ARCHE verwendet werden können.</dc:description>
     <dc:description xml:lang="en">A list of licenses that can be used for acdh:hasLicense in ARCHE.</dc:description>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu"/>
+    <dc:source xml:lang="en">Sources for the vocabularies are:&#13;
+* Europeana: https://pro.europeana.eu/page/available-rights-statements&#13;
+* RightsStatements.org: https://rightsstatements.org&#13;
+* Creative Commons: https://creativecommons.org&#13;
+* Open Definition Licenses Service: https://licenses.opendefinition.org&#13;
+* Open Source Initiative, Licenses: https://opensource.org/licenses&#13;
+&#13;
+Further information about licensing can be found on:&#13;
+* https://d-nb.info/1168771641/34 (general)&#13;
+* https://www.clarin.eu/content/clic-overview-copyright-law (on copyright law)</dc:source>
+    <dc:creator>Martina Trognitz</dc:creator>
+    <dc:creator>Seta Štuhec</dc:creator>
+    <dc:creator>Massimiliano Carloni</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:language>de</dc:language>
+    <dc:subject>licenses</dc:subject>
+    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+    <owl:versionInfo>1.1.0</owl:versionInfo>
+    <dc:publisher>ACDH-CH</dc:publisher>
+    <dc:relation rdf:resource="https://arche.acdh.oeaw.ac.at/browser/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-20T09:03:02.906684+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T08:31:51.300215+00:00</dct:modified>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0"/>
     <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0"/>
     <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cne"/>
-    <dc:title xml:lang="en">ARCHE Licenses</dc:title>
-    <dc:language>de</dc:language>
-    <dc:relation rdf:resource="https://arche.acdh.oeaw.ac.at/browser/"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0"/>
-    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc">
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:18:59.716948+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">No Copyright - Non-Commercial Use Only</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:prefLabel xml:lang="de">Kein Urheberrechtsschutz - nur nicht kommerzielle Nutzung erlaubt</skos:prefLabel>
-    <skos:definition xml:lang="de">Dieser Rechtehinweis kann nur für gemeinfreie Werke verwendet werden, die in einer öffentlich-privaten Partnerschaft (PPP) digitalisiert wurden, innerhalb derer die Vertragspartner vereinbart haben, die kommerzielle Nutzung des Digitalisats durch Dritte nur mit Einschränkungen zu erlauben. Der Rechtehinweis wurde speziell für die Einbeziehung von Werken aus Digitalisierungsprojekten in Partnerschaft zwischen europäischen Bibliotheken und Google entwickelt, kann aber ebenso auf Objekte angewandt werden, die in gleichgelagerten Fällen in öffentlichen-privaten Partnerschaften entstanden sind.</skos:definition>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:55:24.583224+00:00</dct:created>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:altLabel xml:lang="en">NoC-NC</skos:altLabel>
-    <skos:altLabel xml:lang="de">NoC-NC</skos:altLabel>
-    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/NoC-NC/1.0/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">This Rights Statement can only be used for Works that are in the Public Domain and have been digitized in a public-private partnership as part of which, the partners have agreed to limit commercial uses of this digital representation of the Work by third parties. It has been developed specifically to allow the inclusion of Works that have been digitized as part of the partnerships between European Libraries and Google, but can in theory be applied to Items that have been digitized in similar public-private partnerships.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rightsstatements.org/vocab/InC-OW-EU/1.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:13:06.724693+00:00</dct:created>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:prefLabel xml:lang="de">Namensnennung-Nicht kommerziell 4.0 International (CC BY-NC 4.0)</skos:prefLabel>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:11:44.049158+00:00</dct:modified>
-    <skos:prefLabel xml:lang="en">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</skos:prefLabel>
-    <skos:altLabel xml:lang="de">CC BY-NC 4.0</skos:altLabel>
-    <skos:altLabel xml:lang="en">CC BY-NC 4.0</skos:altLabel>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="en">This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://rightsstatements.org/vocab/InC-EDU/1.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-sa/4.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/mit"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/nkc"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-cr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0"/>
+    <skos:hasTopConcept rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/und"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc0-1-0">
-    <skos:altLabel xml:lang="de">CC0 1.0</skos:altLabel>
-    <skos:prefLabel xml:lang="de">CC0 1.0 Universell (CC0 1.0) Public Domain Dedication</skos:prefLabel>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:15:37.500704+00:00</dct:modified>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:prefLabel xml:lang="en">CC0 1.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC0 1.0</skos:prefLabel>
     <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:definition xml:lang="de">Die Person, die ein Werk mit dieser Deed verknüpft hat, hat dieses Werk in die Gemeinfreiheit - auch genannt Public Domain - entlassen, indem sie weltweit auf alle urheberrechtlichen und verwandten Schutzrechte verzichtet hat, soweit das gesetzlich möglich ist.&#xD;&#xD;
-&#xD;&#xD;
-Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, sogar zu kommerziellen Zwecken, ohne um weitere Erlaubnis bitten zu müssen.</skos:definition>
-    <skos:definition xml:lang="en">The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.&#xD;&#xD;
-&#xD;&#xD;
+    <skos:altLabel xml:lang="de">CC0 1.0 Universell (CC0 1.0) Public Domain Dedication</skos:altLabel>
+    <skos:altLabel xml:lang="en">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</skos:altLabel>
+    <skos:definition xml:lang="en">The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.&#13;
+&#13;
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</skos:definition>
-    <skos:prefLabel xml:lang="en">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:18:57.140974+00:00</dct:created>
-    <skos:altLabel xml:lang="en">CC0 1.0</skos:altLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">CC BY-NC-SA 3.0 AT</skos:altLabel>
-    <skos:altLabel xml:lang="de">CC BY-NC-SA 3.0 AT</skos:altLabel>
-    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/at/"/>
-    <skos:prefLabel xml:lang="de">Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Österreich (CC BY-NC-SA 3.0 AT)</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:24:03.603362+00:00</dct:created>
+    <skos:definition xml:lang="de">Die Person, die ein Werk mit dieser Deed verknüpft hat, hat dieses Werk in die Gemeinfreiheit - auch genannt Public Domain - entlassen, indem sie weltweit auf alle urheberrechtlichen und verwandten Schutzrechte verzichtet hat, soweit das gesetzlich möglich ist.&#13;
+&#13;
+Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, sogar zu kommerziellen Zwecken, ohne um weitere Erlaubnis bitten zu müssen.</skos:definition>
     <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:prefLabel xml:lang="en">Attribution-NonCommercial-ShareAlike 3.0 Austria (CC BY-NC-SA 3.0 AT)</skos:prefLabel>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:13:47.000064+00:00</dct:modified>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:18:57.140974+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.234687+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">NoC-NC</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">NoC-NC</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Kein Urheberrechtsschutz - nur nicht kommerzielle Nutzung erlaubt</skos:altLabel>
+    <skos:altLabel xml:lang="en">No Copyright - Non-Commercial Use Only</skos:altLabel>
+    <skos:definition xml:lang="en">This Rights Statement can only be used for Works that are in the Public Domain and have been digitized in a public-private partnership as part of which, the partners have agreed to limit commercial uses of this digital representation of the Work by third parties. It has been developed specifically to allow the inclusion of Works that have been digitized as part of the partnerships between European Libraries and Google, but can in theory be applied to Items that have been digitized in similar public-private partnerships.</skos:definition>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis kann nur für gemeinfreie Werke verwendet werden, die in einer öffentlich-privaten Partnerschaft (PPP) digitalisiert wurden, innerhalb derer die Vertragspartner vereinbart haben, die kommerzielle Nutzung des Digitalisats durch Dritte nur mit Einschränkungen zu erlauben. Der Rechtehinweis wurde speziell für die Einbeziehung von Werken aus Digitalisierungsprojekten in Partnerschaft zwischen europäischen Bibliotheken und Google entwickelt, kann aber ebenso auf Objekte angewandt werden, die in gleichgelagerten Fällen in öffentlichen-privaten Partnerschaften entstanden sind.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/NoC-NC/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:55:24.583224+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.673347+00:00</dct:modified>
   </rdf:Description>
   <rdf:Description rdf:about="http://rightsstatements.org/vocab/CNE/1.0/">
     <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cne"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/4.0/">
-    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0"/>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">CC BY-SA 4.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY-SA 4.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</skos:altLabel>
+    <skos:definition xml:lang="en">This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:08:29.163102+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.881032+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">InC</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">InC</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Urheberrechtsschutz</skos:altLabel>
+    <skos:altLabel xml:lang="en">In Copyright</skos:altLabel>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis kann für Objekte verwendet werden, die urheberrechtlich geschützt sind. Die Benutzung des Rechtehinweises setzt voraus, dass die Institution, die das Objekt zugänglich macht, festgestellt hat, dass dieses urheberrechtlich geschützt ist, und sie entweder selbst Rechteinhaber ist, die Erlaubnis der/des Rechteinhaber(s) erhalten hat deren/dessen Werk(e) zugänglich zu machen, oder aber das Objekt berechtigterweise auf der Grundlage einer urheberrechtlichen Ausnahme- oder Schrankenbestimmung (einschließlich Fair Use) zugänglich macht.</skos:definition>
+    <skos:definition xml:lang="en">This Rights Statement can be used for an Item that is in copyright. Using this statement implies that the organization making this Item available has determined that the Item is in copyright and either is the rights-holder, has obtained permission from the rights-holder(s) to make their Work(s) available, or makes the Item available under an exception or limitation to copyright (including Fair Use) that entitles it to make the Item available.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/InC/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:29:01.168314+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.992419+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://opensource.org/licenses/MIT">
+    <skos:closeMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/mit"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0">
-    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
-    <skos:altLabel xml:lang="en">CC BY 4.0</skos:altLabel>
-    <skos:altLabel xml:lang="de">CC BY 4.0</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Attribution 4.0 International (CC BY 4.0)</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="de">Namensnennung 4.0 International (CC BY 4.0)</skos:prefLabel>
-    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:06:19.522758+00:00</dct:created>
-    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:prefLabel xml:lang="en">CC BY 4.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY 4.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung 4.0 International (CC BY 4.0)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution 4.0 International (CC BY 4.0)</skos:altLabel>
     <skos:definition xml:lang="en">This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
     <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T16:10:25.334685+00:00</dct:modified>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:06:19.522758+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.318304+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/nkc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">NKC</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">NKC</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="en">No Known Copyright</skos:altLabel>
+    <skos:altLabel xml:lang="de">Kein Urheberrechtsschutz bekannt</skos:altLabel>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis sollte für Objekte verwendet werden, bei denen der Urheberrechtsschutz nicht abschließend festgestellt wurde, obschon die Institution, die beabsichtigt das Objekt zugänglich zu machen, mit Grund davon ausgeht, dass das zugrundeliegende Werk nicht mehr urheberrechtlich, oder durch verwandte Schutzrechte geschützt ist. Dieser Rechtehinweis sollte nicht für Verwaiste Werke verwendet werden (bei denen davon auszugehen ist, dass diese urheberrechtlich geschützt sind) oder für Objekte, bei denen die Institution, die beabsichtigt, das Objekt zugänglich zu machen, keine Anstrengungen unternommen hat, um den Rechtsstatus des zugrunde liegenden Werks festzustellen.</skos:definition>
+    <skos:definition xml:lang="en">This Rights Statement should be used for Items for which the copyright status has not been determined conclusively, but for which the organization that intends to make the Item available has reasonable cause to believe that the underlying Work is not covered by copyright or related rights anymore. This Rights Statement should not be used for Orphan Works (which are assumed to be in-copyright) or for Items where the organization that intends to make the Item available has not undertaken an effort to ascertain the copyright status of the underlying Work.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/NKC/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T09:02:13.345422+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.536181+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">CC BY-NC-SA 4.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY-NC-SA 4.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-NC-SA 4.0)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</skos:altLabel>
+    <skos:definition xml:lang="en">This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:14:36.959071+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.769791+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">InC-EDU</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">InC-EDU</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Urheberrechtsschutz - Nutzung zu Bildungszwecken erlaubt</skos:altLabel>
+    <skos:altLabel xml:lang="en">In Copyright - Educational Use Permitted</skos:altLabel>
+    <skos:definition xml:lang="en">This Rights Statement can be used only for copyrighted Items for which the organization making the Item available is the rights-holder or has been explicitly authorized by the rights-holder(s) to allow third parties to use their Work(s) for educational purposes without first obtaining permission.</skos:definition>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis kann nur für urheberrechtlich geschützte Objekte verwendet werden, bei denen die Institution, die diese verfügbar macht, selbst Rechteinhaber ist oder ausdrücklich von dem/den Rechteinhaber(n) ermächtigt wurde, Dritten die Nutzung dessen/derer Werk(e) zu Bildungszwecken ohne vorherige Rechteeinholung zu erlauben.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/InC-EDU/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:31:51.001760+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.077102+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">CC BY-ND 4.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY-ND 4.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung - Keine Bearbeitungen 4.0 International (CC BY-ND 4.0)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)</skos:altLabel>
+    <skos:definition xml:lang="en">This license lets others reuse the work for any purpose, including commercially; however, it cannot be shared with others in adapted form, and credit must be provided to you.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nd/4.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:10:51.666061+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.824708+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/mit">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">MIT</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">MIT</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">MIT Lizenz</skos:altLabel>
+    <skos:altLabel xml:lang="en">MIT license</skos:altLabel>
+    <skos:definition xml:lang="en">The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT). It is intended to be used for software licensing.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:closeMatch rdf:resource="https://opensource.org/licenses/MIT"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:52:01.625310+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.436099+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Public Domain Mark 1.0</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Public Domain Mark 1.0</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:definition xml:lang="en">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.&#13;
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</skos:definition>
+    <skos:definition xml:lang="de">Dieses Werk wurde als frei von bekannten urheberrechtlichen Einschränkungen identifiziert, einschließlich aller verwandten Schutzrechte.&#13;
+Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, sogar zu kommerziellen Zwecken, ohne irgendwie um Erlaubnis bitten zu müssen.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:36:09.229386+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.811005+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">CC BY-NC-SA 3.0 AT</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">CC BY-NC-SA 3.0 AT</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="de">Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 3.0 Österreich (CC BY-NC-SA 3.0 AT)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Attribution-NonCommercial-ShareAlike 3.0 Austria (CC BY-NC-SA 3.0 AT)</skos:altLabel>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/at/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T15:24:03.603362+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:53.713098+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-cr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">NoC-CR</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Noc-CR</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:altLabel xml:lang="en">No Copyright - Contractual Restrictions</skos:altLabel>
+    <skos:altLabel xml:lang="de">Kein Urheberrechtsschutz - vertragliche Beschränkungen</skos:altLabel>
+    <skos:definition xml:lang="de">Dieser Rechtehinweis kann nur für Objekte verwendet werden, die gemeinfrei sind und bei denen die Institution, die beabsichtigt, das Objekt zugänglich zu machen, vertragliche Vereinbarungen eingegangen ist, die bestimmte Einschränkungen der Nutzung durch Dritte verlangen. Damit der Rechtehinweis eindeutig ist, sollte die Institution, die beabsichtigt das Objekt zugänglich zu machen, einen Link mitteilen, der zu einer Seite mit Detailinformationen zu den vertraglichen Einschränkungen der Nutzung des Objekts führt.</skos:definition>
+    <skos:definition xml:lang="en">This Rights Statement can only be used for Items that are in the Public Domain but for which the organization that intends to make the Item available has entered into contractual agreement that requires it to take steps to restrict third party uses of the Item. In order for this Rights Statement to be conclusive, the organization that intends to make the Item available should provide a link to a page detailing the contractual restrictions that apply to the use of the Item.</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/Schema"/>
+    <skos:exactMatch rdf:resource="http://rightsstatements.org/vocab/NoC-CR/1.0/"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T08:29:24.623615+00:00</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-15T10:08:54.602822+00:00</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/NKC/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/nkc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/NoC-OKLR/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-oklr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-sa/4.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-sa-4-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/NoC-NC/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-nc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-4-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/InC-OW-EU/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-ow-eu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/InC/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/UND/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/und"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/publicdomain/mark/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/publicdomain-1-0"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://creativecommons.org/licenses/by/4.0/">
     <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/InC-EDU/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/inc-edu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rightsstatements.org/vocab/NoC-CR/1.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/noc-cr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nd/4.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nd-4-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-nd-4-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc/4.0/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-4-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-sa/3.0/at/">
+    <skos:exactMatch rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-nc-sa-3-0-at"/>
   </rdf:Description>
 </rdf:RDF>
