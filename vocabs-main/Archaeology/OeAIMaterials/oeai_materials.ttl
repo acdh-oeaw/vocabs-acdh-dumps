@@ -31,6 +31,8 @@
 
 <http://vocab.getty.edu/page/aat/300010965> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23782> .
 
+<http://vocab.getty.edu/page/aat/300010998> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24438> .
+
 <http://vocab.getty.edu/page/aat/300011002> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23781> .
 
 <http://vocab.getty.edu/page/aat/300011015> skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23778> .
@@ -2067,12 +2069,21 @@
 
 <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24437> a skos:Concept ;
     dct:created "2024-02-16T14:34:54.046579+00:00"^^xsd:dateTime ;
-    dct:modified "2024-02-16T14:34:54.206206+00:00"^^xsd:dateTime ;
+    dct:modified "2024-06-12T09:26:38.190772+00:00"^^xsd:dateTime ;
     skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
     skos:exactMatch <http://nomisma.org/id/billon> ;
     skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
-    skos:prefLabel "Billion"@de,
-        "billion"@en .
+    skos:prefLabel "Billon"@de,
+        "billon"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24438> a skos:Concept ;
+    dct:created "2024-03-15T15:00:04.852759+00:00"^^xsd:dateTime ;
+    dct:modified "2024-06-12T09:46:51.763606+00:00"^^xsd:dateTime ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010998> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Weißmetall"@de,
+        "white metal"@en .
 
 <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070> a skos:Concept ;
     dc:creator "Micheline Welte" ;
@@ -2661,7 +2672,8 @@
         <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23786>,
         <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23788>,
         <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24436>,
-        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24437> ;
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24437>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24438> ;
     skos:prefLabel "Legierung"@de,
         "alloy"@en .
 
@@ -2884,8 +2896,8 @@
         "OeAI Thesaurus - Materials"@en ;
     dct:created "2020-05-19T07:41:38.281098+00:00"^^xsd:dateTime ;
     dct:license "https://creativecommons.org/licenses/by/4.0/" ;
-    dct:modified "2024-03-06T11:50:41.303935+00:00"^^xsd:dateTime ;
-    owl:versionInfo "1.0.1" ;
+    dct:modified "2024-06-25T18:35:39.900296+00:00"^^xsd:dateTime ;
+    owl:versionInfo "1.0.2" ;
     skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769>,
         <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770>,
         <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771>,
