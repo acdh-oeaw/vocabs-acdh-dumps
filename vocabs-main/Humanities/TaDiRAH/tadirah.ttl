@@ -2487,17 +2487,15 @@
 
 <https://vocabs.dariah.eu/tadirah/> a skos:ConceptScheme ;
     rdfs:label "TaDiRAH"@en ;
-    dc:contributor """Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande, Ryo Mochizuki, Toshiki Koike, Shumpei Katakura, Kiyonori Nagasaki, Ikki Ohmukai, Mariko Kasahara, Shintaro Seki, Masao Oi, Tomoteru Kiyuna, Jun Ogawa, Yoichiro Watanabe, Yi Yeong-il, Hideyuki Ohshima, Nozomi Ohtsuki, So Miyagawa, Natsuko Nakagawa\r
-\r
-Akihiro Kameda""" ;
+    dc:contributor "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande, Ryo Mochizuki, Toshiki Koike, Shumpei Katakura, Kiyonori Nagasaki, Ikki Ohmukai, Mariko Kasahara, Shintaro Seki, Masao Oi, Tomoteru Kiyuna, Jun Ogawa, Yoichiro Watanabe, Yi Yeong-il, Hideyuki Ohshima, Nozomi Ohtsuki, So Miyagawa, Natsuko Nakagawa, Akihiro Kameda" ;
     dc:creator "Luise Borek, Canan Hastik, Vera Khramova, Jonathan Geiger" ;
     dc:description "Taxonomy of Digital Research Activities in the Humanities was designed to help community-driven sites and projects structure their digital humanities (DH) content and gain better visibility.TaDiRAH provides terminology for DH research activities as well as scope notes that also explain the methods associated with them. Version 2.0 linked here is a complete revision and skosification of the taxonomy. For more information and additional resources, see tadirah.info"@en ;
     dc:language "English" ;
     dc:title "TaDiRAH"@en ;
-    dct:created "2020" ;
+    dct:created "2020-09-28"^^xsd:date ;
     dct:issued "2020-09-28"^^xsd:date ;
     dct:license "https://creativecommons.org/publicdomain/zero/1.0" ;
-    dct:modified "2025-07-29T09:58:01.766584+00:00"^^xsd:dateTime ;
+    dct:modified "2025-08-13T13:44:02.381180+00:00"^^xsd:dateTime ;
     dct:rightsHolder "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson" ;
     owl:versionInfo "2.0.2" ;
     skos:hasTopConcept <https://vocabs.dariah.eu/tadirah/analyzing>,
